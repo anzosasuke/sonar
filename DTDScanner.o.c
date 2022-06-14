@@ -1,3 +1,1682 @@
+typedef unsigned char   undefined;
+
+typedef unsigned char    bool;
+typedef unsigned char    byte;
+typedef unsigned char    dwfenc;
+typedef unsigned int    dword;
+typedef long double    longdouble;
+typedef long long    longlong;
+typedef unsigned long    qword;
+typedef unsigned char    uchar;
+typedef unsigned int    uint;
+typedef unsigned long    ulong;
+typedef unsigned long long    ulonglong;
+typedef unsigned char    undefined1;
+typedef unsigned short    undefined2;
+typedef unsigned int    undefined4;
+typedef unsigned long    undefined8;
+typedef unsigned short    ushort;
+typedef int    wchar_t;
+typedef unsigned short    word;
+typedef ulong size_t;
+
+typedef struct NameIdPoolBucketElem NameIdPoolBucketElem, *PNameIdPoolBucketElem;
+
+struct NameIdPoolBucketElem { // PlaceHolder Structure
+};
+
+typedef undefined __unknown__[32];
+
+typedef longdouble __float128;
+
+typedef struct XMLBufferMgr XMLBufferMgr, *PXMLBufferMgr;
+
+typedef struct MemoryManager MemoryManager, *PMemoryManager;
+
+typedef struct XMLBuffer XMLBuffer, *PXMLBuffer;
+
+typedef struct XMLBufferFullHandler XMLBufferFullHandler, *PXMLBufferFullHandler;
+
+typedef ushort XMLCh;
+
+struct XMLBufferMgr { // Missing member super_XMemory : XMemory at offset 0x0 [conflict with fBufCount]
+    uint fBufCount;
+    undefined field1_0x4;
+    undefined field2_0x5;
+    undefined field3_0x6;
+    undefined field4_0x7;
+    struct MemoryManager * fMemoryManager;
+    struct XMLBuffer * * fBufList;
+};
+
+struct MemoryManager {
+    int (** _vptr.MemoryManager)(...);
+};
+
+struct XMLBuffer { // Missing member super_XMemory : XMemory at offset 0x0 [conflict with fIndex]
+    uint fIndex;
+    uint fCapacity;
+    uint fFullSize;
+    bool fUsed;
+    undefined field4_0xd;
+    undefined field5_0xe;
+    undefined field6_0xf;
+    struct MemoryManager * fMemoryManager;
+    struct XMLBufferFullHandler * fFullHandler;
+    XMLCh * fBuffer;
+};
+
+struct XMLBufferFullHandler {
+    int (** _vptr.XMLBufferFullHandler)(...);
+};
+
+typedef struct XMLBufBid XMLBufBid, *PXMLBufBid;
+
+struct XMLBufBid { // Missing member super_XMemory : XMemory at offset 0x0 [conflict with fBuffer]
+    struct XMLBuffer * fBuffer;
+    struct XMLBufferMgr * fMgr;
+};
+
+typedef uchar XMLByte;
+
+typedef struct XMLValidator XMLValidator, *PXMLValidator;
+
+typedef struct XMLErrorReporter XMLErrorReporter, *PXMLErrorReporter;
+
+typedef struct ReaderMgr ReaderMgr, *PReaderMgr;
+
+typedef struct XMLScanner XMLScanner, *PXMLScanner;
+
+struct ReaderMgr {
+};
+
+struct XMLErrorReporter {
+    int (** _vptr.XMLErrorReporter)(...);
+};
+
+struct XMLScanner {
+};
+
+struct XMLValidator { // Missing member super_XMemory : XMemory at offset 0x0 [conflict with _vptr.XMLValidator]
+    int (** _vptr.XMLValidator)(...);
+    struct XMLBufferMgr * fBufMgr;
+    struct XMLErrorReporter * fErrorReporter;
+    struct ReaderMgr * fReaderMgr;
+    struct XMLScanner * fScanner;
+};
+
+typedef struct ArrayIndexOutOfBoundsException ArrayIndexOutOfBoundsException, *PArrayIndexOutOfBoundsException;
+
+typedef struct XMLException XMLException, *PXMLException;
+
+struct XMLException {
+};
+
+struct ArrayIndexOutOfBoundsException {
+    struct XMLException super_XMLException;
+    undefined field1_0x1;
+    undefined field2_0x2;
+    undefined field3_0x3;
+    undefined field4_0x4;
+    undefined field5_0x5;
+    undefined field6_0x6;
+    undefined field7_0x7;
+    undefined field8_0x8;
+    undefined field9_0x9;
+    undefined field10_0xa;
+    undefined field11_0xb;
+    undefined field12_0xc;
+    undefined field13_0xd;
+    undefined field14_0xe;
+    undefined field15_0xf;
+    undefined field16_0x10;
+    undefined field17_0x11;
+    undefined field18_0x12;
+    undefined field19_0x13;
+    undefined field20_0x14;
+    undefined field21_0x15;
+    undefined field22_0x16;
+    undefined field23_0x17;
+    undefined field24_0x18;
+    undefined field25_0x19;
+    undefined field26_0x1a;
+    undefined field27_0x1b;
+    undefined field28_0x1c;
+    undefined field29_0x1d;
+    undefined field30_0x1e;
+    undefined field31_0x1f;
+    undefined field32_0x20;
+    undefined field33_0x21;
+    undefined field34_0x22;
+    undefined field35_0x23;
+    undefined field36_0x24;
+    undefined field37_0x25;
+    undefined field38_0x26;
+    undefined field39_0x27;
+    undefined field40_0x28;
+    undefined field41_0x29;
+    undefined field42_0x2a;
+    undefined field43_0x2b;
+    undefined field44_0x2c;
+    undefined field45_0x2d;
+    undefined field46_0x2e;
+    undefined field47_0x2f;
+};
+
+typedef struct RefVectorOf<xercesc_2_7::XSAnnotation> RefVectorOf<xercesc_2_7::XSAnnotation>, *PRefVectorOf<xercesc_2_7::XSAnnotation>;
+
+typedef struct RefVectorOf<xercesc_2_7::XSAnnotation> XSAnnotationList;
+
+struct RefVectorOf<xercesc_2_7::XSAnnotation> {
+};
+
+typedef struct RefVectorOf<xercesc_2_7::XSNamespaceItem> RefVectorOf<xercesc_2_7::XSNamespaceItem>, *PRefVectorOf<xercesc_2_7::XSNamespaceItem>;
+
+typedef struct RefVectorOf<xercesc_2_7::XSNamespaceItem> XSNamespaceItemList;
+
+struct RefVectorOf<xercesc_2_7::XSNamespaceItem> {
+};
+
+typedef struct RefArrayVectorOf<short_unsigned_int> RefArrayVectorOf<short_unsigned_int>, *PRefArrayVectorOf<short_unsigned_int>;
+
+typedef struct RefArrayVectorOf<short_unsigned_int> StringList;
+
+typedef struct BaseRefVectorOf<short_unsigned_int> BaseRefVectorOf<short_unsigned_int>, *PBaseRefVectorOf<short_unsigned_int>;
+
+struct BaseRefVectorOf<short_unsigned_int> { // Original name: BaseRefVectorOf<short unsigned int>
+Missing member super_XMemory : XMemory at offset 0x0 [conflict with _vptr.BaseRefVectorOf]
+    int (** _vptr.BaseRefVectorOf)(...);
+    bool fAdoptedElems;
+    undefined field2_0x9;
+    undefined field3_0xa;
+    undefined field4_0xb;
+    uint fCurCount;
+    uint fMaxCount;
+    undefined field7_0x14;
+    undefined field8_0x15;
+    undefined field9_0x16;
+    undefined field10_0x17;
+    ushort * * fElemList;
+    struct MemoryManager * fMemoryManager;
+};
+
+struct RefArrayVectorOf<short_unsigned_int> { // Original name: RefArrayVectorOf<short unsigned int>
+    struct BaseRefVectorOf<short_unsigned_int> super_BaseRefVectorOf<short_unsigned_int>;
+};
+
+typedef struct XSConstants XSConstants, *PXSConstants;
+
+struct XSConstants {
+    undefined field0_0x0;
+};
+
+typedef enum COMPONENT_TYPE {
+    ATTRIBUTE_DECLARATION=1,
+    ELEMENT_DECLARATION=2,
+    TYPE_DEFINITION=3,
+    ATTRIBUTE_USE=4,
+    ATTRIBUTE_GROUP_DEFINITION=5,
+    MODEL_GROUP_DEFINITION=6,
+    MODEL_GROUP=7,
+    PARTICLE=8,
+    WILDCARD=9,
+    IDENTITY_CONSTRAINT=10,
+    NOTATION_DECLARATION=11,
+    ANNOTATION=12,
+    FACET=13,
+    MULTIVALUE_FACET=14
+} COMPONENT_TYPE;
+
+typedef struct XMLErrs XMLErrs, *PXMLErrs;
+
+struct XMLErrs {
+    undefined field0_0x0;
+};
+
+typedef enum Codes {
+    BadAttDerivation_5=-128,
+    BadAttDerivation_6=-127,
+    BadAttDerivation_7=-126,
+    BadAttDerivation_8=-125,
+    BadAttDerivation_9=-124,
+    AllContentError=-123,
+    RedefineNamespaceDifference=-122,
+    Redefine_InvalidSimpleType=-121,
+    Redefine_InvalidSimpleTypeBase=-120,
+    Redefine_InvalidComplexType=-119,
+    Redefine_InvalidComplexTypeBase=-118,
+    Redefine_InvalidGroupMinMax=-117,
+    Redefine_DeclarationNotFound=-116,
+    Redefine_GroupRefCount=-115,
+    Redefine_AttGroupRefCount=-114,
+    Redefine_InvalidChild=-113,
+    Notation_InvalidDecl=-112,
+    Notation_DeclNotFound=-111,
+    IC_DuplicateDecl=-110,
+    IC_BadContent=-109,
+    IC_KeyRefReferNotFound=-108,
+    IC_KeyRefCardinality=-107,
+    IC_XPathExprMissing=-106,
+    AttUseCorrect=-105,
+    AttDeclPropCorrect3=-104,
+    AttDeclPropCorrect5=-103,
+    AttGrpPropCorrect3=-102,
+    InvalidTargetNSValue=-101,
+    DisplayErrorMessage=-100,
+    XMLException_Error=-99,
+    InvalidRedefine=-98,
+    InvalidNSReference=-97,
+    NotAllContent=-96,
+    InvalidAnnotationContent=-95,
+    InvalidFacetName=-94,
+    InvalidXMLSchemaRoot=-93,
+    CircularSubsGroup=-92,
+    SubsGroupMemberAbstract=-91,
+    ELTSchemaNS=-90,
+    InvalidAttTNS=-89,
+    NSDeclInvalid=-88,
+    DOMLevel1Node=-87,
+    E_HighBounds=-86,
+    F_LowBounds=-85,
+    EntityExpansionLimitExceeded=-84,
+    ExpectedCommentOrCDATA=-83,
+    ExpectedAttrName=-82,
+    ExpectedNotationName=-81,
+    NoRepInMixed=-80,
+    BadDefAttrDecl=-79,
+    ExpectedDefAttrDecl=-78,
+    AttListSyntaxError=-77,
+    ExpectedEqSign=-76,
+    DupAttrName=-75,
+    BadIdForXMLLangAttr=-74,
+    ExpectedElementName=-73,
+    MustStartWithXMLDecl=-72,
+    CommentsMustStartWith=-71,
+    InvalidDocumentStructure=-70,
+    ExpectedDeclString=-69,
+    BadXMLVersion=-68,
+    UnsupportedXMLVersion=-67,
+    UnterminatedXMLDecl=-66,
+    BadXMLEncoding=-65,
+    BadStandalone=-64,
+    UnterminatedComment=-63,
+    PINameExpected=-62,
+    UnterminatedPI=-61,
+    InvalidCharacter=-60,
+    UnexpectedTextBeforeRoot=-59,
+    UnterminatedStartTag=-58,
+    ExpectedAttrValue=-57,
+    UnterminatedEndTag=-56,
+    ExpectedAttributeType=-55,
+    ExpectedEndOfTagX=-54,
+    ExpectedMarkup=-53,
+    NotValidAfterContent=-52,
+    ExpectedComment=-51,
+    ExpectedCommentOrPI=-50,
+    ExpectedWhitespace=-49,
+    NoRootElemInDOCTYPE=-48,
+    ExpectedQuotedString=-47,
+    ExpectedPublicId=-46,
+    InvalidPublicIdChar=-45,
+    UnterminatedDOCTYPE=-44,
+    InvalidCharacterInIntSubset=-43,
+    ExpectedCDATA=-42,
+    InvalidInitialNameChar=-41,
+    InvalidNameChar=-40,
+    UnexpectedWhitespace=-39,
+    InvalidCharacterInAttrValue=-38,
+    ExpectedMarkupDecl=-37,
+    TextDeclNotLegalHere=-36,
+    ConditionalSectInIntSubset=-35,
+    ExpectedPEName=-34,
+    UnterminatedEntityDecl=-33,
+    InvalidCharacterRef=-32,
+    UnterminatedCharRef=-31,
+    ExpectedEntityRefName=-30,
+    EntityNotFound=-29,
+    NoUnparsedEntityRefs=-28,
+    UnterminatedEntityRef=-27,
+    RecursiveEntity=-26,
+    PartialMarkupInEntity=-25,
+    UnterminatedElementDecl=-24,
+    ExpectedContentSpecExpr=-23,
+    ExpectedAsterisk=-22,
+    UnterminatedContentModel=-21,
+    ExpectedSystemId=-20,
+    ExpectedSystemOrPublicId=-19,
+    UnterminatedNotationDecl=-18,
+    ExpectedSeqChoiceLeaf=-17,
+    ExpectedChoiceOrCloseParen=-16,
+    ExpectedSeqOrCloseParen=-15,
+    ExpectedEnumValue=-14,
+    ExpectedEnumSepOrParen=-13,
+    UnterminatedEntityLiteral=-12,
+    MoreEndThanStartTags=-11,
+    ExpectedOpenParen=-10,
+    AttrAlreadyUsedInSTag=-9,
+    BracketInAttrValue=-8,
+    Expected2ndSurrogateChar=-7,
+    ExpectedEndOfConditional=-6,
+    ExpectedIncOrIgn=-5,
+    ExpectedINCLUDEBracket=-4,
+    ExpectedTextDecl=-3,
+    ExpectedXMLDecl=-2,
+    UnexpectedEOE=-1,
+    NoError=0,
+    W_LowBounds=1,
+    NotationAlreadyExists=2,
+    AttListAlreadyExists=3,
+    ContradictoryEncoding=4,
+    UndeclaredElemInCM=5,
+    UndeclaredElemInAttList=6,
+    XMLException_Warning=7,
+    W_HighBounds=8,
+    E_LowBounds=9,
+    FeatureUnsupported=10,
+    TopLevelNoNameComplexType=11,
+    TopLevelNoNameAttribute=12,
+    NoNameRefAttribute=13,
+    GlobalNoNameElement=14,
+    NoNameRefElement=15,
+    NoNameRefGroup=16,
+    NoNameRefAttGroup=17,
+    AnonComplexTypeWithName=18,
+    AnonSimpleTypeWithName=19,
+    InvalidElementContent=20,
+    UntypedElement=21,
+    SimpleTypeContentError=22,
+    ExpectedSimpleTypeInList=23,
+    ListUnionRestrictionError=24,
+    SimpleTypeDerivationByListError=25,
+    ExpectedSimpleTypeInRestriction=26,
+    DuplicateFacet=27,
+    ExpectedSimpleTypeInUnion=28,
+    EmptySimpleTypeContent=29,
+    InvalidSimpleContent=30,
+    UnspecifiedBase=31,
+    InvalidComplexContent=32,
+    SchemaElementContentError=33,
+    ContentError=34,
+    UnknownSimpleType=35,
+    UnknownComplexType=36,
+    UnresolvedPrefix=37,
+    RefElementNotFound=38,
+    TypeNotFound=39,
+    TopLevelAttributeNotFound=40,
+    InvalidChildInComplexType=41,
+    BaseTypeNotFound=42,
+    NoAttributeInSchema=43,
+    DatatypeValidatorCreationError=44,
+    InvalidChildFollowingSimpleContent=45,
+    InvalidChildFollowingConplexContent=46,
+    InvalidComplexTypeBlockValue=47,
+    InvalidComplexTypeFinalValue=48,
+    AttributeDefaultFixedValue=49,
+    NotOptionalDefaultAttValue=50,
+    LocalAttributeWithNameRef=51,
+    GlobalAttributeWithNameRef=52,
+    DuplicateAttribute=53,
+    AttributeWithTypeAndSimpleType=54,
+    AttributeSimpleTypeNotFound=55,
+    ElementWithFixedAndDefault=56,
+    DeclarationWithNameRef=57,
+    BadAttWithRef=58,
+    InvalidDeclarationName=59,
+    GlobalElementWithRef=60,
+    ElementWithTypeAndAnonType=61,
+    NotSimpleOrMixedElement=62,
+    DisallowedSimpleTypeExtension=63,
+    InvalidSimpleContentBase=64,
+    InvalidComplexTypeBase=65,
+    InvalidChildInSimpleContent=66,
+    InvalidChildInComplexContent=67,
+    AnnotationError=68,
+    DisallowedBaseDerivation=69,
+    SubstitutionRepeated=70,
+    UnionRepeated=71,
+    ExtensionRepeated=72,
+    ListRepeated=73,
+    RestrictionRepeated=74,
+    InvalidBlockValue=75,
+    InvalidFinalValue=76,
+    InvalidSubstitutionGroupElement=77,
+    SubstitutionGroupTypeMismatch=78,
+    DuplicateElementDeclaration=79,
+    InvalidElementBlockValue=80,
+    InvalidElementFinalValue=81,
+    InvalidAttValue=82,
+    AttributeRefContentError=83,
+    DuplicateRefAttribute=84,
+    ForbiddenDerivationByRestriction=85,
+    ForbiddenDerivationByExtension=86,
+    BaseNotComplexType=87,
+    ImportNamespaceDifference=88,
+    ImportRootError=89,
+    DeclarationNoSchemaLocation=90,
+    IncludeNamespaceDifference=91,
+    OnlyAnnotationExpected=92,
+    InvalidAttributeContent=93,
+    AttributeRequired=94,
+    AttributeDisallowed=95,
+    InvalidMin2MaxOccurs=96,
+    AnyAttributeContentError=97,
+    NoNameGlobalElement=98,
+    NoCircularDefinition=99,
+    DuplicateGlobalType=100,
+    DuplicateGlobalDeclaration=101,
+    WS_CollapseExpected=102,
+    Import_1_1=103,
+    Import_1_2=104,
+    ElemIDValueConstraint=105,
+    NoNotationType=106,
+    EmptiableMixedContent=107,
+    EmptyComplexRestrictionDerivation=108,
+    MixedOrElementOnly=109,
+    InvalidContentRestriction=110,
+    ForbiddenDerivation=111,
+    AtomicItemType=112,
+    MemberTypeNoUnion=113,
+    GroupContentError=114,
+    AttGroupContentError=115,
+    MinMaxOnGroupChild=116,
+    DeclarationNotFound=117,
+    AllContentLimited=118,
+    BadMinMaxAllCT=119,
+    BadMinMaxAllElem=120,
+    NoCircularAttGroup=121,
+    DuplicateAttInDerivation=122,
+    NotExpressibleWildCardIntersection=123,
+    BadAttDerivation_1=124,
+    BadAttDerivation_2=125,
+    BadAttDerivation_3=126,
+    BadAttDerivation_4=127,
+    PEPropogated=256,
+    ExtraCloseSquare=257,
+    PERefInMarkupInIntSubset=258,
+    EntityPropogated=259,
+    ExpectedNumericalCharRef=260,
+    ExpectedOpenSquareBracket=261,
+    BadSequenceInCharData=262,
+    IllegalSequenceInComment=263,
+    UnterminatedCDATASection=264,
+    ExpectedNDATA=265,
+    NDATANotValidForPE=266,
+    HexRadixMustBeLowerCase=267,
+    DeclStringRep=268,
+    DeclStringsInWrongOrder=269,
+    NoExtRefsInAttValue=270,
+    XMLDeclMustBeLowerCase=271,
+    ExpectedEntityValue=272,
+    BadDigitForRadix=273,
+    EndedWithTagsOnStack=274,
+    AmbiguousContentModel=275,
+    NestedCDATA=276,
+    UnknownPrefix=277,
+    PartialTagMarkupError=278,
+    EmptyMainEntity=279,
+    CDATAOutsideOfContent=280,
+    OnlyCharRefsAllowedHere=281,
+    Unexpected2ndSurrogateChar=282,
+    NoPIStartsWithXML=283,
+    XMLDeclMustBeFirst=284,
+    XMLVersionRequired=285,
+    StandaloneNotLegal=286,
+    EncodingRequired=287,
+    TooManyColonsInName=288,
+    InvalidColonPos=289,
+    ColonNotLegalWithNS=290,
+    SysException=291,
+    XMLException_Fatal=292,
+    UnexpectedEOF=293,
+    UnexpectedError=294,
+    BadSchemaLocation=295,
+    NoGrammarResolver=296,
+    SchemaScanFatalError=297,
+    IllegalRefInStandalone=298,
+    PEBetweenDecl=299,
+    NoEmptyStrNamespace=300,
+    NoUseOfxmlnsAsPrefix=301,
+    NoUseOfxmlnsURI=302,
+    PrefixXMLNotMatchXMLURI=303,
+    XMLURINotMatchXMLPrefix=304,
+    NoXMLNSAsElementPrefix=305,
+    CT_SimpleTypeChildRequired=306,
+    InvalidRootElemInDOCTYPE=307,
+    InvalidElementName=308,
+    InvalidAttrName=309,
+    InvalidEntityRefName=310,
+    F_HighBounds=311
+} Codes;
+
+typedef struct XMLEntityHandler XMLEntityHandler, *PXMLEntityHandler;
+
+struct XMLEntityHandler {
+    int (** _vptr.XMLEntityHandler)(...);
+};
+
+typedef struct EndOfEntityException EndOfEntityException, *PEndOfEntityException;
+
+typedef struct XMLEntityDecl XMLEntityDecl, *PXMLEntityDecl;
+
+struct XMLEntityDecl {
+};
+
+struct EndOfEntityException {
+    struct XMLEntityDecl * fEntity;
+    uint fReaderNum;
+    undefined field2_0xc;
+    undefined field3_0xd;
+    undefined field4_0xe;
+    undefined field5_0xf;
+};
+
+typedef struct DocTypeHandler DocTypeHandler, *PDocTypeHandler;
+
+struct DocTypeHandler {
+    int (** _vptr.DocTypeHandler)(...);
+};
+
+typedef struct XSerializeEngine XSerializeEngine, *PXSerializeEngine;
+
+typedef struct XMLGrammarPool XMLGrammarPool, *PXMLGrammarPool;
+
+typedef struct BinInputStream BinInputStream, *PBinInputStream;
+
+typedef struct BinOutputStream BinOutputStream, *PBinOutputStream;
+
+typedef struct RefHashTableOf<xercesc_2_7::XSerializedObjectId> RefHashTableOf<xercesc_2_7::XSerializedObjectId>, *PRefHashTableOf<xercesc_2_7::XSerializedObjectId>;
+
+typedef struct ValueVectorOf<void*> ValueVectorOf<void*>, *PValueVectorOf<void*>;
+
+typedef uint XSerializedObjectId_t;
+
+struct XMLGrammarPool { // Missing member super_XMemory : XMemory at offset 0x0 [conflict with _vptr.XMLGrammarPool]
+    int (** _vptr.XMLGrammarPool)(...);
+    struct MemoryManager * fMemMgr;
+    bool fIgnoreSerializedAnnotations;
+    undefined field3_0x11;
+    undefined field4_0x12;
+    undefined field5_0x13;
+    undefined field6_0x14;
+    undefined field7_0x15;
+    undefined field8_0x16;
+    undefined field9_0x17;
+};
+
+struct ValueVectorOf<void*> {
+};
+
+struct BinOutputStream {
+};
+
+struct RefHashTableOf<xercesc_2_7::XSerializedObjectId> {
+};
+
+struct XSerializeEngine {
+    short fStoreLoad;
+    short fStorerLevel;
+    undefined field2_0x4;
+    undefined field3_0x5;
+    undefined field4_0x6;
+    undefined field5_0x7;
+    struct XMLGrammarPool * fGrammarPool;
+    struct BinInputStream * fInputStream;
+    struct BinOutputStream * fOutputStream;
+    ulong fBufCount;
+    ulong fBufSize;
+    XMLByte * fBufStart;
+    XMLByte * fBufEnd;
+    XMLByte * fBufCur;
+    XMLByte * fBufLoadMax;
+    struct RefHashTableOf<xercesc_2_7::XSerializedObjectId> * fStorePool;
+    struct ValueVectorOf<void*> * fLoadPool;
+    XSerializedObjectId_t fObjectCount;
+    undefined field18_0x64;
+    undefined field19_0x65;
+    undefined field20_0x66;
+    undefined field21_0x67;
+};
+
+struct BinInputStream {
+};
+
+typedef struct DTDEntityDecl DTDEntityDecl, *PDTDEntityDecl;
+
+struct DTDEntityDecl {
+    struct XMLEntityDecl super_XMLEntityDecl;
+    undefined field1_0x1;
+    undefined field2_0x2;
+    undefined field3_0x3;
+    undefined field4_0x4;
+    undefined field5_0x5;
+    undefined field6_0x6;
+    undefined field7_0x7;
+    undefined field8_0x8;
+    undefined field9_0x9;
+    undefined field10_0xa;
+    undefined field11_0xb;
+    undefined field12_0xc;
+    undefined field13_0xd;
+    undefined field14_0xe;
+    undefined field15_0xf;
+    undefined field16_0x10;
+    undefined field17_0x11;
+    undefined field18_0x12;
+    undefined field19_0x13;
+    undefined field20_0x14;
+    undefined field21_0x15;
+    undefined field22_0x16;
+    undefined field23_0x17;
+    undefined field24_0x18;
+    undefined field25_0x19;
+    undefined field26_0x1a;
+    undefined field27_0x1b;
+    undefined field28_0x1c;
+    undefined field29_0x1d;
+    undefined field30_0x1e;
+    undefined field31_0x1f;
+    undefined field32_0x20;
+    undefined field33_0x21;
+    undefined field34_0x22;
+    undefined field35_0x23;
+    undefined field36_0x24;
+    undefined field37_0x25;
+    undefined field38_0x26;
+    undefined field39_0x27;
+    undefined field40_0x28;
+    undefined field41_0x29;
+    undefined field42_0x2a;
+    undefined field43_0x2b;
+    undefined field44_0x2c;
+    undefined field45_0x2d;
+    undefined field46_0x2e;
+    undefined field47_0x2f;
+    undefined field48_0x30;
+    undefined field49_0x31;
+    undefined field50_0x32;
+    undefined field51_0x33;
+    undefined field52_0x34;
+    undefined field53_0x35;
+    undefined field54_0x36;
+    undefined field55_0x37;
+    undefined field56_0x38;
+    undefined field57_0x39;
+    undefined field58_0x3a;
+    undefined field59_0x3b;
+    undefined field60_0x3c;
+    undefined field61_0x3d;
+    undefined field62_0x3e;
+    undefined field63_0x3f;
+    undefined field64_0x40;
+    undefined field65_0x41;
+    undefined field66_0x42;
+    undefined field67_0x43;
+    undefined field68_0x44;
+    undefined field69_0x45;
+    undefined field70_0x46;
+    undefined field71_0x47;
+    bool fDeclaredInIntSubset;
+    bool fIsParameter;
+    bool fIsSpecialChar;
+    undefined field75_0x4b;
+    undefined field76_0x4c;
+    undefined field77_0x4d;
+    undefined field78_0x4e;
+    undefined field79_0x4f;
+};
+
+typedef struct XMLExcepts XMLExcepts, *PXMLExcepts;
+
+struct XMLExcepts {
+    undefined field0_0x0;
+};
+
+
+// WARNING! conflicting data type names: /DWARF/XMLExceptMsgs.hpp/xercesc_2_7/XMLExcepts/Codes - /DWARF/XMLErrorCodes.hpp/xercesc_2_7/XMLErrs/Codes
+
+typedef struct XSModel XSModel, *PXSModel;
+
+typedef struct RefVectorOf<xercesc_2_7::XSObject> RefVectorOf<xercesc_2_7::XSObject>, *PRefVectorOf<xercesc_2_7::XSObject>;
+
+typedef struct XSNamedMap<xercesc_2_7::XSObject> XSNamedMap<xercesc_2_7::XSObject>, *PXSNamedMap<xercesc_2_7::XSObject>;
+
+typedef struct XMLStringPool XMLStringPool, *PXMLStringPool;
+
+typedef struct RefHashTableOf<xercesc_2_7::XSNamespaceItem> RefHashTableOf<xercesc_2_7::XSNamespaceItem>, *PRefHashTableOf<xercesc_2_7::XSNamespaceItem>;
+
+typedef struct XSObjectFactory XSObjectFactory, *PXSObjectFactory;
+
+struct XSObjectFactory {
+};
+
+struct XSModel { // Missing member super_XMemory : XMemory at offset 0x0 [conflict with fMemoryManager]
+    struct MemoryManager * fMemoryManager;
+    StringList * fNamespaceStringList;
+    XSNamespaceItemList * fXSNamespaceItemList;
+    struct RefVectorOf<xercesc_2_7::XSObject> * fIdVector[14];
+    struct XSNamedMap<xercesc_2_7::XSObject> * fComponentMap[14];
+    struct XMLStringPool * fURIStringPool;
+    XSAnnotationList * fXSAnnotationList;
+    struct RefHashTableOf<xercesc_2_7::XSNamespaceItem> * fHashNamespace;
+    struct XSObjectFactory * fObjFactory;
+    struct RefVectorOf<xercesc_2_7::XSNamespaceItem> * fDeleteNamespace;
+    struct XSModel * fParent;
+    bool fDeleteParent;
+    bool fAddedS4SGrammar;
+    undefined field13_0x12a;
+    undefined field14_0x12b;
+    undefined field15_0x12c;
+    undefined field16_0x12d;
+    undefined field17_0x12e;
+    undefined field18_0x12f;
+};
+
+struct RefVectorOf<xercesc_2_7::XSObject> {
+};
+
+struct XSNamedMap<xercesc_2_7::XSObject> {
+};
+
+struct RefHashTableOf<xercesc_2_7::XSNamespaceItem> {
+};
+
+struct XMLStringPool {
+};
+
+typedef struct XMLElementDecl XMLElementDecl, *PXMLElementDecl;
+
+struct XMLElementDecl {
+};
+
+typedef struct InputSource InputSource, *PInputSource;
+
+struct InputSource {
+};
+
+typedef struct XSObject XSObject, *PXSObject;
+
+struct XSObject {
+};
+
+typedef struct XMLNotationDecl XMLNotationDecl, *PXMLNotationDecl;
+
+struct XMLNotationDecl {
+};
+
+typedef struct QName QName, *PQName;
+
+struct QName {
+};
+
+typedef struct XSAttributeDeclaration XSAttributeDeclaration, *PXSAttributeDeclaration;
+
+struct XSAttributeDeclaration {
+};
+
+typedef struct RefHashTableOfEnumerator<xercesc_2_7::Grammar> RefHashTableOfEnumerator<xercesc_2_7::Grammar>, *PRefHashTableOfEnumerator<xercesc_2_7::Grammar>;
+
+struct RefHashTableOfEnumerator<xercesc_2_7::Grammar> {
+};
+
+typedef struct SchemaGrammar SchemaGrammar, *PSchemaGrammar;
+
+struct SchemaGrammar {
+};
+
+typedef struct DatatypeValidator DatatypeValidator, *PDatatypeValidator;
+
+struct DatatypeValidator {
+};
+
+typedef struct DatatypeValidatorFactory DatatypeValidatorFactory, *PDatatypeValidatorFactory;
+
+struct DatatypeValidatorFactory {
+};
+
+typedef struct XSAttributeGroupDefinition XSAttributeGroupDefinition, *PXSAttributeGroupDefinition;
+
+struct XSAttributeGroupDefinition {
+};
+
+typedef struct XSTypeDefinition XSTypeDefinition, *PXSTypeDefinition;
+
+struct XSTypeDefinition {
+};
+
+typedef struct XMLDTDDescription XMLDTDDescription, *PXMLDTDDescription;
+
+struct XMLDTDDescription {
+};
+
+typedef struct ValueVectorOf<xercesc_2_7::SchemaGrammar*> ValueVectorOf<xercesc_2_7::SchemaGrammar*>, *PValueVectorOf<xercesc_2_7::SchemaGrammar*>;
+
+struct ValueVectorOf<xercesc_2_7::SchemaGrammar*> {
+};
+
+typedef struct RefHashTableOf<xercesc_2_7::Grammar> RefHashTableOf<xercesc_2_7::Grammar>, *PRefHashTableOf<xercesc_2_7::Grammar>;
+
+struct RefHashTableOf<xercesc_2_7::Grammar> {
+};
+
+typedef struct IdentityConstraint IdentityConstraint, *PIdentityConstraint;
+
+struct IdentityConstraint {
+};
+
+typedef struct XSNamespaceItem XSNamespaceItem, *PXSNamespaceItem;
+
+struct XSNamespaceItem {
+};
+
+typedef struct XMLSchemaDescription XMLSchemaDescription, *PXMLSchemaDescription;
+
+struct XMLSchemaDescription {
+};
+
+typedef struct XMLGrammarDescription XMLGrammarDescription, *PXMLGrammarDescription;
+
+struct XMLGrammarDescription {
+};
+
+typedef struct XSNotationDeclaration XSNotationDeclaration, *PXSNotationDeclaration;
+
+struct XSNotationDeclaration {
+};
+
+typedef struct XMLAttDef XMLAttDef, *PXMLAttDef;
+
+struct XMLAttDef {
+};
+
+typedef struct Grammar Grammar, *PGrammar;
+
+struct Grammar {
+};
+
+typedef struct XMLTranscoder XMLTranscoder, *PXMLTranscoder;
+
+struct XMLTranscoder {
+};
+
+typedef struct RefHashTableOf<xercesc_2_7::DatatypeValidator> RefHashTableOf<xercesc_2_7::DatatypeValidator>, *PRefHashTableOf<xercesc_2_7::DatatypeValidator>;
+
+struct RefHashTableOf<xercesc_2_7::DatatypeValidator> {
+};
+
+typedef struct SchemaElementDecl SchemaElementDecl, *PSchemaElementDecl;
+
+struct SchemaElementDecl {
+};
+
+typedef struct XSModelGroupDefinition XSModelGroupDefinition, *PXSModelGroupDefinition;
+
+struct XSModelGroupDefinition {
+};
+
+typedef struct XMLResourceIdentifier XMLResourceIdentifier, *PXMLResourceIdentifier;
+
+struct XMLResourceIdentifier {
+};
+
+typedef struct XSElementDeclaration XSElementDeclaration, *PXSElementDeclaration;
+
+struct XSElementDeclaration {
+};
+
+typedef struct XMLLCPTranscoder XMLLCPTranscoder, *PXMLLCPTranscoder;
+
+struct XMLLCPTranscoder {
+};
+
+typedef struct DOMLocator DOMLocator, *PDOMLocator;
+
+struct DOMLocator {
+};
+
+typedef struct DTDElementDecl DTDElementDecl, *PDTDElementDecl;
+
+struct DTDElementDecl {
+};
+
+typedef struct DTDAttDef DTDAttDef, *PDTDAttDef;
+
+struct DTDAttDef {
+};
+
+typedef struct DTDGrammar DTDGrammar, *PDTDGrammar;
+
+struct DTDGrammar {
+};
+
+typedef struct IC_Field IC_Field, *PIC_Field;
+
+struct IC_Field {
+};
+
+typedef struct nothrow_t nothrow_t, *Pnothrow_t;
+
+struct nothrow_t {
+    undefined field0_0x0;
+};
+
+typedef long XMLSSize_t;
+
+typedef struct XMLRefInfo XMLRefInfo, *PXMLRefInfo;
+
+typedef struct XSerializable XSerializable, *PXSerializable;
+
+struct XSerializable {
+    int (** _vptr.XSerializable)(...);
+};
+
+struct XMLRefInfo { // Missing member super_XMemory : XMemory at offset 0x0 [conflict with super_XSerializable]
+    struct XSerializable super_XSerializable;
+    bool fDeclared;
+    bool fUsed;
+    undefined field3_0xa;
+    undefined field4_0xb;
+    undefined field5_0xc;
+    undefined field6_0xd;
+    undefined field7_0xe;
+    undefined field8_0xf;
+    XMLCh * fRefName;
+    struct MemoryManager * fMemoryManager;
+};
+
+typedef struct LastExtEntityInfo LastExtEntityInfo, *PLastExtEntityInfo;
+
+struct LastExtEntityInfo { // Missing member super_XMemory : XMemory at offset 0x0 [conflict with systemId]
+    XMLCh * systemId;
+    XMLCh * publicId;
+    XMLSSize_t lineNumber;
+    XMLSSize_t colNumber;
+};
+
+typedef struct XProtoType XProtoType, *PXProtoType;
+
+struct XProtoType {
+    XMLByte * fClassName;
+    XSerializable * (* fCreateObject)(struct MemoryManager *);
+};
+
+typedef struct XMLDeleter XMLDeleter, *PXMLDeleter;
+
+struct XMLDeleter {
+    int (** _vptr.XMLDeleter)(...);
+};
+
+typedef enum ErrTypes {
+    ErrType_Warning=0,
+    ErrType_Error=1,
+    ErrType_Fatal=2,
+    ErrTypes_Unknown=3
+} ErrTypes;
+
+typedef enum States {
+    InWhitespace=0,
+    InContent=1
+} States;
+
+
+// WARNING! conflicting data type names: /DWARF/DTDScanner.cpp/xercesc_2_7/DTDScanner/scanComment/States - /DWARF/DTDScanner.cpp/xercesc_2_7/DTDScanner/scanAttValue/States
+
+typedef struct ContentSpecNode ContentSpecNode, *PContentSpecNode;
+
+typedef enum NodeTypes {
+    UnknownType=-1,
+    Leaf=0,
+    ZeroOrOne=1,
+    ZeroOrMore=2,
+    OneOrMore=3,
+    Choice=4,
+    Sequence=5,
+    Any=6,
+    Any_Other=7,
+    Any_NS=8,
+    All=9,
+    Any_NS_Choice=20,
+    ModelGroupSequence=21,
+    Any_Lax=22,
+    Any_Other_Lax=23,
+    Any_NS_Lax=24,
+    ModelGroupChoice=36,
+    Any_Skip=38,
+    Any_Other_Skip=39,
+    Any_NS_Skip=40
+} NodeTypes;
+
+struct ContentSpecNode { // Missing member super_XMemory : XMemory at offset 0x0 [conflict with super_XSerializable]
+    struct XSerializable super_XSerializable;
+    struct MemoryManager * fMemoryManager;
+    struct QName * fElement;
+    struct XMLElementDecl * fElementDecl;
+    struct ContentSpecNode * fFirst;
+    struct ContentSpecNode * fSecond;
+    enum NodeTypes fType;
+    bool fAdoptFirst;
+    bool fAdoptSecond;
+    undefined field9_0x36;
+    undefined field10_0x37;
+    int fMinOccurs;
+    int fMaxOccurs;
+};
+
+typedef struct OutOfMemoryException OutOfMemoryException, *POutOfMemoryException;
+
+typedef struct XMemory XMemory, *PXMemory;
+
+struct XMemory {
+    undefined field0_0x0;
+};
+
+struct OutOfMemoryException {
+    struct XMemory super_XMemory;
+};
+
+typedef enum CreateReasons {
+    NoReason=0,
+    Declared=1,
+    AttList=2,
+    InContentModel=3,
+    AsRootElem=4,
+    JustFaultIn=5
+} CreateReasons;
+
+typedef enum AttTypes {
+    AttTypes_Unknown=-1,
+    AttTypes_Min=0,
+    CData=0,
+    ID=1,
+    IDRef=2,
+    IDRefs=3,
+    Entity=4,
+    Entities=5,
+    NmToken=6,
+    NmTokens=7,
+    Notation=8,
+    Enumeration=9,
+    Simple=10,
+    Any_Any=11,
+    Any_Other=12,
+    Any_List=13,
+    AttTypes_Max=13,
+    AttTypes_Count=14
+} AttTypes;
+
+typedef enum DefAttTypes {
+    DefAttTypes_Unknown=-1,
+    DefAttTypes_Min=0,
+    Default=0,
+    Fixed=1,
+    Required=2,
+    Required_And_Fixed=3,
+    Implied=4,
+    ProcessContents_Skip=5,
+    ProcessContents_Lax=6,
+    ProcessContents_Strict=7,
+    DefAttTypes_Max=8,
+    Prohibited=8,
+    DefAttTypes_Count=9
+} DefAttTypes;
+
+typedef struct GrammarResolver GrammarResolver, *PGrammarResolver;
+
+struct GrammarResolver { // Missing member super_XMemory : XMemory at offset 0x0 [conflict with fCacheGrammar]
+    bool fCacheGrammar;
+    bool fUseCachedGrammar;
+    bool fGrammarPoolFromExternalApplication;
+    undefined field3_0x3;
+    undefined field4_0x4;
+    undefined field5_0x5;
+    undefined field6_0x6;
+    undefined field7_0x7;
+    struct XMLStringPool * fStringPool;
+    struct RefHashTableOf<xercesc_2_7::Grammar> * fGrammarBucket;
+    struct RefHashTableOf<xercesc_2_7::Grammar> * fGrammarFromPool;
+    struct DatatypeValidatorFactory * fDataTypeReg;
+    struct MemoryManager * fMemoryManager;
+    struct XMLGrammarPool * fGrammarPool;
+    struct XSModel * fXSModel;
+    struct XSModel * fGrammarPoolXSModel;
+    struct ValueVectorOf<xercesc_2_7::SchemaGrammar*> * fGrammarsToAddToXSModel;
+};
+
+typedef struct XMLString XMLString, *PXMLString;
+
+struct XMLString {
+    undefined field0_0x0;
+};
+
+typedef struct NameIdPoolBucketElem<xercesc_2_7::DTDEntityDecl> NameIdPoolBucketElem<xercesc_2_7::DTDEntityDecl>, *PNameIdPoolBucketElem<xercesc_2_7::DTDEntityDecl>;
+
+struct NameIdPoolBucketElem<xercesc_2_7::DTDEntityDecl> {
+    struct DTDEntityDecl * fData;
+    struct NameIdPoolBucketElem<xercesc_2_7::DTDEntityDecl> * fNext;
+};
+
+typedef struct NameIdPool<xercesc_2_7::DTDEntityDecl> NameIdPool<xercesc_2_7::DTDEntityDecl>, *PNameIdPool<xercesc_2_7::DTDEntityDecl>;
+
+struct NameIdPool<xercesc_2_7::DTDEntityDecl> { // Missing member super_XMemory : XMemory at offset 0x0 [conflict with fMemoryManager]
+    struct MemoryManager * fMemoryManager;
+    struct NameIdPoolBucketElem<xercesc_2_7::DTDEntityDecl> * * fBucketList;
+    struct DTDEntityDecl * * fIdPtrs;
+    uint fIdPtrsCount;
+    uint fIdCounter;
+    uint fHashModulus;
+    undefined field6_0x24;
+    undefined field7_0x25;
+    undefined field8_0x26;
+    undefined field9_0x27;
+};
+
+typedef struct 7lldiv_t 7lldiv_t, *P7lldiv_t;
+
+struct 7lldiv_t {
+    longlong quot;
+    longlong rem;
+};
+
+typedef struct 5div_t 5div_t, *P5div_t;
+
+struct 5div_t {
+    int quot;
+    int rem;
+};
+
+typedef int (* __compar_fn_t)(void *, void *);
+
+typedef struct 7lldiv_t lldiv_t;
+
+typedef struct 6ldiv_t 6ldiv_t, *P6ldiv_t;
+
+struct 6ldiv_t {
+    long quot;
+    long rem;
+};
+
+typedef struct 6ldiv_t ldiv_t;
+
+typedef struct 5div_t div_t;
+
+typedef enum ModelTypes {
+    Empty=0,
+    Any=1,
+    Mixed_Simple=2,
+    Children=3,
+    ModelTypes_Count=4
+} ModelTypes;
+
+typedef struct UnexpectedEOFException UnexpectedEOFException, *PUnexpectedEOFException;
+
+struct UnexpectedEOFException {
+    struct XMLException super_XMLException;
+    undefined field1_0x1;
+    undefined field2_0x2;
+    undefined field3_0x3;
+    undefined field4_0x4;
+    undefined field5_0x5;
+    undefined field6_0x6;
+    undefined field7_0x7;
+    undefined field8_0x8;
+    undefined field9_0x9;
+    undefined field10_0xa;
+    undefined field11_0xb;
+    undefined field12_0xc;
+    undefined field13_0xd;
+    undefined field14_0xe;
+    undefined field15_0xf;
+    undefined field16_0x10;
+    undefined field17_0x11;
+    undefined field18_0x12;
+    undefined field19_0x13;
+    undefined field20_0x14;
+    undefined field21_0x15;
+    undefined field22_0x16;
+    undefined field23_0x17;
+    undefined field24_0x18;
+    undefined field25_0x19;
+    undefined field26_0x1a;
+    undefined field27_0x1b;
+    undefined field28_0x1c;
+    undefined field29_0x1d;
+    undefined field30_0x1e;
+    undefined field31_0x1f;
+    undefined field32_0x20;
+    undefined field33_0x21;
+    undefined field34_0x22;
+    undefined field35_0x23;
+    undefined field36_0x24;
+    undefined field37_0x25;
+    undefined field38_0x26;
+    undefined field39_0x27;
+    undefined field40_0x28;
+    undefined field41_0x29;
+    undefined field42_0x2a;
+    undefined field43_0x2b;
+    undefined field44_0x2c;
+    undefined field45_0x2d;
+    undefined field46_0x2e;
+    undefined field47_0x2f;
+};
+
+typedef struct FlagJanitor<bool> FlagJanitor<bool>, *PFlagJanitor<bool>;
+
+struct FlagJanitor<bool> {
+    bool fOldVal;
+    undefined field1_0x1;
+    undefined field2_0x2;
+    undefined field3_0x3;
+    undefined field4_0x4;
+    undefined field5_0x5;
+    undefined field6_0x6;
+    undefined field7_0x7;
+    bool * fValPtr;
+};
+
+typedef struct XMLRecognizer XMLRecognizer, *PXMLRecognizer;
+
+struct XMLRecognizer {
+    undefined field0_0x0;
+};
+
+typedef enum Encodings {
+    EBCDIC=0,
+    Encodings_Min=0,
+    UCS_4B=1,
+    Def_UCS4=2,
+    UCS_4L=2,
+    US_ASCII=3,
+    UTF_8=4,
+    UTF_16B=5,
+    Def_UTF16=6,
+    UTF_16L=6,
+    Encodings_Max=7,
+    XERCES_XMLCH=7,
+    Encodings_Count=8,
+    OtherEncoding=999
+} Encodings;
+
+typedef struct XMLReader XMLReader, *PXMLReader;
+
+typedef enum RefFrom {
+    RefFrom_Literal=0,
+    RefFrom_NonLiteral=1
+} RefFrom;
+
+typedef enum Sources {
+    Source_Internal=0,
+    Source_External=1
+} Sources;
+
+typedef enum Types {
+    Type_PE=0,
+    Type_General=1
+} Types;
+
+typedef enum XMLVersion {
+    XMLV1_0=0,
+    XMLV1_1=1,
+    XMLV_Unknown=2
+} XMLVersion;
+
+struct XMLReader { // Missing member super_XMemory : XMemory at offset 0x0 [conflict with fCharIndex]
+    uint fCharIndex;
+    XMLCh fCharBuf[16384];
+    uint fCharsAvail;
+    uchar fCharSizeBuf[16384];
+    uint fCharOfsBuf[16384];
+    XMLSSize_t fCurCol;
+    XMLSSize_t fCurLine;
+    enum Encodings fEncoding;
+    undefined field8_0x1c01c;
+    undefined field9_0x1c01d;
+    undefined field10_0x1c01e;
+    undefined field11_0x1c01f;
+    XMLCh * fEncodingStr;
+    bool fForcedEncoding;
+    bool fNoMore;
+    undefined field15_0x1c02a;
+    undefined field16_0x1c02b;
+    undefined field17_0x1c02c;
+    undefined field18_0x1c02d;
+    undefined field19_0x1c02e;
+    undefined field20_0x1c02f;
+    XMLCh * fPublicId;
+    uint fRawBufIndex;
+    XMLByte fRawByteBuf[49152];
+    uint fRawBytesAvail;
+    uint fReaderNum;
+    enum RefFrom fRefFrom;
+    bool fSentTrailingSpace;
+    undefined field28_0x28049;
+    undefined field29_0x2804a;
+    undefined field30_0x2804b;
+    enum Sources fSource;
+    uint fSrcOfsBase;
+    bool fSrcOfsSupported;
+    bool fCalculateSrcOfs;
+    undefined field35_0x28056;
+    undefined field36_0x28057;
+    XMLCh * fSystemId;
+    struct BinInputStream * fStream;
+    bool fSwapped;
+    bool fThrowAtEnd;
+    undefined field41_0x2806a;
+    undefined field42_0x2806b;
+    undefined field43_0x2806c;
+    undefined field44_0x2806d;
+    undefined field45_0x2806e;
+    undefined field46_0x2806f;
+    struct XMLTranscoder * fTranscoder;
+    enum Types fType;
+    undefined field49_0x2807c;
+    undefined field50_0x2807d;
+    undefined field51_0x2807e;
+    undefined field52_0x2807f;
+    XMLByte * fgCharCharsTable;
+    bool fNEL;
+    undefined field55_0x28089;
+    undefined field56_0x2808a;
+    undefined field57_0x2808b;
+    enum XMLVersion fXMLVersion;
+    struct MemoryManager * fMemoryManager;
+};
+
+typedef struct XMLAttr XMLAttr, *PXMLAttr;
+
+struct XMLAttr { // Missing member super_XMemory : XMemory at offset 0x0 [conflict with fSpecified]
+    bool fSpecified;
+    undefined field1_0x1;
+    undefined field2_0x2;
+    undefined field3_0x3;
+    enum AttTypes fType;
+    uint fValueBufSz;
+    undefined field6_0xc;
+    undefined field7_0xd;
+    undefined field8_0xe;
+    undefined field9_0xf;
+    XMLCh * fValue;
+    struct QName * fAttName;
+    struct MemoryManager * fMemoryManager;
+    struct DatatypeValidator * fDatatypeValidator;
+    bool fIsSchemaValidated;
+    undefined field15_0x31;
+    undefined field16_0x32;
+    undefined field17_0x33;
+    undefined field18_0x34;
+    undefined field19_0x35;
+    undefined field20_0x36;
+    undefined field21_0x37;
+};
+
+typedef struct DTDScanner DTDScanner, *PDTDScanner;
+
+struct DTDScanner { // Missing member super_XMemory : XMemory at offset 0x0 [conflict with _vptr.DTDScanner]
+    int (** _vptr.DTDScanner)(...);
+    struct MemoryManager * fMemoryManager;
+    struct MemoryManager * fGrammarPoolMemoryManager;
+    struct DocTypeHandler * fDocTypeHandler;
+    struct DTDAttDef * fDumAttDef;
+    struct DTDElementDecl * fDumElemDecl;
+    struct DTDEntityDecl * fDumEntityDecl;
+    bool fInternalSubset;
+    undefined field8_0x39;
+    undefined field9_0x3a;
+    undefined field10_0x3b;
+    uint fNextAttrId;
+    struct DTDGrammar * fDTDGrammar;
+    struct XMLBufferMgr * fBufMgr;
+    struct ReaderMgr * fReaderMgr;
+    struct XMLScanner * fScanner;
+    struct NameIdPool<xercesc_2_7::DTDEntityDecl> * fPEntityDeclPool;
+    uint fEmptyNamespaceId;
+    uint fDocTypeReaderId;
+};
+
+typedef enum EntityExpRes {
+    EntityExp_Failed=0,
+    EntityExp_Pushed=1,
+    EntityExp_Returned=2
+} EntityExpRes;
+
+typedef enum IDTypes {
+    IDType_Public=0,
+    IDType_External=1,
+    IDType_Either=2
+} IDTypes;
+
+typedef enum anon_enum_32.conflict66a6 {
+    TOP_LEVEL_SCOPE=-2,
+    UNKNOWN_SCOPE=-1
+} anon_enum_32.conflict66a6;
+
+typedef struct DOMError DOMError, *PDOMError;
+
+struct DOMError {
+    int (** _vptr.DOMError)(...);
+};
+
+typedef enum ErrorSeverity {
+    DOM_SEVERITY_WARNING=0,
+    DOM_SEVERITY_ERROR=1,
+    DOM_SEVERITY_FATAL_ERROR=2
+} ErrorSeverity;
+
+typedef struct RuntimeException RuntimeException, *PRuntimeException;
+
+struct RuntimeException {
+    struct XMLException super_XMLException;
+    undefined field1_0x1;
+    undefined field2_0x2;
+    undefined field3_0x3;
+    undefined field4_0x4;
+    undefined field5_0x5;
+    undefined field6_0x6;
+    undefined field7_0x7;
+    undefined field8_0x8;
+    undefined field9_0x9;
+    undefined field10_0xa;
+    undefined field11_0xb;
+    undefined field12_0xc;
+    undefined field13_0xd;
+    undefined field14_0xe;
+    undefined field15_0xf;
+    undefined field16_0x10;
+    undefined field17_0x11;
+    undefined field18_0x12;
+    undefined field19_0x13;
+    undefined field20_0x14;
+    undefined field21_0x15;
+    undefined field22_0x16;
+    undefined field23_0x17;
+    undefined field24_0x18;
+    undefined field25_0x19;
+    undefined field26_0x1a;
+    undefined field27_0x1b;
+    undefined field28_0x1c;
+    undefined field29_0x1d;
+    undefined field30_0x1e;
+    undefined field31_0x1f;
+    undefined field32_0x20;
+    undefined field33_0x21;
+    undefined field34_0x22;
+    undefined field35_0x23;
+    undefined field36_0x24;
+    undefined field37_0x25;
+    undefined field38_0x26;
+    undefined field39_0x27;
+    undefined field40_0x28;
+    undefined field41_0x29;
+    undefined field42_0x2a;
+    undefined field43_0x2b;
+    undefined field44_0x2c;
+    undefined field45_0x2d;
+    undefined field46_0x2e;
+    undefined field47_0x2f;
+};
+
+typedef struct XMLValid XMLValid, *PXMLValid;
+
+struct XMLValid {
+    undefined field0_0x0;
+};
+
+
+// WARNING! conflicting data type names: /DWARF/XMLValidityCodes.hpp/xercesc_2_7/XMLValid/Codes - /DWARF/XMLErrorCodes.hpp/xercesc_2_7/XMLErrs/Codes
+
+typedef struct Janitor<xercesc_2_7::InputSource> Janitor<xercesc_2_7::InputSource>, *PJanitor<xercesc_2_7::InputSource>;
+
+struct Janitor<xercesc_2_7::InputSource> { // Missing member super_XMemory : XMemory at offset 0x0 [conflict with fData]
+    struct InputSource * fData;
+};
+
+typedef struct IllegalArgumentException IllegalArgumentException, *PIllegalArgumentException;
+
+struct IllegalArgumentException {
+    struct XMLException super_XMLException;
+    undefined field1_0x1;
+    undefined field2_0x2;
+    undefined field3_0x3;
+    undefined field4_0x4;
+    undefined field5_0x5;
+    undefined field6_0x6;
+    undefined field7_0x7;
+    undefined field8_0x8;
+    undefined field9_0x9;
+    undefined field10_0xa;
+    undefined field11_0xb;
+    undefined field12_0xc;
+    undefined field13_0xd;
+    undefined field14_0xe;
+    undefined field15_0xf;
+    undefined field16_0x10;
+    undefined field17_0x11;
+    undefined field18_0x12;
+    undefined field19_0x13;
+    undefined field20_0x14;
+    undefined field21_0x15;
+    undefined field22_0x16;
+    undefined field23_0x17;
+    undefined field24_0x18;
+    undefined field25_0x19;
+    undefined field26_0x1a;
+    undefined field27_0x1b;
+    undefined field28_0x1c;
+    undefined field29_0x1d;
+    undefined field30_0x1e;
+    undefined field31_0x1f;
+    undefined field32_0x20;
+    undefined field33_0x21;
+    undefined field34_0x22;
+    undefined field35_0x23;
+    undefined field36_0x24;
+    undefined field37_0x25;
+    undefined field38_0x26;
+    undefined field39_0x27;
+    undefined field40_0x28;
+    undefined field41_0x29;
+    undefined field42_0x2a;
+    undefined field43_0x2b;
+    undefined field44_0x2c;
+    undefined field45_0x2d;
+    undefined field46_0x2e;
+    undefined field47_0x2f;
+};
+
+typedef struct Elf64_Rela Elf64_Rela, *PElf64_Rela;
+
+struct Elf64_Rela {
+    qword r_offset; // location to apply the relocation action
+    qword r_info; // the symbol table index and the type of relocation
+    qword r_addend; // a constant addend used to compute the relocatable field value
+};
+
+typedef struct Elf64_Sym Elf64_Sym, *PElf64_Sym;
+
+struct Elf64_Sym {
+    dword st_name;
+    byte st_info;
+    byte st_other;
+    word st_shndx;
+    qword st_value;
+    qword st_size;
+};
+
+typedef struct Elf64_Shdr Elf64_Shdr, *PElf64_Shdr;
+
+typedef enum Elf_SectionHeaderType {
+    SHT_NULL=0,
+    SHT_PROGBITS=1,
+    SHT_SYMTAB=2,
+    SHT_STRTAB=3,
+    SHT_RELA=4,
+    SHT_HASH=5,
+    SHT_DYNAMIC=6,
+    SHT_NOTE=7,
+    SHT_NOBITS=8,
+    SHT_REL=9,
+    SHT_SHLIB=10,
+    SHT_DYNSYM=11,
+    SHT_INIT_ARRAY=14,
+    SHT_FINI_ARRAY=15,
+    SHT_PREINIT_ARRAY=16,
+    SHT_GROUP=17,
+    SHT_SYMTAB_SHNDX=18,
+    SHT_ANDROID_REL=1610612737,
+    SHT_ANDROID_RELA=1610612738,
+    SHT_GNU_ATTRIBUTES=1879048181,
+    SHT_GNU_HASH=1879048182,
+    SHT_GNU_LIBLIST=1879048183,
+    SHT_CHECKSUM=1879048184,
+    SHT_SUNW_move=1879048186,
+    SHT_SUNW_COMDAT=1879048187,
+    SHT_SUNW_syminfo=1879048188,
+    SHT_GNU_verdef=1879048189,
+    SHT_GNU_verneed=1879048190,
+    SHT_GNU_versym=1879048191
+} Elf_SectionHeaderType;
+
+struct Elf64_Shdr {
+    dword sh_name;
+    enum Elf_SectionHeaderType sh_type;
+    qword sh_flags;
+    qword sh_addr;
+    qword sh_offset;
+    qword sh_size;
+    dword sh_link;
+    dword sh_info;
+    qword sh_addralign;
+    qword sh_entsize;
+};
+
+typedef struct Elf64_Ehdr Elf64_Ehdr, *PElf64_Ehdr;
+
+struct Elf64_Ehdr {
+    byte e_ident_magic_num;
+    char e_ident_magic_str[3];
+    byte e_ident_class;
+    byte e_ident_data;
+    byte e_ident_version;
+    byte e_ident_osabi;
+    byte e_ident_abiversion;
+    byte e_ident_pad[7];
+    word e_type;
+    word e_machine;
+    dword e_version;
+    qword e_entry;
+    qword e_phoff;
+    qword e_shoff;
+    dword e_flags;
+    word e_ehsize;
+    word e_phentsize;
+    word e_phnum;
+    word e_shentsize;
+    word e_shnum;
+    word e_shstrndx;
+};
+
+
+
 
 ContentSpecNode *
 xercesc_2_7::makeRepNode(XMLCh testCh,ContentSpecNode *prevNode,MemoryManager *manager)
@@ -25,6 +1704,7 @@ xercesc_2_7::makeRepNode(XMLCh testCh,ContentSpecNode *prevNode,MemoryManager *m
   }
   return prevNode;
 }
+
 
 
 void __thiscall
@@ -60,6 +1740,7 @@ xercesc_2_7::DTDScanner::DTDScanner
 }
 
 
+
 void __thiscall xercesc_2_7::DTDScanner::_DTDScanner(DTDScanner *this)
 
 {
@@ -90,6 +1771,7 @@ void __thiscall xercesc_2_7::DTDScanner::_DTDScanner(DTDScanner *this)
 }
 
 
+
 void __thiscall xercesc_2_7::DTDScanner::_DTDScanner(DTDScanner *this)
 
 {
@@ -99,6 +1781,7 @@ void __thiscall xercesc_2_7::DTDScanner::_DTDScanner(DTDScanner *this)
   xercesc_2_7::XMemory::operator_delete((XMemory *)this,in_RSI);
   return;
 }
+
 
 
 void __thiscall
@@ -124,6 +1807,7 @@ xercesc_2_7::DTDScanner::setScannerInfo
   this->fDocTypeReaderId = uVar2;
   return;
 }
+
 
 
 bool __thiscall
@@ -154,6 +1838,7 @@ xercesc_2_7::DTDScanner::checkForPERef(DTDScanner *this,bool inLiteral,bool inMa
   }
   return gotSpace;
 }
+
 
 
 bool __thiscall
@@ -290,7 +1975,7 @@ xercesc_2_7::DTDScanner::expandPERef
           RuntimeException::RuntimeException
                     (this_04,"DTDScanner.cpp",0x115,Gen_CouldNotOpenExtEntity,pXVar7,(XMLCh *)0x0,
                      (XMLCh *)0x0,(XMLCh *)0x0,memoryManager);
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
           __cxa_throw(this_04,&RuntimeException::typeinfo,RuntimeException::_RuntimeException);
         }
         XMLReader::setThrowAtEnd(this_03,throwEndOfExt);
@@ -338,11 +2023,12 @@ xercesc_2_7::DTDScanner::expandPERef
 LAB_00100bca:
   XMLBufBid::_XMLBufBid(&bbName);
   if (lVar1 != *(long *)(in_FS_OFFSET + 0x28)) {
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
     __stack_chk_fail();
   }
   return (bool)local_b1;
 }
+
 
 
 bool __thiscall xercesc_2_7::DTDScanner::getQuotedString(DTDScanner *this,XMLBuffer *toFill)
@@ -376,11 +2062,12 @@ bool __thiscall xercesc_2_7::DTDScanner::getQuotedString(DTDScanner *this,XMLBuf
   }
 LAB_00100d74:
   if (lVar1 != *(long *)(in_FS_OFFSET + 0x28)) {
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
     __stack_chk_fail();
   }
   return bVar3;
 }
+
 
 
 XMLAttDef * __thiscall
@@ -663,9 +2350,10 @@ LAB_001017cd:
   if (lVar1 == *(long *)(in_FS_OFFSET + 0x28)) {
     return (XMLAttDef *)decl;
   }
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
   __stack_chk_fail();
 }
+
 
 
 void __thiscall xercesc_2_7::DTDScanner::scanAttListDecl(DTDScanner *this)
@@ -732,7 +2420,7 @@ void __thiscall xercesc_2_7::DTDScanner::scanAttListDecl(DTDScanner *this)
           this_01 = (UnexpectedEOFException *)__cxa_allocate_exception(0x30);
           UnexpectedEOFException::UnexpectedEOFException
                     (this_01,"DTDScanner.cpp",0x292,Gen_UnexpectedEOF,this->fMemoryManager);
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
           __cxa_throw(this_01,&UnexpectedEOFException::typeinfo,
                       UnexpectedEOFException::_UnexpectedEOFException);
         }
@@ -794,9 +2482,10 @@ LAB_00101ca5:
   if (lVar1 == *(long *)(in_FS_OFFSET + 0x28)) {
     return;
   }
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
   __stack_chk_fail();
 }
+
 
 
 bool __thiscall
@@ -832,7 +2521,7 @@ LAB_00102164:
     if (lVar1 == *(long *)(in_FS_OFFSET + 0x28)) {
       return bVar3;
     }
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
     __stack_chk_fail();
   }
   curReader = ReaderMgr::getCurrentReaderNum(this->fReaderMgr);
@@ -847,7 +2536,7 @@ LAB_00101e0b:
       this_00 = (UnexpectedEOFException *)__cxa_allocate_exception(0x30);
       UnexpectedEOFException::UnexpectedEOFException
                 (this_00,"DTDScanner.cpp",0x313,Gen_UnexpectedEOF,this->fMemoryManager);
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
       __cxa_throw(this_00,&UnexpectedEOFException::typeinfo,
                   UnexpectedEOFException::_UnexpectedEOFException);
     }
@@ -934,6 +2623,7 @@ LAB_0010211c:
 }
 
 
+
 bool __thiscall xercesc_2_7::DTDScanner::scanCharRef(DTDScanner *this,XMLCh *first,XMLCh *second)
 
 {
@@ -972,7 +2662,7 @@ bool __thiscall xercesc_2_7::DTDScanner::scanCharRef(DTDScanner *this,XMLCh *fir
       this_00 = (UnexpectedEOFException *)__cxa_allocate_exception(0x30);
       UnexpectedEOFException::UnexpectedEOFException
                 (this_00,"DTDScanner.cpp",0x3bc,Gen_UnexpectedEOF,this->fMemoryManager);
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
       __cxa_throw(this_00,&UnexpectedEOFException::typeinfo,
                   UnexpectedEOFException::_UnexpectedEOFException);
     }
@@ -1044,11 +2734,12 @@ LAB_001024a6:
   bVar3 = true;
 LAB_001024ec:
   if (lVar1 != *(long *)(in_FS_OFFSET + 0x28)) {
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
     __stack_chk_fail();
   }
   return bVar3;
 }
+
 
 
 ContentSpecNode * __thiscall
@@ -1317,6 +3008,7 @@ LAB_00103059:
 }
 
 
+
 void __thiscall xercesc_2_7::DTDScanner::scanComment(DTDScanner *this)
 
 {
@@ -1348,7 +3040,7 @@ void __thiscall xercesc_2_7::DTDScanner::scanComment(DTDScanner *this)
           this_00 = (UnexpectedEOFException *)__cxa_allocate_exception(0x30);
           UnexpectedEOFException::UnexpectedEOFException
                     (this_00,"DTDScanner.cpp",0x58a,Gen_UnexpectedEOF,this->fMemoryManager);
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
           __cxa_throw(this_00,&UnexpectedEOFException::typeinfo,
                       UnexpectedEOFException::_UnexpectedEOFException);
         }
@@ -1410,9 +3102,10 @@ void __thiscall xercesc_2_7::DTDScanner::scanComment(DTDScanner *this)
   if (lVar1 == *(long *)(in_FS_OFFSET + 0x28)) {
     return;
   }
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
   __stack_chk_fail();
 }
+
 
 
 bool __thiscall xercesc_2_7::DTDScanner::scanContentSpec(DTDScanner *this,DTDElementDecl *toFill)
@@ -1501,9 +3194,10 @@ bool __thiscall xercesc_2_7::DTDScanner::scanContentSpec(DTDScanner *this,DTDEle
   if (lVar1 == *(long *)(in_FS_OFFSET + 0x28)) {
     return status;
   }
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
   __stack_chk_fail();
 }
+
 
 
 void __thiscall xercesc_2_7::DTDScanner::scanDefaultDecl(DTDScanner *this,DTDAttDef *toFill)
@@ -1558,11 +3252,12 @@ void __thiscall xercesc_2_7::DTDScanner::scanDefaultDecl(DTDScanner *this,DTDAtt
     XMLAttDef::setDefaultType((XMLAttDef *)toFill,Required);
   }
   if (lVar1 != *(long *)(in_FS_OFFSET + 0x28)) {
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
     __stack_chk_fail();
   }
   return;
 }
+
 
 
 void __thiscall xercesc_2_7::DTDScanner::scanElementDecl(DTDScanner *this)
@@ -1667,9 +3362,10 @@ void __thiscall xercesc_2_7::DTDScanner::scanElementDecl(DTDScanner *this)
   if (lVar1 == *(long *)(in_FS_OFFSET + 0x28)) {
     return;
   }
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
   __stack_chk_fail();
 }
+
 
 
 void __thiscall xercesc_2_7::DTDScanner::scanEntityDecl(DTDScanner *this)
@@ -1797,9 +3493,10 @@ void __thiscall xercesc_2_7::DTDScanner::scanEntityDecl(DTDScanner *this)
   if (lVar1 == *(long *)(in_FS_OFFSET + 0x28)) {
     return;
   }
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
   __stack_chk_fail();
 }
+
 
 
 EntityExpRes __thiscall
@@ -1963,7 +3660,7 @@ LAB_00104a3a:
               RuntimeException::RuntimeException
                         (this_03,"DTDScanner.cpp",0x7dd,Gen_CouldNotOpenExtEntity,pXVar8,
                          (XMLCh *)0x0,(XMLCh *)0x0,(XMLCh *)0x0,memoryManager);
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
               __cxa_throw(this_03,&RuntimeException::typeinfo,RuntimeException::_RuntimeException);
             }
             cVar4 = xercesc_2_7::ReaderMgr::pushReader((XMLReader *)this->fReaderMgr,pXVar12);
@@ -2011,9 +3708,10 @@ LAB_00104a4e:
   if (lVar1 == *(long *)(in_FS_OFFSET + 0x28)) {
     return unaff_EBX;
   }
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
   __stack_chk_fail();
 }
+
 
 
 bool __thiscall xercesc_2_7::DTDScanner::scanEntityLiteral(DTDScanner *this,XMLBuffer *toFill)
@@ -2048,7 +3746,7 @@ LAB_00104f14:
     if (lVar1 == *(long *)(in_FS_OFFSET + 0x28)) {
       return bVar5;
     }
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
     __stack_chk_fail();
   }
   XMLBufBid::XMLBufBid(&bbName,this->fBufMgr);
@@ -2064,7 +3762,7 @@ LAB_00104b5a:
       this_00 = (UnexpectedEOFException *)__cxa_allocate_exception(0x30);
       UnexpectedEOFException::UnexpectedEOFException
                 (this_00,"DTDScanner.cpp",0x836,Gen_UnexpectedEOF,this->fMemoryManager);
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
       __cxa_throw(this_00,&UnexpectedEOFException::typeinfo,
                   UnexpectedEOFException::_UnexpectedEOFException);
     }
@@ -2160,6 +3858,7 @@ LAB_00104f08:
     expandPERef(this,false,true,true,false);
   } while( true );
 }
+
 
 
 bool __thiscall
@@ -2278,9 +3977,10 @@ LAB_0010538d:
   if (lVar1 == *(long *)(in_FS_OFFSET + 0x28)) {
     return bVar2;
   }
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
   __stack_chk_fail();
 }
+
 
 
 bool __thiscall
@@ -2348,11 +4048,12 @@ xercesc_2_7::DTDScanner::scanEnumeration
 LAB_0010561a:
   XMLBufBid::_XMLBufBid(&bbTmp);
   if (lVar1 != *(long *)(in_FS_OFFSET + 0x28)) {
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
     __stack_chk_fail();
   }
   return bVar7;
 }
+
 
 
 bool __thiscall xercesc_2_7::DTDScanner::scanEq(DTDScanner *this)
@@ -2369,7 +4070,8 @@ bool __thiscall xercesc_2_7::DTDScanner::scanEq(DTDScanner *this)
 }
 
 
-/* WARNING: Removing unreachable block (ram,0x00105c39) */
+
+// WARNING: Removing unreachable block (ram,0x00105c39)
 
 void __thiscall
 xercesc_2_7::DTDScanner::scanExtSubsetDecl(DTDScanner *this,bool inIncludeSect,bool isDTD)
@@ -2465,7 +4167,7 @@ LAB_00105c21:
             XMLBufBid::_XMLBufBid(&bbSpace);
             FlagJanitor<bool>::_FlagJanitor(&janContentFlag);
             if (lVar1 != *(long *)(in_FS_OFFSET + 0x28)) {
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
               __stack_chk_fail();
             }
             return;
@@ -2502,6 +4204,7 @@ LAB_00105c21:
     bAcceptDecl = false;
   } while( true );
 }
+
 
 
 bool __thiscall
@@ -2599,6 +4302,7 @@ xercesc_2_7::DTDScanner::scanId
 }
 
 
+
 void __thiscall xercesc_2_7::DTDScanner::scanIgnoredSection(DTDScanner *this)
 
 {
@@ -2627,7 +4331,7 @@ void __thiscall xercesc_2_7::DTDScanner::scanIgnoredSection(DTDScanner *this)
             this_00 = (UnexpectedEOFException *)__cxa_allocate_exception(0x30);
             UnexpectedEOFException::UnexpectedEOFException
                       (this_00,"DTDScanner.cpp",0xaf1,Gen_UnexpectedEOF,this->fMemoryManager);
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
             __cxa_throw(this_00,&UnexpectedEOFException::typeinfo,
                         UnexpectedEOFException::_UnexpectedEOFException);
           }
@@ -2683,9 +4387,10 @@ void __thiscall xercesc_2_7::DTDScanner::scanIgnoredSection(DTDScanner *this)
   if (lVar1 == *(long *)(in_FS_OFFSET + 0x28)) {
     return;
   }
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
   __stack_chk_fail();
 }
+
 
 
 bool __thiscall xercesc_2_7::DTDScanner::scanInternalSubset(DTDScanner *this)
@@ -2731,7 +4436,7 @@ LAB_001065ef:
       if (lVar1 == *(long *)(in_FS_OFFSET + 0x28)) {
         return noErrors;
       }
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
       __stack_chk_fail();
     }
     if (toCheck == 0x5d) {
@@ -2797,6 +4502,7 @@ LAB_001065bf:
     }
   } while( true );
 }
+
 
 
 void __thiscall xercesc_2_7::DTDScanner::scanMarkupDecl(DTDScanner *this,bool parseTextDecl)
@@ -2927,6 +4633,7 @@ void __thiscall xercesc_2_7::DTDScanner::scanMarkupDecl(DTDScanner *this,bool pa
 }
 
 
+
 bool __thiscall xercesc_2_7::DTDScanner::scanMixed(DTDScanner *this,DTDElementDecl *toFill)
 
 {
@@ -3002,7 +4709,7 @@ LAB_00107107:
       if (lVar1 == *(long *)(in_FS_OFFSET + 0x28)) {
         return bVar11;
       }
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
       __stack_chk_fail();
     }
     pDVar3 = this->fDTDGrammar;
@@ -3081,6 +4788,7 @@ LAB_00107107:
   }
   goto LAB_00107107;
 }
+
 
 
 void __thiscall xercesc_2_7::DTDScanner::scanNotationDecl(DTDScanner *this)
@@ -3201,9 +4909,10 @@ void __thiscall xercesc_2_7::DTDScanner::scanNotationDecl(DTDScanner *this)
   if (lVar1 == *(long *)(in_FS_OFFSET + 0x28)) {
     return;
   }
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
   __stack_chk_fail();
 }
+
 
 
 void __thiscall xercesc_2_7::DTDScanner::scanPI(DTDScanner *this)
@@ -3287,7 +4996,7 @@ void __thiscall xercesc_2_7::DTDScanner::scanPI(DTDScanner *this)
         this_01 = (UnexpectedEOFException *)__cxa_allocate_exception(0x30);
         UnexpectedEOFException::UnexpectedEOFException
                   (this_01,"DTDScanner.cpp",0xdf2,Gen_UnexpectedEOF,this->fMemoryManager);
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
         __cxa_throw(this_01,&UnexpectedEOFException::typeinfo,
                     UnexpectedEOFException::_UnexpectedEOFException);
       }
@@ -3329,11 +5038,12 @@ LAB_00107bb5:
 LAB_00107c1f:
   XMLBufBid::_XMLBufBid(&bbName);
   if (lVar1 != *(long *)(in_FS_OFFSET + 0x28)) {
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
     __stack_chk_fail();
   }
   return;
 }
+
 
 
 bool __thiscall xercesc_2_7::DTDScanner::scanPublicLiteral(DTDScanner *this,XMLBuffer *toFill)
@@ -3360,7 +5070,7 @@ bool __thiscall xercesc_2_7::DTDScanner::scanPublicLiteral(DTDScanner *this,XMLB
         this_00 = (UnexpectedEOFException *)__cxa_allocate_exception(0x30);
         UnexpectedEOFException::UnexpectedEOFException
                   (this_00,"DTDScanner.cpp",0xe59,Gen_UnexpectedEOF,this->fMemoryManager);
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
         __cxa_throw(this_00,&UnexpectedEOFException::typeinfo,
                     UnexpectedEOFException::_UnexpectedEOFException);
       }
@@ -3381,11 +5091,12 @@ bool __thiscall xercesc_2_7::DTDScanner::scanPublicLiteral(DTDScanner *this,XMLB
     bVar3 = false;
   }
   if (lVar1 != *(long *)(in_FS_OFFSET + 0x28)) {
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
     __stack_chk_fail();
   }
   return bVar3;
 }
+
 
 
 bool __thiscall xercesc_2_7::DTDScanner::scanSystemLiteral(DTDScanner *this,XMLBuffer *toFill)
@@ -3410,7 +5121,7 @@ bool __thiscall xercesc_2_7::DTDScanner::scanSystemLiteral(DTDScanner *this,XMLB
         this_00 = (UnexpectedEOFException *)__cxa_allocate_exception(0x30);
         UnexpectedEOFException::UnexpectedEOFException
                   (this_00,"DTDScanner.cpp",0xe8c,Gen_UnexpectedEOF,this->fMemoryManager);
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
         __cxa_throw(this_00,&UnexpectedEOFException::typeinfo,
                     UnexpectedEOFException::_UnexpectedEOFException);
       }
@@ -3424,11 +5135,12 @@ bool __thiscall xercesc_2_7::DTDScanner::scanSystemLiteral(DTDScanner *this,XMLB
     bVar3 = false;
   }
   if (lVar1 != *(long *)(in_FS_OFFSET + 0x28)) {
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
     __stack_chk_fail();
   }
   return bVar3;
 }
+
 
 
 void __thiscall xercesc_2_7::DTDScanner::scanTextDecl(DTDScanner *this)
@@ -3571,11 +5283,12 @@ LAB_00108227:
 LAB_0010845c:
   XMLBufBid::_XMLBufBid(&bbVersion);
   if (lVar1 != *(long *)(in_FS_OFFSET + 0x28)) {
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
     __stack_chk_fail();
   }
   return;
 }
+
 
 
 void __thiscall xercesc_2_7::XMemory::XMemory(XMemory *this)
@@ -3583,6 +5296,7 @@ void __thiscall xercesc_2_7::XMemory::XMemory(XMemory *this)
 {
   return;
 }
+
 
 
 void __thiscall xercesc_2_7::XMLDeleter::_XMLDeleter(XMLDeleter *this)
@@ -3593,6 +5307,7 @@ void __thiscall xercesc_2_7::XMLDeleter::_XMLDeleter(XMLDeleter *this)
 }
 
 
+
 void __thiscall xercesc_2_7::XMLDeleter::_XMLDeleter(XMLDeleter *this)
 
 {
@@ -3600,6 +5315,7 @@ void __thiscall xercesc_2_7::XMLDeleter::_XMLDeleter(XMLDeleter *this)
   operator_delete(this);
   return;
 }
+
 
 
 void __thiscall
@@ -3615,7 +5331,8 @@ xercesc_2_7::UnexpectedEOFException::UnexpectedEOFException
 }
 
 
-/* (LSDA) Type Table */
+
+// (LSDA) Type Table
 
 void __thiscall
 xercesc_2_7::UnexpectedEOFException::UnexpectedEOFException
@@ -3628,6 +5345,7 @@ xercesc_2_7::UnexpectedEOFException::UnexpectedEOFException
 }
 
 
+
 void __thiscall
 xercesc_2_7::UnexpectedEOFException::_UnexpectedEOFException(UnexpectedEOFException *this)
 
@@ -3636,6 +5354,7 @@ xercesc_2_7::UnexpectedEOFException::_UnexpectedEOFException(UnexpectedEOFExcept
   xercesc_2_7::XMLException::_XMLException(&this->super_XMLException);
   return;
 }
+
 
 
 void __thiscall
@@ -3650,26 +5369,15 @@ xercesc_2_7::UnexpectedEOFException::_UnexpectedEOFException(UnexpectedEOFExcept
 }
 
 
-XMLException * __thiscall
-xercesc_2_7::UnexpectedEOFException::duplicate(UnexpectedEOFException *this)
 
-{
-  UnexpectedEOFException *this_00;
-  
-  this_00 = (UnexpectedEOFException *)
-            xercesc_2_7::XMemory::operator_new(0x30,*(MemoryManager **)&this->field_0x28);
-  UnexpectedEOFException(this_00,this);
-  return &this_00->super_XMLException;
-}
-
-
-/* (LSDA) Type Table */
+// (LSDA) Type Table
 
 XMLCh * __thiscall xercesc_2_7::UnexpectedEOFException::getType(UnexpectedEOFException *this)
 
 {
   return (XMLCh *)&XMLUni::fgUnexpectedEOFException_Name;
 }
+
 
 
 void __thiscall
@@ -3685,16 +5393,6 @@ xercesc_2_7::ArrayIndexOutOfBoundsException::ArrayIndexOutOfBoundsException
 }
 
 
-void __thiscall
-xercesc_2_7::ArrayIndexOutOfBoundsException::ArrayIndexOutOfBoundsException
-          (ArrayIndexOutOfBoundsException *this,ArrayIndexOutOfBoundsException *toCopy)
-
-{
-  xercesc_2_7::XMLException::XMLException(&this->super_XMLException,&toCopy->super_XMLException);
-  *(undefined ***)this = &PTR__ArrayIndexOutOfBoundsException_0010b618;
-  return;
-}
-
 
 void __thiscall
 xercesc_2_7::ArrayIndexOutOfBoundsException::_ArrayIndexOutOfBoundsException
@@ -3705,6 +5403,7 @@ xercesc_2_7::ArrayIndexOutOfBoundsException::_ArrayIndexOutOfBoundsException
   xercesc_2_7::XMLException::_XMLException(&this->super_XMLException);
   return;
 }
+
 
 
 void __thiscall
@@ -3720,7 +5419,8 @@ xercesc_2_7::ArrayIndexOutOfBoundsException::_ArrayIndexOutOfBoundsException
 }
 
 
-/* (LSDA) Type Table */
+
+// (LSDA) Type Table
 
 XMLException * __thiscall
 xercesc_2_7::ArrayIndexOutOfBoundsException::duplicate(ArrayIndexOutOfBoundsException *this)
@@ -3735,12 +5435,14 @@ xercesc_2_7::ArrayIndexOutOfBoundsException::duplicate(ArrayIndexOutOfBoundsExce
 }
 
 
+
 XMLCh * __thiscall
 xercesc_2_7::ArrayIndexOutOfBoundsException::getType(ArrayIndexOutOfBoundsException *this)
 
 {
   return (XMLCh *)&XMLUni::fgArrayIndexOutOfBoundsException_Name;
 }
+
 
 
 void __thiscall xercesc_2_7::XMLBuffer::append(XMLBuffer *this,XMLCh toAppend)
@@ -3758,6 +5460,7 @@ void __thiscall xercesc_2_7::XMLBuffer::append(XMLBuffer *this,XMLCh toAppend)
 }
 
 
+
 void __thiscall xercesc_2_7::XMLBuffer::append(XMLBuffer *this,XMLCh *chars,uint count)
 
 {
@@ -3773,6 +5476,7 @@ void __thiscall xercesc_2_7::XMLBuffer::append(XMLBuffer *this,XMLCh *chars,uint
   }
   return;
 }
+
 
 
 void __thiscall xercesc_2_7::XMLBuffer::append(XMLBuffer *this,XMLCh *chars)
@@ -3793,12 +5497,14 @@ void __thiscall xercesc_2_7::XMLBuffer::append(XMLBuffer *this,XMLCh *chars)
 }
 
 
+
 XMLCh * __thiscall xercesc_2_7::XMLBuffer::getRawBuffer(XMLBuffer *this)
 
 {
   this->fBuffer[this->fIndex] = 0;
   return this->fBuffer;
 }
+
 
 
 void __thiscall xercesc_2_7::XMLBuffer::reset(XMLBuffer *this)
@@ -3810,11 +5516,13 @@ void __thiscall xercesc_2_7::XMLBuffer::reset(XMLBuffer *this)
 }
 
 
+
 uint __thiscall xercesc_2_7::XMLBuffer::getLen(XMLBuffer *this)
 
 {
   return this->fIndex;
 }
+
 
 
 uint xercesc_2_7::XMLString::stringLen(XMLCh *src)
@@ -3835,6 +5543,7 @@ uint xercesc_2_7::XMLString::stringLen(XMLCh *src)
 }
 
 
+
 XMLCh * xercesc_2_7::XMLString::replicate(XMLCh *toRep,MemoryManager *manager)
 
 {
@@ -3853,6 +5562,7 @@ XMLCh * xercesc_2_7::XMLString::replicate(XMLCh *toRep,MemoryManager *manager)
   }
   return ret;
 }
+
 
 
 bool xercesc_2_7::XMLString::equals(XMLCh *str1,XMLCh *str2)
@@ -3883,6 +5593,7 @@ bool xercesc_2_7::XMLString::equals(XMLCh *str1,XMLCh *str2)
 }
 
 
+
 uint xercesc_2_7::XMLString::hash(XMLCh *tohash,uint hashModulus,MemoryManager *param_3)
 
 {
@@ -3904,6 +5615,7 @@ uint xercesc_2_7::XMLString::hash(XMLCh *tohash,uint hashModulus,MemoryManager *
 }
 
 
+
 void __thiscall
 xercesc_2_7::IllegalArgumentException::IllegalArgumentException
           (IllegalArgumentException *this,char *srcFile,uint srcLine,Codes toThrow,
@@ -3917,7 +5629,8 @@ xercesc_2_7::IllegalArgumentException::IllegalArgumentException
 }
 
 
-/* (LSDA) Type Table */
+
+// (LSDA) Type Table
 
 void __thiscall
 xercesc_2_7::IllegalArgumentException::IllegalArgumentException
@@ -3928,6 +5641,7 @@ xercesc_2_7::IllegalArgumentException::IllegalArgumentException
   *(undefined ***)this = &PTR__IllegalArgumentException_0010b5e8;
   return;
 }
+
 
 
 void __thiscall
@@ -3944,15 +5658,6 @@ xercesc_2_7::IllegalArgumentException::IllegalArgumentException
 }
 
 
-void __thiscall
-xercesc_2_7::IllegalArgumentException::_IllegalArgumentException(IllegalArgumentException *this)
-
-{
-  *(undefined ***)this = &PTR__IllegalArgumentException_0010b5e8;
-  xercesc_2_7::XMLException::_XMLException(&this->super_XMLException);
-  return;
-}
-
 
 void __thiscall
 xercesc_2_7::IllegalArgumentException::_IllegalArgumentException(IllegalArgumentException *this)
@@ -3966,7 +5671,8 @@ xercesc_2_7::IllegalArgumentException::_IllegalArgumentException(IllegalArgument
 }
 
 
-/* (LSDA) Type Table */
+
+// (LSDA) Type Table
 
 XMLException * __thiscall
 xercesc_2_7::IllegalArgumentException::duplicate(IllegalArgumentException *this)
@@ -3981,11 +5687,13 @@ xercesc_2_7::IllegalArgumentException::duplicate(IllegalArgumentException *this)
 }
 
 
+
 XMLCh * __thiscall xercesc_2_7::IllegalArgumentException::getType(IllegalArgumentException *this)
 
 {
   return (XMLCh *)&XMLUni::fgIllegalArgumentException_Name;
 }
+
 
 
 void __thiscall
@@ -3996,6 +5704,7 @@ xercesc_2_7::RuntimeException::RuntimeException(RuntimeException *this,RuntimeEx
   *(undefined ***)this = &PTR__RuntimeException_0010b5b8;
   return;
 }
+
 
 
 void __thiscall
@@ -4012,14 +5721,6 @@ xercesc_2_7::RuntimeException::RuntimeException
 }
 
 
-void __thiscall xercesc_2_7::RuntimeException::_RuntimeException(RuntimeException *this)
-
-{
-  *(undefined ***)this = &PTR__RuntimeException_0010b5b8;
-  xercesc_2_7::XMLException::_XMLException(&this->super_XMLException);
-  return;
-}
-
 
 void __thiscall xercesc_2_7::RuntimeException::_RuntimeException(RuntimeException *this)
 
@@ -4032,7 +5733,8 @@ void __thiscall xercesc_2_7::RuntimeException::_RuntimeException(RuntimeExceptio
 }
 
 
-/* (LSDA) Type Table */
+
+// (LSDA) Type Table
 
 XMLException * __thiscall xercesc_2_7::RuntimeException::duplicate(RuntimeException *this)
 
@@ -4046,6 +5748,7 @@ XMLException * __thiscall xercesc_2_7::RuntimeException::duplicate(RuntimeExcept
 }
 
 
+
 XMLCh * __thiscall xercesc_2_7::RuntimeException::getType(RuntimeException *this)
 
 {
@@ -4053,7 +5756,8 @@ XMLCh * __thiscall xercesc_2_7::RuntimeException::getType(RuntimeException *this
 }
 
 
-/* Original name: operator new */
+
+// Original name: operator new
 
 void * operator_new(size_t param_1,void *__p)
 
@@ -4062,12 +5766,14 @@ void * operator_new(size_t param_1,void *__p)
 }
 
 
+
 void __thiscall xercesc_2_7::XSerializable::_XSerializable(XSerializable *this)
 
 {
   this->_vptr_XSerializable = (anon_subr_int_varargs **)&DAT_0010b580;
   return;
 }
+
 
 
 void __thiscall xercesc_2_7::XSerializable::_XSerializable(XSerializable *this)
@@ -4079,12 +5785,14 @@ void __thiscall xercesc_2_7::XSerializable::_XSerializable(XSerializable *this)
 }
 
 
+
 void __thiscall xercesc_2_7::XSerializable::XSerializable(XSerializable *this)
 
 {
   this->_vptr_XSerializable = (anon_subr_int_varargs **)&DAT_0010b580;
   return;
 }
+
 
 
 XMLCh * __thiscall xercesc_2_7::QName::getLocalPart(QName *this)
@@ -4094,11 +5802,13 @@ XMLCh * __thiscall xercesc_2_7::QName::getLocalPart(QName *this)
 }
 
 
+
 DefAttTypes __thiscall xercesc_2_7::XMLAttDef::getDefaultType(XMLAttDef *this)
 
 {
   return *(DefAttTypes *)(this + 8);
 }
+
 
 
 XMLCh * __thiscall xercesc_2_7::XMLAttDef::getEnumeration(XMLAttDef *this)
@@ -4108,11 +5818,13 @@ XMLCh * __thiscall xercesc_2_7::XMLAttDef::getEnumeration(XMLAttDef *this)
 }
 
 
+
 AttTypes __thiscall xercesc_2_7::XMLAttDef::getType(XMLAttDef *this)
 
 {
   return *(AttTypes *)(this + 0xc);
 }
+
 
 
 void __thiscall xercesc_2_7::XMLAttDef::setDefaultType(XMLAttDef *this,DefAttTypes newValue)
@@ -4121,6 +5833,7 @@ void __thiscall xercesc_2_7::XMLAttDef::setDefaultType(XMLAttDef *this,DefAttTyp
   *(DefAttTypes *)(this + 8) = newValue;
   return;
 }
+
 
 
 void __thiscall xercesc_2_7::XMLAttDef::setEnumeration(XMLAttDef *this,XMLCh *newValue)
@@ -4138,6 +5851,7 @@ void __thiscall xercesc_2_7::XMLAttDef::setEnumeration(XMLAttDef *this,XMLCh *ne
 }
 
 
+
 void __thiscall xercesc_2_7::XMLAttDef::setId(XMLAttDef *this,uint newId)
 
 {
@@ -4146,12 +5860,14 @@ void __thiscall xercesc_2_7::XMLAttDef::setId(XMLAttDef *this,uint newId)
 }
 
 
+
 void __thiscall xercesc_2_7::XMLAttDef::setType(XMLAttDef *this,AttTypes newValue)
 
 {
   *(AttTypes *)(this + 0xc) = newValue;
   return;
 }
+
 
 
 void __thiscall xercesc_2_7::XMLAttDef::setValue(XMLAttDef *this,XMLCh *newValue)
@@ -4169,6 +5885,7 @@ void __thiscall xercesc_2_7::XMLAttDef::setValue(XMLAttDef *this,XMLCh *newValue
 }
 
 
+
 void __thiscall xercesc_2_7::XMLAttDef::setExternalAttDeclaration(XMLAttDef *this,bool aValue)
 
 {
@@ -4177,11 +5894,13 @@ void __thiscall xercesc_2_7::XMLAttDef::setExternalAttDeclaration(XMLAttDef *thi
 }
 
 
+
 uint __thiscall xercesc_2_7::EndOfEntityException::getReaderNum(EndOfEntityException *this)
 
 {
   return this->fReaderNum;
 }
+
 
 
 void __thiscall xercesc_2_7::XMLBufBid::XMLBufBid(XMLBufBid *this,XMLBufferMgr *srcMgr)
@@ -4197,12 +5916,14 @@ void __thiscall xercesc_2_7::XMLBufBid::XMLBufBid(XMLBufBid *this,XMLBufferMgr *
 }
 
 
+
 void __thiscall xercesc_2_7::XMLBufBid::_XMLBufBid(XMLBufBid *this)
 
 {
   xercesc_2_7::XMLBufferMgr::releaseBuffer((XMLBuffer *)this->fMgr);
   return;
 }
+
 
 
 void __thiscall xercesc_2_7::XMLBufBid::append(XMLBufBid *this,XMLCh toAppend)
@@ -4213,11 +5934,13 @@ void __thiscall xercesc_2_7::XMLBufBid::append(XMLBufBid *this,XMLCh toAppend)
 }
 
 
+
 XMLBuffer * __thiscall xercesc_2_7::XMLBufBid::getBuffer(XMLBufBid *this)
 
 {
   return this->fBuffer;
 }
+
 
 
 XMLCh * __thiscall xercesc_2_7::XMLBufBid::getRawBuffer(XMLBufBid *this)
@@ -4228,6 +5951,7 @@ XMLCh * __thiscall xercesc_2_7::XMLBufBid::getRawBuffer(XMLBufBid *this)
 }
 
 
+
 uint __thiscall xercesc_2_7::XMLBufBid::getLen(XMLBufBid *this)
 
 {
@@ -4235,11 +5959,13 @@ uint __thiscall xercesc_2_7::XMLBufBid::getLen(XMLBufBid *this)
 }
 
 
+
 bool __thiscall xercesc_2_7::XMLBufBid::isEmpty(XMLBufBid *this)
 
 {
   return this->fBuffer->fIndex == 0;
 }
+
 
 
 void __thiscall xercesc_2_7::XMLRefInfo::_XMLRefInfo(XMLRefInfo *this)
@@ -4253,7 +5979,8 @@ void __thiscall xercesc_2_7::XMLRefInfo::_XMLRefInfo(XMLRefInfo *this)
 }
 
 
-/* (LSDA) Type Table */
+
+// (LSDA) Type Table
 
 void __thiscall xercesc_2_7::XMLRefInfo::_XMLRefInfo(XMLRefInfo *this)
 
@@ -4266,13 +5993,15 @@ void __thiscall xercesc_2_7::XMLRefInfo::_XMLRefInfo(XMLRefInfo *this)
 }
 
 
-/* (LSDA) Type Table */
+
+// (LSDA) Type Table
 
 bool __thiscall xercesc_2_7::XMLReader::isXMLChar(XMLReader *this,XMLCh toCheck)
 
 {
   return (this->fgCharCharsTable[toCheck] & 0x40) != 0;
 }
+
 
 
 bool __thiscall xercesc_2_7::XMLReader::isWhitespace(XMLReader *this,XMLCh toCheck)
@@ -4282,11 +6011,13 @@ bool __thiscall xercesc_2_7::XMLReader::isWhitespace(XMLReader *this,XMLCh toChe
 }
 
 
+
 bool __thiscall xercesc_2_7::XMLReader::isControlChar(XMLReader *this,XMLCh toCheck)
 
 {
   return (this->fgCharCharsTable[toCheck] & 0x20) != 0;
 }
+
 
 
 uint __thiscall xercesc_2_7::XMLReader::getReaderNum(XMLReader *this)
@@ -4296,11 +6027,13 @@ uint __thiscall xercesc_2_7::XMLReader::getReaderNum(XMLReader *this)
 }
 
 
+
 Types __thiscall xercesc_2_7::XMLReader::getType(XMLReader *this)
 
 {
   return this->fType;
 }
+
 
 
 void __thiscall xercesc_2_7::XMLReader::setThrowAtEnd(XMLReader *this,bool newValue)
@@ -4309,6 +6042,7 @@ void __thiscall xercesc_2_7::XMLReader::setThrowAtEnd(XMLReader *this,bool newVa
   this->fThrowAtEnd = newValue;
   return;
 }
+
 
 
 uint __thiscall xercesc_2_7::ReaderMgr::getCurrentReaderNum(ReaderMgr *this)
@@ -4321,11 +6055,13 @@ uint __thiscall xercesc_2_7::ReaderMgr::getCurrentReaderNum(ReaderMgr *this)
 }
 
 
+
 XMLReader * __thiscall xercesc_2_7::ReaderMgr::getCurrentReader(ReaderMgr *this)
 
 {
   return *(XMLReader **)(this + 0x10);
 }
+
 
 
 bool __thiscall xercesc_2_7::ReaderMgr::getName(ReaderMgr *this,XMLBuffer *toFill)
@@ -4339,6 +6075,7 @@ bool __thiscall xercesc_2_7::ReaderMgr::getName(ReaderMgr *this,XMLBuffer *toFil
 }
 
 
+
 bool __thiscall xercesc_2_7::ReaderMgr::getNameToken(ReaderMgr *this,XMLBuffer *toFill)
 
 {
@@ -4350,6 +6087,7 @@ bool __thiscall xercesc_2_7::ReaderMgr::getNameToken(ReaderMgr *this,XMLBuffer *
 }
 
 
+
 bool __thiscall xercesc_2_7::ReaderMgr::lookingAtChar(ReaderMgr *this,XMLCh chToCheck)
 
 {
@@ -4358,6 +6096,7 @@ bool __thiscall xercesc_2_7::ReaderMgr::lookingAtChar(ReaderMgr *this,XMLCh chTo
   XVar1 = xercesc_2_7::ReaderMgr::peekNextChar();
   return chToCheck == XVar1;
 }
+
 
 
 bool __thiscall xercesc_2_7::ReaderMgr::lookingAtSpace(ReaderMgr *this)
@@ -4373,6 +6112,7 @@ bool __thiscall xercesc_2_7::ReaderMgr::lookingAtSpace(ReaderMgr *this)
 }
 
 
+
 bool __thiscall xercesc_2_7::ReaderMgr::skippedString(ReaderMgr *this,XMLCh *toSkip)
 
 {
@@ -4381,6 +6121,7 @@ bool __thiscall xercesc_2_7::ReaderMgr::skippedString(ReaderMgr *this,XMLCh *toS
   uVar1 = xercesc_2_7::XMLReader::skippedString(*(ushort **)(this + 0x10));
   return (bool)uVar1;
 }
+
 
 
 void __thiscall xercesc_2_7::ReaderMgr::skipPastChar(ReaderMgr *this,XMLCh toSkipPast)
@@ -4399,11 +6140,13 @@ void __thiscall xercesc_2_7::ReaderMgr::skipPastChar(ReaderMgr *this,XMLCh toSki
 }
 
 
+
 XMLCh * __thiscall xercesc_2_7::XMLEntityDecl::getName(XMLEntityDecl *this)
 
 {
   return *(XMLCh **)(this + 0x18);
 }
+
 
 
 XMLCh * __thiscall xercesc_2_7::XMLEntityDecl::getPublicId(XMLEntityDecl *this)
@@ -4413,11 +6156,13 @@ XMLCh * __thiscall xercesc_2_7::XMLEntityDecl::getPublicId(XMLEntityDecl *this)
 }
 
 
+
 XMLCh * __thiscall xercesc_2_7::XMLEntityDecl::getSystemId(XMLEntityDecl *this)
 
 {
   return *(XMLCh **)(this + 0x30);
 }
+
 
 
 XMLCh * __thiscall xercesc_2_7::XMLEntityDecl::getBaseURI(XMLEntityDecl *this)
@@ -4427,6 +6172,7 @@ XMLCh * __thiscall xercesc_2_7::XMLEntityDecl::getBaseURI(XMLEntityDecl *this)
 }
 
 
+
 XMLCh * __thiscall xercesc_2_7::XMLEntityDecl::getValue(XMLEntityDecl *this)
 
 {
@@ -4434,11 +6180,13 @@ XMLCh * __thiscall xercesc_2_7::XMLEntityDecl::getValue(XMLEntityDecl *this)
 }
 
 
+
 uint __thiscall xercesc_2_7::XMLEntityDecl::getValueLen(XMLEntityDecl *this)
 
 {
   return *(uint *)(this + 0xc);
 }
+
 
 
 bool __thiscall xercesc_2_7::XMLEntityDecl::isExternal(XMLEntityDecl *this)
@@ -4456,11 +6204,13 @@ bool __thiscall xercesc_2_7::XMLEntityDecl::isExternal(XMLEntityDecl *this)
 }
 
 
+
 bool __thiscall xercesc_2_7::XMLEntityDecl::isUnparsed(XMLEntityDecl *this)
 
 {
   return *(long *)(this + 0x20) != 0;
 }
+
 
 
 void __thiscall xercesc_2_7::XMLEntityDecl::setId(XMLEntityDecl *this,uint newId)
@@ -4469,6 +6219,7 @@ void __thiscall xercesc_2_7::XMLEntityDecl::setId(XMLEntityDecl *this,uint newId
   *(uint *)(this + 8) = newId;
   return;
 }
+
 
 
 void __thiscall xercesc_2_7::XMLEntityDecl::setNotationName(XMLEntityDecl *this,XMLCh *newName)
@@ -4486,6 +6237,7 @@ void __thiscall xercesc_2_7::XMLEntityDecl::setNotationName(XMLEntityDecl *this,
 }
 
 
+
 void __thiscall xercesc_2_7::XMLEntityDecl::setPublicId(XMLEntityDecl *this,XMLCh *newId)
 
 {
@@ -4499,6 +6251,7 @@ void __thiscall xercesc_2_7::XMLEntityDecl::setPublicId(XMLEntityDecl *this,XMLC
   *(XMLCh **)(this + 0x28) = pXVar1;
   return;
 }
+
 
 
 void __thiscall xercesc_2_7::XMLEntityDecl::setSystemId(XMLEntityDecl *this,XMLCh *newId)
@@ -4516,6 +6269,7 @@ void __thiscall xercesc_2_7::XMLEntityDecl::setSystemId(XMLEntityDecl *this,XMLC
 }
 
 
+
 void __thiscall xercesc_2_7::XMLEntityDecl::setBaseURI(XMLEntityDecl *this,XMLCh *newId)
 
 {
@@ -4529,6 +6283,7 @@ void __thiscall xercesc_2_7::XMLEntityDecl::setBaseURI(XMLEntityDecl *this,XMLCh
   *(XMLCh **)(this + 0x38) = pXVar1;
   return;
 }
+
 
 
 void __thiscall xercesc_2_7::XMLEntityDecl::setValue(XMLEntityDecl *this,XMLCh *newValue)
@@ -4549,11 +6304,13 @@ void __thiscall xercesc_2_7::XMLEntityDecl::setValue(XMLEntityDecl *this,XMLCh *
 }
 
 
+
 XMLCh * __thiscall xercesc_2_7::XMLEntityDecl::getKey(XMLEntityDecl *this)
 
 {
   return *(XMLCh **)(this + 0x18);
 }
+
 
 
 void __thiscall
@@ -4567,6 +6324,7 @@ xercesc_2_7::DTDEntityDecl::DTDEntityDecl(DTDEntityDecl *this,MemoryManager *man
   this->fIsSpecialChar = false;
   return;
 }
+
 
 
 void __thiscall
@@ -4583,6 +6341,7 @@ xercesc_2_7::DTDEntityDecl::DTDEntityDecl
 }
 
 
+
 void __thiscall xercesc_2_7::DTDEntityDecl::_DTDEntityDecl(DTDEntityDecl *this)
 
 {
@@ -4590,6 +6349,7 @@ void __thiscall xercesc_2_7::DTDEntityDecl::_DTDEntityDecl(DTDEntityDecl *this)
   xercesc_2_7::XMLEntityDecl::_XMLEntityDecl(&this->super_XMLEntityDecl);
   return;
 }
+
 
 
 void __thiscall xercesc_2_7::DTDEntityDecl::_DTDEntityDecl(DTDEntityDecl *this)
@@ -4603,12 +6363,6 @@ void __thiscall xercesc_2_7::DTDEntityDecl::_DTDEntityDecl(DTDEntityDecl *this)
 }
 
 
-bool __thiscall xercesc_2_7::DTDEntityDecl::getDeclaredInIntSubset(DTDEntityDecl *this)
-
-{
-  return this->fDeclaredInIntSubset;
-}
-
 
 bool __thiscall xercesc_2_7::DTDEntityDecl::getIsParameter(DTDEntityDecl *this)
 
@@ -4617,11 +6371,13 @@ bool __thiscall xercesc_2_7::DTDEntityDecl::getIsParameter(DTDEntityDecl *this)
 }
 
 
+
 bool __thiscall xercesc_2_7::DTDEntityDecl::getIsSpecialChar(DTDEntityDecl *this)
 
 {
   return this->fIsSpecialChar;
 }
+
 
 
 void __thiscall
@@ -4633,6 +6389,7 @@ xercesc_2_7::DTDEntityDecl::setDeclaredInIntSubset(DTDEntityDecl *this,bool newV
 }
 
 
+
 void __thiscall xercesc_2_7::DTDEntityDecl::setIsParameter(DTDEntityDecl *this,bool newValue)
 
 {
@@ -4641,11 +6398,13 @@ void __thiscall xercesc_2_7::DTDEntityDecl::setIsParameter(DTDEntityDecl *this,b
 }
 
 
+
 QName * __thiscall xercesc_2_7::XMLElementDecl::getElementName(XMLElementDecl *this)
 
 {
   return *(QName **)(this + 0x10);
 }
+
 
 
 XMLCh * __thiscall xercesc_2_7::XMLElementDecl::getFullName(XMLElementDecl *this)
@@ -4658,11 +6417,13 @@ XMLCh * __thiscall xercesc_2_7::XMLElementDecl::getFullName(XMLElementDecl *this
 }
 
 
+
 bool __thiscall xercesc_2_7::XMLElementDecl::isDeclared(XMLElementDecl *this)
 
 {
   return *(int *)(this + 0x18) == 1;
 }
+
 
 
 void __thiscall
@@ -4674,6 +6435,7 @@ xercesc_2_7::XMLElementDecl::setCreateReason(XMLElementDecl *this,CreateReasons 
 }
 
 
+
 void __thiscall
 xercesc_2_7::XMLElementDecl::setExternalElemDeclaration(XMLElementDecl *this,bool aValue)
 
@@ -4683,11 +6445,13 @@ xercesc_2_7::XMLElementDecl::setExternalElemDeclaration(XMLElementDecl *this,boo
 }
 
 
+
 bool __thiscall xercesc_2_7::XMLScanner::getDoNamespaces(XMLScanner *this)
 
 {
   return (bool)this[0x12];
 }
+
 
 
 XMLEntityHandler * __thiscall xercesc_2_7::XMLScanner::getEntityHandler(XMLScanner *this)
@@ -4697,11 +6461,13 @@ XMLEntityHandler * __thiscall xercesc_2_7::XMLScanner::getEntityHandler(XMLScann
 }
 
 
+
 bool __thiscall xercesc_2_7::XMLScanner::getStandalone(XMLScanner *this)
 
 {
   return (bool)this[0x16];
 }
+
 
 
 XMLValidator * __thiscall xercesc_2_7::XMLScanner::getValidator(XMLScanner *this)
@@ -4711,11 +6477,13 @@ XMLValidator * __thiscall xercesc_2_7::XMLScanner::getValidator(XMLScanner *this
 }
 
 
+
 uint __thiscall xercesc_2_7::XMLScanner::getEmptyNamespaceId(XMLScanner *this)
 
 {
   return *(uint *)(this + 0x34);
 }
+
 
 
 bool __thiscall xercesc_2_7::XMLScanner::getHasNoDTD(XMLScanner *this)
@@ -4725,11 +6493,13 @@ bool __thiscall xercesc_2_7::XMLScanner::getHasNoDTD(XMLScanner *this)
 }
 
 
+
 bool __thiscall xercesc_2_7::XMLScanner::getCalculateSrcOfs(XMLScanner *this)
 
 {
   return (bool)this[0x11];
 }
+
 
 
 XMLVersion __thiscall xercesc_2_7::XMLScanner::getXMLVersion(XMLScanner *this)
@@ -4739,11 +6509,13 @@ XMLVersion __thiscall xercesc_2_7::XMLScanner::getXMLVersion(XMLScanner *this)
 }
 
 
+
 bool __thiscall xercesc_2_7::XMLScanner::getDisableDefaultEntityResolution(XMLScanner *this)
 
 {
   return (bool)this[0x25];
 }
+
 
 
 void __thiscall xercesc_2_7::XMLScanner::setHasNoDTD(XMLScanner *this,bool hasNoDTD)
@@ -4754,11 +6526,13 @@ void __thiscall xercesc_2_7::XMLScanner::setHasNoDTD(XMLScanner *this,bool hasNo
 }
 
 
+
 bool __thiscall xercesc_2_7::XMLScanner::getDoValidation(XMLScanner *this)
 
 {
   return (bool)this[0x18];
 }
+
 
 
 void __thiscall
@@ -4791,7 +6565,8 @@ xercesc_2_7::ContentSpecNode::ContentSpecNode
 }
 
 
-/* (LSDA) Type Table */
+
+// (LSDA) Type Table
 
 void __thiscall
 xercesc_2_7::ContentSpecNode::ContentSpecNode
@@ -4826,7 +6601,8 @@ xercesc_2_7::ContentSpecNode::ContentSpecNode
 }
 
 
-/* (LSDA) Type Table */
+
+// (LSDA) Type Table
 
 void __thiscall
 xercesc_2_7::ContentSpecNode::ContentSpecNode
@@ -4852,6 +6628,7 @@ xercesc_2_7::ContentSpecNode::ContentSpecNode
 }
 
 
+
 void __thiscall xercesc_2_7::ContentSpecNode::_ContentSpecNode(ContentSpecNode *this)
 
 {
@@ -4875,7 +6652,8 @@ void __thiscall xercesc_2_7::ContentSpecNode::_ContentSpecNode(ContentSpecNode *
 }
 
 
-/* (LSDA) Type Table */
+
+// (LSDA) Type Table
 
 void __thiscall xercesc_2_7::ContentSpecNode::_ContentSpecNode(ContentSpecNode *this)
 
@@ -4888,7 +6666,8 @@ void __thiscall xercesc_2_7::ContentSpecNode::_ContentSpecNode(ContentSpecNode *
 }
 
 
-/* (LSDA) Type Table */
+
+// (LSDA) Type Table
 
 ContentSpecNode * __thiscall xercesc_2_7::ContentSpecNode::getSecond(ContentSpecNode *this)
 
@@ -4897,11 +6676,13 @@ ContentSpecNode * __thiscall xercesc_2_7::ContentSpecNode::getSecond(ContentSpec
 }
 
 
+
 NodeTypes __thiscall xercesc_2_7::ContentSpecNode::getType(ContentSpecNode *this)
 
 {
   return this->fType;
 }
+
 
 
 ContentSpecNode * __thiscall xercesc_2_7::ContentSpecNode::orphanFirst(ContentSpecNode *this)
@@ -4916,6 +6697,7 @@ ContentSpecNode * __thiscall xercesc_2_7::ContentSpecNode::orphanFirst(ContentSp
 }
 
 
+
 ContentSpecNode * __thiscall xercesc_2_7::ContentSpecNode::orphanSecond(ContentSpecNode *this)
 
 {
@@ -4926,6 +6708,7 @@ ContentSpecNode * __thiscall xercesc_2_7::ContentSpecNode::orphanSecond(ContentS
   this->fSecond = (ContentSpecNode *)0x0;
   return pCVar1;
 }
+
 
 
 void __thiscall
@@ -4942,12 +6725,14 @@ xercesc_2_7::ContentSpecNode::setSecond(ContentSpecNode *this,ContentSpecNode *t
 }
 
 
+
 void __thiscall xercesc_2_7::DTDElementDecl::setModelType(DTDElementDecl *this,ModelTypes toSet)
 
 {
   *(ModelTypes *)(this + 0x24) = toSet;
   return;
 }
+
 
 
 DTDEntityDecl * __thiscall xercesc_2_7::DTDGrammar::getEntityDecl(DTDGrammar *this,XMLCh *entName)
@@ -4965,6 +6750,7 @@ DTDEntityDecl * __thiscall xercesc_2_7::DTDGrammar::getEntityDecl(DTDGrammar *th
 }
 
 
+
 uint __thiscall xercesc_2_7::DTDGrammar::putEntityDecl(DTDGrammar *this,DTDEntityDecl *entityDecl)
 
 {
@@ -4974,6 +6760,7 @@ uint __thiscall xercesc_2_7::DTDGrammar::putEntityDecl(DTDGrammar *this,DTDEntit
                     (*(NameIdPool_xercesc_2_7__DTDEntityDecl_ **)(this + 0x20),entityDecl);
   return uVar1;
 }
+
 
 
 bool __thiscall xercesc_2_7::DTDScanner::isReadingExternalEntity(DTDScanner *this)
@@ -4988,6 +6775,7 @@ bool __thiscall xercesc_2_7::DTDScanner::isReadingExternalEntity(DTDScanner *thi
 }
 
 
+
 void __thiscall
 xercesc_2_7::ReaderMgr::LastExtEntityInfo::LastExtEntityInfo(LastExtEntityInfo *this)
 
@@ -4995,6 +6783,7 @@ xercesc_2_7::ReaderMgr::LastExtEntityInfo::LastExtEntityInfo(LastExtEntityInfo *
   XMemory::XMemory((XMemory *)this);
   return;
 }
+
 
 
 DTDEntityDecl * __thiscall
@@ -5017,14 +6806,15 @@ xercesc_2_7::NameIdPool<xercesc_2_7::DTDEntityDecl>::getByKey
     pDVar1 = findIt->fData;
   }
   if (local_10 != *(long *)(in_FS_OFFSET + 0x28)) {
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
     __stack_chk_fail();
   }
   return pDVar1;
 }
 
 
-/* WARNING: Removing unreachable block (ram,0x0010ad41) */
+
+// WARNING: Removing unreachable block (ram,0x0010ad41)
 
 uint __thiscall
 xercesc_2_7::NameIdPool<xercesc_2_7::DTDEntityDecl>::put
@@ -5057,7 +6847,7 @@ xercesc_2_7::NameIdPool<xercesc_2_7::DTDEntityDecl>::put
     IllegalArgumentException::IllegalArgumentException
               (this_00,"./xercesc/util/NameIdPool.c",0xcf,Pool_ElemAlreadyExists,pXVar2,(XMLCh *)0x0
                ,(XMLCh *)0x0,(XMLCh *)0x0,memoryManager);
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
     __cxa_throw(this_00,&IllegalArgumentException::typeinfo,
                 IllegalArgumentException::_IllegalArgumentException);
   }
@@ -5068,7 +6858,7 @@ xercesc_2_7::NameIdPool<xercesc_2_7::DTDEntityDecl>::put
             (newBucket,elemToAdopt,this->fBucketList[hashVal]);
   this->fBucketList[hashVal] = newBucket;
   if (this->fIdCounter + 1 == this->fIdPtrsCount) {
-    uVar4 = (ulong)((double)(ulong)this->fIdPtrsCount * DAT_00108650);
+    uVar4 = (ulong)((double)(ulong)this->fIdPtrsCount * 1.5);
     newCount = (uint)uVar4;
     iVar1 = (*this->fMemoryManager->_vptr_MemoryManager[2])
                       (this->fMemoryManager,(uVar4 & 0xffffffff) << 3);
@@ -5085,9 +6875,10 @@ xercesc_2_7::NameIdPool<xercesc_2_7::DTDEntityDecl>::put
   if (local_20 == *(long *)(in_FS_OFFSET + 0x28)) {
     return retId;
   }
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
   __stack_chk_fail();
 }
+
 
 
 void __thiscall
@@ -5113,7 +6904,7 @@ xercesc_2_7::NameIdPool<xercesc_2_7::DTDEntityDecl>::NameIdPool
     this_00 = (IllegalArgumentException *)__cxa_allocate_exception(0x30);
     IllegalArgumentException::IllegalArgumentException
               (this_00,"./xercesc/util/NameIdPool.c",0x45,Pool_ZeroModulus,this->fMemoryManager);
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
     __cxa_throw(this_00,&IllegalArgumentException::typeinfo,
                 IllegalArgumentException::_IllegalArgumentException);
   }
@@ -5135,6 +6926,7 @@ xercesc_2_7::NameIdPool<xercesc_2_7::DTDEntityDecl>::NameIdPool
 }
 
 
+
 void __thiscall
 xercesc_2_7::NameIdPool<xercesc_2_7::DTDEntityDecl>::_NameIdPool
           (NameIdPool_xercesc_2_7__DTDEntityDecl_ *this)
@@ -5145,6 +6937,7 @@ xercesc_2_7::NameIdPool<xercesc_2_7::DTDEntityDecl>::_NameIdPool
   (*this->fMemoryManager->_vptr_MemoryManager[3])(this->fMemoryManager,this->fBucketList);
   return;
 }
+
 
 
 void __thiscall
@@ -5158,6 +6951,7 @@ xercesc_2_7::Janitor<xercesc_2_7::InputSource>::Janitor
 }
 
 
+
 void __thiscall
 xercesc_2_7::Janitor<xercesc_2_7::InputSource>::_Janitor(Janitor_xercesc_2_7__InputSource_ *this)
 
@@ -5167,12 +6961,14 @@ xercesc_2_7::Janitor<xercesc_2_7::InputSource>::_Janitor(Janitor_xercesc_2_7__In
 }
 
 
+
 uint __thiscall
 xercesc_2_7::BaseRefVectorOf<short_unsigned_int>::size(BaseRefVectorOf_short_unsigned_int_ *this)
 
 {
   return this->fCurCount;
 }
+
 
 
 ushort * __thiscall
@@ -5187,12 +6983,13 @@ xercesc_2_7::BaseRefVectorOf<short_unsigned_int>::elementAt
     ArrayIndexOutOfBoundsException::ArrayIndexOutOfBoundsException
               (this_00,"./xercesc/util/BaseRefVectorOf.c",0xf9,Vector_BadIndex,this->fMemoryManager)
     ;
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
     __cxa_throw(this_00,&ArrayIndexOutOfBoundsException::typeinfo,
                 ArrayIndexOutOfBoundsException::_ArrayIndexOutOfBoundsException);
   }
   return this->fElemList[getAt];
 }
+
 
 
 void __thiscall
@@ -5208,6 +7005,7 @@ xercesc_2_7::FlagJanitor<bool>::FlagJanitor(FlagJanitor_bool_ *this,bool *valPtr
 }
 
 
+
 void __thiscall xercesc_2_7::FlagJanitor<bool>::_FlagJanitor(FlagJanitor_bool_ *this)
 
 {
@@ -5216,6 +7014,7 @@ void __thiscall xercesc_2_7::FlagJanitor<bool>::_FlagJanitor(FlagJanitor_bool_ *
   }
   return;
 }
+
 
 
 NameIdPoolBucketElem_xercesc_2_7__DTDEntityDecl_ * __thiscall
@@ -5244,6 +7043,7 @@ xercesc_2_7::NameIdPool<xercesc_2_7::DTDEntityDecl>::findBucketElem
 }
 
 
+
 void __thiscall
 xercesc_2_7::NameIdPoolBucketElem<xercesc_2_7::DTDEntityDecl>::NameIdPoolBucketElem
           (NameIdPoolBucketElem_xercesc_2_7__DTDEntityDecl_ *this,DTDEntityDecl *value,
@@ -5254,6 +7054,7 @@ xercesc_2_7::NameIdPoolBucketElem<xercesc_2_7::DTDEntityDecl>::NameIdPoolBucketE
   this->fNext = next;
   return;
 }
+
 
 
 void __thiscall
@@ -5285,6 +7086,7 @@ xercesc_2_7::NameIdPool<xercesc_2_7::DTDEntityDecl>::removeAll
 }
 
 
+
 void __thiscall
 xercesc_2_7::Janitor<xercesc_2_7::InputSource>::reset
           (Janitor_xercesc_2_7__InputSource_ *this,InputSource *p)
@@ -5300,1453 +7102,4 @@ xercesc_2_7::Janitor<xercesc_2_7::InputSource>::reset
   return;
 }
 
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* operator delete(void*) */
-
-void operator_delete(void *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::XMLException::XMLException(char const*, unsigned int, xercesc_2_7::MemoryManager*)
-    */
-
-void __thiscall
-xercesc_2_7::XMLException::XMLException
-          (XMLException *this,char *param_1,uint param_2,MemoryManager *param_3)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::XMLException::loadExceptText(xercesc_2_7::XMLExcepts::Codes) */
-
-void xercesc_2_7::XMLException::loadExceptText(Codes param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::XMLException::~XMLException() */
-
-void __thiscall xercesc_2_7::XMLException::_XMLException(XMLException *this)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-
-void _Unwind_Resume(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::XMLException::XMLException(xercesc_2_7::XMLException const&) */
-
-void __thiscall xercesc_2_7::XMLException::XMLException(XMLException *this,XMLException *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::XMemory::operator delete(void*) */
-
-void __thiscall xercesc_2_7::XMemory::operator_delete(XMemory *this,void *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::XMemory::operator new(unsigned long, xercesc_2_7::MemoryManager*) */
-
-void * xercesc_2_7::XMemory::operator_new(ulong param_1,MemoryManager *param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::XMemory::operator delete(void*, xercesc_2_7::MemoryManager*) */
-
-void xercesc_2_7::XMemory::operator_delete(void *param_1,MemoryManager *param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::XMLBuffer::insureCapacity(unsigned int) */
-
-void xercesc_2_7::XMLBuffer::insureCapacity(uint param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-
-void * memcpy(void *__dest,void *__src,size_t __n)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::XMLException::loadExceptText(xercesc_2_7::XMLExcepts::Codes, unsigned short const*,
-   unsigned short const*, unsigned short const*, unsigned short const*) */
-
-void xercesc_2_7::XMLException::loadExceptText
-               (Codes param_1,ushort *param_2,ushort *param_3,ushort *param_4,ushort *param_5)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::XMLBufferMgr::bidOnBuffer() */
-
-void xercesc_2_7::XMLBufferMgr::bidOnBuffer(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::XMLBufferMgr::releaseBuffer(xercesc_2_7::XMLBuffer&) */
-
-void xercesc_2_7::XMLBufferMgr::releaseBuffer(XMLBuffer *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::XMLReader::getName(xercesc_2_7::XMLBuffer&, bool) */
-
-void xercesc_2_7::XMLReader::getName(XMLBuffer *param_1,bool param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::ReaderMgr::peekNextChar() */
-
-void xercesc_2_7::ReaderMgr::peekNextChar(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::XMLReader::skippedString(unsigned short const*) */
-
-void xercesc_2_7::XMLReader::skippedString(ushort *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::ReaderMgr::getNextChar() */
-
-void xercesc_2_7::ReaderMgr::getNextChar(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::XMLEntityDecl::XMLEntityDecl(xercesc_2_7::MemoryManager*) */
-
-void __thiscall
-xercesc_2_7::XMLEntityDecl::XMLEntityDecl(XMLEntityDecl *this,MemoryManager *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::XMLEntityDecl::XMLEntityDecl(unsigned short const*, xercesc_2_7::MemoryManager*) */
-
-void __thiscall
-xercesc_2_7::XMLEntityDecl::XMLEntityDecl
-          (XMLEntityDecl *this,ushort *param_1,MemoryManager *param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::XMLEntityDecl::~XMLEntityDecl() */
-
-void __thiscall xercesc_2_7::XMLEntityDecl::_XMLEntityDecl(XMLEntityDecl *this)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::QName::getRawName() */
-
-void xercesc_2_7::QName::getRawName(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::QName::QName(xercesc_2_7::QName const&) */
-
-void __thiscall xercesc_2_7::QName::QName(QName *this,QName *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::ReaderMgr::skippedSpace() */
-
-void xercesc_2_7::ReaderMgr::skippedSpace(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::ReaderMgr::skipPastSpaces(bool) */
-
-void xercesc_2_7::ReaderMgr::skipPastSpaces(bool param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::ReaderMgr::skippedChar(unsigned short) */
-
-void xercesc_2_7::ReaderMgr::skippedChar(ushort param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::XMLScanner::emitError(xercesc_2_7::XMLErrs::Codes) */
-
-void xercesc_2_7::XMLScanner::emitError(Codes param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::XMLScanner::emitError(xercesc_2_7::XMLErrs::Codes, unsigned short const*, unsigned
-   short const*, unsigned short const*, unsigned short const*) */
-
-void xercesc_2_7::XMLScanner::emitError
-               (Codes param_1,ushort *param_2,ushort *param_3,ushort *param_4,ushort *param_5)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::XMLValidator::emitError(xercesc_2_7::XMLValid::Codes, unsigned short const*,
-   unsigned short const*, unsigned short const*, unsigned short const*) */
-
-void xercesc_2_7::XMLValidator::emitError
-               (Codes param_1,ushort *param_2,ushort *param_3,ushort *param_4,ushort *param_5)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::ReaderMgr::createReader(unsigned short const*, unsigned short const*, unsigned short
-   const*, bool, xercesc_2_7::XMLReader::RefFrom, xercesc_2_7::XMLReader::Types,
-   xercesc_2_7::XMLReader::Sources, xercesc_2_7::InputSource*&, bool, bool) */
-
-void xercesc_2_7::ReaderMgr::createReader
-               (ushort *param_1,ushort *param_2,ushort *param_3,bool param_4,RefFrom param_5,
-               Types param_6,Sources param_7,InputSource **param_8,bool param_9,bool param_10)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-
-void __cxa_allocate_exception(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-
-void __cxa_throw(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::ReaderMgr::pushReader(xercesc_2_7::XMLReader*, xercesc_2_7::XMLEntityDecl*) */
-
-void xercesc_2_7::ReaderMgr::pushReader(XMLReader *param_1,XMLEntityDecl *param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::XMLScanner::checkXMLDecl(bool) */
-
-void xercesc_2_7::XMLScanner::checkXMLDecl(bool param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::ReaderMgr::createIntEntReader(unsigned short const*,
-   xercesc_2_7::XMLReader::RefFrom, xercesc_2_7::XMLReader::Types, unsigned short const*, unsigned
-   int, bool, bool) */
-
-void xercesc_2_7::ReaderMgr::createIntEntReader
-               (ushort *param_1,RefFrom param_2,Types param_3,ushort *param_4,uint param_5,
-               bool param_6,bool param_7)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::ReaderMgr::cleanStackBackTo(unsigned int) */
-
-void xercesc_2_7::ReaderMgr::cleanStackBackTo(uint param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-
-void __stack_chk_fail(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::ReaderMgr::skipIfQuote(unsigned short&) */
-
-void xercesc_2_7::ReaderMgr::skipIfQuote(ushort *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::DTDElementDecl::getAttDef(unsigned short const*) */
-
-void xercesc_2_7::DTDElementDecl::getAttDef(ushort *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::DTDAttDef::DTDAttDef(xercesc_2_7::MemoryManager*) */
-
-void __thiscall xercesc_2_7::DTDAttDef::DTDAttDef(DTDAttDef *this,MemoryManager *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::DTDAttDef::setName(unsigned short const*) */
-
-void xercesc_2_7::DTDAttDef::setName(ushort *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::DTDAttDef::DTDAttDef(unsigned short const*, xercesc_2_7::XMLAttDef::AttTypes,
-   xercesc_2_7::XMLAttDef::DefAttTypes, xercesc_2_7::MemoryManager*) */
-
-void __thiscall
-xercesc_2_7::DTDAttDef::DTDAttDef
-          (DTDAttDef *this,ushort *param_1,AttTypes param_2,DefAttTypes param_3,
-          MemoryManager *param_4)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::DTDElementDecl::addAttDef(xercesc_2_7::DTDAttDef*) */
-
-void xercesc_2_7::DTDElementDecl::addAttDef(DTDAttDef *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::XMLString::tokenizeString(unsigned short const*, xercesc_2_7::MemoryManager*) */
-
-void xercesc_2_7::XMLString::tokenizeString(ushort *param_1,MemoryManager *param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::XMLValidator::emitError(xercesc_2_7::XMLValid::Codes) */
-
-void xercesc_2_7::XMLValidator::emitError(Codes param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::DTDElementDecl::DTDElementDecl(unsigned short const*, unsigned int,
-   xercesc_2_7::DTDElementDecl::ModelTypes, xercesc_2_7::MemoryManager*) */
-
-void __thiscall
-xercesc_2_7::DTDElementDecl::DTDElementDecl
-          (DTDElementDecl *this,ushort *param_1,uint param_2,ModelTypes param_3,
-          MemoryManager *param_4)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::ReaderMgr::getSpaces(xercesc_2_7::XMLBuffer&) */
-
-void xercesc_2_7::ReaderMgr::getSpaces(XMLBuffer *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::XMLString::binToText(int, unsigned short*, unsigned int, unsigned int,
-   xercesc_2_7::MemoryManager*) */
-
-void xercesc_2_7::XMLString::binToText
-               (int param_1,ushort *param_2,uint param_3,uint param_4,MemoryManager *param_5)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::XMLScanner::emitErrorWillThrowException(xercesc_2_7::XMLErrs::Codes) */
-
-void xercesc_2_7::XMLScanner::emitErrorWillThrowException(Codes param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::MixedContentModel::hasDups() const */
-
-void xercesc_2_7::MixedContentModel::hasDups(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::XMLElementDecl::setElementName(unsigned short const*, int) */
-
-void xercesc_2_7::XMLElementDecl::setElementName(ushort *param_1,int param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::XMLString::indexOf(unsigned short const*, unsigned short) */
-
-void xercesc_2_7::XMLString::indexOf(ushort *param_1,ushort param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::XMLEntityDecl::setName(unsigned short const*) */
-
-void xercesc_2_7::XMLEntityDecl::setName(ushort *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::ReaderMgr::getLastExtEntityInfo(xercesc_2_7::ReaderMgr::LastExtEntityInfo&) const */
-
-void xercesc_2_7::ReaderMgr::getLastExtEntityInfo(LastExtEntityInfo *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::ReaderMgr::isScanningPERefOutOfLiteral() const */
-
-void xercesc_2_7::ReaderMgr::isScanningPERefOutOfLiteral(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::ReaderMgr::skipUntilInOrWS(unsigned short const*) */
-
-void xercesc_2_7::ReaderMgr::skipUntilInOrWS(ushort *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::QName::QName(unsigned short const*, unsigned short const*, unsigned int,
-   xercesc_2_7::MemoryManager*) */
-
-void __thiscall
-xercesc_2_7::QName::QName
-          (QName *this,ushort *param_1,ushort *param_2,uint param_3,MemoryManager *param_4)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::XMLNotationDecl::XMLNotationDecl(unsigned short const*, unsigned short const*,
-   unsigned short const*, unsigned short const*, xercesc_2_7::MemoryManager*) */
-
-void __thiscall
-xercesc_2_7::XMLNotationDecl::XMLNotationDecl
-          (XMLNotationDecl *this,ushort *param_1,ushort *param_2,ushort *param_3,ushort *param_4,
-          MemoryManager *param_5)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::XMLReader::isPublicIdChar(unsigned short) const */
-
-void xercesc_2_7::XMLReader::isPublicIdChar(ushort param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::XMLString::isValidEncName(unsigned short const*) */
-
-void xercesc_2_7::XMLString::isValidEncName(ushort *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::XMLReader::setEncoding(unsigned short const*) */
-
-void xercesc_2_7::XMLReader::setEncoding(ushort *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::ContentSpecNode::isSerializable() const */
-
-void xercesc_2_7::ContentSpecNode::isSerializable(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::ContentSpecNode::serialize(xercesc_2_7::XSerializeEngine&) */
-
-void xercesc_2_7::ContentSpecNode::serialize(XSerializeEngine *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::ContentSpecNode::getProtoType() const */
-
-void xercesc_2_7::ContentSpecNode::getProtoType(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::XMLAttDefList::isSerializable() const */
-
-void xercesc_2_7::XMLAttDefList::isSerializable(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::XMLAttDefList::serialize(xercesc_2_7::XSerializeEngine&) */
-
-void xercesc_2_7::XMLAttDefList::serialize(XSerializeEngine *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::XMLAttDefList::getProtoType() const */
-
-void xercesc_2_7::XMLAttDefList::getProtoType(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::DTDEntityDecl::isSerializable() const */
-
-void xercesc_2_7::DTDEntityDecl::isSerializable(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::DTDEntityDecl::serialize(xercesc_2_7::XSerializeEngine&) */
-
-void xercesc_2_7::DTDEntityDecl::serialize(XSerializeEngine *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::DTDEntityDecl::getProtoType() const */
-
-void xercesc_2_7::DTDEntityDecl::getProtoType(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::XMLRefInfo::isSerializable() const */
-
-void xercesc_2_7::XMLRefInfo::isSerializable(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::XMLRefInfo::serialize(xercesc_2_7::XSerializeEngine&) */
-
-void xercesc_2_7::XMLRefInfo::serialize(XSerializeEngine *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* xercesc_2_7::XMLRefInfo::getProtoType() const */
-
-void xercesc_2_7::XMLRefInfo::getProtoType(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::XMLRefInfo::~XMLRefInfo() */
-
-void __thiscall xercesc_2_7::XMLRefInfo::_XMLRefInfo(XMLRefInfo *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::XMLBufBid::~XMLBufBid() */
-
-void __thiscall xercesc_2_7::XMLBufBid::_XMLBufBid(XMLBufBid *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::XMLBufBid::XMLBufBid(xercesc_2_7::XMLBufferMgr*) */
-
-void __thiscall xercesc_2_7::XMLBufBid::XMLBufBid(XMLBufBid *this,XMLBufferMgr *param_1)
-
-{
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::XSerializable::XSerializable() */
-
-void __thiscall xercesc_2_7::XSerializable::XSerializable(XSerializable *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::XSerializable::~XSerializable() */
-
-void __thiscall xercesc_2_7::XSerializable::_XSerializable(XSerializable *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::RuntimeException::~RuntimeException() */
-
-void __thiscall xercesc_2_7::RuntimeException::_RuntimeException(RuntimeException *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::RuntimeException::RuntimeException(char const*, unsigned int,
-   xercesc_2_7::XMLExcepts::Codes, unsigned short const*, unsigned short const*, unsigned short
-   const*, unsigned short const*, xercesc_2_7::MemoryManager*) */
-
-void __thiscall
-xercesc_2_7::RuntimeException::RuntimeException
-          (RuntimeException *this,char *param_1,uint param_2,Codes param_3,ushort *param_4,
-          ushort *param_5,ushort *param_6,ushort *param_7,MemoryManager *param_8)
-
-{
-  undefined4 in_ECX;
-  undefined4 in_EDX;
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  undefined8 in_R8;
-  undefined8 in_R9;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::RuntimeException::RuntimeException(xercesc_2_7::RuntimeException const&) */
-
-void __thiscall
-xercesc_2_7::RuntimeException::RuntimeException(RuntimeException *this,RuntimeException *param_1)
-
-{
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::IllegalArgumentException::~IllegalArgumentException() */
-
-void __thiscall
-xercesc_2_7::IllegalArgumentException::_IllegalArgumentException(IllegalArgumentException *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::IllegalArgumentException::IllegalArgumentException(char const*, unsigned int,
-   xercesc_2_7::XMLExcepts::Codes, unsigned short const*, unsigned short const*, unsigned short
-   const*, unsigned short const*, xercesc_2_7::MemoryManager*) */
-
-void __thiscall
-xercesc_2_7::IllegalArgumentException::IllegalArgumentException
-          (IllegalArgumentException *this,char *param_1,uint param_2,Codes param_3,ushort *param_4,
-          ushort *param_5,ushort *param_6,ushort *param_7,MemoryManager *param_8)
-
-{
-  undefined4 in_ECX;
-  undefined4 in_EDX;
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  undefined8 in_R8;
-  undefined8 in_R9;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::IllegalArgumentException::IllegalArgumentException(xercesc_2_7::IllegalArgumentException
-   const&) */
-
-void __thiscall
-xercesc_2_7::IllegalArgumentException::IllegalArgumentException
-          (IllegalArgumentException *this,IllegalArgumentException *param_1)
-
-{
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::IllegalArgumentException::IllegalArgumentException(char const*, unsigned int,
-   xercesc_2_7::XMLExcepts::Codes, xercesc_2_7::MemoryManager*) */
-
-void __thiscall
-xercesc_2_7::IllegalArgumentException::IllegalArgumentException
-          (IllegalArgumentException *this,char *param_1,uint param_2,Codes param_3,
-          MemoryManager *param_4)
-
-{
-  undefined4 in_ECX;
-  undefined4 in_EDX;
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  undefined8 in_R8;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::ArrayIndexOutOfBoundsException::~ArrayIndexOutOfBoundsException() */
-
-void __thiscall
-xercesc_2_7::ArrayIndexOutOfBoundsException::_ArrayIndexOutOfBoundsException
-          (ArrayIndexOutOfBoundsException *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::ArrayIndexOutOfBoundsException::ArrayIndexOutOfBoundsException(xercesc_2_7::ArrayIndexOutOfBoundsException
-   const&) */
-
-void __thiscall
-xercesc_2_7::ArrayIndexOutOfBoundsException::ArrayIndexOutOfBoundsException
-          (ArrayIndexOutOfBoundsException *this,ArrayIndexOutOfBoundsException *param_1)
-
-{
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::ArrayIndexOutOfBoundsException::ArrayIndexOutOfBoundsException(char const*, unsigned
-   int, xercesc_2_7::XMLExcepts::Codes, xercesc_2_7::MemoryManager*) */
-
-void __thiscall
-xercesc_2_7::ArrayIndexOutOfBoundsException::ArrayIndexOutOfBoundsException
-          (ArrayIndexOutOfBoundsException *this,char *param_1,uint param_2,Codes param_3,
-          MemoryManager *param_4)
-
-{
-  undefined4 in_ECX;
-  undefined4 in_EDX;
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  undefined8 in_R8;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::UnexpectedEOFException::~UnexpectedEOFException() */
-
-void __thiscall
-xercesc_2_7::UnexpectedEOFException::_UnexpectedEOFException(UnexpectedEOFException *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::UnexpectedEOFException::UnexpectedEOFException(xercesc_2_7::UnexpectedEOFException
-   const&) */
-
-void __thiscall
-xercesc_2_7::UnexpectedEOFException::UnexpectedEOFException
-          (UnexpectedEOFException *this,UnexpectedEOFException *param_1)
-
-{
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::UnexpectedEOFException::UnexpectedEOFException(char const*, unsigned int,
-   xercesc_2_7::XMLExcepts::Codes, xercesc_2_7::MemoryManager*) */
-
-void __thiscall
-xercesc_2_7::UnexpectedEOFException::UnexpectedEOFException
-          (UnexpectedEOFException *this,char *param_1,uint param_2,Codes param_3,
-          MemoryManager *param_4)
-
-{
-  undefined4 in_ECX;
-  undefined4 in_EDX;
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  undefined8 in_R8;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::XMLDeleter::~XMLDeleter() */
-
-void __thiscall xercesc_2_7::XMLDeleter::_XMLDeleter(XMLDeleter *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::XMemory::XMemory() */
-
-void __thiscall xercesc_2_7::XMemory::XMemory(XMemory *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::NameIdPoolBucketElem<xercesc_2_7::DTDEntityDecl>::NameIdPoolBucketElem(xercesc_2_7::DTDEntityDecl*,
-   xercesc_2_7::NameIdPoolBucketElem<xercesc_2_7::DTDEntityDecl>*) */
-
-void xercesc_2_7::NameIdPoolBucketElem<xercesc_2_7::DTDEntityDecl>::NameIdPoolBucketElem
-               (DTDEntityDecl *param_1,NameIdPoolBucketElem *param_2)
-
-{
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::FlagJanitor<bool>::~FlagJanitor() */
-
-void __thiscall xercesc_2_7::FlagJanitor<bool>::_FlagJanitor(FlagJanitor_bool_ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::FlagJanitor<bool>::FlagJanitor(bool*, bool) */
-
-void xercesc_2_7::FlagJanitor<bool>::FlagJanitor(bool *param_1,bool param_2)
-
-{
-  undefined in_SIL;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::Janitor<xercesc_2_7::InputSource>::~Janitor() */
-
-void __thiscall
-xercesc_2_7::Janitor<xercesc_2_7::InputSource>::_Janitor(Janitor_xercesc_2_7__InputSource_ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::Janitor<xercesc_2_7::InputSource>::Janitor(xercesc_2_7::InputSource*) */
-
-void xercesc_2_7::Janitor<xercesc_2_7::InputSource>::Janitor(InputSource *param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::NameIdPool<xercesc_2_7::DTDEntityDecl>::~NameIdPool() */
-
-void __thiscall
-xercesc_2_7::NameIdPool<xercesc_2_7::DTDEntityDecl>::_NameIdPool
-          (NameIdPool_xercesc_2_7__DTDEntityDecl_ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::NameIdPool<xercesc_2_7::DTDEntityDecl>::NameIdPool(unsigned int, unsigned int,
-   xercesc_2_7::MemoryManager*) */
-
-void xercesc_2_7::NameIdPool<xercesc_2_7::DTDEntityDecl>::NameIdPool
-               (uint param_1,uint param_2,MemoryManager *param_3)
-
-{
-  undefined8 in_RDX;
-  undefined4 in_ESI;
-  undefined4 in_EDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::ReaderMgr::LastExtEntityInfo::LastExtEntityInfo() */
-
-void __thiscall
-xercesc_2_7::ReaderMgr::LastExtEntityInfo::LastExtEntityInfo(LastExtEntityInfo *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::ContentSpecNode::~ContentSpecNode() */
-
-void __thiscall xercesc_2_7::ContentSpecNode::_ContentSpecNode(ContentSpecNode *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::ContentSpecNode::ContentSpecNode(xercesc_2_7::ContentSpecNode::NodeTypes,
-   xercesc_2_7::ContentSpecNode*, xercesc_2_7::ContentSpecNode*, bool, bool,
-   xercesc_2_7::MemoryManager*) */
-
-void __thiscall
-xercesc_2_7::ContentSpecNode::ContentSpecNode
-          (ContentSpecNode *this,NodeTypes param_1,ContentSpecNode *param_2,ContentSpecNode *param_3
-          ,bool param_4,bool param_5,MemoryManager *param_6)
-
-{
-  undefined8 in_RCX;
-  undefined8 in_RDX;
-  undefined4 in_ESI;
-  undefined8 in_RDI;
-  undefined in_R8B;
-  undefined in_R9B;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::ContentSpecNode::ContentSpecNode(xercesc_2_7::QName*, bool,
-   xercesc_2_7::MemoryManager*) */
-
-void __thiscall
-xercesc_2_7::ContentSpecNode::ContentSpecNode
-          (ContentSpecNode *this,QName *param_1,bool param_2,MemoryManager *param_3)
-
-{
-  undefined8 in_RCX;
-  undefined in_DL;
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::ContentSpecNode::ContentSpecNode(xercesc_2_7::QName*, xercesc_2_7::MemoryManager*)
-    */
-
-void __thiscall
-xercesc_2_7::ContentSpecNode::ContentSpecNode
-          (ContentSpecNode *this,QName *param_1,MemoryManager *param_2)
-
-{
-  undefined8 in_RDX;
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::DTDEntityDecl::~DTDEntityDecl() */
-
-void __thiscall xercesc_2_7::DTDEntityDecl::_DTDEntityDecl(DTDEntityDecl *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::DTDEntityDecl::DTDEntityDecl(unsigned short const*, bool,
-   xercesc_2_7::MemoryManager*) */
-
-void __thiscall
-xercesc_2_7::DTDEntityDecl::DTDEntityDecl
-          (DTDEntityDecl *this,ushort *param_1,bool param_2,MemoryManager *param_3)
-
-{
-  undefined8 in_RCX;
-  undefined in_DL;
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* xercesc_2_7::DTDEntityDecl::DTDEntityDecl(xercesc_2_7::MemoryManager*) */
-
-void __thiscall
-xercesc_2_7::DTDEntityDecl::DTDEntityDecl(DTDEntityDecl *this,MemoryManager *param_1)
-
-{
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
 

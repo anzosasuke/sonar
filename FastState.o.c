@@ -1,5 +1,302 @@
+typedef unsigned char   undefined;
 
-/* FastState::init_game(int, float) */
+typedef unsigned char    bool;
+typedef unsigned char    byte;
+typedef unsigned char    dwfenc;
+typedef unsigned int    dword;
+typedef unsigned long    qword;
+typedef unsigned int    uint;
+typedef unsigned long    ulong;
+typedef unsigned char    undefined1;
+typedef unsigned int    undefined4;
+typedef unsigned long    undefined8;
+typedef unsigned short    ushort;
+typedef unsigned short    word;
+typedef struct pair<int,int> pair<int,int>, *Ppair<int,int>;
+
+struct pair<int,int> { // PlaceHolder Class Structure
+};
+
+typedef ulong size_t;
+
+typedef struct array<std::pair<int,int>,24ul> array<std::pair<int,int>,24ul>, *Parray<std::pair<int,int>,24ul>;
+
+struct array<std::pair<int,int>,24ul> { // PlaceHolder Class Structure
+};
+
+typedef struct array<unsigned_short,441ul> array<unsigned_short,441ul>, *Parray<unsigned_short,441ul>;
+
+struct array<unsigned_short,441ul> { // PlaceHolder Class Structure
+};
+
+typedef struct array<int,24ul> array<int,24ul>, *Parray<int,24ul>;
+
+struct array<int,24ul> { // PlaceHolder Class Structure
+};
+
+typedef struct array<int,9ul> array<int,9ul>, *Parray<int,9ul>;
+
+struct array<int,9ul> { // PlaceHolder Class Structure
+};
+
+typedef struct array<unsigned_long_long,5ul> array<unsigned_long_long,5ul>, *Parray<unsigned_long_long,5ul>;
+
+struct array<unsigned_long_long,5ul> { // PlaceHolder Class Structure
+};
+
+typedef struct FastBoard FastBoard, *PFastBoard;
+
+struct FastBoard { // PlaceHolder Structure
+};
+
+typedef struct FullBoard FullBoard, *PFullBoard;
+
+struct FullBoard { // PlaceHolder Structure
+};
+
+typedef struct Playout Playout, *PPlayout;
+
+struct Playout { // PlaceHolder Structure
+};
+
+typedef struct FastState FastState, *PFastState;
+
+struct FastState { // PlaceHolder Structure
+};
+
+typedef struct allocator<int> allocator<int>, *Pallocator<int>;
+
+struct allocator<int> { // PlaceHolder Structure
+};
+
+typedef struct allocator<unsigned_long> allocator<unsigned_long>, *Pallocator<unsigned_long>;
+
+struct allocator<unsigned_long> { // PlaceHolder Structure
+};
+
+typedef struct vector<int,std::allocator<int>> vector<int,std::allocator<int>>, *Pvector<int,std::allocator<int>>;
+
+struct vector<int,std::allocator<int>> { // PlaceHolder Structure
+};
+
+typedef struct vector vector, *Pvector;
+
+struct vector { // PlaceHolder Structure
+};
+
+typedef struct vector<bool,std::allocator<bool>> vector<bool,std::allocator<bool>>, *Pvector<bool,std::allocator<bool>>;
+
+struct vector<bool,std::allocator<bool>> { // PlaceHolder Structure
+};
+
+typedef dword pair;
+
+typedef struct allocator<bool> allocator<bool>, *Pallocator<bool>;
+
+struct allocator<bool> { // PlaceHolder Structure
+};
+
+typedef dword random_access_iterator_tag;
+
+typedef struct _Bit_iterator_base _Bit_iterator_base, *P_Bit_iterator_base;
+
+struct _Bit_iterator_base { // PlaceHolder Structure
+};
+
+typedef struct allocator allocator, *Pallocator;
+
+struct allocator { // PlaceHolder Structure
+};
+
+typedef struct _Bit_reference _Bit_reference, *P_Bit_reference;
+
+struct _Bit_reference { // PlaceHolder Structure
+};
+
+typedef struct _Vector_base<int,std::allocator<int>> _Vector_base<int,std::allocator<int>>, *P_Vector_base<int,std::allocator<int>>;
+
+struct _Vector_base<int,std::allocator<int>> { // PlaceHolder Structure
+};
+
+typedef struct _Bit_iterator _Bit_iterator, *P_Bit_iterator;
+
+struct _Bit_iterator { // PlaceHolder Structure
+};
+
+typedef struct _Bvector_base<std::allocator<bool>> _Bvector_base<std::allocator<bool>>, *P_Bvector_base<std::allocator<bool>>;
+
+struct _Bvector_base<std::allocator<bool>> { // PlaceHolder Structure
+};
+
+typedef struct _Bvector_impl _Bvector_impl, *P_Bvector_impl;
+
+struct _Bvector_impl { // PlaceHolder Structure
+};
+
+typedef struct _Bvector_impl_data _Bvector_impl_data, *P_Bvector_impl_data;
+
+struct _Bvector_impl_data { // PlaceHolder Structure
+};
+
+typedef dword iterator_category;
+
+typedef struct basic_string<char,std::char_traits<char>,std::allocator<char>> basic_string<char,std::char_traits<char>,std::allocator<char>>, *Pbasic_string<char,std::char_traits<char>,std::allocator<char>>;
+
+struct basic_string<char,std::char_traits<char>,std::allocator<char>> { // PlaceHolder Structure
+};
+
+typedef struct _Vector_impl _Vector_impl, *P_Vector_impl;
+
+struct _Vector_impl { // PlaceHolder Structure
+};
+
+typedef struct _Vector_impl_data _Vector_impl_data, *P_Vector_impl_data;
+
+struct _Vector_impl_data { // PlaceHolder Structure
+};
+
+typedef struct array array, *Parray;
+
+struct array { // PlaceHolder Structure
+};
+
+typedef struct new_allocator new_allocator, *Pnew_allocator;
+
+struct new_allocator { // PlaceHolder Structure
+};
+
+typedef struct new_allocator<unsigned_long> new_allocator<unsigned_long>, *Pnew_allocator<unsigned_long>;
+
+struct new_allocator<unsigned_long> { // PlaceHolder Structure
+};
+
+typedef dword __normal_iterator;
+
+typedef struct new_allocator<bool> new_allocator<bool>, *Pnew_allocator<bool>;
+
+struct new_allocator<bool> { // PlaceHolder Structure
+};
+
+typedef struct new_allocator<int> new_allocator<int>, *Pnew_allocator<int>;
+
+struct new_allocator<int> { // PlaceHolder Structure
+};
+
+typedef dword __type;
+
+typedef dword difference_type;
+
+typedef struct square_t square_t, *Psquare_t;
+
+struct square_t { // PlaceHolder Structure
+};
+
+typedef struct __normal_iterator<int*,std::vector<int,std::allocator<int>>> __normal_iterator<int*,std::vector<int,std::allocator<int>>>, *P__normal_iterator<int*,std::vector<int,std::allocator<int>>>;
+
+struct __normal_iterator<int*,std::vector<int,std::allocator<int>>> { // PlaceHolder Class Structure
+};
+
+typedef struct __normal_iterator<int_const*,std::vector<int,std::allocator<int>>> __normal_iterator<int_const*,std::vector<int,std::allocator<int>>>, *P__normal_iterator<int_const*,std::vector<int,std::allocator<int>>>;
+
+struct __normal_iterator<int_const*,std::vector<int,std::allocator<int>>> { // PlaceHolder Class Structure
+};
+
+typedef struct Elf64_Shdr Elf64_Shdr, *PElf64_Shdr;
+
+typedef enum Elf_SectionHeaderType {
+    SHT_NULL=0,
+    SHT_PROGBITS=1,
+    SHT_SYMTAB=2,
+    SHT_STRTAB=3,
+    SHT_RELA=4,
+    SHT_HASH=5,
+    SHT_DYNAMIC=6,
+    SHT_NOTE=7,
+    SHT_NOBITS=8,
+    SHT_REL=9,
+    SHT_SHLIB=10,
+    SHT_DYNSYM=11,
+    SHT_INIT_ARRAY=14,
+    SHT_FINI_ARRAY=15,
+    SHT_PREINIT_ARRAY=16,
+    SHT_GROUP=17,
+    SHT_SYMTAB_SHNDX=18,
+    SHT_ANDROID_REL=1610612737,
+    SHT_ANDROID_RELA=1610612738,
+    SHT_GNU_ATTRIBUTES=1879048181,
+    SHT_GNU_HASH=1879048182,
+    SHT_GNU_LIBLIST=1879048183,
+    SHT_CHECKSUM=1879048184,
+    SHT_SUNW_move=1879048186,
+    SHT_SUNW_COMDAT=1879048187,
+    SHT_SUNW_syminfo=1879048188,
+    SHT_GNU_verdef=1879048189,
+    SHT_GNU_verneed=1879048190,
+    SHT_GNU_versym=1879048191
+} Elf_SectionHeaderType;
+
+struct Elf64_Shdr {
+    dword sh_name;
+    enum Elf_SectionHeaderType sh_type;
+    qword sh_flags;
+    qword sh_addr;
+    qword sh_offset;
+    qword sh_size;
+    dword sh_link;
+    dword sh_info;
+    qword sh_addralign;
+    qword sh_entsize;
+};
+
+typedef struct Elf64_Rela Elf64_Rela, *PElf64_Rela;
+
+struct Elf64_Rela {
+    qword r_offset; // location to apply the relocation action
+    qword r_info; // the symbol table index and the type of relocation
+    qword r_addend; // a constant addend used to compute the relocatable field value
+};
+
+typedef struct Elf64_Ehdr Elf64_Ehdr, *PElf64_Ehdr;
+
+struct Elf64_Ehdr {
+    byte e_ident_magic_num;
+    char e_ident_magic_str[3];
+    byte e_ident_class;
+    byte e_ident_data;
+    byte e_ident_version;
+    byte e_ident_osabi;
+    byte e_ident_abiversion;
+    byte e_ident_pad[7];
+    word e_type;
+    word e_machine;
+    dword e_version;
+    qword e_entry;
+    qword e_phoff;
+    qword e_shoff;
+    dword e_flags;
+    word e_ehsize;
+    word e_phentsize;
+    word e_phnum;
+    word e_shentsize;
+    word e_shnum;
+    word e_shstrndx;
+};
+
+typedef struct Elf64_Sym Elf64_Sym, *PElf64_Sym;
+
+struct Elf64_Sym {
+    dword st_name;
+    byte st_info;
+    byte st_other;
+    word st_shndx;
+    qword st_value;
+    qword st_size;
+};
+
+
+
+
+// FastState::init_game(int, float)
 
 void FastState::init_game(int param_1,float param_2)
 
@@ -20,7 +317,8 @@ void FastState::init_game(int param_1,float param_2)
 }
 
 
-/* FastState::set_komi(float) */
+
+// FastState::set_komi(float)
 
 void __thiscall FastState::set_komi(FastState *this,float param_1)
 
@@ -30,7 +328,8 @@ void __thiscall FastState::set_komi(FastState *this,float param_1)
 }
 
 
-/* FastState::reset_game() */
+
+// FastState::reset_game()
 
 void __thiscall FastState::reset_game(FastState *this)
 
@@ -46,7 +345,8 @@ void __thiscall FastState::reset_game(FastState *this)
 }
 
 
-/* FastState::reset_board() */
+
+// FastState::reset_board()
 
 void __thiscall FastState::reset_board(FastState *this)
 
@@ -57,7 +357,8 @@ void __thiscall FastState::reset_board(FastState *this)
 }
 
 
-/* FastState::play_random_move() */
+
+// FastState::play_random_move()
 
 void __thiscall FastState::play_random_move(FastState *this)
 
@@ -67,7 +368,8 @@ void __thiscall FastState::play_random_move(FastState *this)
 }
 
 
-/* FastState::generate_moves(int) */
+
+// FastState::generate_moves(int)
 
 FastState * __thiscall FastState::generate_moves(FastState *this,int param_1)
 
@@ -113,7 +415,8 @@ LAB_0010021e:
 }
 
 
-/* FastState::try_move(int, int, bool) */
+
+// FastState::try_move(int, int, bool)
 
 undefined8 __thiscall FastState::try_move(FastState *this,int param_1,int param_2,bool param_3)
 
@@ -146,7 +449,8 @@ undefined8 __thiscall FastState::try_move(FastState *this,int param_1,int param_
 }
 
 
-/* FastState::walk_empty_list(int, int, bool) */
+
+// FastState::walk_empty_list(int, int, bool)
 
 uint __thiscall FastState::walk_empty_list(FastState *this,int param_1,int param_2,bool param_3)
 
@@ -215,7 +519,8 @@ LAB_001004e3:
 }
 
 
-/* FastState::play_random_move(int) */
+
+// FastState::play_random_move(int)
 
 void __thiscall FastState::play_random_move(FastState *this,int param_1)
 
@@ -375,7 +680,8 @@ void __thiscall FastState::play_random_move(FastState *this,int param_1)
 }
 
 
-/* FastState::play_move_fast(int) */
+
+// FastState::play_move_fast(int)
 
 int __thiscall FastState::play_move_fast(FastState *this,int param_1)
 
@@ -398,7 +704,8 @@ int __thiscall FastState::play_move_fast(FastState *this,int param_1)
 }
 
 
-/* FastState::play_pass() */
+
+// FastState::play_pass()
 
 void __thiscall FastState::play_pass(FastState *this)
 
@@ -424,7 +731,8 @@ void __thiscall FastState::play_pass(FastState *this)
 }
 
 
-/* FastState::play_move(int) */
+
+// FastState::play_move(int)
 
 void __thiscall FastState::play_move(FastState *this,int param_1)
 
@@ -434,7 +742,8 @@ void __thiscall FastState::play_move(FastState *this,int param_1)
 }
 
 
-/* FastState::play_move(int, int) */
+
+// FastState::play_move(int, int)
 
 void __thiscall FastState::play_move(FastState *this,int param_1,int param_2)
 
@@ -473,7 +782,8 @@ void __thiscall FastState::play_move(FastState *this,int param_1,int param_2)
 }
 
 
-/* FastState::get_movenum() */
+
+// FastState::get_movenum()
 
 undefined4 __thiscall FastState::get_movenum(FastState *this)
 
@@ -482,7 +792,8 @@ undefined4 __thiscall FastState::get_movenum(FastState *this)
 }
 
 
-/* FastState::estimate_mc_score() */
+
+// FastState::estimate_mc_score()
 
 void __thiscall FastState::estimate_mc_score(FastState *this)
 
@@ -492,7 +803,8 @@ void __thiscall FastState::estimate_mc_score(FastState *this)
 }
 
 
-/* FastState::calculate_mc_score() */
+
+// FastState::calculate_mc_score()
 
 void __thiscall FastState::calculate_mc_score(FastState *this)
 
@@ -502,7 +814,8 @@ void __thiscall FastState::calculate_mc_score(FastState *this)
 }
 
 
-/* FastState::percentual_area_score() */
+
+// FastState::percentual_area_score()
 
 void __thiscall FastState::percentual_area_score(FastState *this)
 
@@ -512,7 +825,8 @@ void __thiscall FastState::percentual_area_score(FastState *this)
 }
 
 
-/* FastState::get_last_move() */
+
+// FastState::get_last_move()
 
 undefined4 __thiscall FastState::get_last_move(FastState *this)
 
@@ -521,7 +835,8 @@ undefined4 __thiscall FastState::get_last_move(FastState *this)
 }
 
 
-/* FastState::get_prevlast_move() */
+
+// FastState::get_prevlast_move()
 
 undefined4 __thiscall FastState::get_prevlast_move(FastState *this)
 
@@ -530,7 +845,8 @@ undefined4 __thiscall FastState::get_prevlast_move(FastState *this)
 }
 
 
-/* FastState::get_passes() */
+
+// FastState::get_passes()
 
 undefined4 __thiscall FastState::get_passes(FastState *this)
 
@@ -539,7 +855,8 @@ undefined4 __thiscall FastState::get_passes(FastState *this)
 }
 
 
-/* FastState::set_passes(int) */
+
+// FastState::set_passes(int)
 
 void __thiscall FastState::set_passes(FastState *this,int param_1)
 
@@ -549,7 +866,8 @@ void __thiscall FastState::set_passes(FastState *this,int param_1)
 }
 
 
-/* FastState::increment_passes() */
+
+// FastState::increment_passes()
 
 void __thiscall FastState::increment_passes(FastState *this)
 
@@ -562,7 +880,8 @@ void __thiscall FastState::increment_passes(FastState *this)
 }
 
 
-/* FastState::get_to_move() */
+
+// FastState::get_to_move()
 
 undefined4 __thiscall FastState::get_to_move(FastState *this)
 
@@ -571,7 +890,8 @@ undefined4 __thiscall FastState::get_to_move(FastState *this)
 }
 
 
-/* FastState::set_to_move(int) */
+
+// FastState::set_to_move(int)
 
 void __thiscall FastState::set_to_move(FastState *this,int param_1)
 
@@ -581,7 +901,8 @@ void __thiscall FastState::set_to_move(FastState *this,int param_1)
 }
 
 
-/* FastState::display_state() */
+
+// FastState::display_state()
 
 void __thiscall FastState::display_state(FastState *this)
 
@@ -608,7 +929,8 @@ void __thiscall FastState::display_state(FastState *this)
 }
 
 
-/* FastState::move_to_text[abi:cxx11](int) */
+
+// FastState::move_to_text[abi:cxx11](int)
 
 undefined8 FastState::move_to_text_abi_cxx11_(int param_1)
 
@@ -620,8 +942,9 @@ undefined8 FastState::move_to_text_abi_cxx11_(int param_1)
 }
 
 
-/* WARNING: Could not reconcile some variable overlaps */
-/* FastState::mark_dead() */
+
+// WARNING: Could not reconcile some variable overlaps
+// FastState::mark_dead()
 
 vector_bool_std__allocator_bool__ * FastState::mark_dead(void)
 
@@ -724,8 +1047,9 @@ vector_bool_std__allocator_bool__ * FastState::mark_dead(void)
 }
 
 
-/* WARNING: Could not reconcile some variable overlaps */
-/* FastState::final_score_map() */
+
+// WARNING: Could not reconcile some variable overlaps
+// FastState::final_score_map()
 
 vector_int_std__allocator_int__ * FastState::final_score_map(void)
 
@@ -850,8 +1174,9 @@ LAB_00101752:
 }
 
 
-/* WARNING: Could not reconcile some variable overlaps */
-/* FastState::final_score() */
+
+// WARNING: Could not reconcile some variable overlaps
+// FastState::final_score()
 
 void __thiscall FastState::final_score(FastState *this)
 
@@ -897,7 +1222,8 @@ void __thiscall FastState::final_score(FastState *this)
 }
 
 
-/* FastState::get_komi() */
+
+// FastState::get_komi()
 
 undefined4 __thiscall FastState::get_komi(FastState *this)
 
@@ -906,7 +1232,8 @@ undefined4 __thiscall FastState::get_komi(FastState *this)
 }
 
 
-/* FastState::set_handicap(int) */
+
+// FastState::set_handicap(int)
 
 void __thiscall FastState::set_handicap(FastState *this,int param_1)
 
@@ -916,7 +1243,8 @@ void __thiscall FastState::set_handicap(FastState *this,int param_1)
 }
 
 
-/* FastState::get_handicap() */
+
+// FastState::get_handicap()
 
 undefined4 __thiscall FastState::get_handicap(FastState *this)
 
@@ -925,7 +1253,8 @@ undefined4 __thiscall FastState::get_handicap(FastState *this)
 }
 
 
-/* FastState::get_komove() */
+
+// FastState::get_komove()
 
 undefined4 __thiscall FastState::get_komove(FastState *this)
 
@@ -934,8 +1263,9 @@ undefined4 __thiscall FastState::get_komove(FastState *this)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__size_to_integer(unsigned long) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// std::__size_to_integer(unsigned long)
 
 ulong std::__size_to_integer(ulong param_1)
 
@@ -944,7 +1274,8 @@ ulong std::__size_to_integer(ulong param_1)
 }
 
 
-/* operator new(unsigned long, void*) */
+
+// operator new(unsigned long, void*)
 
 void * operator_new(ulong param_1,void *param_2)
 
@@ -953,7 +1284,8 @@ void * operator_new(ulong param_1,void *param_2)
 }
 
 
-/* std::_Bit_reference::_Bit_reference(unsigned long*, unsigned long) */
+
+// std::_Bit_reference::_Bit_reference(unsigned long*, unsigned long)
 
 void __thiscall
 std::_Bit_reference::_Bit_reference(_Bit_reference *this,ulong *param_1,ulong param_2)
@@ -965,7 +1297,8 @@ std::_Bit_reference::_Bit_reference(_Bit_reference *this,ulong *param_1,ulong pa
 }
 
 
-/* std::_Bit_reference::operator bool() const */
+
+// std::_Bit_reference::operator bool() const
 
 bool __thiscall std::_Bit_reference::operator_cast_to_bool(_Bit_reference *this)
 
@@ -974,7 +1307,8 @@ bool __thiscall std::_Bit_reference::operator_cast_to_bool(_Bit_reference *this)
 }
 
 
-/* std::_Bit_reference::TEMPNAMEPLACEHOLDERVALUE(bool) */
+
+// std::_Bit_reference::TEMPNAMEPLACEHOLDERVALUE(bool)
 
 _Bit_reference * __thiscall std::_Bit_reference::operator_(_Bit_reference *this,bool param_1)
 
@@ -989,7 +1323,8 @@ _Bit_reference * __thiscall std::_Bit_reference::operator_(_Bit_reference *this,
 }
 
 
-/* std::_Bit_iterator_base::_Bit_iterator_base(unsigned long*, unsigned int) */
+
+// std::_Bit_iterator_base::_Bit_iterator_base(unsigned long*, unsigned int)
 
 void __thiscall
 std::_Bit_iterator_base::_Bit_iterator_base(_Bit_iterator_base *this,ulong *param_1,uint param_2)
@@ -1001,7 +1336,8 @@ std::_Bit_iterator_base::_Bit_iterator_base(_Bit_iterator_base *this,ulong *para
 }
 
 
-/* std::_Bit_iterator_base::_M_incr(long) */
+
+// std::_Bit_iterator_base::_M_incr(long)
 
 void __thiscall std::_Bit_iterator_base::_M_incr(_Bit_iterator_base *this,long param_1)
 
@@ -1027,7 +1363,8 @@ void __thiscall std::_Bit_iterator_base::_M_incr(_Bit_iterator_base *this,long p
 }
 
 
-/* std::_Bit_iterator::_Bit_iterator() */
+
+// std::_Bit_iterator::_Bit_iterator()
 
 void __thiscall std::_Bit_iterator::_Bit_iterator(_Bit_iterator *this)
 
@@ -1037,7 +1374,8 @@ void __thiscall std::_Bit_iterator::_Bit_iterator(_Bit_iterator *this)
 }
 
 
-/* std::_Bit_iterator::_Bit_iterator(unsigned long*, unsigned int) */
+
+// std::_Bit_iterator::_Bit_iterator(unsigned long*, unsigned int)
 
 void __thiscall std::_Bit_iterator::_Bit_iterator(_Bit_iterator *this,ulong *param_1,uint param_2)
 
@@ -1047,7 +1385,8 @@ void __thiscall std::_Bit_iterator::_Bit_iterator(_Bit_iterator *this,ulong *par
 }
 
 
-/* std::_Bit_iterator::TEMPNAMEPLACEHOLDERVALUE() const */
+
+// std::_Bit_iterator::TEMPNAMEPLACEHOLDERVALUE() const
 
 undefined  [16] __thiscall std::_Bit_iterator::operator_(_Bit_iterator *this)
 
@@ -1061,7 +1400,8 @@ undefined  [16] __thiscall std::_Bit_iterator::operator_(_Bit_iterator *this)
 }
 
 
-/* std::_Bit_iterator::TEMPNAMEPLACEHOLDERVALUE(long) */
+
+// std::_Bit_iterator::TEMPNAMEPLACEHOLDERVALUE(long)
 
 _Bit_iterator * __thiscall std::_Bit_iterator::operator__(_Bit_iterator *this,long param_1)
 
@@ -1071,8 +1411,9 @@ _Bit_iterator * __thiscall std::_Bit_iterator::operator__(_Bit_iterator *this,lo
 }
 
 
-/* WARNING: Could not reconcile some variable overlaps */
-/* std::_Bit_iterator::operator[](long) const */
+
+// WARNING: Could not reconcile some variable overlaps
+// std::_Bit_iterator::operator[](long) const
 
 void __thiscall std::_Bit_iterator::operator__(_Bit_iterator *this,long param_1)
 
@@ -1085,8 +1426,9 @@ void __thiscall std::_Bit_iterator::operator__(_Bit_iterator *this,long param_1)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::TEMPNAMEPLACEHOLDERVALUE(std::_Bit_iterator const&, long) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// std::TEMPNAMEPLACEHOLDERVALUE(std::_Bit_iterator const&, long)
 
 undefined  [16] std::operator_(_Bit_iterator *param_1,long param_2)
 
@@ -1101,8 +1443,9 @@ undefined  [16] std::operator_(_Bit_iterator *param_1,long param_2)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__fill_bvector(unsigned long*, unsigned int, unsigned int, bool) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// std::__fill_bvector(unsigned long*, unsigned int, unsigned int, bool)
 
 void std::__fill_bvector(ulong *param_1,uint param_2,uint param_3,bool param_4)
 
@@ -1120,8 +1463,9 @@ void std::__fill_bvector(ulong *param_1,uint param_2,uint param_3,bool param_4)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__fill_a1(std::_Bit_iterator, std::_Bit_iterator, bool const&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// std::__fill_a1(std::_Bit_iterator, std::_Bit_iterator, bool const&)
 
 void std::__fill_a1(_Bit_iterator param_1,_Bit_iterator param_2,bool *param_3)
 
@@ -1163,7 +1507,8 @@ void std::__fill_a1(_Bit_iterator param_1,_Bit_iterator param_2,bool *param_3)
 }
 
 
-/* FastBoard::FastBoard(FastBoard const&) */
+
+// FastBoard::FastBoard(FastBoard const&)
 
 void __thiscall FastBoard::FastBoard(FastBoard *this,FastBoard *param_1)
 
@@ -1267,7 +1612,8 @@ void __thiscall FastBoard::FastBoard(FastBoard *this,FastBoard *param_1)
 }
 
 
-/* FastBoard::~FastBoard() */
+
+// FastBoard::~FastBoard()
 
 void __thiscall FastBoard::_FastBoard(FastBoard *this)
 
@@ -1277,7 +1623,8 @@ void __thiscall FastBoard::_FastBoard(FastBoard *this)
 }
 
 
-/* FullBoard::FullBoard(FullBoard const&) */
+
+// FullBoard::FullBoard(FullBoard const&)
 
 void __thiscall FullBoard::FullBoard(FullBoard *this,FullBoard *param_1)
 
@@ -1289,7 +1636,8 @@ void __thiscall FullBoard::FullBoard(FullBoard *this,FullBoard *param_1)
 }
 
 
-/* FullBoard::~FullBoard() */
+
+// FullBoard::~FullBoard()
 
 void __thiscall FullBoard::_FullBoard(FullBoard *this)
 
@@ -1299,7 +1647,8 @@ void __thiscall FullBoard::_FullBoard(FullBoard *this)
 }
 
 
-/* FastState::FastState(FastState const&) */
+
+// FastState::FastState(FastState const&)
 
 void __thiscall FastState::FastState(FastState *this,FastState *param_1)
 
@@ -1372,7 +1721,8 @@ void __thiscall FastState::FastState(FastState *this,FastState *param_1)
 }
 
 
-/* FastState::~FastState() */
+
+// FastState::~FastState()
 
 void __thiscall FastState::_FastState(FastState *this)
 
@@ -1382,7 +1732,8 @@ void __thiscall FastState::_FastState(FastState *this)
 }
 
 
-/* std::vector<int, std::allocator<int>>::vector() */
+
+// std::vector<int, std::allocator<int>>::vector()
 
 void __thiscall std::vector<int,std::allocator<int>>::vector(vector_int_std__allocator_int__ *this)
 
@@ -1393,7 +1744,8 @@ void __thiscall std::vector<int,std::allocator<int>>::vector(vector_int_std__all
 }
 
 
-/* std::vector<int, std::allocator<int>>::~vector() */
+
+// std::vector<int, std::allocator<int>>::~vector()
 
 void __thiscall std::vector<int,std::allocator<int>>::_vector(vector_int_std__allocator_int__ *this)
 
@@ -1410,7 +1762,8 @@ void __thiscall std::vector<int,std::allocator<int>>::_vector(vector_int_std__al
 }
 
 
-/* std::vector<int, std::allocator<int>>::reserve(unsigned long) */
+
+// std::vector<int, std::allocator<int>>::reserve(unsigned long)
 
 void __thiscall
 std::vector<int,std::allocator<int>>::reserve(vector_int_std__allocator_int__ *this,ulong param_1)
@@ -1444,7 +1797,8 @@ std::vector<int,std::allocator<int>>::reserve(vector_int_std__allocator_int__ *t
 }
 
 
-/* boost::array<unsigned short, 441ul>::operator[](unsigned long) */
+
+// boost::array<unsigned short, 441ul>::operator[](unsigned long)
 
 array_unsigned_short_441ul_ * __thiscall
 boost::array<unsigned_short,441ul>::operator__(array_unsigned_short_441ul_ *this,ulong param_1)
@@ -1454,7 +1808,8 @@ boost::array<unsigned_short,441ul>::operator__(array_unsigned_short_441ul_ *this
 }
 
 
-/* std::vector<int, std::allocator<int>>::push_back(int const&) */
+
+// std::vector<int, std::allocator<int>>::push_back(int const&)
 
 void __thiscall
 std::vector<int,std::allocator<int>>::push_back(vector_int_std__allocator_int__ *this,int *param_1)
@@ -1475,7 +1830,8 @@ std::vector<int,std::allocator<int>>::push_back(vector_int_std__allocator_int__ 
 }
 
 
-/* std::vector<int, std::allocator<int>>::vector(std::vector<int, std::allocator<int>> const&) */
+
+// std::vector<int, std::allocator<int>>::vector(std::vector<int, std::allocator<int>> const&)
 
 void __thiscall
 std::vector<int,std::allocator<int>>::vector(vector_int_std__allocator_int__ *this,vector *param_1)
@@ -1508,7 +1864,8 @@ std::vector<int,std::allocator<int>>::vector(vector_int_std__allocator_int__ *th
 }
 
 
-/* boost::array<int, 24ul>::operator[](unsigned long) */
+
+// boost::array<int, 24ul>::operator[](unsigned long)
 
 array_int_24ul_ * __thiscall boost::array<int,24ul>::operator__(array_int_24ul_ *this,ulong param_1)
 
@@ -1517,7 +1874,8 @@ array_int_24ul_ * __thiscall boost::array<int,24ul>::operator__(array_int_24ul_ 
 }
 
 
-/* boost::array<int, 9ul>::operator[](unsigned long) const */
+
+// boost::array<int, 9ul>::operator[](unsigned long) const
 
 array_int_9ul_ * __thiscall boost::array<int,9ul>::operator__(array_int_9ul_ *this,ulong param_1)
 
@@ -1526,7 +1884,8 @@ array_int_9ul_ * __thiscall boost::array<int,9ul>::operator__(array_int_9ul_ *th
 }
 
 
-/* boost::array<std::pair<int, int>, 24ul>::operator[](unsigned long) */
+
+// boost::array<std::pair<int, int>, 24ul>::operator[](unsigned long)
 
 array_std__pair_int_int__24ul_ * __thiscall
 boost::array<std::pair<int,int>,24ul>::operator__
@@ -1537,8 +1896,9 @@ boost::array<std::pair<int,int>,24ul>::operator__
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::pair<int, int> std::make_pair<int, int>(int, int) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// std::pair<int, int> std::make_pair<int, int>(int, int)
 
 pair std::make_pair_int_int_(int param_1,int param_2)
 
@@ -1554,7 +1914,8 @@ pair std::make_pair_int_int_(int param_1,int param_2)
 }
 
 
-/* boost::array<unsigned long long, 5ul>::operator[](unsigned long) */
+
+// boost::array<unsigned long long, 5ul>::operator[](unsigned long)
 
 array_unsigned_long_long_5ul_ * __thiscall
 boost::array<unsigned_long_long,5ul>::operator__(array_unsigned_long_long_5ul_ *this,ulong param_1)
@@ -1564,7 +1925,8 @@ boost::array<unsigned_long_long,5ul>::operator__(array_unsigned_long_long_5ul_ *
 }
 
 
-/* std::allocator<int>::allocator() */
+
+// std::allocator<int>::allocator()
 
 void std::allocator<int>::allocator(void)
 
@@ -1574,7 +1936,8 @@ void std::allocator<int>::allocator(void)
 }
 
 
-/* std::allocator<int>::~allocator() */
+
+// std::allocator<int>::~allocator()
 
 void __thiscall std::allocator<int>::_allocator(allocator_int_ *this)
 
@@ -1584,8 +1947,9 @@ void __thiscall std::allocator<int>::_allocator(allocator_int_ *this)
 }
 
 
-/* std::vector<int, std::allocator<int>>::vector(unsigned long, int const&, std::allocator<int>
-   const&) */
+
+// std::vector<int, std::allocator<int>>::vector(unsigned long, int const&, std::allocator<int>
+// const&)
 
 void __thiscall
 std::vector<int,std::allocator<int>>::vector
@@ -1602,7 +1966,8 @@ std::vector<int,std::allocator<int>>::vector
 }
 
 
-/* std::allocator<bool>::allocator() */
+
+// std::allocator<bool>::allocator()
 
 void std::allocator<bool>::allocator(void)
 
@@ -1612,7 +1977,8 @@ void std::allocator<bool>::allocator(void)
 }
 
 
-/* std::allocator<bool>::~allocator() */
+
+// std::allocator<bool>::~allocator()
 
 void __thiscall std::allocator<bool>::_allocator(allocator_bool_ *this)
 
@@ -1622,8 +1988,9 @@ void __thiscall std::allocator<bool>::_allocator(allocator_bool_ *this)
 }
 
 
-/* std::vector<bool, std::allocator<bool>>::vector(unsigned long, bool const&, std::allocator<bool>
-   const&) */
+
+// std::vector<bool, std::allocator<bool>>::vector(unsigned long, bool const&, std::allocator<bool>
+// const&)
 
 void std::vector<bool,std::allocator<bool>>::vector(ulong param_1,bool *param_2,allocator *param_3)
 
@@ -1635,7 +2002,8 @@ void std::vector<bool,std::allocator<bool>>::vector(ulong param_1,bool *param_2,
 }
 
 
-/* std::vector<bool, std::allocator<bool>>::~vector() */
+
+// std::vector<bool, std::allocator<bool>>::~vector()
 
 void __thiscall
 std::vector<bool,std::allocator<bool>>::_vector(vector_bool_std__allocator_bool__ *this)
@@ -1646,7 +2014,8 @@ std::vector<bool,std::allocator<bool>>::_vector(vector_bool_std__allocator_bool_
 }
 
 
-/* std::vector<int, std::allocator<int>>::begin() */
+
+// std::vector<int, std::allocator<int>>::begin()
 
 undefined8 __thiscall
 std::vector<int,std::allocator<int>>::begin(vector_int_std__allocator_int__ *this)
@@ -1661,7 +2030,8 @@ std::vector<int,std::allocator<int>>::begin(vector_int_std__allocator_int__ *thi
 }
 
 
-/* std::vector<int, std::allocator<int>>::end() */
+
+// std::vector<int, std::allocator<int>>::end()
 
 undefined8 __thiscall
 std::vector<int,std::allocator<int>>::end(vector_int_std__allocator_int__ *this)
@@ -1676,10 +2046,11 @@ std::vector<int,std::allocator<int>>::end(vector_int_std__allocator_int__ *this)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::fill<__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>,
-   int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>,
-   __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>, int const&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::fill<__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>,
+// int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>,
+// __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>, int const&)
 
 void std::fill___gnu_cxx____normal_iterator_int__std__vector_int_std__allocator_int____int_
                (__normal_iterator param_1,__normal_iterator param_2,int *param_3)
@@ -1691,7 +2062,8 @@ void std::fill___gnu_cxx____normal_iterator_int__std__vector_int_std__allocator_
 }
 
 
-/* std::vector<bool, std::allocator<bool>>::begin() */
+
+// std::vector<bool, std::allocator<bool>>::begin()
 
 undefined  [16] __thiscall
 std::vector<bool,std::allocator<bool>>::begin(vector_bool_std__allocator_bool__ *this)
@@ -1705,7 +2077,8 @@ std::vector<bool,std::allocator<bool>>::begin(vector_bool_std__allocator_bool__ 
 }
 
 
-/* std::vector<bool, std::allocator<bool>>::end() */
+
+// std::vector<bool, std::allocator<bool>>::end()
 
 undefined  [16] __thiscall
 std::vector<bool,std::allocator<bool>>::end(vector_bool_std__allocator_bool__ *this)
@@ -1715,8 +2088,9 @@ std::vector<bool,std::allocator<bool>>::end(vector_bool_std__allocator_bool__ *t
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::fill<std::_Bit_iterator, bool>(std::_Bit_iterator, std::_Bit_iterator, bool const&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::fill<std::_Bit_iterator, bool>(std::_Bit_iterator, std::_Bit_iterator, bool const&)
 
 void std::fill_std___Bit_iterator_bool_(_Bit_iterator param_1,_Bit_iterator param_2,bool *param_3)
 
@@ -1726,7 +2100,8 @@ void std::fill_std___Bit_iterator_bool_(_Bit_iterator param_1,_Bit_iterator para
 }
 
 
-/* std::vector<int, std::allocator<int>>::operator[](unsigned long) */
+
+// std::vector<int, std::allocator<int>>::operator[](unsigned long)
 
 long __thiscall
 std::vector<int,std::allocator<int>>::operator__
@@ -1737,8 +2112,9 @@ std::vector<int,std::allocator<int>>::operator__
 }
 
 
-/* WARNING: Could not reconcile some variable overlaps */
-/* std::vector<bool, std::allocator<bool>>::operator[](unsigned long) */
+
+// WARNING: Could not reconcile some variable overlaps
+// std::vector<bool, std::allocator<bool>>::operator[](unsigned long)
 
 void __thiscall
 std::vector<bool,std::allocator<bool>>::operator__
@@ -1753,7 +2129,8 @@ std::vector<bool,std::allocator<bool>>::operator__
 }
 
 
-/* std::vector<int, std::allocator<int>>::resize(unsigned long, int) */
+
+// std::vector<int, std::allocator<int>>::resize(unsigned long, int)
 
 void __thiscall
 std::vector<int,std::allocator<int>>::resize
@@ -1788,11 +2165,12 @@ std::vector<int,std::allocator<int>>::resize
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::fill<__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>,
-   FastBoard::square_t>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>,
-   __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>, FastBoard::square_t
-   const&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::fill<__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>,
+// FastBoard::square_t>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>,
+// __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>, FastBoard::square_t
+// const&)
 
 void std::
      fill___gnu_cxx____normal_iterator_int__std__vector_int_std__allocator_int____FastBoard__square_t_
@@ -1805,7 +2183,8 @@ void std::
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_impl::~_Vector_impl() */
+
+// std::_Vector_base<int, std::allocator<int>>::_Vector_impl::~_Vector_impl()
 
 void __thiscall
 std::_Vector_base<int,std::allocator<int>>::_Vector_impl::__Vector_impl(_Vector_impl *this)
@@ -1816,7 +2195,8 @@ std::_Vector_base<int,std::allocator<int>>::_Vector_impl::__Vector_impl(_Vector_
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_base() */
+
+// std::_Vector_base<int, std::allocator<int>>::_Vector_base()
 
 void __thiscall
 std::_Vector_base<int,std::allocator<int>>::_Vector_base
@@ -1828,7 +2208,8 @@ std::_Vector_base<int,std::allocator<int>>::_Vector_base
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::~_Vector_base() */
+
+// std::_Vector_base<int, std::allocator<int>>::~_Vector_base()
 
 void __thiscall
 std::_Vector_base<int,std::allocator<int>>::__Vector_base
@@ -1841,7 +2222,8 @@ std::_Vector_base<int,std::allocator<int>>::__Vector_base
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::_M_get_Tp_allocator() */
+
+// std::_Vector_base<int, std::allocator<int>>::_M_get_Tp_allocator()
 
 _Vector_base_int_std__allocator_int__ * __thiscall
 std::_Vector_base<int,std::allocator<int>>::_M_get_Tp_allocator
@@ -1852,8 +2234,9 @@ std::_Vector_base<int,std::allocator<int>>::_M_get_Tp_allocator
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::_Destroy<int*, int>(int*, int*, std::allocator<int>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::_Destroy<int*, int>(int*, int*, std::allocator<int>&)
 
 void std::_Destroy_int__int_(int *param_1,int *param_2,allocator *param_3)
 
@@ -1863,7 +2246,8 @@ void std::_Destroy_int__int_(int *param_1,int *param_2,allocator *param_3)
 }
 
 
-/* std::vector<int, std::allocator<int>>::max_size() const */
+
+// std::vector<int, std::allocator<int>>::max_size() const
 
 void __thiscall
 std::vector<int,std::allocator<int>>::max_size(vector_int_std__allocator_int__ *this)
@@ -1879,7 +2263,8 @@ std::vector<int,std::allocator<int>>::max_size(vector_int_std__allocator_int__ *
 }
 
 
-/* std::vector<int, std::allocator<int>>::capacity() const */
+
+// std::vector<int, std::allocator<int>>::capacity() const
 
 long __thiscall
 std::vector<int,std::allocator<int>>::capacity(vector_int_std__allocator_int__ *this)
@@ -1889,7 +2274,8 @@ std::vector<int,std::allocator<int>>::capacity(vector_int_std__allocator_int__ *
 }
 
 
-/* std::vector<int, std::allocator<int>>::size() const */
+
+// std::vector<int, std::allocator<int>>::size() const
 
 long __thiscall std::vector<int,std::allocator<int>>::size(vector_int_std__allocator_int__ *this)
 
@@ -1898,8 +2284,8 @@ long __thiscall std::vector<int,std::allocator<int>>::size(vector_int_std__alloc
 }
 
 
-/* int* std::vector<int, std::allocator<int>>::_M_allocate_and_copy<int*>(unsigned long, int*, int*)
-    */
+
+// int* std::vector<int, std::allocator<int>>::_M_allocate_and_copy<int*>(unsigned long, int*, int*)
 
 int * __thiscall
 std::vector<int,std::allocator<int>>::_M_allocate_and_copy_int__
@@ -1919,7 +2305,8 @@ std::vector<int,std::allocator<int>>::_M_allocate_and_copy_int__
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::_M_deallocate(int*, unsigned long) */
+
+// std::_Vector_base<int, std::allocator<int>>::_M_deallocate(int*, unsigned long)
 
 void __thiscall
 std::_Vector_base<int,std::allocator<int>>::_M_deallocate
@@ -1934,8 +2321,9 @@ std::_Vector_base<int,std::allocator<int>>::_M_deallocate
 }
 
 
-/* void __gnu_cxx::__alloc_traits<std::allocator<int>, int>::construct<int>(std::allocator<int>&,
-   int*, int const&) */
+
+// void __gnu_cxx::__alloc_traits<std::allocator<int>, int>::construct<int>(std::allocator<int>&,
+// int*, int const&)
 
 void __gnu_cxx::__alloc_traits<std::allocator<int>,int>::construct_int_
                (allocator *param_1,int *param_2,int *param_3)
@@ -1946,8 +2334,9 @@ void __gnu_cxx::__alloc_traits<std::allocator<int>,int>::construct_int_
 }
 
 
-/* std::vector<int, std::allocator<int>>::_M_realloc_insert(__gnu_cxx::__normal_iterator<int*,
-   std::vector<int, std::allocator<int>>>, int const&) */
+
+// std::vector<int, std::allocator<int>>::_M_realloc_insert(__gnu_cxx::__normal_iterator<int*,
+// std::vector<int, std::allocator<int>>>, int const&)
 
 void __thiscall
 std::vector<int,std::allocator<int>>::_M_realloc_insert
@@ -2014,8 +2403,9 @@ std::vector<int,std::allocator<int>>::_M_realloc_insert
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<int>, int>::_S_select_on_copy(std::allocator<int>
-   const&) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<int>, int>::_S_select_on_copy(std::allocator<int>
+// const&)
 
 allocator *
 __gnu_cxx::__alloc_traits<std::allocator<int>,int>::_S_select_on_copy(allocator *param_1)
@@ -2025,7 +2415,8 @@ __gnu_cxx::__alloc_traits<std::allocator<int>,int>::_S_select_on_copy(allocator 
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::_M_get_Tp_allocator() const */
+
+// std::_Vector_base<int, std::allocator<int>>::_M_get_Tp_allocator() const
 
 _Vector_base_int_std__allocator_int__ * __thiscall
 std::_Vector_base<int,std::allocator<int>>::_M_get_Tp_allocator
@@ -2036,8 +2427,9 @@ std::_Vector_base<int,std::allocator<int>>::_M_get_Tp_allocator
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_base(unsigned long, std::allocator<int>
-   const&) */
+
+// std::_Vector_base<int, std::allocator<int>>::_Vector_base(unsigned long, std::allocator<int>
+// const&)
 
 void __thiscall
 std::_Vector_base<int,std::allocator<int>>::_Vector_base
@@ -2050,7 +2442,8 @@ std::_Vector_base<int,std::allocator<int>>::_Vector_base
 }
 
 
-/* std::vector<int, std::allocator<int>>::begin() const */
+
+// std::vector<int, std::allocator<int>>::begin() const
 
 undefined8 __thiscall
 std::vector<int,std::allocator<int>>::begin(vector_int_std__allocator_int__ *this)
@@ -2065,7 +2458,8 @@ std::vector<int,std::allocator<int>>::begin(vector_int_std__allocator_int__ *thi
 }
 
 
-/* std::vector<int, std::allocator<int>>::end() const */
+
+// std::vector<int, std::allocator<int>>::end() const
 
 undefined8 __thiscall
 std::vector<int,std::allocator<int>>::end(vector_int_std__allocator_int__ *this)
@@ -2080,11 +2474,12 @@ std::vector<int,std::allocator<int>>::end(vector_int_std__allocator_int__ *this)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, int*, int>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, int*, std::allocator<int>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, int*, int>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, int*, std::allocator<int>&)
 
 int * std::
       __uninitialized_copy_a___gnu_cxx____normal_iterator_int_const__std__vector_int_std__allocator_int____int__int_
@@ -2100,7 +2495,8 @@ int * std::
 }
 
 
-/* std::pair<int, int>::pair(int const&, int const&) */
+
+// std::pair<int, int>::pair(int const&, int const&)
 
 void __thiscall std::pair<int,int>::pair(pair_int_int_ *this,int *param_1,int *param_2)
 
@@ -2111,7 +2507,8 @@ void __thiscall std::pair<int,int>::pair(pair_int_int_ *this,int *param_1,int *p
 }
 
 
-/* __gnu_cxx::new_allocator<int>::new_allocator() */
+
+// __gnu_cxx::new_allocator<int>::new_allocator()
 
 void __gnu_cxx::new_allocator<int>::new_allocator(void)
 
@@ -2120,7 +2517,8 @@ void __gnu_cxx::new_allocator<int>::new_allocator(void)
 }
 
 
-/* __gnu_cxx::new_allocator<int>::~new_allocator() */
+
+// __gnu_cxx::new_allocator<int>::~new_allocator()
 
 void __thiscall __gnu_cxx::new_allocator<int>::_new_allocator(new_allocator_int_ *this)
 
@@ -2129,8 +2527,9 @@ void __thiscall __gnu_cxx::new_allocator<int>::_new_allocator(new_allocator_int_
 }
 
 
-/* std::vector<int, std::allocator<int>>::_S_check_init_len(unsigned long, std::allocator<int>
-   const&) */
+
+// std::vector<int, std::allocator<int>>::_S_check_init_len(unsigned long, std::allocator<int>
+// const&)
 
 ulong std::vector<int,std::allocator<int>>::_S_check_init_len(ulong param_1,allocator *param_2)
 
@@ -2148,7 +2547,8 @@ ulong std::vector<int,std::allocator<int>>::_S_check_init_len(ulong param_1,allo
 }
 
 
-/* std::vector<int, std::allocator<int>>::_M_fill_initialize(unsigned long, int const&) */
+
+// std::vector<int, std::allocator<int>>::_M_fill_initialize(unsigned long, int const&)
 
 void __thiscall
 std::vector<int,std::allocator<int>>::_M_fill_initialize
@@ -2168,7 +2568,8 @@ std::vector<int,std::allocator<int>>::_M_fill_initialize
 }
 
 
-/* __gnu_cxx::new_allocator<bool>::new_allocator() */
+
+// __gnu_cxx::new_allocator<bool>::new_allocator()
 
 void __gnu_cxx::new_allocator<bool>::new_allocator(void)
 
@@ -2177,7 +2578,8 @@ void __gnu_cxx::new_allocator<bool>::new_allocator(void)
 }
 
 
-/* __gnu_cxx::new_allocator<bool>::~new_allocator() */
+
+// __gnu_cxx::new_allocator<bool>::~new_allocator()
 
 void __thiscall __gnu_cxx::new_allocator<bool>::_new_allocator(new_allocator_bool_ *this)
 
@@ -2186,7 +2588,8 @@ void __thiscall __gnu_cxx::new_allocator<bool>::_new_allocator(new_allocator_boo
 }
 
 
-/* std::_Bvector_base<std::allocator<bool>>::_Bvector_impl::~_Bvector_impl() */
+
+// std::_Bvector_base<std::allocator<bool>>::_Bvector_impl::~_Bvector_impl()
 
 void __thiscall
 std::_Bvector_base<std::allocator<bool>>::_Bvector_impl::__Bvector_impl(_Bvector_impl *this)
@@ -2197,7 +2600,8 @@ std::_Bvector_base<std::allocator<bool>>::_Bvector_impl::__Bvector_impl(_Bvector
 }
 
 
-/* std::_Bvector_base<std::allocator<bool>>::_Bvector_base(std::allocator<bool> const&) */
+
+// std::_Bvector_base<std::allocator<bool>>::_Bvector_base(std::allocator<bool> const&)
 
 void std::_Bvector_base<std::allocator<bool>>::_Bvector_base(allocator *param_1)
 
@@ -2211,7 +2615,8 @@ void std::_Bvector_base<std::allocator<bool>>::_Bvector_base(allocator *param_1)
 }
 
 
-/* std::_Bvector_base<std::allocator<bool>>::~_Bvector_base() */
+
+// std::_Bvector_base<std::allocator<bool>>::~_Bvector_base()
 
 void __thiscall
 std::_Bvector_base<std::allocator<bool>>::__Bvector_base(_Bvector_base_std__allocator_bool__ *this)
@@ -2223,7 +2628,8 @@ std::_Bvector_base<std::allocator<bool>>::__Bvector_base(_Bvector_base_std__allo
 }
 
 
-/* std::vector<bool, std::allocator<bool>>::_M_initialize(unsigned long) */
+
+// std::vector<bool, std::allocator<bool>>::_M_initialize(unsigned long)
 
 void __thiscall
 std::vector<bool,std::allocator<bool>>::_M_initialize
@@ -2254,7 +2660,8 @@ std::vector<bool,std::allocator<bool>>::_M_initialize
 }
 
 
-/* std::vector<bool, std::allocator<bool>>::_M_initialize_value(bool) */
+
+// std::vector<bool, std::allocator<bool>>::_M_initialize_value(bool)
 
 void __thiscall
 std::vector<bool,std::allocator<bool>>::_M_initialize_value
@@ -2280,8 +2687,9 @@ std::vector<bool,std::allocator<bool>>::_M_initialize_value
 }
 
 
-/* __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>::__normal_iterator(int*
-   const&) */
+
+// __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>::__normal_iterator(int*
+// const&)
 
 void __thiscall
 __gnu_cxx::__normal_iterator<int*,std::vector<int,std::allocator<int>>>::__normal_iterator
@@ -2293,10 +2701,11 @@ __gnu_cxx::__normal_iterator<int*,std::vector<int,std::allocator<int>>>::__norma
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__fill_a<__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>,
-   int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>,
-   __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>, int const&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__fill_a<__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>,
+// int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>,
+// __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>, int const&)
 
 void std::__fill_a___gnu_cxx____normal_iterator_int__std__vector_int_std__allocator_int____int_
                (__normal_iterator param_1,__normal_iterator param_2,int *param_3)
@@ -2307,9 +2716,9 @@ void std::__fill_a___gnu_cxx____normal_iterator_int__std__vector_int_std__alloca
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__fill_a<std::_Bit_iterator, bool>(std::_Bit_iterator, std::_Bit_iterator, bool const&)
-    */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__fill_a<std::_Bit_iterator, bool>(std::_Bit_iterator, std::_Bit_iterator, bool const&)
 
 void std::__fill_a_std___Bit_iterator_bool_
                (_Bit_iterator param_1,_Bit_iterator param_2,bool *param_3)
@@ -2320,8 +2729,9 @@ void std::__fill_a_std___Bit_iterator_bool_
 }
 
 
-/* std::vector<int, std::allocator<int>>::_M_fill_insert(__gnu_cxx::__normal_iterator<int*,
-   std::vector<int, std::allocator<int>>>, unsigned long, int const&) */
+
+// std::vector<int, std::allocator<int>>::_M_fill_insert(__gnu_cxx::__normal_iterator<int*,
+// std::vector<int, std::allocator<int>>>, unsigned long, int const&)
 
 void __thiscall
 std::vector<int,std::allocator<int>>::_M_fill_insert
@@ -2451,7 +2861,8 @@ std::vector<int,std::allocator<int>>::_M_fill_insert
 }
 
 
-/* std::vector<int, std::allocator<int>>::_M_erase_at_end(int*) */
+
+// std::vector<int, std::allocator<int>>::_M_erase_at_end(int*)
 
 void __thiscall
 std::vector<int,std::allocator<int>>::_M_erase_at_end
@@ -2471,11 +2882,12 @@ std::vector<int,std::allocator<int>>::_M_erase_at_end
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__fill_a<__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>,
-   FastBoard::square_t>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>,
-   __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>, FastBoard::square_t
-   const&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__fill_a<__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>,
+// FastBoard::square_t>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>,
+// __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>, FastBoard::square_t
+// const&)
 
 void std::
      __fill_a___gnu_cxx____normal_iterator_int__std__vector_int_std__allocator_int____FastBoard__square_t_
@@ -2487,7 +2899,8 @@ void std::
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_impl::_Vector_impl() */
+
+// std::_Vector_base<int, std::allocator<int>>::_Vector_impl::_Vector_impl()
 
 void __thiscall
 std::_Vector_base<int,std::allocator<int>>::_Vector_impl::_Vector_impl(_Vector_impl *this)
@@ -2499,8 +2912,9 @@ std::_Vector_base<int,std::allocator<int>>::_Vector_impl::_Vector_impl(_Vector_i
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::_Destroy<int*>(int*, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::_Destroy<int*>(int*, int*)
 
 void std::_Destroy_int__(int *param_1,int *param_2)
 
@@ -2510,7 +2924,8 @@ void std::_Destroy_int__(int *param_1,int *param_2)
 }
 
 
-/* std::vector<int, std::allocator<int>>::_S_max_size(std::allocator<int> const&) */
+
+// std::vector<int, std::allocator<int>>::_S_max_size(std::allocator<int> const&)
 
 ulong std::vector<int,std::allocator<int>>::_S_max_size(allocator *param_1)
 
@@ -2526,7 +2941,8 @@ ulong std::vector<int,std::allocator<int>>::_S_max_size(allocator *param_1)
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::_M_allocate(unsigned long) */
+
+// std::_Vector_base<int, std::allocator<int>>::_M_allocate(unsigned long)
 
 undefined8 __thiscall
 std::_Vector_base<int,std::allocator<int>>::_M_allocate
@@ -2545,8 +2961,9 @@ std::_Vector_base<int,std::allocator<int>>::_M_allocate
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__uninitialized_copy_a<int*, int*, int>(int*, int*, int*, std::allocator<int>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__uninitialized_copy_a<int*, int*, int>(int*, int*, int*, std::allocator<int>&)
 
 int * std::__uninitialized_copy_a_int__int__int_
                 (int *param_1,int *param_2,int *param_3,allocator *param_4)
@@ -2559,8 +2976,9 @@ int * std::__uninitialized_copy_a_int__int__int_
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<int>, int>::deallocate(std::allocator<int>&, int*,
-   unsigned long) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<int>, int>::deallocate(std::allocator<int>&, int*,
+// unsigned long)
 
 void __gnu_cxx::__alloc_traits<std::allocator<int>,int>::deallocate
                (allocator *param_1,int *param_2,ulong param_3)
@@ -2571,7 +2989,8 @@ void __gnu_cxx::__alloc_traits<std::allocator<int>,int>::deallocate
 }
 
 
-/* __gnu_cxx::new_allocator<int>::construct(int*, int const&) */
+
+// __gnu_cxx::new_allocator<int>::construct(int*, int const&)
 
 void __thiscall
 __gnu_cxx::new_allocator<int>::construct(new_allocator_int_ *this,int *param_1,int *param_2)
@@ -2585,7 +3004,8 @@ __gnu_cxx::new_allocator<int>::construct(new_allocator_int_ *this,int *param_1,i
 }
 
 
-/* std::vector<int, std::allocator<int>>::_M_check_len(unsigned long, char const*) const */
+
+// std::vector<int, std::allocator<int>>::_M_check_len(unsigned long, char const*) const
 
 ulong __thiscall
 std::vector<int,std::allocator<int>>::_M_check_len
@@ -2620,10 +3040,11 @@ std::vector<int,std::allocator<int>>::_M_check_len
 }
 
 
-/* __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>::difference_type
-   __gnu_cxx::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<int*, std::vector<int,
-   std::allocator<int>>> const&, __gnu_cxx::__normal_iterator<int*, std::vector<int,
-   std::allocator<int>>> const&) */
+
+// __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>::difference_type
+// __gnu_cxx::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<int*, std::vector<int,
+// std::allocator<int>>> const&, __gnu_cxx::__normal_iterator<int*, std::vector<int,
+// std::allocator<int>>> const&)
 
 difference_type __gnu_cxx::operator_(__normal_iterator *param_1,__normal_iterator *param_2)
 
@@ -2642,7 +3063,8 @@ difference_type __gnu_cxx::operator_(__normal_iterator *param_1,__normal_iterato
 }
 
 
-/* __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>::base() const */
+
+// __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>::base() const
 
 __normal_iterator_int__std__vector_int_std__allocator_int___ * __thiscall
 __gnu_cxx::__normal_iterator<int*,std::vector<int,std::allocator<int>>>::base
@@ -2653,9 +3075,10 @@ __gnu_cxx::__normal_iterator<int*,std::vector<int,std::allocator<int>>>::base
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__uninitialized_move_if_noexcept_a<int*, int*, std::allocator<int>>(int*, int*, int*,
-   std::allocator<int>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__uninitialized_move_if_noexcept_a<int*, int*, std::allocator<int>>(int*, int*, int*,
+// std::allocator<int>&)
 
 int * std::__uninitialized_move_if_noexcept_a_int__int__std__allocator_int__
                 (int *param_1,int *param_2,int *param_3,allocator *param_4)
@@ -2668,7 +3091,8 @@ int * std::__uninitialized_move_if_noexcept_a_int__int__std__allocator_int__
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<int>, int>::destroy(std::allocator<int>&, int*) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<int>, int>::destroy(std::allocator<int>&, int*)
 
 void __gnu_cxx::__alloc_traits<std::allocator<int>,int>::destroy(allocator *param_1,int *param_2)
 
@@ -2678,8 +3102,9 @@ void __gnu_cxx::__alloc_traits<std::allocator<int>,int>::destroy(allocator *para
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_impl::_Vector_impl(std::allocator<int>
-   const&) */
+
+// std::_Vector_base<int, std::allocator<int>>::_Vector_impl::_Vector_impl(std::allocator<int>
+// const&)
 
 void __thiscall
 std::_Vector_base<int,std::allocator<int>>::_Vector_impl::_Vector_impl
@@ -2692,7 +3117,8 @@ std::_Vector_base<int,std::allocator<int>>::_Vector_impl::_Vector_impl
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::_M_create_storage(unsigned long) */
+
+// std::_Vector_base<int, std::allocator<int>>::_M_create_storage(unsigned long)
 
 void __thiscall
 std::_Vector_base<int,std::allocator<int>>::_M_create_storage
@@ -2709,8 +3135,9 @@ std::_Vector_base<int,std::allocator<int>>::_M_create_storage
 }
 
 
-/* __gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>::__normal_iterator(int const* const&) */
+
+// __gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>::__normal_iterator(int const* const&)
 
 void __thiscall
 __gnu_cxx::__normal_iterator<int_const*,std::vector<int,std::allocator<int>>>::__normal_iterator
@@ -2722,11 +3149,12 @@ __gnu_cxx::__normal_iterator<int_const*,std::vector<int,std::allocator<int>>>::_
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::uninitialized_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::uninitialized_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, int*)
 
 int * std::
       uninitialized_copy___gnu_cxx____normal_iterator_int_const__std__vector_int_std__allocator_int____int__
@@ -2742,7 +3170,8 @@ int * std::
 }
 
 
-/* std::allocator<int>::allocator(std::allocator<int> const&) */
+
+// std::allocator<int>::allocator(std::allocator<int> const&)
 
 void std::allocator<int>::allocator(allocator *param_1)
 
@@ -2752,9 +3181,10 @@ void std::allocator<int>::allocator(allocator *param_1)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__uninitialized_fill_n_a<int*, unsigned long, int, int>(int*, unsigned long, int
-   const&, std::allocator<int>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__uninitialized_fill_n_a<int*, unsigned long, int, int>(int*, unsigned long, int
+// const&, std::allocator<int>&)
 
 int * std::__uninitialized_fill_n_a_int__unsigned_long_int_int_
                 (int *param_1,ulong param_2,int *param_3,allocator *param_4)
@@ -2767,7 +3197,8 @@ int * std::__uninitialized_fill_n_a_int__unsigned_long_int_int_
 }
 
 
-/* std::allocator<unsigned long>::allocator<bool>(std::allocator<bool> const&) */
+
+// std::allocator<unsigned long>::allocator<bool>(std::allocator<bool> const&)
 
 void std::allocator<unsigned_long>::allocator_bool_(allocator *param_1)
 
@@ -2777,7 +3208,8 @@ void std::allocator<unsigned_long>::allocator_bool_(allocator *param_1)
 }
 
 
-/* std::allocator<unsigned long>::~allocator() */
+
+// std::allocator<unsigned long>::~allocator()
 
 void __thiscall std::allocator<unsigned_long>::_allocator(allocator_unsigned_long_ *this)
 
@@ -2787,8 +3219,9 @@ void __thiscall std::allocator<unsigned_long>::_allocator(allocator_unsigned_lon
 }
 
 
-/* std::_Bvector_base<std::allocator<bool>>::_Bvector_impl::_Bvector_impl(std::allocator<unsigned
-   long> const&) */
+
+// std::_Bvector_base<std::allocator<bool>>::_Bvector_impl::_Bvector_impl(std::allocator<unsigned
+// long> const&)
 
 void __thiscall
 std::_Bvector_base<std::allocator<bool>>::_Bvector_impl::_Bvector_impl
@@ -2801,7 +3234,8 @@ std::_Bvector_base<std::allocator<bool>>::_Bvector_impl::_Bvector_impl
 }
 
 
-/* std::_Bvector_base<std::allocator<bool>>::_M_deallocate() */
+
+// std::_Bvector_base<std::allocator<bool>>::_M_deallocate()
 
 void __thiscall
 std::_Bvector_base<std::allocator<bool>>::_M_deallocate(_Bvector_base_std__allocator_bool__ *this)
@@ -2821,7 +3255,8 @@ std::_Bvector_base<std::allocator<bool>>::_M_deallocate(_Bvector_base_std__alloc
 }
 
 
-/* std::_Bvector_base<std::allocator<bool>>::_M_allocate(unsigned long) */
+
+// std::_Bvector_base<std::allocator<bool>>::_M_allocate(unsigned long)
 
 void __thiscall
 std::_Bvector_base<std::allocator<bool>>::_M_allocate
@@ -2837,7 +3272,8 @@ std::_Bvector_base<std::allocator<bool>>::_M_allocate
 }
 
 
-/* std::_Bvector_base<std::allocator<bool>>::_S_nword(unsigned long) */
+
+// std::_Bvector_base<std::allocator<bool>>::_S_nword(unsigned long)
 
 ulong std::_Bvector_base<std::allocator<bool>>::_S_nword(ulong param_1)
 
@@ -2846,8 +3282,9 @@ ulong std::_Bvector_base<std::allocator<bool>>::_S_nword(ulong param_1)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long* std::__addressof<unsigned long>(unsigned long&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long* std::__addressof<unsigned long>(unsigned long&)
 
 ulong * std::__addressof_unsigned_long_(ulong *param_1)
 
@@ -2856,7 +3293,8 @@ ulong * std::__addressof_unsigned_long_(ulong *param_1)
 }
 
 
-/* std::_Bvector_base<std::allocator<bool>>::_Bvector_impl::_M_end_addr() const */
+
+// std::_Bvector_base<std::allocator<bool>>::_Bvector_impl::_M_end_addr() const
 
 ulong * __thiscall
 std::_Bvector_base<std::allocator<bool>>::_Bvector_impl::_M_end_addr(_Bvector_impl *this)
@@ -2875,10 +3313,11 @@ std::_Bvector_base<std::allocator<bool>>::_Bvector_impl::_M_end_addr(_Bvector_im
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__fill_a1<int*, std::vector<int, std::allocator<int>>,
-   int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>,
-   __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>, int const&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__fill_a1<int*, std::vector<int, std::allocator<int>>,
+// int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>,
+// __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>, int const&)
 
 void std::__fill_a1_int__std__vector_int_std__allocator_int___int_
                (__normal_iterator param_1,__normal_iterator param_2,int *param_3)
@@ -2905,9 +3344,10 @@ void std::__fill_a1_int__std__vector_int_std__allocator_int___int_
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__uninitialized_move_a<int*, int*, std::allocator<int>>(int*, int*, int*,
-   std::allocator<int>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__uninitialized_move_a<int*, int*, std::allocator<int>>(int*, int*, int*,
+// std::allocator<int>&)
 
 int * std::__uninitialized_move_a_int__int__std__allocator_int__
                 (int *param_1,int *param_2,int *param_3,allocator *param_4)
@@ -2920,8 +3360,9 @@ int * std::__uninitialized_move_a_int__int__std__allocator_int__
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::copy_backward<int*, int*>(int*, int*, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::copy_backward<int*, int*>(int*, int*, int*)
 
 int * std::copy_backward_int__int__(int *param_1,int *param_2,int *param_3)
 
@@ -2936,8 +3377,9 @@ int * std::copy_backward_int__int__(int *param_1,int *param_2,int *param_3)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::fill<int*, int>(int*, int*, int const&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::fill<int*, int>(int*, int*, int const&)
 
 void std::fill_int__int_(int *param_1,int *param_2,int *param_3)
 
@@ -2947,11 +3389,12 @@ void std::fill_int__int_(int *param_1,int *param_2,int *param_3)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__fill_a1<int*, std::vector<int, std::allocator<int>>,
-   FastBoard::square_t>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>,
-   __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>, FastBoard::square_t
-   const&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__fill_a1<int*, std::vector<int, std::allocator<int>>,
+// FastBoard::square_t>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>,
+// __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>, FastBoard::square_t
+// const&)
 
 void std::__fill_a1_int__std__vector_int_std__allocator_int___FastBoard__square_t_
                (__normal_iterator param_1,__normal_iterator param_2,square_t *param_3)
@@ -2978,7 +3421,8 @@ void std::__fill_a1_int__std__vector_int_std__allocator_int___FastBoard__square_
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_impl_data::_Vector_impl_data() */
+
+// std::_Vector_base<int, std::allocator<int>>::_Vector_impl_data::_Vector_impl_data()
 
 void __thiscall
 std::_Vector_base<int,std::allocator<int>>::_Vector_impl_data::_Vector_impl_data
@@ -2992,7 +3436,8 @@ std::_Vector_base<int,std::allocator<int>>::_Vector_impl_data::_Vector_impl_data
 }
 
 
-/* void std::_Destroy_aux<true>::__destroy<int*>(int*, int*) */
+
+// void std::_Destroy_aux<true>::__destroy<int*>(int*, int*)
 
 void std::_Destroy_aux<true>::__destroy_int__(int *param_1,int *param_2)
 
@@ -3001,7 +3446,8 @@ void std::_Destroy_aux<true>::__destroy_int__(int *param_1,int *param_2)
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<int>, int>::max_size(std::allocator<int> const&) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<int>, int>::max_size(std::allocator<int> const&)
 
 void __gnu_cxx::__alloc_traits<std::allocator<int>,int>::max_size(allocator *param_1)
 
@@ -3011,8 +3457,9 @@ void __gnu_cxx::__alloc_traits<std::allocator<int>,int>::max_size(allocator *par
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&)
 
 ulong * std::min_unsigned_long_(ulong *param_1,ulong *param_2)
 
@@ -3024,8 +3471,9 @@ ulong * std::min_unsigned_long_(ulong *param_1,ulong *param_2)
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<int>, int>::allocate(std::allocator<int>&, unsigned
-   long) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<int>, int>::allocate(std::allocator<int>&, unsigned
+// long)
 
 void __gnu_cxx::__alloc_traits<std::allocator<int>,int>::allocate(allocator *param_1,ulong param_2)
 
@@ -3035,8 +3483,9 @@ void __gnu_cxx::__alloc_traits<std::allocator<int>,int>::allocate(allocator *par
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::uninitialized_copy<int*, int*>(int*, int*, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::uninitialized_copy<int*, int*>(int*, int*, int*)
 
 int * std::uninitialized_copy_int__int__(int *param_1,int *param_2,int *param_3)
 
@@ -3048,7 +3497,8 @@ int * std::uninitialized_copy_int__int__(int *param_1,int *param_2,int *param_3)
 }
 
 
-/* __gnu_cxx::new_allocator<int>::deallocate(int*, unsigned long) */
+
+// __gnu_cxx::new_allocator<int>::deallocate(int*, unsigned long)
 
 void __gnu_cxx::new_allocator<int>::deallocate(int *param_1,ulong param_2)
 
@@ -3058,8 +3508,9 @@ void __gnu_cxx::new_allocator<int>::deallocate(int *param_1,ulong param_2)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&)
 
 ulong * std::max_unsigned_long_(ulong *param_1,ulong *param_2)
 
@@ -3071,7 +3522,8 @@ ulong * std::max_unsigned_long_(ulong *param_1,ulong *param_2)
 }
 
 
-/* __gnu_cxx::new_allocator<int>::destroy(int*) */
+
+// __gnu_cxx::new_allocator<int>::destroy(int*)
 
 void __gnu_cxx::new_allocator<int>::destroy(int *param_1)
 
@@ -3080,10 +3532,11 @@ void __gnu_cxx::new_allocator<int>::destroy(int *param_1)
 }
 
 
-/* int* std::__uninitialized_copy<true>::__uninit_copy<__gnu_cxx::__normal_iterator<int const*,
-   std::vector<int, std::allocator<int>>>, int*>(__gnu_cxx::__normal_iterator<int const*,
-   std::vector<int, std::allocator<int>>>, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, int*) */
+
+// int* std::__uninitialized_copy<true>::__uninit_copy<__gnu_cxx::__normal_iterator<int const*,
+// std::vector<int, std::allocator<int>>>, int*>(__gnu_cxx::__normal_iterator<int const*,
+// std::vector<int, std::allocator<int>>>, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, int*)
 
 int * std::__uninitialized_copy<true>::
       __uninit_copy___gnu_cxx____normal_iterator_int_const__std__vector_int_std__allocator_int____int__
@@ -3098,7 +3551,8 @@ int * std::__uninitialized_copy<true>::
 }
 
 
-/* __gnu_cxx::new_allocator<int>::new_allocator(__gnu_cxx::new_allocator<int> const&) */
+
+// __gnu_cxx::new_allocator<int>::new_allocator(__gnu_cxx::new_allocator<int> const&)
 
 void __gnu_cxx::new_allocator<int>::new_allocator(new_allocator *param_1)
 
@@ -3107,8 +3561,9 @@ void __gnu_cxx::new_allocator<int>::new_allocator(new_allocator *param_1)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::uninitialized_fill_n<int*, unsigned long, int>(int*, unsigned long, int const&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::uninitialized_fill_n<int*, unsigned long, int>(int*, unsigned long, int const&)
 
 int * std::uninitialized_fill_n_int__unsigned_long_int_(int *param_1,ulong param_2,int *param_3)
 
@@ -3121,7 +3576,8 @@ int * std::uninitialized_fill_n_int__unsigned_long_int_(int *param_1,ulong param
 }
 
 
-/* __gnu_cxx::new_allocator<unsigned long>::new_allocator() */
+
+// __gnu_cxx::new_allocator<unsigned long>::new_allocator()
 
 void __gnu_cxx::new_allocator<unsigned_long>::new_allocator(void)
 
@@ -3130,7 +3586,8 @@ void __gnu_cxx::new_allocator<unsigned_long>::new_allocator(void)
 }
 
 
-/* __gnu_cxx::new_allocator<unsigned long>::~new_allocator() */
+
+// __gnu_cxx::new_allocator<unsigned long>::~new_allocator()
 
 void __thiscall
 __gnu_cxx::new_allocator<unsigned_long>::_new_allocator(new_allocator_unsigned_long_ *this)
@@ -3140,7 +3597,8 @@ __gnu_cxx::new_allocator<unsigned_long>::_new_allocator(new_allocator_unsigned_l
 }
 
 
-/* std::allocator<unsigned long>::allocator(std::allocator<unsigned long> const&) */
+
+// std::allocator<unsigned long>::allocator(std::allocator<unsigned long> const&)
 
 void std::allocator<unsigned_long>::allocator(allocator *param_1)
 
@@ -3150,7 +3608,8 @@ void std::allocator<unsigned_long>::allocator(allocator *param_1)
 }
 
 
-/* std::_Bvector_base<std::allocator<bool>>::_Bvector_impl_data::_Bvector_impl_data() */
+
+// std::_Bvector_base<std::allocator<bool>>::_Bvector_impl_data::_Bvector_impl_data()
 
 void __thiscall
 std::_Bvector_base<std::allocator<bool>>::_Bvector_impl_data::_Bvector_impl_data
@@ -3164,8 +3623,9 @@ std::_Bvector_base<std::allocator<bool>>::_Bvector_impl_data::_Bvector_impl_data
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<unsigned long>, unsigned
-   long>::deallocate(std::allocator<unsigned long>&, unsigned long*, unsigned long) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<unsigned long>, unsigned
+// long>::deallocate(std::allocator<unsigned long>&, unsigned long*, unsigned long)
 
 void __gnu_cxx::__alloc_traits<std::allocator<unsigned_long>,unsigned_long>::deallocate
                (allocator *param_1,ulong *param_2,ulong param_3)
@@ -3176,7 +3636,8 @@ void __gnu_cxx::__alloc_traits<std::allocator<unsigned_long>,unsigned_long>::dea
 }
 
 
-/* std::_Bvector_base<std::allocator<bool>>::_Bvector_impl_data::_M_reset() */
+
+// std::_Bvector_base<std::allocator<bool>>::_Bvector_impl_data::_M_reset()
 
 void __thiscall
 std::_Bvector_base<std::allocator<bool>>::_Bvector_impl_data::_M_reset(_Bvector_impl_data *this)
@@ -3198,8 +3659,9 @@ std::_Bvector_base<std::allocator<bool>>::_Bvector_impl_data::_M_reset(_Bvector_
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<unsigned long>, unsigned
-   long>::allocate(std::allocator<unsigned long>&, unsigned long) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<unsigned long>, unsigned
+// long>::allocate(std::allocator<unsigned long>&, unsigned long)
 
 void __gnu_cxx::__alloc_traits<std::allocator<unsigned_long>,unsigned_long>::allocate
                (allocator *param_1,ulong param_2)
@@ -3210,9 +3672,10 @@ void __gnu_cxx::__alloc_traits<std::allocator<unsigned_long>,unsigned_long>::all
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__enable_if<std::__is_scalar<int>::__value, void>::__type std::__fill_a1<int*,
-   int>(int*, int*, int const&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__enable_if<std::__is_scalar<int>::__value, void>::__type std::__fill_a1<int*,
+// int>(int*, int*, int const&)
 
 __type std::__fill_a1_int__int_(int *param_1,int *param_2,int *param_3)
 
@@ -3228,8 +3691,9 @@ __type std::__fill_a1_int__int_(int *param_1,int *param_2,int *param_3)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__miter_base<int*>(int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__miter_base<int*>(int*)
 
 int * std::__miter_base_int__(int *param_1)
 
@@ -3238,8 +3702,9 @@ int * std::__miter_base_int__(int *param_1)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__copy_move_backward_a<false, int*, int*>(int*, int*, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__copy_move_backward_a<false, int*, int*>(int*, int*, int*)
 
 int * std::__copy_move_backward_a_false_int__int__(int *param_1,int *param_2,int *param_3)
 
@@ -3263,8 +3728,9 @@ int * std::__copy_move_backward_a_false_int__int__(int *param_1,int *param_2,int
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__fill_a<int*, int>(int*, int*, int const&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__fill_a<int*, int>(int*, int*, int const&)
 
 void std::__fill_a_int__int_(int *param_1,int *param_2,int *param_3)
 
@@ -3274,9 +3740,10 @@ void std::__fill_a_int__int_(int *param_1,int *param_2,int *param_3)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__enable_if<!std::__is_scalar<FastBoard::square_t>::__value, void>::__type
-   std::__fill_a1<int*, FastBoard::square_t>(int*, int*, FastBoard::square_t const&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__enable_if<!std::__is_scalar<FastBoard::square_t>::__value, void>::__type
+// std::__fill_a1<int*, FastBoard::square_t>(int*, int*, FastBoard::square_t const&)
 
 __type std::__fill_a1_int__FastBoard__square_t_(int *param_1,int *param_2,square_t *param_3)
 
@@ -3290,7 +3757,8 @@ __type std::__fill_a1_int__FastBoard__square_t_(int *param_1,int *param_2,square
 }
 
 
-/* __gnu_cxx::new_allocator<int>::max_size() const */
+
+// __gnu_cxx::new_allocator<int>::max_size() const
 
 void __gnu_cxx::new_allocator<int>::max_size(void)
 
@@ -3300,7 +3768,8 @@ void __gnu_cxx::new_allocator<int>::max_size(void)
 }
 
 
-/* __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) */
+
+// __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*)
 
 void __gnu_cxx::new_allocator<int>::allocate(ulong param_1,void *param_2)
 
@@ -3319,7 +3788,8 @@ void __gnu_cxx::new_allocator<int>::allocate(ulong param_1,void *param_2)
 }
 
 
-/* int* std::__uninitialized_copy<true>::__uninit_copy<int*, int*>(int*, int*, int*) */
+
+// int* std::__uninitialized_copy<true>::__uninit_copy<int*, int*>(int*, int*, int*)
 
 int * std::__uninitialized_copy<true>::__uninit_copy_int__int__
                 (int *param_1,int *param_2,int *param_3)
@@ -3332,10 +3802,11 @@ int * std::__uninitialized_copy<true>::__uninit_copy_int__int__
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>,
-   int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>,
-   __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>,
+// int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>,
+// __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>, int*)
 
 int * std::copy___gnu_cxx____normal_iterator_int_const__std__vector_int_std__allocator_int____int__
                 (__normal_iterator param_1,__normal_iterator param_2,int *param_3)
@@ -3355,8 +3826,9 @@ int * std::copy___gnu_cxx____normal_iterator_int_const__std__vector_int_std__all
 }
 
 
-/* int* std::__uninitialized_fill_n<true>::__uninit_fill_n<int*, unsigned long, int>(int*, unsigned
-   long, int const&) */
+
+// int* std::__uninitialized_fill_n<true>::__uninit_fill_n<int*, unsigned long, int>(int*, unsigned
+// long, int const&)
 
 int * std::__uninitialized_fill_n<true>::__uninit_fill_n_int__unsigned_long_int_
                 (int *param_1,ulong param_2,int *param_3)
@@ -3369,8 +3841,9 @@ int * std::__uninitialized_fill_n<true>::__uninit_fill_n_int__unsigned_long_int_
 }
 
 
-/* __gnu_cxx::new_allocator<unsigned long>::new_allocator(__gnu_cxx::new_allocator<unsigned long>
-   const&) */
+
+// __gnu_cxx::new_allocator<unsigned long>::new_allocator(__gnu_cxx::new_allocator<unsigned long>
+// const&)
 
 void __gnu_cxx::new_allocator<unsigned_long>::new_allocator(new_allocator *param_1)
 
@@ -3379,7 +3852,8 @@ void __gnu_cxx::new_allocator<unsigned_long>::new_allocator(new_allocator *param
 }
 
 
-/* __gnu_cxx::new_allocator<unsigned long>::deallocate(unsigned long*, unsigned long) */
+
+// __gnu_cxx::new_allocator<unsigned long>::deallocate(unsigned long*, unsigned long)
 
 void __gnu_cxx::new_allocator<unsigned_long>::deallocate(ulong *param_1,ulong param_2)
 
@@ -3389,7 +3863,8 @@ void __gnu_cxx::new_allocator<unsigned_long>::deallocate(ulong *param_1,ulong pa
 }
 
 
-/* __gnu_cxx::new_allocator<unsigned long>::allocate(unsigned long, void const*) */
+
+// __gnu_cxx::new_allocator<unsigned long>::allocate(unsigned long, void const*)
 
 void __gnu_cxx::new_allocator<unsigned_long>::allocate(ulong param_1,void *param_2)
 
@@ -3408,8 +3883,9 @@ void __gnu_cxx::new_allocator<unsigned_long>::allocate(ulong param_1,void *param
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__niter_base<int*>(int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__niter_base<int*>(int*)
 
 int * std::__niter_base_int__(int *param_1)
 
@@ -3418,8 +3894,9 @@ int * std::__niter_base_int__(int *param_1)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__copy_move_backward_a1<false, int*, int*>(int*, int*, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__copy_move_backward_a1<false, int*, int*>(int*, int*, int*)
 
 int * std::__copy_move_backward_a1_false_int__int__(int *param_1,int *param_2,int *param_3)
 
@@ -3431,8 +3908,9 @@ int * std::__copy_move_backward_a1_false_int__int__(int *param_1,int *param_2,in
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__niter_wrap<int*>(int* const&, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__niter_wrap<int*>(int* const&, int*)
 
 int * std::__niter_wrap_int__(int **param_1,int *param_2)
 
@@ -3441,7 +3919,8 @@ int * std::__niter_wrap_int__(int **param_1,int *param_2)
 }
 
 
-/* __gnu_cxx::new_allocator<int>::_M_max_size() const */
+
+// __gnu_cxx::new_allocator<int>::_M_max_size() const
 
 undefined8 __gnu_cxx::new_allocator<int>::_M_max_size(void)
 
@@ -3450,8 +3929,9 @@ undefined8 __gnu_cxx::new_allocator<int>::_M_max_size(void)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::copy<int*, int*>(int*, int*, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::copy<int*, int*>(int*, int*, int*)
 
 int * std::copy_int__int__(int *param_1,int *param_2,int *param_3)
 
@@ -3466,11 +3946,12 @@ int * std::copy_int__int__(int *param_1,int *param_2,int *param_3)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>
-   std::__miter_base<__gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>
+// std::__miter_base<__gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>)
 
 __normal_iterator
 std::__miter_base___gnu_cxx____normal_iterator_int_const__std__vector_int_std__allocator_int____
@@ -3481,11 +3962,12 @@ std::__miter_base___gnu_cxx____normal_iterator_int_const__std__vector_int_std__a
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__copy_move_a<false, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__copy_move_a<false, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, int*)
 
 int * std::
       __copy_move_a_false___gnu_cxx____normal_iterator_int_const__std__vector_int_std__allocator_int____int__
@@ -3515,8 +3997,9 @@ int * std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::fill_n<int*, unsigned long, int>(int*, unsigned long, int const&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::fill_n<int*, unsigned long, int>(int*, unsigned long, int const&)
 
 int * std::fill_n_int__unsigned_long_int_(int *param_1,ulong param_2,int *param_3)
 
@@ -3534,7 +4017,8 @@ int * std::fill_n_int__unsigned_long_int_(int *param_1,ulong param_2,int *param_
 }
 
 
-/* __gnu_cxx::new_allocator<unsigned long>::_M_max_size() const */
+
+// __gnu_cxx::new_allocator<unsigned long>::_M_max_size() const
 
 undefined8 __gnu_cxx::new_allocator<unsigned_long>::_M_max_size(void)
 
@@ -3543,8 +4027,9 @@ undefined8 __gnu_cxx::new_allocator<unsigned_long>::_M_max_size(void)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__copy_move_backward_a2<false, int*, int*>(int*, int*, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__copy_move_backward_a2<false, int*, int*>(int*, int*, int*)
 
 int * std::__copy_move_backward_a2_false_int__int__(int *param_1,int *param_2,int *param_3)
 
@@ -3557,8 +4042,9 @@ int * std::__copy_move_backward_a2_false_int__int__(int *param_1,int *param_2,in
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__copy_move_a<false, int*, int*>(int*, int*, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__copy_move_a<false, int*, int*>(int*, int*, int*)
 
 int * std::__copy_move_a_false_int__int__(int *param_1,int *param_2,int *param_3)
 
@@ -3582,10 +4068,11 @@ int * std::__copy_move_a_false_int__int__(int *param_1,int *param_2,int *param_3
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int const* std::__niter_base<int const*, std::vector<int,
-   std::allocator<int>>>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int const* std::__niter_base<int const*, std::vector<int,
+// std::allocator<int>>>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>)
 
 int * std::__niter_base_int_const__std__vector_int_std__allocator_int___(__normal_iterator param_1)
 
@@ -3602,8 +4089,9 @@ int * std::__niter_base_int_const__std__vector_int_std__allocator_int___(__norma
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__copy_move_a1<false, int const*, int*>(int const*, int const*, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__copy_move_a1<false, int const*, int*>(int const*, int const*, int*)
 
 int * std::__copy_move_a1_false_int_const__int__(int *param_1,int *param_2,int *param_3)
 
@@ -3615,8 +4103,9 @@ int * std::__copy_move_a1_false_int_const__int__(int *param_1,int *param_2,int *
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::iterator_traits<int*>::iterator_category std::__iterator_category<int*>(int* const&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// std::iterator_traits<int*>::iterator_category std::__iterator_category<int*>(int* const&)
 
 iterator_category std::__iterator_category_int__(int **param_1)
 
@@ -3627,9 +4116,10 @@ iterator_category std::__iterator_category_int__(int **param_1)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__fill_n_a<int*, unsigned long, int>(int*, unsigned long, int const&,
-   std::random_access_iterator_tag) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__fill_n_a<int*, unsigned long, int>(int*, unsigned long, int const&,
+// std::random_access_iterator_tag)
 
 int * std::__fill_n_a_int__unsigned_long_int_
                 (int *param_1,ulong param_2,int *param_3,random_access_iterator_tag param_4)
@@ -3643,8 +4133,9 @@ int * std::__fill_n_a_int__unsigned_long_int_
 }
 
 
-/* int* std::__copy_move_backward<false, true,
-   std::random_access_iterator_tag>::__copy_move_b<int>(int const*, int const*, int*) */
+
+// int* std::__copy_move_backward<false, true,
+// std::random_access_iterator_tag>::__copy_move_b<int>(int const*, int const*, int*)
 
 int * std::__copy_move_backward<false,true,std::random_access_iterator_tag>::__copy_move_b_int_
                 (int *param_1,int *param_2,int *param_3)
@@ -3660,8 +4151,9 @@ int * std::__copy_move_backward<false,true,std::random_access_iterator_tag>::__c
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__copy_move_a1<false, int*, int*>(int*, int*, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__copy_move_a1<false, int*, int*>(int*, int*, int*)
 
 int * std::__copy_move_a1_false_int__int__(int *param_1,int *param_2,int *param_3)
 
@@ -3673,7 +4165,8 @@ int * std::__copy_move_a1_false_int__int__(int *param_1,int *param_2,int *param_
 }
 
 
-/* __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>::base() const */
+
+// __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>::base() const
 
 __normal_iterator_int_const__std__vector_int_std__allocator_int___ * __thiscall
 __gnu_cxx::__normal_iterator<int_const*,std::vector<int,std::allocator<int>>>::base
@@ -3684,8 +4177,9 @@ __gnu_cxx::__normal_iterator<int_const*,std::vector<int,std::allocator<int>>>::b
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__copy_move_a2<false, int const*, int*>(int const*, int const*, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__copy_move_a2<false, int const*, int*>(int const*, int const*, int*)
 
 int * std::__copy_move_a2_false_int_const__int__(int *param_1,int *param_2,int *param_3)
 
@@ -3698,8 +4192,9 @@ int * std::__copy_move_a2_false_int_const__int__(int *param_1,int *param_2,int *
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__copy_move_a2<false, int*, int*>(int*, int*, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__copy_move_a2<false, int*, int*>(int*, int*, int*)
 
 int * std::__copy_move_a2_false_int__int__(int *param_1,int *param_2,int *param_3)
 
@@ -3712,8 +4207,9 @@ int * std::__copy_move_a2_false_int__int__(int *param_1,int *param_2,int *param_
 }
 
 
-/* int* std::__copy_move<false, true, std::random_access_iterator_tag>::__copy_m<int>(int const*,
-   int const*, int*) */
+
+// int* std::__copy_move<false, true, std::random_access_iterator_tag>::__copy_m<int>(int const*,
+// int const*, int*)
 
 int * std::__copy_move<false,true,std::random_access_iterator_tag>::__copy_m_int_
                 (int *param_1,int *param_2,int *param_3)
@@ -3728,1146 +4224,4 @@ int * std::__copy_move<false,true,std::random_access_iterator_tag>::__copy_m_int
   return param_3 + lVar1;
 }
 
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-
-void * memset(void *__s,int __c,size_t __n)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FullBoard::reset_board(int) */
-
-void FullBoard::reset_board(int param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::get_boardsize() */
-
-void FastBoard::get_boardsize(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::is_suicide(int, int) */
-
-void FastBoard::is_suicide(int param_1,int param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-
-void _Unwind_Resume(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::no_eye_fill(int) */
-
-void FastBoard::no_eye_fill(int param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::fast_ss_suicide(int, int) */
-
-void FastBoard::fast_ss_suicide(int param_1,int param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::self_atari(int, int) */
-
-void FastBoard::self_atari(int param_1,int param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* Random::get_Rng() */
-
-void Random::get_Rng(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* Random::randint(unsigned short) */
-
-void Random::randint(ushort param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::get_square(int) */
-
-void FastBoard::get_square(int param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::add_global_captures(int, boost::array<int, 24ul>&, int&) */
-
-void FastBoard::add_global_captures(int param_1,array *param_2,int *param_3)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::save_critical_neighbours(int, int, boost::array<int, 24ul>&, int&) */
-
-void FastBoard::save_critical_neighbours(int param_1,int param_2,array *param_3,int *param_4)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::add_pattern_moves(int, int, boost::array<int, 24ul>&, int&) */
-
-void FastBoard::add_pattern_moves(int param_1,int param_2,array *param_3,int *param_4)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* Matcher::get_Matcher() */
-
-void Matcher::get_Matcher(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::get_pattern_fast_augment(int) */
-
-void FastBoard::get_pattern_fast_augment(int param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* Matcher::matches(int, int) */
-
-void Matcher::matches(int param_1,int param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::nbr_criticality(int, int) */
-
-void FastBoard::nbr_criticality(int param_1,int param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::get_extra_dir(int) */
-
-void FastBoard::get_extra_dir(int param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::update_board_fast(int, int) */
-
-void FastBoard::update_board_fast(int param_1,int param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FullBoard::update_board(int, int) */
-
-void FullBoard::update_board(int param_1,int param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::estimate_mc_score(float) */
-
-void FastBoard::estimate_mc_score(float param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::final_mc_score(float) */
-
-void FastBoard::final_mc_score(float param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::percentual_area_score(float) */
-
-void FastBoard::percentual_area_score(float param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::get_prisoners(int) */
-
-void FastBoard::get_prisoners(int param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* Utils::myprintf(char const*, ...) */
-
-void Utils::myprintf(char *param_1,...)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::black_to_move() */
-
-void FastBoard::black_to_move(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FullBoard::display_board(int) */
-
-void FullBoard::display_board(int param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::move_to_text[abi:cxx11](int) */
-
-void FastBoard::move_to_text_abi_cxx11_(int param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::~basic_string()
-    */
-
-void __thiscall
-std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::_basic_string
-          (basic_string_char_std__char_traits_char__std__allocator_char__ *this)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* Playout::Playout() */
-
-void __thiscall Playout::Playout(Playout *this)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* Playout::run(FastState&, bool) */
-
-void Playout::run(FastState *param_1,bool param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::get_vertex(int, int) */
-
-void FastBoard::get_vertex(int param_1,int param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::set_square(int, FastBoard::square_t) */
-
-void FastBoard::set_square(int param_1,square_t param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::calc_reach_color(int) */
-
-void FastBoard::calc_reach_color(int param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::area_score(float) */
-
-void FastBoard::area_score(float param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__throw_length_error(char const*) */
-
-void std::__throw_length_error(char *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* operator delete(void*) */
-
-void operator_delete(void *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__throw_bad_array_new_length() */
-
-void std::__throw_bad_array_new_length(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__throw_bad_alloc() */
-
-void std::__throw_bad_alloc(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* operator new(unsigned long) */
-
-void * operator_new(ulong param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-
-void * memmove(void *__dest,void *__src,size_t __n)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::new_allocator<int>::~new_allocator() */
-
-void __thiscall __gnu_cxx::new_allocator<int>::_new_allocator(new_allocator_int_ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::new_allocator<int>::new_allocator() */
-
-void __gnu_cxx::new_allocator<int>::new_allocator(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::pair<int, int>::pair(int const&, int const&) */
-
-void std::pair<int,int>::pair(int *param_1,int *param_2)
-
-{
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_base(unsigned long, std::allocator<int>
-   const&) */
-
-void std::_Vector_base<int,std::allocator<int>>::_Vector_base(ulong param_1,allocator *param_2)
-
-{
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<int, std::allocator<int>>::~_Vector_base() */
-
-void __thiscall
-std::_Vector_base<int,std::allocator<int>>::__Vector_base
-          (_Vector_base_int_std__allocator_int__ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_base() */
-
-void std::_Vector_base<int,std::allocator<int>>::_Vector_base(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_impl::~_Vector_impl() */
-
-void __thiscall
-std::_Vector_base<int,std::allocator<int>>::_Vector_impl::__Vector_impl(_Vector_impl *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::vector<bool, std::allocator<bool>>::~vector() */
-
-void __thiscall
-std::vector<bool,std::allocator<bool>>::_vector(vector_bool_std__allocator_bool__ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::vector<bool, std::allocator<bool>>::vector(unsigned long, bool const&, std::allocator<bool>
-   const&) */
-
-void std::vector<bool,std::allocator<bool>>::vector(ulong param_1,bool *param_2,allocator *param_3)
-
-{
-  undefined8 in_RDX;
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::allocator<bool>::~allocator() */
-
-void __thiscall std::allocator<bool>::_allocator(allocator_bool_ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::allocator<bool>::allocator() */
-
-void std::allocator<bool>::allocator(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::vector<int, std::allocator<int>>::vector(unsigned long, int const&, std::allocator<int>
-   const&) */
-
-void std::vector<int,std::allocator<int>>::vector(ulong param_1,int *param_2,allocator *param_3)
-
-{
-  undefined8 in_RDX;
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::allocator<int>::~allocator() */
-
-void __thiscall std::allocator<int>::_allocator(allocator_int_ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::allocator<int>::allocator() */
-
-void std::allocator<int>::allocator(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::vector<int, std::allocator<int>>::vector(std::vector<int, std::allocator<int>> const&) */
-
-void std::vector<int,std::allocator<int>>::vector(vector *param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::vector<int, std::allocator<int>>::~vector() */
-
-void __thiscall std::vector<int,std::allocator<int>>::_vector(vector_int_std__allocator_int__ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::vector<int, std::allocator<int>>::vector() */
-
-void std::vector<int,std::allocator<int>>::vector(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* FastState::~FastState() */
-
-void __thiscall FastState::_FastState(FastState *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* FastState::FastState(FastState const&) */
-
-void __thiscall FastState::FastState(FastState *this,FastState *param_1)
-
-{
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* FullBoard::~FullBoard() */
-
-void __thiscall FullBoard::_FullBoard(FullBoard *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* FullBoard::FullBoard(FullBoard const&) */
-
-void __thiscall FullBoard::FullBoard(FullBoard *this,FullBoard *param_1)
-
-{
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* FastBoard::~FastBoard() */
-
-void __thiscall FastBoard::_FastBoard(FastBoard *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* FastBoard::FastBoard(FastBoard const&) */
-
-void __thiscall FastBoard::FastBoard(FastBoard *this,FastBoard *param_1)
-
-{
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Bit_iterator::_Bit_iterator(unsigned long*, unsigned int) */
-
-void __thiscall std::_Bit_iterator::_Bit_iterator(_Bit_iterator *this,ulong *param_1,uint param_2)
-
-{
-  undefined4 in_EDX;
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Bit_iterator::_Bit_iterator() */
-
-void __thiscall std::_Bit_iterator::_Bit_iterator(_Bit_iterator *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Bit_iterator_base::_Bit_iterator_base(unsigned long*, unsigned int) */
-
-void __thiscall
-std::_Bit_iterator_base::_Bit_iterator_base(_Bit_iterator_base *this,ulong *param_1,uint param_2)
-
-{
-  undefined4 in_EDX;
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Bit_reference::_Bit_reference(unsigned long*, unsigned long) */
-
-void __thiscall
-std::_Bit_reference::_Bit_reference(_Bit_reference *this,ulong *param_1,ulong param_2)
-
-{
-  undefined8 in_RDX;
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::new_allocator<unsigned long>::new_allocator(__gnu_cxx::new_allocator<unsigned long>
-   const&) */
-
-void __gnu_cxx::new_allocator<unsigned_long>::new_allocator(new_allocator *param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Bvector_base<std::allocator<bool>>::_Bvector_impl_data::_Bvector_impl_data() */
-
-void __thiscall
-std::_Bvector_base<std::allocator<bool>>::_Bvector_impl_data::_Bvector_impl_data
-          (_Bvector_impl_data *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::allocator<unsigned long>::allocator(std::allocator<unsigned long> const&) */
-
-void std::allocator<unsigned_long>::allocator(allocator *param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::new_allocator<unsigned long>::~new_allocator() */
-
-void __thiscall
-__gnu_cxx::new_allocator<unsigned_long>::_new_allocator(new_allocator_unsigned_long_ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::new_allocator<unsigned long>::new_allocator() */
-
-void __gnu_cxx::new_allocator<unsigned_long>::new_allocator(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::new_allocator<int>::new_allocator(__gnu_cxx::new_allocator<int> const&) */
-
-void __gnu_cxx::new_allocator<int>::new_allocator(new_allocator *param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_impl_data::_Vector_impl_data() */
-
-void __thiscall
-std::_Vector_base<int,std::allocator<int>>::_Vector_impl_data::_Vector_impl_data
-          (_Vector_impl_data *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Bvector_base<std::allocator<bool>>::_Bvector_impl::_Bvector_impl(std::allocator<unsigned
-   long> const&) */
-
-void __thiscall
-std::_Bvector_base<std::allocator<bool>>::_Bvector_impl::_Bvector_impl
-          (_Bvector_impl *this,allocator *param_1)
-
-{
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::allocator<unsigned long>::~allocator() */
-
-void __thiscall std::allocator<unsigned_long>::_allocator(allocator_unsigned_long_ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::allocator<unsigned long>::allocator<bool>(std::allocator<bool> const&) */
-
-void std::allocator<unsigned_long>::allocator_bool_(allocator *param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::allocator<int>::allocator(std::allocator<int> const&) */
-
-void std::allocator<int>::allocator(allocator *param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>::__normal_iterator(int const* const&) */
-
-void __gnu_cxx::__normal_iterator<int_const*,std::vector<int,std::allocator<int>>>::
-     __normal_iterator(int **param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_impl::_Vector_impl(std::allocator<int>
-   const&) */
-
-void __thiscall
-std::_Vector_base<int,std::allocator<int>>::_Vector_impl::_Vector_impl
-          (_Vector_impl *this,allocator *param_1)
-
-{
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_impl::_Vector_impl() */
-
-void __thiscall
-std::_Vector_base<int,std::allocator<int>>::_Vector_impl::_Vector_impl(_Vector_impl *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>::__normal_iterator(int*
-   const&) */
-
-void __gnu_cxx::__normal_iterator<int*,std::vector<int,std::allocator<int>>>::__normal_iterator
-               (int **param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Bvector_base<std::allocator<bool>>::~_Bvector_base() */
-
-void __thiscall
-std::_Bvector_base<std::allocator<bool>>::__Bvector_base(_Bvector_base_std__allocator_bool__ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Bvector_base<std::allocator<bool>>::_Bvector_base(std::allocator<bool> const&) */
-
-void std::_Bvector_base<std::allocator<bool>>::_Bvector_base(allocator *param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Bvector_base<std::allocator<bool>>::_Bvector_impl::~_Bvector_impl() */
-
-void __thiscall
-std::_Bvector_base<std::allocator<bool>>::_Bvector_impl::__Bvector_impl(_Bvector_impl *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::new_allocator<bool>::~new_allocator() */
-
-void __thiscall __gnu_cxx::new_allocator<bool>::_new_allocator(new_allocator_bool_ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::new_allocator<bool>::new_allocator() */
-
-void __gnu_cxx::new_allocator<bool>::new_allocator(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
 

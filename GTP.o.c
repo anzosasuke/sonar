@@ -1,6 +1,503 @@
+typedef unsigned char   undefined;
 
-/* WARNING: Could not reconcile some variable overlaps */
-/* GTP::get_life_list[abi:cxx11](GameState&, bool) */
+typedef unsigned char    bool;
+typedef unsigned char    byte;
+typedef unsigned char    dwfenc;
+typedef unsigned int    dword;
+typedef unsigned long    qword;
+typedef unsigned int    uint;
+typedef unsigned long    ulong;
+typedef unsigned long long    ulonglong;
+typedef unsigned char    undefined1;
+typedef unsigned int    undefined4;
+typedef unsigned long    undefined8;
+typedef unsigned short    word;
+typedef struct GTP GTP, *PGTP;
+
+struct GTP { // PlaceHolder Class Structure
+};
+
+typedef struct _Rb_tree_node<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>> _Rb_tree_node<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>, *P_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>;
+
+struct _Rb_tree_node<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>> { // PlaceHolder Class Structure
+};
+
+typedef ulong size_t;
+
+typedef struct FastBoard FastBoard, *PFastBoard;
+
+struct FastBoard { // PlaceHolder Structure
+};
+
+typedef struct UCTNode UCTNode, *PUCTNode;
+
+struct UCTNode { // PlaceHolder Structure
+};
+
+typedef struct KoState KoState, *PKoState;
+
+struct KoState { // PlaceHolder Structure
+};
+
+typedef struct FullBoard FullBoard, *PFullBoard;
+
+struct FullBoard { // PlaceHolder Structure
+};
+
+typedef struct GameState GameState, *PGameState;
+
+struct GameState { // PlaceHolder Structure
+};
+
+typedef struct UCTSearch UCTSearch, *PUCTSearch;
+
+struct UCTSearch { // PlaceHolder Structure
+};
+
+typedef struct FastState FastState, *PFastState;
+
+struct FastState { // PlaceHolder Structure
+};
+
+typedef struct SGFTree SGFTree, *PSGFTree;
+
+struct SGFTree { // PlaceHolder Structure
+};
+
+typedef dword _Ios_Fmtflags;
+
+typedef struct allocator<unsigned_long> allocator<unsigned_long>, *Pallocator<unsigned_long>;
+
+struct allocator<unsigned_long> { // PlaceHolder Structure
+};
+
+typedef struct multimap<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::less<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>,std::allocator<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>> multimap<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::less<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>,std::allocator<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>, *Pmultimap<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::less<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>,std::allocator<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>;
+
+struct multimap<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::less<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>,std::allocator<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>> { // PlaceHolder Structure
+};
+
+typedef struct basic_istream basic_istream, *Pbasic_istream;
+
+struct basic_istream { // PlaceHolder Structure
+};
+
+typedef struct _Vector_base<SGFTree,std::allocator<SGFTree>> _Vector_base<SGFTree,std::allocator<SGFTree>>, *P_Vector_base<SGFTree,std::allocator<SGFTree>>;
+
+struct _Vector_base<SGFTree,std::allocator<SGFTree>> { // PlaceHolder Structure
+};
+
+typedef struct _Rb_tree_node _Rb_tree_node, *P_Rb_tree_node;
+
+struct _Rb_tree_node { // PlaceHolder Structure
+};
+
+typedef struct allocator<SGFTree> allocator<SGFTree>, *Pallocator<SGFTree>;
+
+struct allocator<SGFTree> { // PlaceHolder Structure
+};
+
+typedef struct allocator allocator, *Pallocator;
+
+struct allocator { // PlaceHolder Structure
+};
+
+typedef struct ios_base ios_base, *Pios_base;
+
+struct ios_base { // PlaceHolder Structure
+};
+
+typedef struct _Vector_base<KoState,std::allocator<KoState>> _Vector_base<KoState,std::allocator<KoState>>, *P_Vector_base<KoState,std::allocator<KoState>>;
+
+struct _Vector_base<KoState,std::allocator<KoState>> { // PlaceHolder Structure
+};
+
+typedef struct allocator<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>> allocator<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>, *Pallocator<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>;
+
+struct allocator<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>> { // PlaceHolder Structure
+};
+
+typedef struct allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>> allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>, *Pallocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>;
+
+struct allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>> { // PlaceHolder Structure
+};
+
+typedef struct _Rb_tree_node_base _Rb_tree_node_base, *P_Rb_tree_node_base;
+
+struct _Rb_tree_node_base { // PlaceHolder Structure
+};
+
+typedef struct vector<int,std::allocator<int>> vector<int,std::allocator<int>>, *Pvector<int,std::allocator<int>>;
+
+struct vector<int,std::allocator<int>> { // PlaceHolder Structure
+};
+
+typedef struct vector vector, *Pvector;
+
+struct vector { // PlaceHolder Structure
+};
+
+typedef struct vector<SGFTree,std::allocator<SGFTree>> vector<SGFTree,std::allocator<SGFTree>>, *Pvector<SGFTree,std::allocator<SGFTree>>;
+
+struct vector<SGFTree,std::allocator<SGFTree>> { // PlaceHolder Structure
+};
+
+typedef struct vector<unsigned_long_long,std::allocator<unsigned_long_long>> vector<unsigned_long_long,std::allocator<unsigned_long_long>>, *Pvector<unsigned_long_long,std::allocator<unsigned_long_long>>;
+
+struct vector<unsigned_long_long,std::allocator<unsigned_long_long>> { // PlaceHolder Structure
+};
+
+typedef struct _Vector_base<int,std::allocator<int>> _Vector_base<int,std::allocator<int>>, *P_Vector_base<int,std::allocator<int>>;
+
+struct _Vector_base<int,std::allocator<int>> { // PlaceHolder Structure
+};
+
+typedef struct allocator<unsigned_long_long> allocator<unsigned_long_long>, *Pallocator<unsigned_long_long>;
+
+struct allocator<unsigned_long_long> { // PlaceHolder Structure
+};
+
+typedef struct _Bvector_base<std::allocator<bool>> _Bvector_base<std::allocator<bool>>, *P_Bvector_base<std::allocator<bool>>;
+
+struct _Bvector_base<std::allocator<bool>> { // PlaceHolder Structure
+};
+
+typedef struct pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>> pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>, *Ppair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>;
+
+struct pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>> { // PlaceHolder Structure
+};
+
+typedef struct allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>> allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>, *Pallocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>;
+
+struct allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>> { // PlaceHolder Structure
+};
+
+typedef struct _Bit_iterator _Bit_iterator, *P_Bit_iterator;
+
+struct _Bit_iterator { // PlaceHolder Structure
+};
+
+typedef struct pair pair, *Ppair;
+
+struct pair { // PlaceHolder Structure
+};
+
+typedef struct allocator<char> allocator<char>, *Pallocator<char>;
+
+struct allocator<char> { // PlaceHolder Structure
+};
+
+typedef struct _Bit_iterator_base _Bit_iterator_base, *P_Bit_iterator_base;
+
+struct _Bit_iterator_base { // PlaceHolder Structure
+};
+
+typedef struct _Bit_reference _Bit_reference, *P_Bit_reference;
+
+struct _Bit_reference { // PlaceHolder Structure
+};
+
+typedef struct auto_ptr<SGFTree> auto_ptr<SGFTree>, *Pauto_ptr<SGFTree>;
+
+struct auto_ptr<SGFTree> { // PlaceHolder Structure
+};
+
+typedef struct _Vector_base<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>> _Vector_base<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>, *P_Vector_base<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>;
+
+struct _Vector_base<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>> { // PlaceHolder Structure
+};
+
+typedef struct _Rb_tree<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>,std::_Select1st<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>,std::less<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>,std::allocator<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>> _Rb_tree<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>,std::_Select1st<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>,std::less<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>,std::allocator<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>, *P_Rb_tree<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>,std::_Select1st<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>,std::less<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>,std::allocator<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>;
+
+struct _Rb_tree<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>,std::_Select1st<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>,std::less<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>,std::allocator<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>> { // PlaceHolder Structure
+};
+
+typedef struct vector<KoState,std::allocator<KoState>> vector<KoState,std::allocator<KoState>>, *Pvector<KoState,std::allocator<KoState>>;
+
+struct vector<KoState,std::allocator<KoState>> { // PlaceHolder Structure
+};
+
+typedef dword _Ios_Openmode;
+
+typedef struct basic_istream<char,std::char_traits<char>> basic_istream<char,std::char_traits<char>>, *Pbasic_istream<char,std::char_traits<char>>;
+
+struct basic_istream<char,std::char_traits<char>> { // PlaceHolder Structure
+};
+
+typedef struct allocator<int> allocator<int>, *Pallocator<int>;
+
+struct allocator<int> { // PlaceHolder Structure
+};
+
+typedef struct _Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>> _Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>, *P_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>;
+
+struct _Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>> { // PlaceHolder Structure
+};
+
+typedef struct vector<bool,std::allocator<bool>> vector<bool,std::allocator<bool>>, *Pvector<bool,std::allocator<bool>>;
+
+struct vector<bool,std::allocator<bool>> { // PlaceHolder Structure
+};
+
+typedef struct allocator<KoState> allocator<KoState>, *Pallocator<KoState>;
+
+struct allocator<KoState> { // PlaceHolder Structure
+};
+
+typedef struct vector<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>> vector<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>, *Pvector<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>;
+
+struct vector<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>> { // PlaceHolder Structure
+};
+
+typedef struct auto_ptr<UCTSearch> auto_ptr<UCTSearch>, *Pauto_ptr<UCTSearch>;
+
+struct auto_ptr<UCTSearch> { // PlaceHolder Structure
+};
+
+typedef dword basic_string;
+
+typedef struct basic_istringstream<char,std::char_traits<char>,std::allocator<char>> basic_istringstream<char,std::char_traits<char>,std::allocator<char>>, *Pbasic_istringstream<char,std::char_traits<char>,std::allocator<char>>;
+
+struct basic_istringstream<char,std::char_traits<char>,std::allocator<char>> { // PlaceHolder Structure
+};
+
+typedef struct basic_string<char,std::char_traits<char>,std::allocator<char>> basic_string<char,std::char_traits<char>,std::allocator<char>>, *Pbasic_string<char,std::char_traits<char>,std::allocator<char>>;
+
+struct basic_string<char,std::char_traits<char>,std::allocator<char>> { // PlaceHolder Structure
+};
+
+typedef struct _Vector_impl _Vector_impl, *P_Vector_impl;
+
+struct _Vector_impl { // PlaceHolder Structure
+};
+
+typedef struct _Vector_impl_data _Vector_impl_data, *P_Vector_impl_data;
+
+struct _Vector_impl_data { // PlaceHolder Structure
+};
+
+typedef struct Init Init, *PInit;
+
+struct Init { // PlaceHolder Structure
+};
+
+typedef struct _Rb_tree_impl<std::less<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>,false> _Rb_tree_impl<std::less<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>,false>, *P_Rb_tree_impl<std::less<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>,false>;
+
+struct _Rb_tree_impl<std::less<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>,false> { // PlaceHolder Structure
+};
+
+typedef struct _Bvector_impl _Bvector_impl, *P_Bvector_impl;
+
+struct _Bvector_impl { // PlaceHolder Structure
+};
+
+typedef struct _Bvector_impl_data _Bvector_impl_data, *P_Bvector_impl_data;
+
+struct _Bvector_impl_data { // PlaceHolder Structure
+};
+
+typedef struct new_allocator<unsigned_long> new_allocator<unsigned_long>, *Pnew_allocator<unsigned_long>;
+
+struct new_allocator<unsigned_long> { // PlaceHolder Structure
+};
+
+typedef struct new_allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>> new_allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>, *Pnew_allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>;
+
+struct new_allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>> { // PlaceHolder Structure
+};
+
+typedef struct new_allocator<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>> new_allocator<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>, *Pnew_allocator<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>;
+
+struct new_allocator<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>> { // PlaceHolder Structure
+};
+
+typedef struct new_allocator new_allocator, *Pnew_allocator;
+
+struct new_allocator { // PlaceHolder Structure
+};
+
+typedef struct new_allocator<SGFTree> new_allocator<SGFTree>, *Pnew_allocator<SGFTree>;
+
+struct new_allocator<SGFTree> { // PlaceHolder Structure
+};
+
+typedef struct new_allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>> new_allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>, *Pnew_allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>;
+
+struct new_allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>> { // PlaceHolder Structure
+};
+
+typedef struct __normal_iterator<unsigned_long_long*,std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>> __normal_iterator<unsigned_long_long*,std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>>, *P__normal_iterator<unsigned_long_long*,std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>>;
+
+struct __normal_iterator<unsigned_long_long*,std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>> { // PlaceHolder Structure
+};
+
+typedef struct __normal_iterator<int*,std::vector<int,std::allocator<int>>> __normal_iterator<int*,std::vector<int,std::allocator<int>>>, *P__normal_iterator<int*,std::vector<int,std::allocator<int>>>;
+
+struct __normal_iterator<int*,std::vector<int,std::allocator<int>>> { // PlaceHolder Structure
+};
+
+typedef struct new_allocator<unsigned_long_long> new_allocator<unsigned_long_long>, *Pnew_allocator<unsigned_long_long>;
+
+struct new_allocator<unsigned_long_long> { // PlaceHolder Structure
+};
+
+typedef struct new_allocator<int> new_allocator<int>, *Pnew_allocator<int>;
+
+struct new_allocator<int> { // PlaceHolder Structure
+};
+
+typedef struct new_allocator<KoState> new_allocator<KoState>, *Pnew_allocator<KoState>;
+
+struct new_allocator<KoState> { // PlaceHolder Structure
+};
+
+typedef struct __normal_iterator<KoState*,std::vector<KoState,std::allocator<KoState>>> __normal_iterator<KoState*,std::vector<KoState,std::allocator<KoState>>>, *P__normal_iterator<KoState*,std::vector<KoState,std::allocator<KoState>>>;
+
+struct __normal_iterator<KoState*,std::vector<KoState,std::allocator<KoState>>> { // PlaceHolder Structure
+};
+
+typedef struct __normal_iterator<KoState_const*,std::vector<KoState,std::allocator<KoState>>> __normal_iterator<KoState_const*,std::vector<KoState,std::allocator<KoState>>>, *P__normal_iterator<KoState_const*,std::vector<KoState,std::allocator<KoState>>>;
+
+struct __normal_iterator<KoState_const*,std::vector<KoState,std::allocator<KoState>>> { // PlaceHolder Structure
+};
+
+typedef struct __normal_iterator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>*,std::vector<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>> __normal_iterator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>*,std::vector<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>, *P__normal_iterator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>*,std::vector<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>;
+
+struct __normal_iterator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>*,std::vector<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>> { // PlaceHolder Structure
+};
+
+typedef dword __normal_iterator;
+
+typedef dword difference_type;
+
+typedef dword __type;
+
+typedef dword _Iter_equal_to_iter;
+
+typedef dword _Iter_less_iter;
+
+typedef struct _Iter_less_val _Iter_less_val, *P_Iter_less_val;
+
+struct _Iter_less_val { // PlaceHolder Structure
+};
+
+typedef struct _Val_less_iter _Val_less_iter, *P_Val_less_iter;
+
+struct _Val_less_iter { // PlaceHolder Structure
+};
+
+typedef struct __normal_iterator<unsigned_long_long_const*,std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>> __normal_iterator<unsigned_long_long_const*,std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>>, *P__normal_iterator<unsigned_long_long_const*,std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>>;
+
+struct __normal_iterator<unsigned_long_long_const*,std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>> { // PlaceHolder Class Structure
+};
+
+typedef struct __normal_iterator<int_const*,std::vector<int,std::allocator<int>>> __normal_iterator<int_const*,std::vector<int,std::allocator<int>>>, *P__normal_iterator<int_const*,std::vector<int,std::allocator<int>>>;
+
+struct __normal_iterator<int_const*,std::vector<int,std::allocator<int>>> { // PlaceHolder Class Structure
+};
+
+
+// WARNING! conflicting data type names: /__gnu_cxx/__ops/_Iter_equal_to_iter - /Demangler/__gnu_cxx/__ops/_Iter_equal_to_iter
+
+
+// WARNING! conflicting data type names: /__gnu_cxx/__ops/_Iter_less_iter - /Demangler/__gnu_cxx/__ops/_Iter_less_iter
+
+typedef struct Elf64_Rela Elf64_Rela, *PElf64_Rela;
+
+struct Elf64_Rela {
+    qword r_offset; // location to apply the relocation action
+    qword r_info; // the symbol table index and the type of relocation
+    qword r_addend; // a constant addend used to compute the relocatable field value
+};
+
+typedef struct Elf64_Shdr Elf64_Shdr, *PElf64_Shdr;
+
+typedef enum Elf_SectionHeaderType {
+    SHT_NULL=0,
+    SHT_PROGBITS=1,
+    SHT_SYMTAB=2,
+    SHT_STRTAB=3,
+    SHT_RELA=4,
+    SHT_HASH=5,
+    SHT_DYNAMIC=6,
+    SHT_NOTE=7,
+    SHT_NOBITS=8,
+    SHT_REL=9,
+    SHT_SHLIB=10,
+    SHT_DYNSYM=11,
+    SHT_INIT_ARRAY=14,
+    SHT_FINI_ARRAY=15,
+    SHT_PREINIT_ARRAY=16,
+    SHT_GROUP=17,
+    SHT_SYMTAB_SHNDX=18,
+    SHT_ANDROID_REL=1610612737,
+    SHT_ANDROID_RELA=1610612738,
+    SHT_GNU_ATTRIBUTES=1879048181,
+    SHT_GNU_HASH=1879048182,
+    SHT_GNU_LIBLIST=1879048183,
+    SHT_CHECKSUM=1879048184,
+    SHT_SUNW_move=1879048186,
+    SHT_SUNW_COMDAT=1879048187,
+    SHT_SUNW_syminfo=1879048188,
+    SHT_GNU_verdef=1879048189,
+    SHT_GNU_verneed=1879048190,
+    SHT_GNU_versym=1879048191
+} Elf_SectionHeaderType;
+
+struct Elf64_Shdr {
+    dword sh_name;
+    enum Elf_SectionHeaderType sh_type;
+    qword sh_flags;
+    qword sh_addr;
+    qword sh_offset;
+    qword sh_size;
+    dword sh_link;
+    dword sh_info;
+    qword sh_addralign;
+    qword sh_entsize;
+};
+
+typedef struct Elf64_Ehdr Elf64_Ehdr, *PElf64_Ehdr;
+
+struct Elf64_Ehdr {
+    byte e_ident_magic_num;
+    char e_ident_magic_str[3];
+    byte e_ident_class;
+    byte e_ident_data;
+    byte e_ident_version;
+    byte e_ident_osabi;
+    byte e_ident_abiversion;
+    byte e_ident_pad[7];
+    word e_type;
+    word e_machine;
+    dword e_version;
+    qword e_entry;
+    qword e_phoff;
+    qword e_shoff;
+    dword e_flags;
+    word e_ehsize;
+    word e_phentsize;
+    word e_phnum;
+    word e_shentsize;
+    word e_shnum;
+    word e_shstrndx;
+};
+
+typedef struct Elf64_Sym Elf64_Sym, *PElf64_Sym;
+
+struct Elf64_Sym {
+    dword st_name;
+    byte st_info;
+    byte st_other;
+    word st_shndx;
+    qword st_value;
+    qword st_size;
+};
+
+
+
+
+// WARNING: Could not reconcile some variable overlaps
+// GTP::get_life_list[abi:cxx11](GameState&, bool)
 
 GTP * __thiscall GTP::get_life_list_abi_cxx11_(GTP *this,GameState *param_1,bool param_2)
 
@@ -114,9 +611,9 @@ GTP * __thiscall GTP::get_life_list_abi_cxx11_(GTP *this,GameState *param_1,bool
 }
 
 
-/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
-/* GTP::execute(GameState&, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>) */
+
+// GTP::execute(GameState&, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>)
 
 undefined8 GTP::execute(GameState *param_1,basic_string param_2)
 
@@ -265,7 +762,7 @@ LAB_00100504:
   if (bVar1 != false) goto LAB_001024a0;
   bVar1 = std::operator__(local_22b8,"exit");
   if (bVar1 != false) {
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
     exit(0);
   }
   bVar1 = std::operator__(local_22b8,"#");
@@ -311,7 +808,7 @@ LAB_00100504:
   bVar1 = std::operator__(local_22d8,"quit");
   if (bVar1 != false) {
     Utils::gtp_printf(local_22dc,"");
-                    /* WARNING: Subroutine does not return */
+                    // WARNING: Subroutine does not return
     exit(0);
   }
   lVar11 = std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::find
@@ -386,7 +883,7 @@ LAB_001008ab:
       Utils::gtp_fail_printf(local_22dc,"unacceptable size");
     }
     else {
-      GameState::init_game(bVar7,DAT_00103b70);
+      GameState::init_game(bVar7,7.5);
       Utils::gtp_printf(local_22dc,"");
     }
     std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::_basic_string
@@ -409,7 +906,7 @@ LAB_001008ab:
     std::__cxx11::basic_istringstream<char,std::char_traits<char>,std::allocator<char>>::
     basic_istringstream(local_24b8,iVar5 - 0x22d8);
     std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string();
-    local_22e8 = DAT_00103b70;
+    local_22e8 = 7.5;
     std::operator__((basic_istream *)local_24b8,local_24d8);
     std::basic_istream<char,std::char_traits<char>>::operator__
               ((basic_istream_char_std__char_traits_char__ *)local_24b8,&local_22e8);
@@ -518,8 +1015,8 @@ LAB_001008ab:
       if (lVar11 == 0) {
         FastState::get_komi();
         FastBoard::final_mc_score(extraout_XMM0_Da);
-        if (DAT_00103b78 <= (double)extraout_XMM0_Da_00) {
-          if ((double)extraout_XMM0_Da_00 <= _DAT_00103b80) {
+        if (extraout_XMM0_Da_00 <= -0.1) {
+          if (extraout_XMM0_Da_00 <= 0.1) {
             Utils::gtp_printf(local_22dc,"0");
           }
           else {
@@ -536,8 +1033,8 @@ LAB_001008ab:
                          ((char *)local_22d8,(ulong)"final_score");
       if (lVar11 == 0) {
         FastState::final_score();
-        if (DAT_00103b78 <= (double)extraout_XMM0_Da_02) {
-          if ((double)extraout_XMM0_Da_02 <= _DAT_00103b80) {
+        if (extraout_XMM0_Da_02 <= -0.1) {
+          if (extraout_XMM0_Da_02 <= 0.1) {
             Utils::gtp_printf(local_22dc,"0");
           }
           else {
@@ -1031,6 +1528,7 @@ LAB_001024a0:
 }
 
 
+
 void __tcf_0(void)
 
 {
@@ -1047,7 +1545,8 @@ void __tcf_0(void)
 }
 
 
-/* __static_initialization_and_destruction_0(int, int) */
+
+// __static_initialization_and_destruction_0(int, int)
 
 void __static_initialization_and_destruction_0(int param_1,int param_2)
 
@@ -1192,7 +1691,8 @@ void __static_initialization_and_destruction_0(int param_1,int param_2)
 }
 
 
-/* GTP::s_commands[abi:cxx11] */
+
+// GTP::s_commands[abi:cxx11]
 
 void GTP::_GLOBAL__sub_I_s_commands_abi_cxx11_(void)
 
@@ -1202,7 +1702,8 @@ void GTP::_GLOBAL__sub_I_s_commands_abi_cxx11_(void)
 }
 
 
-/* __gnu_cxx::__ops::__iter_less_iter() */
+
+// __gnu_cxx::__ops::__iter_less_iter()
 
 void __gnu_cxx::__ops::__iter_less_iter(void)
 
@@ -1211,7 +1712,8 @@ void __gnu_cxx::__ops::__iter_less_iter(void)
 }
 
 
-/* __gnu_cxx::__ops::_Iter_less_val::_Iter_less_val(__gnu_cxx::__ops::_Iter_less_iter) */
+
+// __gnu_cxx::__ops::_Iter_less_val::_Iter_less_val(__gnu_cxx::__ops::_Iter_less_iter)
 
 void __thiscall
 __gnu_cxx::__ops::_Iter_less_val::_Iter_less_val(_Iter_less_val *this,_Iter_less_iter param_1)
@@ -1221,7 +1723,8 @@ __gnu_cxx::__ops::_Iter_less_val::_Iter_less_val(_Iter_less_val *this,_Iter_less
 }
 
 
-/* __gnu_cxx::__ops::_Val_less_iter::_Val_less_iter() */
+
+// __gnu_cxx::__ops::_Val_less_iter::_Val_less_iter()
 
 void __thiscall __gnu_cxx::__ops::_Val_less_iter::_Val_less_iter(_Val_less_iter *this)
 
@@ -1230,7 +1733,8 @@ void __thiscall __gnu_cxx::__ops::_Val_less_iter::_Val_less_iter(_Val_less_iter 
 }
 
 
-/* __gnu_cxx::__ops::__val_comp_iter(__gnu_cxx::__ops::_Iter_less_iter) */
+
+// __gnu_cxx::__ops::__val_comp_iter(__gnu_cxx::__ops::_Iter_less_iter)
 
 undefined4 __gnu_cxx::__ops::__val_comp_iter(_Iter_less_iter param_1)
 
@@ -1243,7 +1747,8 @@ undefined4 __gnu_cxx::__ops::__val_comp_iter(_Iter_less_iter param_1)
 }
 
 
-/* __gnu_cxx::__ops::__iter_equal_to_iter() */
+
+// __gnu_cxx::__ops::__iter_equal_to_iter()
 
 void __gnu_cxx::__ops::__iter_equal_to_iter(void)
 
@@ -1252,8 +1757,9 @@ void __gnu_cxx::__ops::__iter_equal_to_iter(void)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__lg(long) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// std::__lg(long)
 
 long std::__lg(long param_1)
 
@@ -1269,7 +1775,8 @@ long std::__lg(long param_1)
 }
 
 
-/* operator new(unsigned long, void*) */
+
+// operator new(unsigned long, void*)
 
 void * operator_new(ulong param_1,void *param_2)
 
@@ -1278,7 +1785,8 @@ void * operator_new(ulong param_1,void *param_2)
 }
 
 
-/* operator delete(void*, void*) */
+
+// operator delete(void*, void*)
 
 void operator_delete(void *param_1,void *param_2)
 
@@ -1287,7 +1795,8 @@ void operator_delete(void *param_1,void *param_2)
 }
 
 
-/* std::_Bit_reference::_Bit_reference(unsigned long*, unsigned long) */
+
+// std::_Bit_reference::_Bit_reference(unsigned long*, unsigned long)
 
 void __thiscall
 std::_Bit_reference::_Bit_reference(_Bit_reference *this,ulong *param_1,ulong param_2)
@@ -1299,7 +1808,8 @@ std::_Bit_reference::_Bit_reference(_Bit_reference *this,ulong *param_1,ulong pa
 }
 
 
-/* std::_Bit_reference::operator bool() const */
+
+// std::_Bit_reference::operator bool() const
 
 bool __thiscall std::_Bit_reference::operator_cast_to_bool(_Bit_reference *this)
 
@@ -1308,7 +1818,8 @@ bool __thiscall std::_Bit_reference::operator_cast_to_bool(_Bit_reference *this)
 }
 
 
-/* std::_Bit_iterator_base::_Bit_iterator_base(unsigned long*, unsigned int) */
+
+// std::_Bit_iterator_base::_Bit_iterator_base(unsigned long*, unsigned int)
 
 void __thiscall
 std::_Bit_iterator_base::_Bit_iterator_base(_Bit_iterator_base *this,ulong *param_1,uint param_2)
@@ -1320,7 +1831,8 @@ std::_Bit_iterator_base::_Bit_iterator_base(_Bit_iterator_base *this,ulong *para
 }
 
 
-/* std::_Bit_iterator_base::_M_incr(long) */
+
+// std::_Bit_iterator_base::_M_incr(long)
 
 void __thiscall std::_Bit_iterator_base::_M_incr(_Bit_iterator_base *this,long param_1)
 
@@ -1346,7 +1858,8 @@ void __thiscall std::_Bit_iterator_base::_M_incr(_Bit_iterator_base *this,long p
 }
 
 
-/* std::_Bit_iterator::_Bit_iterator() */
+
+// std::_Bit_iterator::_Bit_iterator()
 
 void __thiscall std::_Bit_iterator::_Bit_iterator(_Bit_iterator *this)
 
@@ -1356,7 +1869,8 @@ void __thiscall std::_Bit_iterator::_Bit_iterator(_Bit_iterator *this)
 }
 
 
-/* std::_Bit_iterator::_Bit_iterator(unsigned long*, unsigned int) */
+
+// std::_Bit_iterator::_Bit_iterator(unsigned long*, unsigned int)
 
 void __thiscall std::_Bit_iterator::_Bit_iterator(_Bit_iterator *this,ulong *param_1,uint param_2)
 
@@ -1366,7 +1880,8 @@ void __thiscall std::_Bit_iterator::_Bit_iterator(_Bit_iterator *this,ulong *par
 }
 
 
-/* std::_Bit_iterator::TEMPNAMEPLACEHOLDERVALUE() const */
+
+// std::_Bit_iterator::TEMPNAMEPLACEHOLDERVALUE() const
 
 undefined  [16] __thiscall std::_Bit_iterator::operator_(_Bit_iterator *this)
 
@@ -1380,7 +1895,8 @@ undefined  [16] __thiscall std::_Bit_iterator::operator_(_Bit_iterator *this)
 }
 
 
-/* std::_Bit_iterator::TEMPNAMEPLACEHOLDERVALUE(long) */
+
+// std::_Bit_iterator::TEMPNAMEPLACEHOLDERVALUE(long)
 
 _Bit_iterator * __thiscall std::_Bit_iterator::operator__(_Bit_iterator *this,long param_1)
 
@@ -1390,8 +1906,9 @@ _Bit_iterator * __thiscall std::_Bit_iterator::operator__(_Bit_iterator *this,lo
 }
 
 
-/* WARNING: Could not reconcile some variable overlaps */
-/* std::_Bit_iterator::operator[](long) const */
+
+// WARNING: Could not reconcile some variable overlaps
+// std::_Bit_iterator::operator[](long) const
 
 void __thiscall std::_Bit_iterator::operator__(_Bit_iterator *this,long param_1)
 
@@ -1404,8 +1921,9 @@ void __thiscall std::_Bit_iterator::operator__(_Bit_iterator *this,long param_1)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::TEMPNAMEPLACEHOLDERVALUE(std::_Bit_iterator const&, long) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// std::TEMPNAMEPLACEHOLDERVALUE(std::_Bit_iterator const&, long)
 
 undefined  [16] std::operator_(_Bit_iterator *param_1,long param_2)
 
@@ -1420,7 +1938,8 @@ undefined  [16] std::operator_(_Bit_iterator *param_1,long param_2)
 }
 
 
-/* std::char_traits<char>::compare(char const*, char const*, unsigned long) */
+
+// std::char_traits<char>::compare(char const*, char const*, unsigned long)
 
 int std::char_traits<char>::compare(char *param_1,char *param_2,ulong param_3)
 
@@ -1437,7 +1956,8 @@ int std::char_traits<char>::compare(char *param_1,char *param_2,ulong param_3)
 }
 
 
-/* std::char_traits<char>::length(char const*) */
+
+// std::char_traits<char>::length(char const*)
 
 void std::char_traits<char>::length(char *param_1)
 
@@ -1447,8 +1967,9 @@ void std::char_traits<char>::length(char *param_1)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::TEMPNAMEPLACEHOLDERVALUE(std::_Ios_Fmtflags, std::_Ios_Fmtflags) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// std::TEMPNAMEPLACEHOLDERVALUE(std::_Ios_Fmtflags, std::_Ios_Fmtflags)
 
 uint std::operator_(_Ios_Fmtflags param_1,_Ios_Fmtflags param_2)
 
@@ -1457,8 +1978,9 @@ uint std::operator_(_Ios_Fmtflags param_1,_Ios_Fmtflags param_2)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::TEMPNAMEPLACEHOLDERVALUE(std::_Ios_Fmtflags) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// std::TEMPNAMEPLACEHOLDERVALUE(std::_Ios_Fmtflags)
 
 uint std::operator_(_Ios_Fmtflags param_1)
 
@@ -1467,8 +1989,9 @@ uint std::operator_(_Ios_Fmtflags param_1)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::TEMPNAMEPLACEHOLDERVALUE(std::_Ios_Fmtflags&, std::_Ios_Fmtflags) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// std::TEMPNAMEPLACEHOLDERVALUE(std::_Ios_Fmtflags&, std::_Ios_Fmtflags)
 
 _Ios_Fmtflags * std::operator__(_Ios_Fmtflags *param_1,_Ios_Fmtflags param_2)
 
@@ -1481,7 +2004,8 @@ _Ios_Fmtflags * std::operator__(_Ios_Fmtflags *param_1,_Ios_Fmtflags param_2)
 }
 
 
-/* std::ios_base::unsetf(std::_Ios_Fmtflags) */
+
+// std::ios_base::unsetf(std::_Ios_Fmtflags)
 
 void __thiscall std::ios_base::unsetf(ios_base *this,_Ios_Fmtflags param_1)
 
@@ -1494,8 +2018,9 @@ void __thiscall std::ios_base::unsetf(ios_base *this,_Ios_Fmtflags param_1)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::noskipws(std::ios_base&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// std::noskipws(std::ios_base&)
 
 ios_base * std::noskipws(ios_base *param_1)
 
@@ -1505,26 +2030,19 @@ ios_base * std::noskipws(ios_base *param_1)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::fabs(float) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// std::fabs(float)
 
 uint std::fabs(float param_1)
 
 {
-  return (uint)param_1 & DAT_00103b60;
+  return (uint)param_1 & 0x7fffffff;
 }
 
 
-void _ZN9FastBoardD1Ev(long param_1)
 
-{
-  std::vector<int,std::allocator<int>>::_vector
-            ((vector_int_std__allocator_int__ *)(param_1 + 0x1f58));
-  return;
-}
-
-
-/* FullBoard::~FullBoard() */
+// FullBoard::~FullBoard()
 
 void __thiscall FullBoard::_FullBoard(FullBoard *this)
 
@@ -1534,7 +2052,8 @@ void __thiscall FullBoard::_FullBoard(FullBoard *this)
 }
 
 
-/* FastState::~FastState() */
+
+// FastState::~FastState()
 
 void __thiscall FastState::_FastState(FastState *this)
 
@@ -1544,7 +2063,8 @@ void __thiscall FastState::_FastState(FastState *this)
 }
 
 
-/* KoState::~KoState() */
+
+// KoState::~KoState()
 
 void __thiscall KoState::_KoState(KoState *this)
 
@@ -1558,7 +2078,8 @@ void __thiscall KoState::_KoState(KoState *this)
 }
 
 
-/* GameState::~GameState() */
+
+// GameState::~GameState()
 
 void __thiscall GameState::_GameState(GameState *this)
 
@@ -1570,7 +2091,8 @@ void __thiscall GameState::_GameState(GameState *this)
 }
 
 
-/* FastBoard::TEMPNAMEPLACEHOLDERVALUE(FastBoard const&) */
+
+// FastBoard::TEMPNAMEPLACEHOLDERVALUE(FastBoard const&)
 
 FastBoard * __thiscall FastBoard::operator_(FastBoard *this,FastBoard *param_1)
 
@@ -1674,7 +2196,8 @@ FastBoard * __thiscall FastBoard::operator_(FastBoard *this,FastBoard *param_1)
 }
 
 
-/* FullBoard::TEMPNAMEPLACEHOLDERVALUE(FullBoard const&) */
+
+// FullBoard::TEMPNAMEPLACEHOLDERVALUE(FullBoard const&)
 
 FullBoard * __thiscall FullBoard::operator_(FullBoard *this,FullBoard *param_1)
 
@@ -1686,7 +2209,8 @@ FullBoard * __thiscall FullBoard::operator_(FullBoard *this,FullBoard *param_1)
 }
 
 
-/* FastState::TEMPNAMEPLACEHOLDERVALUE(FastState const&) */
+
+// FastState::TEMPNAMEPLACEHOLDERVALUE(FastState const&)
 
 FastState * __thiscall FastState::operator_(FastState *this,FastState *param_1)
 
@@ -1759,7 +2283,8 @@ FastState * __thiscall FastState::operator_(FastState *this,FastState *param_1)
 }
 
 
-/* KoState::TEMPNAMEPLACEHOLDERVALUE(KoState const&) */
+
+// KoState::TEMPNAMEPLACEHOLDERVALUE(KoState const&)
 
 KoState * __thiscall KoState::operator_(KoState *this,KoState *param_1)
 
@@ -1775,7 +2300,8 @@ KoState * __thiscall KoState::operator_(KoState *this,KoState *param_1)
 }
 
 
-/* GameState::TEMPNAMEPLACEHOLDERVALUE(GameState const&) */
+
+// GameState::TEMPNAMEPLACEHOLDERVALUE(GameState const&)
 
 GameState * __thiscall GameState::operator_(GameState *this,GameState *param_1)
 
@@ -1798,9 +2324,10 @@ GameState * __thiscall GameState::operator_(GameState *this,GameState *param_1)
 }
 
 
-/* std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::vector() */
+
+// std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>::vector()
 
 void __thiscall
 std::
@@ -1816,9 +2343,10 @@ vector<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<cha
 }
 
 
-/* std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::~vector() */
+
+// std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>::~vector()
 
 void __thiscall
 std::
@@ -1843,7 +2371,8 @@ vector<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<cha
 }
 
 
-/* std::vector<bool, std::allocator<bool>>::~vector() */
+
+// std::vector<bool, std::allocator<bool>>::~vector()
 
 void __thiscall
 std::vector<bool,std::allocator<bool>>::_vector(vector_bool_std__allocator_bool__ *this)
@@ -1854,8 +2383,9 @@ std::vector<bool,std::allocator<bool>>::_vector(vector_bool_std__allocator_bool_
 }
 
 
-/* WARNING: Could not reconcile some variable overlaps */
-/* std::vector<bool, std::allocator<bool>>::operator[](unsigned long) */
+
+// WARNING: Could not reconcile some variable overlaps
+// std::vector<bool, std::allocator<bool>>::operator[](unsigned long)
 
 void __thiscall
 std::vector<bool,std::allocator<bool>>::operator__
@@ -1870,10 +2400,11 @@ std::vector<bool,std::allocator<bool>>::operator__
 }
 
 
-/* std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::push_back(std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const&) */
+
+// std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>::push_back(std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const&)
 
 void __thiscall
 std::
@@ -1899,9 +2430,10 @@ vector<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<cha
 }
 
 
-/* std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::begin() */
+
+// std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>::begin()
 
 undefined8 __thiscall
 std::
@@ -1920,9 +2452,10 @@ vector<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<cha
 }
 
 
-/* std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::end() */
+
+// std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>::end()
 
 undefined8 __thiscall
 std::
@@ -1941,19 +2474,20 @@ vector<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<cha
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::sort<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>,
-   std::allocator<char>>>>>>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::sort<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>,
+// std::allocator<char>>>>>>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>)
 
 void std::
      sort___gnu_cxx____normal_iterator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____std__vector_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std__allocator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char______
@@ -1967,22 +2501,23 @@ void std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>
-   std::unique<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>
+// std::unique<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>)
 
 __normal_iterator
 std::
@@ -1999,16 +2534,17 @@ unique___gnu_cxx____normal_iterator_std____cxx11__basic_string_char_std__char_tr
 }
 
 
-/* std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::erase(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>) */
+
+// std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>::erase(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>)
 
 void __thiscall
 std::
@@ -2022,9 +2558,10 @@ vector<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<cha
 }
 
 
-/* std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::size() const */
+
+// std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>::size() const
 
 long __thiscall
 std::
@@ -2037,9 +2574,10 @@ vector<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<cha
 }
 
 
-/* std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::operator[](unsigned long) */
+
+// std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>::operator[](unsigned long)
 
 long __thiscall
 std::
@@ -2052,10 +2590,11 @@ vector<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<cha
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>
-   std::TEMPNAMEPLACEHOLDERVALUE(char const*, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>
+// std::TEMPNAMEPLACEHOLDERVALUE(char const*, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>> const&)
 
 basic_string std::operator_(char *param_1,basic_string *param_2)
 
@@ -2080,9 +2619,10 @@ basic_string std::operator_(char *param_1,basic_string *param_2)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* bool std::TEMPNAMEPLACEHOLDERVALUE(std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const&, char const*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// bool std::TEMPNAMEPLACEHOLDERVALUE(std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const&, char const*)
 
 bool std::operator__(basic_string *param_1,char *param_2)
 
@@ -2095,11 +2635,12 @@ bool std::operator__(basic_string *param_1,char *param_2)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__enable_if<std::__is_char<char>::__value, bool>::__type
-   std::TEMPNAMEPLACEHOLDERVALUE(std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const&, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__enable_if<std::__is_char<char>::__value, bool>::__type
+// std::TEMPNAMEPLACEHOLDERVALUE(std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const&, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const&)
 
 __type std::operator__(basic_string *param_1,basic_string *param_2)
 
@@ -2128,10 +2669,11 @@ __type std::operator__(basic_string *param_1,basic_string *param_2)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>
-   std::TEMPNAMEPLACEHOLDERVALUE(std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const&, char const*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>
+// std::TEMPNAMEPLACEHOLDERVALUE(std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const&, char const*)
 
 basic_string std::operator_(basic_string *param_1,char *param_2)
 
@@ -2144,11 +2686,12 @@ basic_string std::operator_(basic_string *param_1,char *param_2)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>
-   std::TEMPNAMEPLACEHOLDERVALUE(std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const&, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>
+// std::TEMPNAMEPLACEHOLDERVALUE(std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const&, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const&)
 
 basic_string std::operator_(basic_string *param_1,basic_string *param_2)
 
@@ -2160,7 +2703,8 @@ basic_string std::operator_(basic_string *param_1,basic_string *param_2)
 }
 
 
-/* std::auto_ptr<UCTSearch>::auto_ptr(UCTSearch*) */
+
+// std::auto_ptr<UCTSearch>::auto_ptr(UCTSearch*)
 
 void __thiscall std::auto_ptr<UCTSearch>::auto_ptr(auto_ptr_UCTSearch_ *this,UCTSearch *param_1)
 
@@ -2170,7 +2714,8 @@ void __thiscall std::auto_ptr<UCTSearch>::auto_ptr(auto_ptr_UCTSearch_ *this,UCT
 }
 
 
-/* UCTSearch::~UCTSearch() */
+
+// UCTSearch::~UCTSearch()
 
 void __thiscall UCTSearch::_UCTSearch(UCTSearch *this)
 
@@ -2180,7 +2725,8 @@ void __thiscall UCTSearch::_UCTSearch(UCTSearch *this)
 }
 
 
-/* std::auto_ptr<UCTSearch>::~auto_ptr() */
+
+// std::auto_ptr<UCTSearch>::~auto_ptr()
 
 void __thiscall std::auto_ptr<UCTSearch>::_auto_ptr(auto_ptr_UCTSearch_ *this)
 
@@ -2196,7 +2742,8 @@ void __thiscall std::auto_ptr<UCTSearch>::_auto_ptr(auto_ptr_UCTSearch_ *this)
 }
 
 
-/* std::auto_ptr<UCTSearch>::TEMPNAMEPLACEHOLDERVALUE() const */
+
+// std::auto_ptr<UCTSearch>::TEMPNAMEPLACEHOLDERVALUE() const
 
 undefined8 __thiscall std::auto_ptr<UCTSearch>::operator__(auto_ptr_UCTSearch_ *this)
 
@@ -2205,7 +2752,8 @@ undefined8 __thiscall std::auto_ptr<UCTSearch>::operator__(auto_ptr_UCTSearch_ *
 }
 
 
-/* std::vector<int, std::allocator<int>>::~vector() */
+
+// std::vector<int, std::allocator<int>>::~vector()
 
 void __thiscall std::vector<int,std::allocator<int>>::_vector(vector_int_std__allocator_int__ *this)
 
@@ -2222,7 +2770,8 @@ void __thiscall std::vector<int,std::allocator<int>>::_vector(vector_int_std__al
 }
 
 
-/* std::vector<int, std::allocator<int>>::vector(std::vector<int, std::allocator<int>> const&) */
+
+// std::vector<int, std::allocator<int>>::vector(std::vector<int, std::allocator<int>> const&)
 
 void __thiscall
 std::vector<int,std::allocator<int>>::vector(vector_int_std__allocator_int__ *this,vector *param_1)
@@ -2255,7 +2804,8 @@ std::vector<int,std::allocator<int>>::vector(vector_int_std__allocator_int__ *th
 }
 
 
-/* std::auto_ptr<SGFTree>::auto_ptr(SGFTree*) */
+
+// std::auto_ptr<SGFTree>::auto_ptr(SGFTree*)
 
 void __thiscall std::auto_ptr<SGFTree>::auto_ptr(auto_ptr_SGFTree_ *this,SGFTree *param_1)
 
@@ -2265,12 +2815,13 @@ void __thiscall std::auto_ptr<SGFTree>::auto_ptr(auto_ptr_SGFTree_ *this,SGFTree
 }
 
 
-/* std::multimap<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>,
-   std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>::~multimap() */
+
+// std::multimap<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>,
+// std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>::~multimap()
 
 void __thiscall
 std::
@@ -2286,7 +2837,8 @@ multimap<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<c
 }
 
 
-/* SGFTree::~SGFTree() */
+
+// SGFTree::~SGFTree()
 
 void __thiscall SGFTree::_SGFTree(SGFTree *this)
 
@@ -2302,7 +2854,8 @@ void __thiscall SGFTree::_SGFTree(SGFTree *this)
 }
 
 
-/* std::auto_ptr<SGFTree>::~auto_ptr() */
+
+// std::auto_ptr<SGFTree>::~auto_ptr()
 
 void __thiscall std::auto_ptr<SGFTree>::_auto_ptr(auto_ptr_SGFTree_ *this)
 
@@ -2318,7 +2871,8 @@ void __thiscall std::auto_ptr<SGFTree>::_auto_ptr(auto_ptr_SGFTree_ *this)
 }
 
 
-/* std::auto_ptr<SGFTree>::TEMPNAMEPLACEHOLDERVALUE() const */
+
+// std::auto_ptr<SGFTree>::TEMPNAMEPLACEHOLDERVALUE() const
 
 undefined8 __thiscall std::auto_ptr<SGFTree>::operator__(auto_ptr_SGFTree_ *this)
 
@@ -2327,7 +2881,8 @@ undefined8 __thiscall std::auto_ptr<SGFTree>::operator__(auto_ptr_SGFTree_ *this
 }
 
 
-/* std::vector<unsigned long long, std::allocator<unsigned long long>>::~vector() */
+
+// std::vector<unsigned long long, std::allocator<unsigned long long>>::~vector()
 
 void __thiscall
 std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::_vector
@@ -2347,7 +2902,8 @@ std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::_vector
 }
 
 
-/* std::vector<KoState, std::allocator<KoState>>::~vector() */
+
+// std::vector<KoState, std::allocator<KoState>>::~vector()
 
 void __thiscall
 std::vector<KoState,std::allocator<KoState>>::_vector(vector_KoState_std__allocator_KoState__ *this)
@@ -2365,8 +2921,9 @@ std::vector<KoState,std::allocator<KoState>>::_vector(vector_KoState_std__alloca
 }
 
 
-/* std::vector<int, std::allocator<int>>::TEMPNAMEPLACEHOLDERVALUE(std::vector<int,
-   std::allocator<int>> const&) */
+
+// std::vector<int, std::allocator<int>>::TEMPNAMEPLACEHOLDERVALUE(std::vector<int,
+// std::allocator<int>> const&)
 
 vector_int_std__allocator_int__ * __thiscall
 std::vector<int,std::allocator<int>>::operator_
@@ -2439,9 +2996,10 @@ std::vector<int,std::allocator<int>>::operator_
 }
 
 
-/* std::vector<unsigned long long, std::allocator<unsigned long
-   long>>::TEMPNAMEPLACEHOLDERVALUE(std::vector<unsigned long long, std::allocator<unsigned long
-   long>> const&) */
+
+// std::vector<unsigned long long, std::allocator<unsigned long
+// long>>::TEMPNAMEPLACEHOLDERVALUE(std::vector<unsigned long long, std::allocator<unsigned long
+// long>> const&)
 
 vector_unsigned_long_long_std__allocator_unsigned_long_long__ * __thiscall
 std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::operator_
@@ -2464,8 +3022,8 @@ std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::operator_
     uVar7 = size((vector_unsigned_long_long_std__allocator_unsigned_long_long__ *)param_1);
     uVar8 = capacity(this);
     if (uVar8 < uVar7) {
-      _Var3 = end((vector_unsigned_long_long_std__allocator_unsigned_long_long__ *)param_1);
-      _Var4 = begin((vector_unsigned_long_long_std__allocator_unsigned_long_long__ *)param_1);
+      _Var3 = end();
+      _Var4 = begin();
       puVar9 = _M_allocate_and_copy___gnu_cxx____normal_iterator_unsigned_long_long_const__std__vector_unsigned_long_long_std__allocator_unsigned_long_long____
                          (this,uVar7,_Var4,_Var3);
       paVar10 = (allocator *)
@@ -2506,8 +3064,8 @@ std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::operator_
                                        *)this);
         _Var3 = end(this);
         _Var4 = begin(this);
-        _Var5 = end((vector_unsigned_long_long_std__allocator_unsigned_long_long__ *)param_1);
-        _Var6 = begin((vector_unsigned_long_long_std__allocator_unsigned_long_long__ *)param_1);
+        _Var5 = end();
+        _Var6 = begin();
         _Var4 = copy___gnu_cxx____normal_iterator_unsigned_long_long_const__std__vector_unsigned_long_long_std__allocator_unsigned_long_long______gnu_cxx____normal_iterator_unsigned_long_long__std__vector_unsigned_long_long_std__allocator_unsigned_long_long____
                           (_Var6,_Var5,_Var4);
         _Destroy___gnu_cxx____normal_iterator_unsigned_long_long__std__vector_unsigned_long_long_std__allocator_unsigned_long_long____unsigned_long_long_
@@ -2520,8 +3078,9 @@ std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::operator_
 }
 
 
-/* std::vector<KoState, std::allocator<KoState>>::TEMPNAMEPLACEHOLDERVALUE(std::vector<KoState,
-   std::allocator<KoState>> const&) */
+
+// std::vector<KoState, std::allocator<KoState>>::TEMPNAMEPLACEHOLDERVALUE(std::vector<KoState,
+// std::allocator<KoState>> const&)
 
 vector_KoState_std__allocator_KoState__ * __thiscall
 std::vector<KoState,std::allocator<KoState>>::operator_
@@ -2595,8 +3154,9 @@ std::vector<KoState,std::allocator<KoState>>::operator_
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<char>, char>::_S_select_on_copy(std::allocator<char>
-   const&) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<char>, char>::_S_select_on_copy(std::allocator<char>
+// const&)
 
 allocator *
 __gnu_cxx::__alloc_traits<std::allocator<char>,char>::_S_select_on_copy(allocator *param_1)
@@ -2606,9 +3166,10 @@ __gnu_cxx::__alloc_traits<std::allocator<char>,char>::_S_select_on_copy(allocato
 }
 
 
-/* std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::_Vector_impl::~_Vector_impl() */
+
+// std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>::_Vector_impl::~_Vector_impl()
 
 void __thiscall
 std::
@@ -2623,9 +3184,10 @@ _Vector_base<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocat
 }
 
 
-/* std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::_Vector_base() */
+
+// std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>::_Vector_base()
 
 void __thiscall
 std::
@@ -2639,9 +3201,10 @@ _Vector_base<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocat
 }
 
 
-/* std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::~_Vector_base() */
+
+// std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>::~_Vector_base()
 
 void __thiscall
 std::
@@ -2656,9 +3219,10 @@ _Vector_base<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocat
 }
 
 
-/* std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::_M_get_Tp_allocator() */
+
+// std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>::_M_get_Tp_allocator()
 
 _Vector_base_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std__allocator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____
 * __thiscall
@@ -2673,13 +3237,14 @@ _Vector_base<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocat
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::_Destroy<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>(std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::_Destroy<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>(std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>&)
 
 void std::
      _Destroy_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___
@@ -2692,7 +3257,8 @@ void std::
 }
 
 
-/* std::_Bvector_base<std::allocator<bool>>::_Bvector_impl::~_Bvector_impl() */
+
+// std::_Bvector_base<std::allocator<bool>>::_Bvector_impl::~_Bvector_impl()
 
 void __thiscall
 std::_Bvector_base<std::allocator<bool>>::_Bvector_impl::__Bvector_impl(_Bvector_impl *this)
@@ -2703,7 +3269,8 @@ std::_Bvector_base<std::allocator<bool>>::_Bvector_impl::__Bvector_impl(_Bvector
 }
 
 
-/* std::_Bvector_base<std::allocator<bool>>::~_Bvector_base() */
+
+// std::_Bvector_base<std::allocator<bool>>::~_Bvector_base()
 
 void __thiscall
 std::_Bvector_base<std::allocator<bool>>::__Bvector_base(_Bvector_base_std__allocator_bool__ *this)
@@ -2715,7 +3282,8 @@ std::_Bvector_base<std::allocator<bool>>::__Bvector_base(_Bvector_base_std__allo
 }
 
 
-/* std::vector<bool, std::allocator<bool>>::begin() */
+
+// std::vector<bool, std::allocator<bool>>::begin()
 
 undefined  [16] __thiscall
 std::vector<bool,std::allocator<bool>>::begin(vector_bool_std__allocator_bool__ *this)
@@ -2729,13 +3297,14 @@ std::vector<bool,std::allocator<bool>>::begin(vector_bool_std__allocator_bool__ 
 }
 
 
-/* void __gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>::construct<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>(std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>&, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const&) */
+
+// void __gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>::construct<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>(std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>&, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>> const&)
 
 void __gnu_cxx::
      __alloc_traits<std::allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>
@@ -2749,13 +3318,14 @@ void __gnu_cxx::
 }
 
 
-/* std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::_M_realloc_insert(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const&) */
+
+// std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>::_M_realloc_insert(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>> const&)
 
 void __thiscall
 std::
@@ -2840,11 +3410,12 @@ vector<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<cha
 }
 
 
-/* __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>::__normal_iterator(std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>* const&) */
+
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>::__normal_iterator(std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>* const&)
 
 void __thiscall
 __gnu_cxx::
@@ -2858,19 +3429,20 @@ __normal_iterator<std::__cxx11::basic_string<char,std::char_traits<char>,std::al
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__sort<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>, __gnu_cxx::__ops::_Iter_less_iter) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__sort<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>, __gnu_cxx::__ops::_Iter_less_iter)
 
 void std::
      __sort___gnu_cxx____normal_iterator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____std__vector_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std__allocator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char________gnu_cxx____ops___Iter_less_iter_
@@ -2902,23 +3474,24 @@ void std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>
-   std::__unique<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__ops::_Iter_equal_to_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>, __gnu_cxx::__ops::_Iter_equal_to_iter) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>
+// std::__unique<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__ops::_Iter_equal_to_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>, __gnu_cxx::__ops::_Iter_equal_to_iter)
 
 __normal_iterator
 std::
@@ -2997,16 +3570,17 @@ __unique___gnu_cxx____normal_iterator_std____cxx11__basic_string_char_std__char_
 }
 
 
-/* std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::_M_erase(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>) */
+
+// std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>::_M_erase(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>)
 
 undefined8 __thiscall
 std::
@@ -3055,7 +3629,8 @@ vector<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<cha
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_impl::~_Vector_impl() */
+
+// std::_Vector_base<int, std::allocator<int>>::_Vector_impl::~_Vector_impl()
 
 void __thiscall
 std::_Vector_base<int,std::allocator<int>>::_Vector_impl::__Vector_impl(_Vector_impl *this)
@@ -3066,7 +3641,8 @@ std::_Vector_base<int,std::allocator<int>>::_Vector_impl::__Vector_impl(_Vector_
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::~_Vector_base() */
+
+// std::_Vector_base<int, std::allocator<int>>::~_Vector_base()
 
 void __thiscall
 std::_Vector_base<int,std::allocator<int>>::__Vector_base
@@ -3079,7 +3655,8 @@ std::_Vector_base<int,std::allocator<int>>::__Vector_base
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::_M_get_Tp_allocator() */
+
+// std::_Vector_base<int, std::allocator<int>>::_M_get_Tp_allocator()
 
 _Vector_base_int_std__allocator_int__ * __thiscall
 std::_Vector_base<int,std::allocator<int>>::_M_get_Tp_allocator
@@ -3090,8 +3667,9 @@ std::_Vector_base<int,std::allocator<int>>::_M_get_Tp_allocator
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::_Destroy<int*, int>(int*, int*, std::allocator<int>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::_Destroy<int*, int>(int*, int*, std::allocator<int>&)
 
 void std::_Destroy_int__int_(int *param_1,int *param_2,allocator *param_3)
 
@@ -3101,7 +3679,8 @@ void std::_Destroy_int__int_(int *param_1,int *param_2,allocator *param_3)
 }
 
 
-/* std::vector<int, std::allocator<int>>::size() const */
+
+// std::vector<int, std::allocator<int>>::size() const
 
 long __thiscall std::vector<int,std::allocator<int>>::size(vector_int_std__allocator_int__ *this)
 
@@ -3110,8 +3689,9 @@ long __thiscall std::vector<int,std::allocator<int>>::size(vector_int_std__alloc
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<int>, int>::_S_select_on_copy(std::allocator<int>
-   const&) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<int>, int>::_S_select_on_copy(std::allocator<int>
+// const&)
 
 allocator *
 __gnu_cxx::__alloc_traits<std::allocator<int>,int>::_S_select_on_copy(allocator *param_1)
@@ -3121,7 +3701,8 @@ __gnu_cxx::__alloc_traits<std::allocator<int>,int>::_S_select_on_copy(allocator 
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::_M_get_Tp_allocator() const */
+
+// std::_Vector_base<int, std::allocator<int>>::_M_get_Tp_allocator() const
 
 _Vector_base_int_std__allocator_int__ * __thiscall
 std::_Vector_base<int,std::allocator<int>>::_M_get_Tp_allocator
@@ -3132,8 +3713,9 @@ std::_Vector_base<int,std::allocator<int>>::_M_get_Tp_allocator
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_base(unsigned long, std::allocator<int>
-   const&) */
+
+// std::_Vector_base<int, std::allocator<int>>::_Vector_base(unsigned long, std::allocator<int>
+// const&)
 
 void __thiscall
 std::_Vector_base<int,std::allocator<int>>::_Vector_base
@@ -3146,7 +3728,8 @@ std::_Vector_base<int,std::allocator<int>>::_Vector_base
 }
 
 
-/* std::vector<int, std::allocator<int>>::begin() const */
+
+// std::vector<int, std::allocator<int>>::begin() const
 
 undefined8 __thiscall
 std::vector<int,std::allocator<int>>::begin(vector_int_std__allocator_int__ *this)
@@ -3161,7 +3744,8 @@ std::vector<int,std::allocator<int>>::begin(vector_int_std__allocator_int__ *thi
 }
 
 
-/* std::vector<int, std::allocator<int>>::end() const */
+
+// std::vector<int, std::allocator<int>>::end() const
 
 undefined8 __thiscall
 std::vector<int,std::allocator<int>>::end(vector_int_std__allocator_int__ *this)
@@ -3176,11 +3760,12 @@ std::vector<int,std::allocator<int>>::end(vector_int_std__allocator_int__ *this)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, int*, int>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, int*, std::allocator<int>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, int*, int>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, int*, std::allocator<int>&)
 
 int * std::
       __uninitialized_copy_a___gnu_cxx____normal_iterator_int_const__std__vector_int_std__allocator_int____int__int_
@@ -3196,7 +3781,8 @@ int * std::
 }
 
 
-/* std::vector<SGFTree, std::allocator<SGFTree>>::~vector() */
+
+// std::vector<SGFTree, std::allocator<SGFTree>>::~vector()
 
 void __thiscall
 std::vector<SGFTree,std::allocator<SGFTree>>::_vector(vector_SGFTree_std__allocator_SGFTree__ *this)
@@ -3214,17 +3800,18 @@ std::vector<SGFTree,std::allocator<SGFTree>>::_vector(vector_SGFTree_std__alloca
 }
 
 
-/* std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
-   std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>,
-   std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>,
-   std::allocator<char>>>>>::_Rb_tree_impl<std::less<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>, false>::~_Rb_tree_impl() */
+
+// std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
+// std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>,
+// std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
+// std::char_traits<char>,
+// std::allocator<char>>>>>::_Rb_tree_impl<std::less<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>, false>::~_Rb_tree_impl()
 
 void __thiscall
 std::
@@ -3242,15 +3829,16 @@ _Rb_tree_impl<std::less<std::__cxx11::basic_string<char,std::char_traits<char>,s
 }
 
 
-/* std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
-   std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>,
-   std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>::~_Rb_tree() */
+
+// std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
+// std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>,
+// std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>::~_Rb_tree()
 
 void __thiscall
 std::
@@ -3270,8 +3858,9 @@ _Rb_tree<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<c
 }
 
 
-/* std::_Vector_base<unsigned long long, std::allocator<unsigned long
-   long>>::_Vector_impl::~_Vector_impl() */
+
+// std::_Vector_base<unsigned long long, std::allocator<unsigned long
+// long>>::_Vector_impl::~_Vector_impl()
 
 void __thiscall
 std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_Vector_impl::
@@ -3283,7 +3872,8 @@ __Vector_impl(_Vector_impl *this)
 }
 
 
-/* std::_Vector_base<unsigned long long, std::allocator<unsigned long long>>::~_Vector_base() */
+
+// std::_Vector_base<unsigned long long, std::allocator<unsigned long long>>::~_Vector_base()
 
 void __thiscall
 std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::__Vector_base
@@ -3296,8 +3886,8 @@ std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::__Vect
 }
 
 
-/* std::_Vector_base<unsigned long long, std::allocator<unsigned long long>>::_M_get_Tp_allocator()
-    */
+
+// std::_Vector_base<unsigned long long, std::allocator<unsigned long long>>::_M_get_Tp_allocator()
 
 _Vector_base_unsigned_long_long_std__allocator_unsigned_long_long__ * __thiscall
 std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_M_get_Tp_allocator
@@ -3308,9 +3898,10 @@ std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_M_get
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::_Destroy<unsigned long long*, unsigned long long>(unsigned long long*, unsigned long
-   long*, std::allocator<unsigned long long>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::_Destroy<unsigned long long*, unsigned long long>(unsigned long long*, unsigned long
+// long*, std::allocator<unsigned long long>&)
 
 void std::_Destroy_unsigned_long_long__unsigned_long_long_
                (ulonglong *param_1,ulonglong *param_2,allocator *param_3)
@@ -3321,7 +3912,8 @@ void std::_Destroy_unsigned_long_long__unsigned_long_long_
 }
 
 
-/* std::_Vector_base<KoState, std::allocator<KoState>>::_Vector_impl::~_Vector_impl() */
+
+// std::_Vector_base<KoState, std::allocator<KoState>>::_Vector_impl::~_Vector_impl()
 
 void __thiscall
 std::_Vector_base<KoState,std::allocator<KoState>>::_Vector_impl::__Vector_impl(_Vector_impl *this)
@@ -3332,7 +3924,8 @@ std::_Vector_base<KoState,std::allocator<KoState>>::_Vector_impl::__Vector_impl(
 }
 
 
-/* std::_Vector_base<KoState, std::allocator<KoState>>::~_Vector_base() */
+
+// std::_Vector_base<KoState, std::allocator<KoState>>::~_Vector_base()
 
 void __thiscall
 std::_Vector_base<KoState,std::allocator<KoState>>::__Vector_base
@@ -3346,7 +3939,8 @@ std::_Vector_base<KoState,std::allocator<KoState>>::__Vector_base
 }
 
 
-/* std::_Vector_base<KoState, std::allocator<KoState>>::_M_get_Tp_allocator() */
+
+// std::_Vector_base<KoState, std::allocator<KoState>>::_M_get_Tp_allocator()
 
 _Vector_base_KoState_std__allocator_KoState__ * __thiscall
 std::_Vector_base<KoState,std::allocator<KoState>>::_M_get_Tp_allocator
@@ -3357,8 +3951,9 @@ std::_Vector_base<KoState,std::allocator<KoState>>::_M_get_Tp_allocator
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::_Destroy<KoState*, KoState>(KoState*, KoState*, std::allocator<KoState>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::_Destroy<KoState*, KoState>(KoState*, KoState*, std::allocator<KoState>&)
 
 void std::_Destroy_KoState__KoState_(KoState *param_1,KoState *param_2,allocator *param_3)
 
@@ -3368,7 +3963,8 @@ void std::_Destroy_KoState__KoState_(KoState *param_1,KoState *param_2,allocator
 }
 
 
-/* std::vector<int, std::allocator<int>>::capacity() const */
+
+// std::vector<int, std::allocator<int>>::capacity() const
 
 long __thiscall
 std::vector<int,std::allocator<int>>::capacity(vector_int_std__allocator_int__ *this)
@@ -3378,10 +3974,11 @@ std::vector<int,std::allocator<int>>::capacity(vector_int_std__allocator_int__ *
 }
 
 
-/* int* std::vector<int, std::allocator<int>>::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int
-   const*, std::vector<int, std::allocator<int>>>>(unsigned long, __gnu_cxx::__normal_iterator<int
-   const*, std::vector<int, std::allocator<int>>>, __gnu_cxx::__normal_iterator<int const*,
-   std::vector<int, std::allocator<int>>>) */
+
+// int* std::vector<int, std::allocator<int>>::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<int
+// const*, std::vector<int, std::allocator<int>>>>(unsigned long, __gnu_cxx::__normal_iterator<int
+// const*, std::vector<int, std::allocator<int>>>, __gnu_cxx::__normal_iterator<int const*,
+// std::vector<int, std::allocator<int>>>)
 
 int * __thiscall
 std::vector<int,std::allocator<int>>::
@@ -3404,7 +4001,8 @@ _M_allocate_and_copy___gnu_cxx____normal_iterator_int_const__std__vector_int_std
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::_M_deallocate(int*, unsigned long) */
+
+// std::_Vector_base<int, std::allocator<int>>::_M_deallocate(int*, unsigned long)
 
 void __thiscall
 std::_Vector_base<int,std::allocator<int>>::_M_deallocate
@@ -3419,7 +4017,8 @@ std::_Vector_base<int,std::allocator<int>>::_M_deallocate
 }
 
 
-/* std::vector<int, std::allocator<int>>::begin() */
+
+// std::vector<int, std::allocator<int>>::begin()
 
 undefined8 __thiscall
 std::vector<int,std::allocator<int>>::begin(vector_int_std__allocator_int__ *this)
@@ -3434,14 +4033,14 @@ std::vector<int,std::allocator<int>>::begin(vector_int_std__allocator_int__ *thi
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>
-   std::copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>,
-   __gnu_cxx::__normal_iterator<int*, std::vector<int,
-   std::allocator<int>>>>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>)
-    */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>
+// std::copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>,
+// __gnu_cxx::__normal_iterator<int*, std::vector<int,
+// std::allocator<int>>>>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>)
 
 __normal_iterator
 std::
@@ -3462,7 +4061,8 @@ copy___gnu_cxx____normal_iterator_int_const__std__vector_int_std__allocator_int_
 }
 
 
-/* std::vector<int, std::allocator<int>>::end() */
+
+// std::vector<int, std::allocator<int>>::end()
 
 undefined8 __thiscall
 std::vector<int,std::allocator<int>>::end(vector_int_std__allocator_int__ *this)
@@ -3477,11 +4077,11 @@ std::vector<int,std::allocator<int>>::end(vector_int_std__allocator_int__ *this)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::_Destroy<__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>,
-   int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>,
-   __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>, std::allocator<int>&)
-    */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::_Destroy<__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>,
+// int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>,
+// __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>, std::allocator<int>&)
 
 void std::_Destroy___gnu_cxx____normal_iterator_int__std__vector_int_std__allocator_int____int_
                (__normal_iterator param_1,__normal_iterator param_2,allocator *param_3)
@@ -3493,8 +4093,9 @@ void std::_Destroy___gnu_cxx____normal_iterator_int__std__vector_int_std__alloca
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::copy<int*, int*>(int*, int*, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::copy<int*, int*>(int*, int*, int*)
 
 int * std::copy_int__int__(int *param_1,int *param_2,int *param_3)
 
@@ -3509,8 +4110,9 @@ int * std::copy_int__int__(int *param_1,int *param_2,int *param_3)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__uninitialized_copy_a<int*, int*, int>(int*, int*, int*, std::allocator<int>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__uninitialized_copy_a<int*, int*, int>(int*, int*, int*, std::allocator<int>&)
 
 int * std::__uninitialized_copy_a_int__int__int_
                 (int *param_1,int *param_2,int *param_3,allocator *param_4)
@@ -3523,7 +4125,8 @@ int * std::__uninitialized_copy_a_int__int__int_
 }
 
 
-/* std::vector<unsigned long long, std::allocator<unsigned long long>>::size() const */
+
+// std::vector<unsigned long long, std::allocator<unsigned long long>>::size() const
 
 long __thiscall
 std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::size
@@ -3534,7 +4137,8 @@ std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::size
 }
 
 
-/* std::vector<unsigned long long, std::allocator<unsigned long long>>::capacity() const */
+
+// std::vector<unsigned long long, std::allocator<unsigned long long>>::capacity() const
 
 long __thiscall
 std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::capacity
@@ -3545,46 +4149,43 @@ std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::capacity
 }
 
 
-/* std::vector<unsigned long long, std::allocator<unsigned long long>>::begin() const */
 
-undefined8 __thiscall
-std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::begin
-          (vector_unsigned_long_long_std__allocator_unsigned_long_long__ *this)
+// std::vector<unsigned long long, std::allocator<unsigned long long>>::begin() const
+
+ulonglong * std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::begin(void)
 
 {
-  undefined8 local_10;
+  ulonglong *local_10;
   
   __gnu_cxx::
   __normal_iterator<unsigned_long_long_const*,std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>>
-  ::__normal_iterator((__normal_iterator_unsigned_long_long_const__std__vector_unsigned_long_long_std__allocator_unsigned_long_long___
-                       *)&local_10,(ulonglong **)this);
+  ::__normal_iterator(&local_10);
   return local_10;
 }
 
 
-/* std::vector<unsigned long long, std::allocator<unsigned long long>>::end() const */
 
-undefined8 __thiscall
-std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::end
-          (vector_unsigned_long_long_std__allocator_unsigned_long_long__ *this)
+// std::vector<unsigned long long, std::allocator<unsigned long long>>::end() const
+
+ulonglong * std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::end(void)
 
 {
-  undefined8 local_10;
+  ulonglong *local_10;
   
   __gnu_cxx::
   __normal_iterator<unsigned_long_long_const*,std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>>
-  ::__normal_iterator((__normal_iterator_unsigned_long_long_const__std__vector_unsigned_long_long_std__allocator_unsigned_long_long___
-                       *)&local_10,(ulonglong **)(this + 8));
+  ::__normal_iterator(&local_10);
   return local_10;
 }
 
 
-/* unsigned long long* std::vector<unsigned long long, std::allocator<unsigned long
-   long>>::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<unsigned long long const*,
-   std::vector<unsigned long long, std::allocator<unsigned long long>>>>(unsigned long,
-   __gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>, __gnu_cxx::__normal_iterator<unsigned long long const*,
-   std::vector<unsigned long long, std::allocator<unsigned long long>>>) */
+
+// unsigned long long* std::vector<unsigned long long, std::allocator<unsigned long
+// long>>::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<unsigned long long const*,
+// std::vector<unsigned long long, std::allocator<unsigned long long>>>>(unsigned long,
+// __gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>>, __gnu_cxx::__normal_iterator<unsigned long long const*,
+// std::vector<unsigned long long, std::allocator<unsigned long long>>>)
 
 ulonglong * __thiscall
 std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::
@@ -3609,8 +4210,9 @@ _M_allocate_and_copy___gnu_cxx____normal_iterator_unsigned_long_long_const__std_
 }
 
 
-/* std::_Vector_base<unsigned long long, std::allocator<unsigned long long>>::_M_deallocate(unsigned
-   long long*, unsigned long) */
+
+// std::_Vector_base<unsigned long long, std::allocator<unsigned long long>>::_M_deallocate(unsigned
+// long long*, unsigned long)
 
 void __thiscall
 std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_M_deallocate
@@ -3626,7 +4228,8 @@ std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_M_dea
 }
 
 
-/* std::vector<unsigned long long, std::allocator<unsigned long long>>::begin() */
+
+// std::vector<unsigned long long, std::allocator<unsigned long long>>::begin()
 
 undefined8 __thiscall
 std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::begin
@@ -3643,16 +4246,17 @@ std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::begin
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>> std::copy<__gnu_cxx::__normal_iterator<unsigned long long
-   const*, std::vector<unsigned long long, std::allocator<unsigned long long>>>,
-   __gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>>(__gnu_cxx::__normal_iterator<unsigned long long const*,
-   std::vector<unsigned long long, std::allocator<unsigned long long>>>,
-   __gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>, __gnu_cxx::__normal_iterator<unsigned long long*,
-   std::vector<unsigned long long, std::allocator<unsigned long long>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>> std::copy<__gnu_cxx::__normal_iterator<unsigned long long
+// const*, std::vector<unsigned long long, std::allocator<unsigned long long>>>,
+// __gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>>>(__gnu_cxx::__normal_iterator<unsigned long long const*,
+// std::vector<unsigned long long, std::allocator<unsigned long long>>>,
+// __gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>>, __gnu_cxx::__normal_iterator<unsigned long long*,
+// std::vector<unsigned long long, std::allocator<unsigned long long>>>)
 
 __normal_iterator
 std::
@@ -3673,7 +4277,8 @@ copy___gnu_cxx____normal_iterator_unsigned_long_long_const__std__vector_unsigned
 }
 
 
-/* std::vector<unsigned long long, std::allocator<unsigned long long>>::end() */
+
+// std::vector<unsigned long long, std::allocator<unsigned long long>>::end()
 
 undefined8 __thiscall
 std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::end
@@ -3690,13 +4295,14 @@ std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::end
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::_Destroy<__gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long
-   long, std::allocator<unsigned long long>>>, unsigned long
-   long>(__gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>, __gnu_cxx::__normal_iterator<unsigned long long*,
-   std::vector<unsigned long long, std::allocator<unsigned long long>>>, std::allocator<unsigned
-   long long>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::_Destroy<__gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long
+// long, std::allocator<unsigned long long>>>, unsigned long
+// long>(__gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>>, __gnu_cxx::__normal_iterator<unsigned long long*,
+// std::vector<unsigned long long, std::allocator<unsigned long long>>>, std::allocator<unsigned
+// long long>&)
 
 void std::
      _Destroy___gnu_cxx____normal_iterator_unsigned_long_long__std__vector_unsigned_long_long_std__allocator_unsigned_long_long____unsigned_long_long_
@@ -3709,9 +4315,10 @@ void std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long long* std::copy<unsigned long long*, unsigned long long*>(unsigned long long*,
-   unsigned long long*, unsigned long long*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long long* std::copy<unsigned long long*, unsigned long long*>(unsigned long long*,
+// unsigned long long*, unsigned long long*)
 
 ulonglong *
 std::copy_unsigned_long_long__unsigned_long_long__
@@ -3728,10 +4335,11 @@ std::copy_unsigned_long_long__unsigned_long_long__
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long long* std::__uninitialized_copy_a<unsigned long long*, unsigned long long*,
-   unsigned long long>(unsigned long long*, unsigned long long*, unsigned long long*,
-   std::allocator<unsigned long long>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long long* std::__uninitialized_copy_a<unsigned long long*, unsigned long long*,
+// unsigned long long>(unsigned long long*, unsigned long long*, unsigned long long*,
+// std::allocator<unsigned long long>&)
 
 ulonglong *
 std::__uninitialized_copy_a_unsigned_long_long__unsigned_long_long__unsigned_long_long_
@@ -3745,7 +4353,8 @@ std::__uninitialized_copy_a_unsigned_long_long__unsigned_long_long__unsigned_lon
 }
 
 
-/* std::vector<KoState, std::allocator<KoState>>::size() const */
+
+// std::vector<KoState, std::allocator<KoState>>::size() const
 
 long __thiscall
 std::vector<KoState,std::allocator<KoState>>::size(vector_KoState_std__allocator_KoState__ *this)
@@ -3755,7 +4364,8 @@ std::vector<KoState,std::allocator<KoState>>::size(vector_KoState_std__allocator
 }
 
 
-/* std::vector<KoState, std::allocator<KoState>>::capacity() const */
+
+// std::vector<KoState, std::allocator<KoState>>::capacity() const
 
 long __thiscall
 std::vector<KoState,std::allocator<KoState>>::capacity
@@ -3766,7 +4376,8 @@ std::vector<KoState,std::allocator<KoState>>::capacity
 }
 
 
-/* std::vector<KoState, std::allocator<KoState>>::begin() const */
+
+// std::vector<KoState, std::allocator<KoState>>::begin() const
 
 undefined8 __thiscall
 std::vector<KoState,std::allocator<KoState>>::begin(vector_KoState_std__allocator_KoState__ *this)
@@ -3781,7 +4392,8 @@ std::vector<KoState,std::allocator<KoState>>::begin(vector_KoState_std__allocato
 }
 
 
-/* std::vector<KoState, std::allocator<KoState>>::end() const */
+
+// std::vector<KoState, std::allocator<KoState>>::end() const
 
 undefined8 __thiscall
 std::vector<KoState,std::allocator<KoState>>::end(vector_KoState_std__allocator_KoState__ *this)
@@ -3796,11 +4408,12 @@ std::vector<KoState,std::allocator<KoState>>::end(vector_KoState_std__allocator_
 }
 
 
-/* KoState* std::vector<KoState,
-   std::allocator<KoState>>::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<KoState const*,
-   std::vector<KoState, std::allocator<KoState>>>>(unsigned long,
-   __gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState, std::allocator<KoState>>>,
-   __gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState, std::allocator<KoState>>>) */
+
+// KoState* std::vector<KoState,
+// std::allocator<KoState>>::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<KoState const*,
+// std::vector<KoState, std::allocator<KoState>>>>(unsigned long,
+// __gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState, std::allocator<KoState>>>,
+// __gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState, std::allocator<KoState>>>)
 
 KoState * __thiscall
 std::vector<KoState,std::allocator<KoState>>::
@@ -3824,7 +4437,8 @@ _M_allocate_and_copy___gnu_cxx____normal_iterator_KoState_const__std__vector_KoS
 }
 
 
-/* std::_Vector_base<KoState, std::allocator<KoState>>::_M_deallocate(KoState*, unsigned long) */
+
+// std::_Vector_base<KoState, std::allocator<KoState>>::_M_deallocate(KoState*, unsigned long)
 
 void __thiscall
 std::_Vector_base<KoState,std::allocator<KoState>>::_M_deallocate
@@ -3839,7 +4453,8 @@ std::_Vector_base<KoState,std::allocator<KoState>>::_M_deallocate
 }
 
 
-/* std::vector<KoState, std::allocator<KoState>>::begin() */
+
+// std::vector<KoState, std::allocator<KoState>>::begin()
 
 undefined8 __thiscall
 std::vector<KoState,std::allocator<KoState>>::begin(vector_KoState_std__allocator_KoState__ *this)
@@ -3854,14 +4469,15 @@ std::vector<KoState,std::allocator<KoState>>::begin(vector_KoState_std__allocato
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<KoState*, std::vector<KoState, std::allocator<KoState>>>
-   std::copy<__gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
-   std::allocator<KoState>>>, __gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
-   std::allocator<KoState>>>>(__gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
-   std::allocator<KoState>>>, __gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
-   std::allocator<KoState>>>, __gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
-   std::allocator<KoState>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<KoState*, std::vector<KoState, std::allocator<KoState>>>
+// std::copy<__gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
+// std::allocator<KoState>>>, __gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
+// std::allocator<KoState>>>>(__gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
+// std::allocator<KoState>>>, __gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
+// std::allocator<KoState>>>, __gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
+// std::allocator<KoState>>>)
 
 __normal_iterator
 std::
@@ -3882,7 +4498,8 @@ copy___gnu_cxx____normal_iterator_KoState_const__std__vector_KoState_std__alloca
 }
 
 
-/* std::vector<KoState, std::allocator<KoState>>::end() */
+
+// std::vector<KoState, std::allocator<KoState>>::end()
 
 undefined8 __thiscall
 std::vector<KoState,std::allocator<KoState>>::end(vector_KoState_std__allocator_KoState__ *this)
@@ -3897,11 +4514,12 @@ std::vector<KoState,std::allocator<KoState>>::end(vector_KoState_std__allocator_
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::_Destroy<__gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
-   std::allocator<KoState>>>, KoState>(__gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
-   std::allocator<KoState>>>, __gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
-   std::allocator<KoState>>>, std::allocator<KoState>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::_Destroy<__gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
+// std::allocator<KoState>>>, KoState>(__gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
+// std::allocator<KoState>>>, __gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
+// std::allocator<KoState>>>, std::allocator<KoState>&)
 
 void std::
      _Destroy___gnu_cxx____normal_iterator_KoState__std__vector_KoState_std__allocator_KoState____KoState_
@@ -3914,8 +4532,9 @@ void std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* KoState* std::copy<KoState*, KoState*>(KoState*, KoState*, KoState*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// KoState* std::copy<KoState*, KoState*>(KoState*, KoState*, KoState*)
 
 KoState * std::copy_KoState__KoState__(KoState *param_1,KoState *param_2,KoState *param_3)
 
@@ -3930,9 +4549,10 @@ KoState * std::copy_KoState__KoState__(KoState *param_1,KoState *param_2,KoState
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* KoState* std::__uninitialized_copy_a<KoState*, KoState*, KoState>(KoState*, KoState*, KoState*,
-   std::allocator<KoState>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// KoState* std::__uninitialized_copy_a<KoState*, KoState*, KoState>(KoState*, KoState*, KoState*,
+// std::allocator<KoState>&)
 
 KoState * std::__uninitialized_copy_a_KoState__KoState__KoState_
                     (KoState *param_1,KoState *param_2,KoState *param_3,allocator *param_4)
@@ -3945,9 +4565,10 @@ KoState * std::__uninitialized_copy_a_KoState__KoState__KoState_
 }
 
 
-/* std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::_Vector_impl::_Vector_impl() */
+
+// std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>::_Vector_impl::_Vector_impl()
 
 void __thiscall
 std::
@@ -3962,8 +4583,9 @@ _Vector_base<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocat
 }
 
 
-/* std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>::~allocator() */
+
+// std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>::~allocator()
 
 void __thiscall
 std::allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>::
@@ -3979,10 +4601,11 @@ _allocator(allocator_std____cxx11__basic_string_char_std__char_traits_char__std_
 }
 
 
-/* std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::_M_deallocate(std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, unsigned long) */
+
+// std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>::_M_deallocate(std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, unsigned long)
 
 void __thiscall
 std::
@@ -4000,11 +4623,12 @@ _Vector_base<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocat
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::_Destroy<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*>(std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::_Destroy<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*>(std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*)
 
 void std::_Destroy_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____
                (basic_string *param_1,basic_string *param_2)
@@ -4017,7 +4641,8 @@ void std::_Destroy_std____cxx11__basic_string_char_std__char_traits_char__std__a
 }
 
 
-/* std::allocator<unsigned long>::~allocator() */
+
+// std::allocator<unsigned long>::~allocator()
 
 void __thiscall std::allocator<unsigned_long>::_allocator(allocator_unsigned_long_ *this)
 
@@ -4027,7 +4652,8 @@ void __thiscall std::allocator<unsigned_long>::_allocator(allocator_unsigned_lon
 }
 
 
-/* std::_Bvector_base<std::allocator<bool>>::_M_deallocate() */
+
+// std::_Bvector_base<std::allocator<bool>>::_M_deallocate()
 
 void __thiscall
 std::_Bvector_base<std::allocator<bool>>::_M_deallocate(_Bvector_base_std__allocator_bool__ *this)
@@ -4047,8 +4673,9 @@ std::_Bvector_base<std::allocator<bool>>::_M_deallocate(_Bvector_base_std__alloc
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long* std::__addressof<unsigned long>(unsigned long&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long* std::__addressof<unsigned long>(unsigned long&)
 
 ulong * std::__addressof_unsigned_long_(ulong *param_1)
 
@@ -4057,10 +4684,11 @@ ulong * std::__addressof_unsigned_long_(ulong *param_1)
 }
 
 
-/* __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>::construct(std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const&) */
+
+// __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>::construct(std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const&)
 
 void __gnu_cxx::
      new_allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>::
@@ -4076,9 +4704,10 @@ void __gnu_cxx::
 }
 
 
-/* std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::_M_check_len(unsigned long, char const*) const */
+
+// std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>::_M_check_len(unsigned long, char const*) const
 
 ulong __thiscall
 std::
@@ -4116,18 +4745,19 @@ vector<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<cha
 }
 
 
-/* __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>::difference_type
-   __gnu_cxx::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>> const&,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>> const&) */
+
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>::difference_type
+// __gnu_cxx::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>> const&,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>> const&)
 
 difference_type __gnu_cxx::operator_(__normal_iterator *param_1,__normal_iterator *param_2)
 
@@ -4146,9 +4776,10 @@ difference_type __gnu_cxx::operator_(__normal_iterator *param_1,__normal_iterato
 }
 
 
-/* std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::_M_allocate(unsigned long) */
+
+// std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>::_M_allocate(unsigned long)
 
 undefined8 __thiscall
 std::
@@ -4171,10 +4802,11 @@ _Vector_base<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocat
 }
 
 
-/* __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>::base() const */
+
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>::base() const
 
 __normal_iterator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____std__vector_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std__allocator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char_____
 * __thiscall
@@ -4188,16 +4820,17 @@ __normal_iterator<std::__cxx11::basic_string<char,std::char_traits<char>,std::al
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*
-   std::__uninitialized_move_if_noexcept_a<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>(std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*
+// std::__uninitialized_move_if_noexcept_a<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>(std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>&)
 
 basic_string *
 std::
@@ -4213,11 +4846,12 @@ __uninitialized_move_if_noexcept_a_std____cxx11__basic_string_char_std__char_tra
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>::destroy(std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>&, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>::destroy(std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>&, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*)
 
 void __gnu_cxx::
      __alloc_traits<std::allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>
@@ -4231,15 +4865,16 @@ void __gnu_cxx::
 }
 
 
-/* bool 
-   __gnu_cxx::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>> const&,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>> const&) */
+
+// bool 
+// __gnu_cxx::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>> const&,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>> const&)
 
 bool __gnu_cxx::operator__(__normal_iterator *param_1,__normal_iterator *param_2)
 
@@ -4258,19 +4893,20 @@ bool __gnu_cxx::operator__(__normal_iterator *param_1,__normal_iterator *param_2
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__introsort_loop<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>, long,
-   __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>, long, __gnu_cxx::__ops::_Iter_less_iter) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__introsort_loop<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>, long,
+// __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>, long, __gnu_cxx::__ops::_Iter_less_iter)
 
 void std::
      __introsort_loop___gnu_cxx____normal_iterator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____std__vector_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std__allocator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char______long___gnu_cxx____ops___Iter_less_iter_
@@ -4313,19 +4949,20 @@ void std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__final_insertion_sort<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>, __gnu_cxx::__ops::_Iter_less_iter) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__final_insertion_sort<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>, __gnu_cxx::__ops::_Iter_less_iter)
 
 void std::
      __final_insertion_sort___gnu_cxx____normal_iterator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____std__vector_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std__allocator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char________gnu_cxx____ops___Iter_less_iter_
@@ -4365,23 +5002,24 @@ void std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>
-   std::__adjacent_find<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__ops::_Iter_equal_to_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>, __gnu_cxx::__ops::_Iter_equal_to_iter) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>
+// std::__adjacent_find<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__ops::_Iter_equal_to_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>, __gnu_cxx::__ops::_Iter_equal_to_iter)
 
 __normal_iterator
 std::
@@ -4427,15 +5065,16 @@ __adjacent_find___gnu_cxx____normal_iterator_std____cxx11__basic_string_char_std
 }
 
 
-/* bool 
-   __gnu_cxx::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>> const&,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>> const&) */
+
+// bool 
+// __gnu_cxx::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>> const&,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>> const&)
 
 bool __gnu_cxx::operator__(__normal_iterator *param_1,__normal_iterator *param_2)
 
@@ -4454,10 +5093,11 @@ bool __gnu_cxx::operator__(__normal_iterator *param_1,__normal_iterator *param_2
 }
 
 
-/* __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>::TEMPNAMEPLACEHOLDERVALUE() */
+
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>::TEMPNAMEPLACEHOLDERVALUE()
 
 __normal_iterator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____std__vector_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std__allocator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char_____
 * __thiscall
@@ -4472,15 +5112,16 @@ __normal_iterator<std::__cxx11::basic_string<char,std::char_traits<char>,std::al
 }
 
 
-/* bool 
-   __gnu_cxx::__ops::_Iter_equal_to_iter::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>) const */
+
+// bool 
+// __gnu_cxx::__ops::_Iter_equal_to_iter::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>) const
 
 bool __thiscall
 __gnu_cxx::__ops::_Iter_equal_to_iter::operator__
@@ -4512,10 +5153,11 @@ __gnu_cxx::__ops::_Iter_equal_to_iter::operator__
 }
 
 
-/* __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>::TEMPNAMEPLACEHOLDERVALUE() const */
+
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>::TEMPNAMEPLACEHOLDERVALUE() const
 
 undefined8 __thiscall
 __gnu_cxx::
@@ -4528,28 +5170,29 @@ __normal_iterator<std::__cxx11::basic_string<char,std::char_traits<char>,std::al
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>> std::copy<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>> std::copy<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>)
 
 __normal_iterator
 std::
@@ -4570,10 +5213,11 @@ copy___gnu_cxx____normal_iterator_std____cxx11__basic_string_char_std__char_trai
 }
 
 
-/* std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::_M_erase_at_end(std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*) */
+
+// std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>::_M_erase_at_end(std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*)
 
 void __thiscall
 std::
@@ -4598,7 +5242,8 @@ vector<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<cha
 }
 
 
-/* std::allocator<int>::~allocator() */
+
+// std::allocator<int>::~allocator()
 
 void __thiscall std::allocator<int>::_allocator(allocator_int_ *this)
 
@@ -4608,8 +5253,9 @@ void __thiscall std::allocator<int>::_allocator(allocator_int_ *this)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::_Destroy<int*>(int*, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::_Destroy<int*>(int*, int*)
 
 void std::_Destroy_int__(int *param_1,int *param_2)
 
@@ -4619,8 +5265,9 @@ void std::_Destroy_int__(int *param_1,int *param_2)
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_impl::_Vector_impl(std::allocator<int>
-   const&) */
+
+// std::_Vector_base<int, std::allocator<int>>::_Vector_impl::_Vector_impl(std::allocator<int>
+// const&)
 
 void __thiscall
 std::_Vector_base<int,std::allocator<int>>::_Vector_impl::_Vector_impl
@@ -4633,7 +5280,8 @@ std::_Vector_base<int,std::allocator<int>>::_Vector_impl::_Vector_impl
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::_M_create_storage(unsigned long) */
+
+// std::_Vector_base<int, std::allocator<int>>::_M_create_storage(unsigned long)
 
 void __thiscall
 std::_Vector_base<int,std::allocator<int>>::_M_create_storage
@@ -4650,8 +5298,9 @@ std::_Vector_base<int,std::allocator<int>>::_M_create_storage
 }
 
 
-/* __gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>::__normal_iterator(int const* const&) */
+
+// __gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>::__normal_iterator(int const* const&)
 
 void __thiscall
 __gnu_cxx::__normal_iterator<int_const*,std::vector<int,std::allocator<int>>>::__normal_iterator
@@ -4663,11 +5312,12 @@ __gnu_cxx::__normal_iterator<int_const*,std::vector<int,std::allocator<int>>>::_
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::uninitialized_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::uninitialized_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, int*)
 
 int * std::
       uninitialized_copy___gnu_cxx____normal_iterator_int_const__std__vector_int_std__allocator_int____int__
@@ -4683,7 +5333,8 @@ int * std::
 }
 
 
-/* std::_Vector_base<SGFTree, std::allocator<SGFTree>>::_Vector_impl::~_Vector_impl() */
+
+// std::_Vector_base<SGFTree, std::allocator<SGFTree>>::_Vector_impl::~_Vector_impl()
 
 void __thiscall
 std::_Vector_base<SGFTree,std::allocator<SGFTree>>::_Vector_impl::__Vector_impl(_Vector_impl *this)
@@ -4694,7 +5345,8 @@ std::_Vector_base<SGFTree,std::allocator<SGFTree>>::_Vector_impl::__Vector_impl(
 }
 
 
-/* std::_Vector_base<SGFTree, std::allocator<SGFTree>>::~_Vector_base() */
+
+// std::_Vector_base<SGFTree, std::allocator<SGFTree>>::~_Vector_base()
 
 void __thiscall
 std::_Vector_base<SGFTree,std::allocator<SGFTree>>::__Vector_base
@@ -4708,7 +5360,8 @@ std::_Vector_base<SGFTree,std::allocator<SGFTree>>::__Vector_base
 }
 
 
-/* std::_Vector_base<SGFTree, std::allocator<SGFTree>>::_M_get_Tp_allocator() */
+
+// std::_Vector_base<SGFTree, std::allocator<SGFTree>>::_M_get_Tp_allocator()
 
 _Vector_base_SGFTree_std__allocator_SGFTree__ * __thiscall
 std::_Vector_base<SGFTree,std::allocator<SGFTree>>::_M_get_Tp_allocator
@@ -4719,8 +5372,9 @@ std::_Vector_base<SGFTree,std::allocator<SGFTree>>::_M_get_Tp_allocator
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::_Destroy<SGFTree*, SGFTree>(SGFTree*, SGFTree*, std::allocator<SGFTree>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::_Destroy<SGFTree*, SGFTree>(SGFTree*, SGFTree*, std::allocator<SGFTree>&)
 
 void std::_Destroy_SGFTree__SGFTree_(SGFTree *param_1,SGFTree *param_2,allocator *param_3)
 
@@ -4730,9 +5384,10 @@ void std::_Destroy_SGFTree__SGFTree_(SGFTree *param_1,SGFTree *param_2,allocator
 }
 
 
-/* std::allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>::~allocator() */
+
+// std::allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>::~allocator()
 
 void __thiscall
 std::
@@ -4749,18 +5404,19 @@ allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,std::char
 }
 
 
-/* std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
-   std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>,
-   std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>,
-   std::allocator<char>>>>>::_M_erase(std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>*) */
+
+// std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
+// std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>,
+// std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
+// std::char_traits<char>,
+// std::allocator<char>>>>>::_M_erase(std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>*)
 
 void __thiscall
 std::
@@ -4785,15 +5441,16 @@ _Rb_tree<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<c
 }
 
 
-/* std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
-   std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>,
-   std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>::_M_begin() */
+
+// std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
+// std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>,
+// std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>::_M_begin()
 
 void __thiscall
 std::
@@ -4807,7 +5464,8 @@ _Rb_tree<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<c
 }
 
 
-/* std::allocator<unsigned long long>::~allocator() */
+
+// std::allocator<unsigned long long>::~allocator()
 
 void __thiscall std::allocator<unsigned_long_long>::_allocator(allocator_unsigned_long_long_ *this)
 
@@ -4818,8 +5476,9 @@ void __thiscall std::allocator<unsigned_long_long>::_allocator(allocator_unsigne
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::_Destroy<unsigned long long*>(unsigned long long*, unsigned long long*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::_Destroy<unsigned long long*>(unsigned long long*, unsigned long long*)
 
 void std::_Destroy_unsigned_long_long__(ulonglong *param_1,ulonglong *param_2)
 
@@ -4829,7 +5488,8 @@ void std::_Destroy_unsigned_long_long__(ulonglong *param_1,ulonglong *param_2)
 }
 
 
-/* std::allocator<KoState>::~allocator() */
+
+// std::allocator<KoState>::~allocator()
 
 void __thiscall std::allocator<KoState>::_allocator(allocator_KoState_ *this)
 
@@ -4839,8 +5499,9 @@ void __thiscall std::allocator<KoState>::_allocator(allocator_KoState_ *this)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::_Destroy<KoState*>(KoState*, KoState*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::_Destroy<KoState*>(KoState*, KoState*)
 
 void std::_Destroy_KoState__(KoState *param_1,KoState *param_2)
 
@@ -4850,7 +5511,8 @@ void std::_Destroy_KoState__(KoState *param_1,KoState *param_2)
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::_M_allocate(unsigned long) */
+
+// std::_Vector_base<int, std::allocator<int>>::_M_allocate(unsigned long)
 
 undefined8 __thiscall
 std::_Vector_base<int,std::allocator<int>>::_M_allocate
@@ -4869,8 +5531,9 @@ std::_Vector_base<int,std::allocator<int>>::_M_allocate
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<int>, int>::deallocate(std::allocator<int>&, int*,
-   unsigned long) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<int>, int>::deallocate(std::allocator<int>&, int*,
+// unsigned long)
 
 void __gnu_cxx::__alloc_traits<std::allocator<int>,int>::deallocate
                (allocator *param_1,int *param_2,ulong param_3)
@@ -4881,8 +5544,9 @@ void __gnu_cxx::__alloc_traits<std::allocator<int>,int>::deallocate
 }
 
 
-/* __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>::__normal_iterator(int*
-   const&) */
+
+// __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>::__normal_iterator(int*
+// const&)
 
 void __thiscall
 __gnu_cxx::__normal_iterator<int*,std::vector<int,std::allocator<int>>>::__normal_iterator
@@ -4894,11 +5558,12 @@ __gnu_cxx::__normal_iterator<int*,std::vector<int,std::allocator<int>>>::__norma
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>
-   std::__miter_base<__gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>
+// std::__miter_base<__gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>)
 
 __normal_iterator
 std::__miter_base___gnu_cxx____normal_iterator_int_const__std__vector_int_std__allocator_int____
@@ -4909,14 +5574,14 @@ std::__miter_base___gnu_cxx____normal_iterator_int_const__std__vector_int_std__a
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>
-   std::__copy_move_a<false, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, __gnu_cxx::__normal_iterator<int*, std::vector<int,
-   std::allocator<int>>>>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>)
-    */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>
+// std::__copy_move_a<false, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, __gnu_cxx::__normal_iterator<int*, std::vector<int,
+// std::allocator<int>>>>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>)
 
 __normal_iterator
 std::
@@ -4939,10 +5604,11 @@ __copy_move_a_false___gnu_cxx____normal_iterator_int_const__std__vector_int_std_
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::_Destroy<__gnu_cxx::__normal_iterator<int*, std::vector<int,
-   std::allocator<int>>>>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>,
-   __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::_Destroy<__gnu_cxx::__normal_iterator<int*, std::vector<int,
+// std::allocator<int>>>>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>,
+// __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>)
 
 void std::_Destroy___gnu_cxx____normal_iterator_int__std__vector_int_std__allocator_int____
                (__normal_iterator param_1,__normal_iterator param_2)
@@ -4955,8 +5621,9 @@ void std::_Destroy___gnu_cxx____normal_iterator_int__std__vector_int_std__alloca
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__miter_base<int*>(int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__miter_base<int*>(int*)
 
 int * std::__miter_base_int__(int *param_1)
 
@@ -4965,8 +5632,9 @@ int * std::__miter_base_int__(int *param_1)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__copy_move_a<false, int*, int*>(int*, int*, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__copy_move_a<false, int*, int*>(int*, int*, int*)
 
 int * std::__copy_move_a_false_int__int__(int *param_1,int *param_2,int *param_3)
 
@@ -4990,8 +5658,9 @@ int * std::__copy_move_a_false_int__int__(int *param_1,int *param_2,int *param_3
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::uninitialized_copy<int*, int*>(int*, int*, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::uninitialized_copy<int*, int*>(int*, int*, int*)
 
 int * std::uninitialized_copy_int__int__(int *param_1,int *param_2,int *param_3)
 
@@ -5003,23 +5672,26 @@ int * std::uninitialized_copy_int__int__(int *param_1,int *param_2,int *param_3)
 }
 
 
-/* __gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>::__normal_iterator(unsigned long long const* const&) */
 
-void __thiscall
-__gnu_cxx::
-__normal_iterator<unsigned_long_long_const*,std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>>
-::__normal_iterator(__normal_iterator_unsigned_long_long_const__std__vector_unsigned_long_long_std__allocator_unsigned_long_long___
-                    *this,ulonglong **param_1)
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>>::__normal_iterator(unsigned long long const* const&)
+
+void __gnu_cxx::
+     __normal_iterator<unsigned_long_long_const*,std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>>
+     ::__normal_iterator(ulonglong **param_1)
 
 {
-  *(ulonglong **)this = *param_1;
+  ulonglong **in_RSI;
+  
+  *param_1 = *in_RSI;
   return;
 }
 
 
-/* std::_Vector_base<unsigned long long, std::allocator<unsigned long long>>::_M_allocate(unsigned
-   long) */
+
+// std::_Vector_base<unsigned long long, std::allocator<unsigned long long>>::_M_allocate(unsigned
+// long)
 
 undefined8 __thiscall
 std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_M_allocate
@@ -5039,14 +5711,14 @@ std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_M_all
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long long* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<unsigned long long
-   const*, std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long
-   long*, unsigned long long>(__gnu_cxx::__normal_iterator<unsigned long long const*,
-   std::vector<unsigned long long, std::allocator<unsigned long long>>>,
-   __gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>, unsigned long long*, std::allocator<unsigned long long>&)
-    */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long long* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<unsigned long long
+// const*, std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long
+// long*, unsigned long long>(__gnu_cxx::__normal_iterator<unsigned long long const*,
+// std::vector<unsigned long long, std::allocator<unsigned long long>>>,
+// __gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>>, unsigned long long*, std::allocator<unsigned long long>&)
 
 ulonglong *
 std::
@@ -5063,8 +5735,9 @@ __uninitialized_copy_a___gnu_cxx____normal_iterator_unsigned_long_long_const__st
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<unsigned long long>, unsigned long
-   long>::deallocate(std::allocator<unsigned long long>&, unsigned long long*, unsigned long) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<unsigned long long>, unsigned long
+// long>::deallocate(std::allocator<unsigned long long>&, unsigned long long*, unsigned long)
 
 void __gnu_cxx::__alloc_traits<std::allocator<unsigned_long_long>,unsigned_long_long>::deallocate
                (allocator *param_1,ulonglong *param_2,ulong param_3)
@@ -5075,8 +5748,9 @@ void __gnu_cxx::__alloc_traits<std::allocator<unsigned_long_long>,unsigned_long_
 }
 
 
-/* __gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>::__normal_iterator(unsigned long long* const&) */
+
+// __gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>>::__normal_iterator(unsigned long long* const&)
 
 void __thiscall
 __gnu_cxx::
@@ -5090,12 +5764,13 @@ __normal_iterator<unsigned_long_long*,std::vector<unsigned_long_long,std::alloca
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>> std::__miter_base<__gnu_cxx::__normal_iterator<unsigned long
-   long const*, std::vector<unsigned long long, std::allocator<unsigned long
-   long>>>>(__gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>> std::__miter_base<__gnu_cxx::__normal_iterator<unsigned long
+// long const*, std::vector<unsigned long long, std::allocator<unsigned long
+// long>>>>(__gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>>)
 
 __normal_iterator
 std::
@@ -5107,17 +5782,18 @@ __miter_base___gnu_cxx____normal_iterator_unsigned_long_long_const__std__vector_
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>> std::__copy_move_a<false,
-   __gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>, __gnu_cxx::__normal_iterator<unsigned long long*,
-   std::vector<unsigned long long, std::allocator<unsigned long
-   long>>>>(__gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>, __gnu_cxx::__normal_iterator<unsigned long long const*,
-   std::vector<unsigned long long, std::allocator<unsigned long long>>>,
-   __gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>> std::__copy_move_a<false,
+// __gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>>, __gnu_cxx::__normal_iterator<unsigned long long*,
+// std::vector<unsigned long long, std::allocator<unsigned long
+// long>>>>(__gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>>, __gnu_cxx::__normal_iterator<unsigned long long const*,
+// std::vector<unsigned long long, std::allocator<unsigned long long>>>,
+// __gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>>)
 
 __normal_iterator
 std::
@@ -5144,12 +5820,13 @@ __copy_move_a_false___gnu_cxx____normal_iterator_unsigned_long_long_const__std__
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::_Destroy<__gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long
-   long, std::allocator<unsigned long long>>>>(__gnu_cxx::__normal_iterator<unsigned long long*,
-   std::vector<unsigned long long, std::allocator<unsigned long long>>>,
-   __gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::_Destroy<__gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long
+// long, std::allocator<unsigned long long>>>>(__gnu_cxx::__normal_iterator<unsigned long long*,
+// std::vector<unsigned long long, std::allocator<unsigned long long>>>,
+// __gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>>)
 
 void std::
      _Destroy___gnu_cxx____normal_iterator_unsigned_long_long__std__vector_unsigned_long_long_std__allocator_unsigned_long_long____
@@ -5163,8 +5840,9 @@ void std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long long* std::__miter_base<unsigned long long*>(unsigned long long*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long long* std::__miter_base<unsigned long long*>(unsigned long long*)
 
 ulonglong * std::__miter_base_unsigned_long_long__(ulonglong *param_1)
 
@@ -5173,9 +5851,10 @@ ulonglong * std::__miter_base_unsigned_long_long__(ulonglong *param_1)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long long* std::__copy_move_a<false, unsigned long long*, unsigned long long*>(unsigned
-   long long*, unsigned long long*, unsigned long long*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long long* std::__copy_move_a<false, unsigned long long*, unsigned long long*>(unsigned
+// long long*, unsigned long long*, unsigned long long*)
 
 ulonglong *
 std::__copy_move_a_false_unsigned_long_long__unsigned_long_long__
@@ -5201,9 +5880,10 @@ std::__copy_move_a_false_unsigned_long_long__unsigned_long_long__
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long long* std::uninitialized_copy<unsigned long long*, unsigned long long*>(unsigned
-   long long*, unsigned long long*, unsigned long long*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long long* std::uninitialized_copy<unsigned long long*, unsigned long long*>(unsigned
+// long long*, unsigned long long*, unsigned long long*)
 
 ulonglong *
 std::uninitialized_copy_unsigned_long_long__unsigned_long_long__
@@ -5218,8 +5898,9 @@ std::uninitialized_copy_unsigned_long_long__unsigned_long_long__
 }
 
 
-/* __gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
-   std::allocator<KoState>>>::__normal_iterator(KoState const* const&) */
+
+// __gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
+// std::allocator<KoState>>>::__normal_iterator(KoState const* const&)
 
 void __thiscall
 __gnu_cxx::__normal_iterator<KoState_const*,std::vector<KoState,std::allocator<KoState>>>::
@@ -5232,7 +5913,8 @@ __normal_iterator(__normal_iterator_KoState_const__std__vector_KoState_std__allo
 }
 
 
-/* std::_Vector_base<KoState, std::allocator<KoState>>::_M_allocate(unsigned long) */
+
+// std::_Vector_base<KoState, std::allocator<KoState>>::_M_allocate(unsigned long)
 
 undefined8 __thiscall
 std::_Vector_base<KoState,std::allocator<KoState>>::_M_allocate
@@ -5252,12 +5934,13 @@ std::_Vector_base<KoState,std::allocator<KoState>>::_M_allocate
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* KoState* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<KoState const*,
-   std::vector<KoState, std::allocator<KoState>>>, KoState*,
-   KoState>(__gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
-   std::allocator<KoState>>>, __gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
-   std::allocator<KoState>>>, KoState*, std::allocator<KoState>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// KoState* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<KoState const*,
+// std::vector<KoState, std::allocator<KoState>>>, KoState*,
+// KoState>(__gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
+// std::allocator<KoState>>>, __gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
+// std::allocator<KoState>>>, KoState*, std::allocator<KoState>&)
 
 KoState * std::
           __uninitialized_copy_a___gnu_cxx____normal_iterator_KoState_const__std__vector_KoState_std__allocator_KoState____KoState__KoState_
@@ -5273,8 +5956,9 @@ KoState * std::
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<KoState>, KoState>::deallocate(std::allocator<KoState>&,
-   KoState*, unsigned long) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<KoState>, KoState>::deallocate(std::allocator<KoState>&,
+// KoState*, unsigned long)
 
 void __gnu_cxx::__alloc_traits<std::allocator<KoState>,KoState>::deallocate
                (allocator *param_1,KoState *param_2,ulong param_3)
@@ -5285,8 +5969,9 @@ void __gnu_cxx::__alloc_traits<std::allocator<KoState>,KoState>::deallocate
 }
 
 
-/* __gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
-   std::allocator<KoState>>>::__normal_iterator(KoState* const&) */
+
+// __gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
+// std::allocator<KoState>>>::__normal_iterator(KoState* const&)
 
 void __thiscall
 __gnu_cxx::__normal_iterator<KoState*,std::vector<KoState,std::allocator<KoState>>>::
@@ -5299,11 +5984,12 @@ __normal_iterator(__normal_iterator_KoState__std__vector_KoState_std__allocator_
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState, std::allocator<KoState>>>
-   std::__miter_base<__gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
-   std::allocator<KoState>>>>(__gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
-   std::allocator<KoState>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState, std::allocator<KoState>>>
+// std::__miter_base<__gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
+// std::allocator<KoState>>>>(__gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
+// std::allocator<KoState>>>)
 
 __normal_iterator
 std::
@@ -5315,14 +6001,15 @@ __miter_base___gnu_cxx____normal_iterator_KoState_const__std__vector_KoState_std
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<KoState*, std::vector<KoState, std::allocator<KoState>>>
-   std::__copy_move_a<false, __gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
-   std::allocator<KoState>>>, __gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
-   std::allocator<KoState>>>>(__gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
-   std::allocator<KoState>>>, __gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
-   std::allocator<KoState>>>, __gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
-   std::allocator<KoState>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<KoState*, std::vector<KoState, std::allocator<KoState>>>
+// std::__copy_move_a<false, __gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
+// std::allocator<KoState>>>, __gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
+// std::allocator<KoState>>>>(__gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
+// std::allocator<KoState>>>, __gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
+// std::allocator<KoState>>>, __gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
+// std::allocator<KoState>>>)
 
 __normal_iterator
 std::
@@ -5345,11 +6032,12 @@ __copy_move_a_false___gnu_cxx____normal_iterator_KoState_const__std__vector_KoSt
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::_Destroy<__gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
-   std::allocator<KoState>>>>(__gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
-   std::allocator<KoState>>>, __gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
-   std::allocator<KoState>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::_Destroy<__gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
+// std::allocator<KoState>>>>(__gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
+// std::allocator<KoState>>>, __gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
+// std::allocator<KoState>>>)
 
 void std::
      _Destroy___gnu_cxx____normal_iterator_KoState__std__vector_KoState_std__allocator_KoState____
@@ -5363,8 +6051,9 @@ void std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* KoState* std::__miter_base<KoState*>(KoState*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// KoState* std::__miter_base<KoState*>(KoState*)
 
 KoState * std::__miter_base_KoState__(KoState *param_1)
 
@@ -5373,8 +6062,9 @@ KoState * std::__miter_base_KoState__(KoState *param_1)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* KoState* std::__copy_move_a<false, KoState*, KoState*>(KoState*, KoState*, KoState*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// KoState* std::__copy_move_a<false, KoState*, KoState*>(KoState*, KoState*, KoState*)
 
 KoState * std::__copy_move_a_false_KoState__KoState__
                     (KoState *param_1,KoState *param_2,KoState *param_3)
@@ -5399,8 +6089,9 @@ KoState * std::__copy_move_a_false_KoState__KoState__
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* KoState* std::uninitialized_copy<KoState*, KoState*>(KoState*, KoState*, KoState*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// KoState* std::uninitialized_copy<KoState*, KoState*>(KoState*, KoState*, KoState*)
 
 KoState * std::uninitialized_copy_KoState__KoState__
                     (KoState *param_1,KoState *param_2,KoState *param_3)
@@ -5413,8 +6104,9 @@ KoState * std::uninitialized_copy_KoState__KoState__
 }
 
 
-/* std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>::allocator() */
+
+// std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>::allocator()
 
 void std::allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>::
      allocator(void)
@@ -5427,9 +6119,10 @@ void std::allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::
 }
 
 
-/* std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::_Vector_impl_data::_Vector_impl_data() */
+
+// std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>::_Vector_impl_data::_Vector_impl_data()
 
 void __thiscall
 std::
@@ -5444,8 +6137,9 @@ _Vector_base<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocat
 }
 
 
-/* __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>::~new_allocator() */
+
+// __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>::~new_allocator()
 
 void __thiscall
 __gnu_cxx::
@@ -5458,11 +6152,12 @@ _new_allocator(new_allocator_std____cxx11__basic_string_char_std__char_traits_ch
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>::deallocate(std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>&, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, unsigned long) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>::deallocate(std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>&, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, unsigned long)
 
 void __gnu_cxx::
      __alloc_traits<std::allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>
@@ -5475,10 +6170,11 @@ void __gnu_cxx::
 }
 
 
-/* void std::_Destroy_aux<false>::__destroy<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*>(std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*) */
+
+// void std::_Destroy_aux<false>::__destroy<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*>(std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*)
 
 void std::_Destroy_aux<false>::
      __destroy_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____
@@ -5497,7 +6193,8 @@ void std::_Destroy_aux<false>::
 }
 
 
-/* __gnu_cxx::new_allocator<unsigned long>::~new_allocator() */
+
+// __gnu_cxx::new_allocator<unsigned long>::~new_allocator()
 
 void __thiscall
 __gnu_cxx::new_allocator<unsigned_long>::_new_allocator(new_allocator_unsigned_long_ *this)
@@ -5507,7 +6204,8 @@ __gnu_cxx::new_allocator<unsigned_long>::_new_allocator(new_allocator_unsigned_l
 }
 
 
-/* std::_Bvector_base<std::allocator<bool>>::_Bvector_impl::_M_end_addr() const */
+
+// std::_Bvector_base<std::allocator<bool>>::_Bvector_impl::_M_end_addr() const
 
 ulong * __thiscall
 std::_Bvector_base<std::allocator<bool>>::_Bvector_impl::_M_end_addr(_Bvector_impl *this)
@@ -5526,8 +6224,9 @@ std::_Bvector_base<std::allocator<bool>>::_Bvector_impl::_M_end_addr(_Bvector_im
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<unsigned long>, unsigned
-   long>::deallocate(std::allocator<unsigned long>&, unsigned long*, unsigned long) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<unsigned long>, unsigned
+// long>::deallocate(std::allocator<unsigned long>&, unsigned long*, unsigned long)
 
 void __gnu_cxx::__alloc_traits<std::allocator<unsigned_long>,unsigned_long>::deallocate
                (allocator *param_1,ulong *param_2,ulong param_3)
@@ -5538,7 +6237,8 @@ void __gnu_cxx::__alloc_traits<std::allocator<unsigned_long>,unsigned_long>::dea
 }
 
 
-/* std::_Bvector_base<std::allocator<bool>>::_Bvector_impl_data::_M_reset() */
+
+// std::_Bvector_base<std::allocator<bool>>::_Bvector_impl_data::_M_reset()
 
 void __thiscall
 std::_Bvector_base<std::allocator<bool>>::_Bvector_impl_data::_M_reset(_Bvector_impl_data *this)
@@ -5560,7 +6260,8 @@ std::_Bvector_base<std::allocator<bool>>::_Bvector_impl_data::_M_reset(_Bvector_
 }
 
 
-/* std::_Bvector_base<std::allocator<bool>>::_Bvector_impl_data::_Bvector_impl_data() */
+
+// std::_Bvector_base<std::allocator<bool>>::_Bvector_impl_data::_Bvector_impl_data()
 
 void __thiscall
 std::_Bvector_base<std::allocator<bool>>::_Bvector_impl_data::_Bvector_impl_data
@@ -5574,9 +6275,10 @@ std::_Bvector_base<std::allocator<bool>>::_Bvector_impl_data::_Bvector_impl_data
 }
 
 
-/* std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::max_size() const */
+
+// std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>::max_size() const
 
 void __thiscall
 std::
@@ -5597,8 +6299,9 @@ vector<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<cha
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&)
 
 ulong * std::max_unsigned_long_(ulong *param_1,ulong *param_2)
 
@@ -5610,10 +6313,11 @@ ulong * std::max_unsigned_long_(ulong *param_1,ulong *param_2)
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>::allocate(std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>&, unsigned long) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>::allocate(std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>&, unsigned long)
 
 void __gnu_cxx::
      __alloc_traits<std::allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>
@@ -5626,16 +6330,17 @@ void __gnu_cxx::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*
-   std::__uninitialized_copy_a<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>(std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*
+// std::__uninitialized_copy_a<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>(std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>&)
 
 basic_string *
 std::
@@ -5651,9 +6356,10 @@ __uninitialized_copy_a_std____cxx11__basic_string_char_std__char_traits_char__st
 }
 
 
-/* __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>::destroy(std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*) */
+
+// __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>::destroy(std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*)
 
 void __thiscall
 __gnu_cxx::
@@ -5668,22 +6374,23 @@ new_allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::alloca
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__partial_sort<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>, __gnu_cxx::__ops::_Iter_less_iter) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__partial_sort<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>, __gnu_cxx::__ops::_Iter_less_iter)
 
 void std::
      __partial_sort___gnu_cxx____normal_iterator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____std__vector_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std__allocator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char________gnu_cxx____ops___Iter_less_iter_
@@ -5709,23 +6416,24 @@ void std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>
-   std::__unguarded_partition_pivot<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>, __gnu_cxx::__ops::_Iter_less_iter) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>
+// std::__unguarded_partition_pivot<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>, __gnu_cxx::__ops::_Iter_less_iter)
 
 __normal_iterator
 std::
@@ -5772,10 +6480,11 @@ __unguarded_partition_pivot___gnu_cxx____normal_iterator_std____cxx11__basic_str
 }
 
 
-/* __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>::TEMPNAMEPLACEHOLDERVALUE(long) const */
+
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>::TEMPNAMEPLACEHOLDERVALUE(long) const
 
 undefined8 __thiscall
 __gnu_cxx::
@@ -5794,19 +6503,20 @@ __normal_iterator<std::__cxx11::basic_string<char,std::char_traits<char>,std::al
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__insertion_sort<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>, __gnu_cxx::__ops::_Iter_less_iter) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__insertion_sort<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>, __gnu_cxx::__ops::_Iter_less_iter)
 
 void std::
      __insertion_sort___gnu_cxx____normal_iterator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____std__vector_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std__allocator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char________gnu_cxx____ops___Iter_less_iter_
@@ -5881,20 +6591,21 @@ void std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void 
-   std::__unguarded_insertion_sort<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>, __gnu_cxx::__ops::_Iter_less_iter) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void 
+// std::__unguarded_insertion_sort<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>, __gnu_cxx::__ops::_Iter_less_iter)
 
 void std::
      __unguarded_insertion_sort___gnu_cxx____normal_iterator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____std__vector_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std__allocator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char________gnu_cxx____ops___Iter_less_iter_
@@ -5932,19 +6643,20 @@ void std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>
-   std::__miter_base<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>,
-   std::allocator<char>>>>>>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>
+// std::__miter_base<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>,
+// std::allocator<char>>>>>>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>)
 
 __normal_iterator
 std::
@@ -5956,29 +6668,30 @@ __miter_base___gnu_cxx____normal_iterator_std____cxx11__basic_string_char_std__c
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>> std::__copy_move_a<false,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>,
-   std::allocator<char>>>>>>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>> std::__copy_move_a<false,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>,
+// std::allocator<char>>>>>>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>)
 
 __normal_iterator
 std::
@@ -6005,7 +6718,8 @@ __copy_move_a_false___gnu_cxx____normal_iterator_std____cxx11__basic_string_char
 }
 
 
-/* __gnu_cxx::new_allocator<int>::~new_allocator() */
+
+// __gnu_cxx::new_allocator<int>::~new_allocator()
 
 void __thiscall __gnu_cxx::new_allocator<int>::_new_allocator(new_allocator_int_ *this)
 
@@ -6014,7 +6728,8 @@ void __thiscall __gnu_cxx::new_allocator<int>::_new_allocator(new_allocator_int_
 }
 
 
-/* void std::_Destroy_aux<true>::__destroy<int*>(int*, int*) */
+
+// void std::_Destroy_aux<true>::__destroy<int*>(int*, int*)
 
 void std::_Destroy_aux<true>::__destroy_int__(int *param_1,int *param_2)
 
@@ -6023,7 +6738,8 @@ void std::_Destroy_aux<true>::__destroy_int__(int *param_1,int *param_2)
 }
 
 
-/* std::allocator<int>::allocator(std::allocator<int> const&) */
+
+// std::allocator<int>::allocator(std::allocator<int> const&)
 
 void std::allocator<int>::allocator(allocator *param_1)
 
@@ -6033,7 +6749,8 @@ void std::allocator<int>::allocator(allocator *param_1)
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_impl_data::_Vector_impl_data() */
+
+// std::_Vector_base<int, std::allocator<int>>::_Vector_impl_data::_Vector_impl_data()
 
 void __thiscall
 std::_Vector_base<int,std::allocator<int>>::_Vector_impl_data::_Vector_impl_data
@@ -6047,10 +6764,11 @@ std::_Vector_base<int,std::allocator<int>>::_Vector_impl_data::_Vector_impl_data
 }
 
 
-/* int* std::__uninitialized_copy<true>::__uninit_copy<__gnu_cxx::__normal_iterator<int const*,
-   std::vector<int, std::allocator<int>>>, int*>(__gnu_cxx::__normal_iterator<int const*,
-   std::vector<int, std::allocator<int>>>, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, int*) */
+
+// int* std::__uninitialized_copy<true>::__uninit_copy<__gnu_cxx::__normal_iterator<int const*,
+// std::vector<int, std::allocator<int>>>, int*>(__gnu_cxx::__normal_iterator<int const*,
+// std::vector<int, std::allocator<int>>>, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, int*)
 
 int * std::__uninitialized_copy<true>::
       __uninit_copy___gnu_cxx____normal_iterator_int_const__std__vector_int_std__allocator_int____int__
@@ -6065,7 +6783,8 @@ int * std::__uninitialized_copy<true>::
 }
 
 
-/* std::allocator<SGFTree>::~allocator() */
+
+// std::allocator<SGFTree>::~allocator()
 
 void __thiscall std::allocator<SGFTree>::_allocator(allocator_SGFTree_ *this)
 
@@ -6075,7 +6794,8 @@ void __thiscall std::allocator<SGFTree>::_allocator(allocator_SGFTree_ *this)
 }
 
 
-/* std::_Vector_base<SGFTree, std::allocator<SGFTree>>::_M_deallocate(SGFTree*, unsigned long) */
+
+// std::_Vector_base<SGFTree, std::allocator<SGFTree>>::_M_deallocate(SGFTree*, unsigned long)
 
 void __thiscall
 std::_Vector_base<SGFTree,std::allocator<SGFTree>>::_M_deallocate
@@ -6090,8 +6810,9 @@ std::_Vector_base<SGFTree,std::allocator<SGFTree>>::_M_deallocate
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::_Destroy<SGFTree*>(SGFTree*, SGFTree*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::_Destroy<SGFTree*>(SGFTree*, SGFTree*)
 
 void std::_Destroy_SGFTree__(SGFTree *param_1,SGFTree *param_2)
 
@@ -6101,9 +6822,10 @@ void std::_Destroy_SGFTree__(SGFTree *param_1,SGFTree *param_2)
 }
 
 
-/* __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>::~new_allocator() */
+
+// __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>::~new_allocator()
 
 void __thiscall
 __gnu_cxx::
@@ -6116,15 +6838,16 @@ new_allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,std::
 }
 
 
-/* std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
-   std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>,
-   std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>::_S_right(std::_Rb_tree_node_base*) */
+
+// std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
+// std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>,
+// std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>::_S_right(std::_Rb_tree_node_base*)
 
 undefined8
 std::
@@ -6136,15 +6859,16 @@ _Rb_tree<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<c
 }
 
 
-/* std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
-   std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>,
-   std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>::_S_left(std::_Rb_tree_node_base*) */
+
+// std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
+// std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>,
+// std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>::_S_left(std::_Rb_tree_node_base*)
 
 undefined8
 std::
@@ -6156,18 +6880,19 @@ _Rb_tree<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<c
 }
 
 
-/* std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
-   std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>,
-   std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>,
-   std::allocator<char>>>>>::_M_drop_node(std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>*) */
+
+// std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
+// std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>,
+// std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
+// std::char_traits<char>,
+// std::allocator<char>>>>>::_M_drop_node(std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>*)
 
 void __thiscall
 std::
@@ -6182,15 +6907,16 @@ _Rb_tree<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<c
 }
 
 
-/* std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
-   std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>,
-   std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>::_M_mbegin() const */
+
+// std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
+// std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>,
+// std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>::_M_mbegin() const
 
 undefined8 __thiscall
 std::
@@ -6203,7 +6929,8 @@ _Rb_tree<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<c
 }
 
 
-/* __gnu_cxx::new_allocator<unsigned long long>::~new_allocator() */
+
+// __gnu_cxx::new_allocator<unsigned long long>::~new_allocator()
 
 void __thiscall
 __gnu_cxx::new_allocator<unsigned_long_long>::_new_allocator
@@ -6214,8 +6941,9 @@ __gnu_cxx::new_allocator<unsigned_long_long>::_new_allocator
 }
 
 
-/* void std::_Destroy_aux<true>::__destroy<unsigned long long*>(unsigned long long*, unsigned long
-   long*) */
+
+// void std::_Destroy_aux<true>::__destroy<unsigned long long*>(unsigned long long*, unsigned long
+// long*)
 
 void std::_Destroy_aux<true>::__destroy_unsigned_long_long__(ulonglong *param_1,ulonglong *param_2)
 
@@ -6224,7 +6952,8 @@ void std::_Destroy_aux<true>::__destroy_unsigned_long_long__(ulonglong *param_1,
 }
 
 
-/* __gnu_cxx::new_allocator<KoState>::~new_allocator() */
+
+// __gnu_cxx::new_allocator<KoState>::~new_allocator()
 
 void __thiscall __gnu_cxx::new_allocator<KoState>::_new_allocator(new_allocator_KoState_ *this)
 
@@ -6233,7 +6962,8 @@ void __thiscall __gnu_cxx::new_allocator<KoState>::_new_allocator(new_allocator_
 }
 
 
-/* void std::_Destroy_aux<false>::__destroy<KoState*>(KoState*, KoState*) */
+
+// void std::_Destroy_aux<false>::__destroy<KoState*>(KoState*, KoState*)
 
 void std::_Destroy_aux<false>::__destroy_KoState__(KoState *param_1,KoState *param_2)
 
@@ -6249,8 +6979,9 @@ void std::_Destroy_aux<false>::__destroy_KoState__(KoState *param_1,KoState *par
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<int>, int>::allocate(std::allocator<int>&, unsigned
-   long) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<int>, int>::allocate(std::allocator<int>&, unsigned
+// long)
 
 void __gnu_cxx::__alloc_traits<std::allocator<int>,int>::allocate(allocator *param_1,ulong param_2)
 
@@ -6260,7 +6991,8 @@ void __gnu_cxx::__alloc_traits<std::allocator<int>,int>::allocate(allocator *par
 }
 
 
-/* __gnu_cxx::new_allocator<int>::deallocate(int*, unsigned long) */
+
+// __gnu_cxx::new_allocator<int>::deallocate(int*, unsigned long)
 
 void __gnu_cxx::new_allocator<int>::deallocate(int *param_1,ulong param_2)
 
@@ -6270,10 +7002,11 @@ void __gnu_cxx::new_allocator<int>::deallocate(int *param_1,ulong param_2)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int const* std::__niter_base<int const*, std::vector<int,
-   std::allocator<int>>>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int const* std::__niter_base<int const*, std::vector<int,
+// std::allocator<int>>>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>)
 
 int * std::__niter_base_int_const__std__vector_int_std__allocator_int___(__normal_iterator param_1)
 
@@ -6290,10 +7023,10 @@ int * std::__niter_base_int_const__std__vector_int_std__allocator_int___(__norma
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__niter_base<int*, std::vector<int,
-   std::allocator<int>>>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>)
-    */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__niter_base<int*, std::vector<int,
+// std::allocator<int>>>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>)
 
 int * std::__niter_base_int__std__vector_int_std__allocator_int___(__normal_iterator param_1)
 
@@ -6310,8 +7043,9 @@ int * std::__niter_base_int__std__vector_int_std__allocator_int___(__normal_iter
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__copy_move_a1<false, int const*, int*>(int const*, int const*, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__copy_move_a1<false, int const*, int*>(int const*, int const*, int*)
 
 int * std::__copy_move_a1_false_int_const__int__(int *param_1,int *param_2,int *param_3)
 
@@ -6323,10 +7057,11 @@ int * std::__copy_move_a1_false_int_const__int__(int *param_1,int *param_2,int *
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>
-   std::__niter_wrap<__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>,
-   int*>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>
+// std::__niter_wrap<__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>,
+// int*>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>, int*)
 
 __normal_iterator
 std::__niter_wrap___gnu_cxx____normal_iterator_int__std__vector_int_std__allocator_int____int__
@@ -6347,9 +7082,10 @@ std::__niter_wrap___gnu_cxx____normal_iterator_int__std__vector_int_std__allocat
 }
 
 
-/* void std::_Destroy_aux<true>::__destroy<__gnu_cxx::__normal_iterator<int*, std::vector<int,
-   std::allocator<int>>>>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>,
-   __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>) */
+
+// void std::_Destroy_aux<true>::__destroy<__gnu_cxx::__normal_iterator<int*, std::vector<int,
+// std::allocator<int>>>>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>,
+// __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>)
 
 void std::_Destroy_aux<true>::
      __destroy___gnu_cxx____normal_iterator_int__std__vector_int_std__allocator_int____
@@ -6360,8 +7096,9 @@ void std::_Destroy_aux<true>::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__niter_base<int*>(int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__niter_base<int*>(int*)
 
 int * std::__niter_base_int__(int *param_1)
 
@@ -6370,8 +7107,9 @@ int * std::__niter_base_int__(int *param_1)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__copy_move_a1<false, int*, int*>(int*, int*, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__copy_move_a1<false, int*, int*>(int*, int*, int*)
 
 int * std::__copy_move_a1_false_int__int__(int *param_1,int *param_2,int *param_3)
 
@@ -6383,8 +7121,9 @@ int * std::__copy_move_a1_false_int__int__(int *param_1,int *param_2,int *param_
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__niter_wrap<int*>(int* const&, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__niter_wrap<int*>(int* const&, int*)
 
 int * std::__niter_wrap_int__(int **param_1,int *param_2)
 
@@ -6393,7 +7132,8 @@ int * std::__niter_wrap_int__(int **param_1,int *param_2)
 }
 
 
-/* int* std::__uninitialized_copy<true>::__uninit_copy<int*, int*>(int*, int*, int*) */
+
+// int* std::__uninitialized_copy<true>::__uninit_copy<int*, int*>(int*, int*, int*)
 
 int * std::__uninitialized_copy<true>::__uninit_copy_int__int__
                 (int *param_1,int *param_2,int *param_3)
@@ -6406,8 +7146,9 @@ int * std::__uninitialized_copy<true>::__uninit_copy_int__int__
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<unsigned long long>, unsigned long
-   long>::allocate(std::allocator<unsigned long long>&, unsigned long) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<unsigned long long>, unsigned long
+// long>::allocate(std::allocator<unsigned long long>&, unsigned long)
 
 void __gnu_cxx::__alloc_traits<std::allocator<unsigned_long_long>,unsigned_long_long>::allocate
                (allocator *param_1,ulong param_2)
@@ -6418,12 +7159,13 @@ void __gnu_cxx::__alloc_traits<std::allocator<unsigned_long_long>,unsigned_long_
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long long* std::uninitialized_copy<__gnu_cxx::__normal_iterator<unsigned long long
-   const*, std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long
-   long*>(__gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>, __gnu_cxx::__normal_iterator<unsigned long long const*,
-   std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long long*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long long* std::uninitialized_copy<__gnu_cxx::__normal_iterator<unsigned long long
+// const*, std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long
+// long*>(__gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>>, __gnu_cxx::__normal_iterator<unsigned long long const*,
+// std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long long*)
 
 ulonglong *
 std::
@@ -6440,7 +7182,8 @@ uninitialized_copy___gnu_cxx____normal_iterator_unsigned_long_long_const__std__v
 }
 
 
-/* __gnu_cxx::new_allocator<unsigned long long>::deallocate(unsigned long long*, unsigned long) */
+
+// __gnu_cxx::new_allocator<unsigned long long>::deallocate(unsigned long long*, unsigned long)
 
 void __gnu_cxx::new_allocator<unsigned_long_long>::deallocate(ulonglong *param_1,ulong param_2)
 
@@ -6450,10 +7193,11 @@ void __gnu_cxx::new_allocator<unsigned_long_long>::deallocate(ulonglong *param_1
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long long const* std::__niter_base<unsigned long long const*, std::vector<unsigned long
-   long, std::allocator<unsigned long long>>>(__gnu_cxx::__normal_iterator<unsigned long long
-   const*, std::vector<unsigned long long, std::allocator<unsigned long long>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long long const* std::__niter_base<unsigned long long const*, std::vector<unsigned long
+// long, std::allocator<unsigned long long>>>(__gnu_cxx::__normal_iterator<unsigned long long
+// const*, std::vector<unsigned long long, std::allocator<unsigned long long>>>)
 
 ulonglong *
 std::
@@ -6475,10 +7219,11 @@ __niter_base_unsigned_long_long_const__std__vector_unsigned_long_long_std__alloc
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long long* std::__niter_base<unsigned long long*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>(__gnu_cxx::__normal_iterator<unsigned long long*,
-   std::vector<unsigned long long, std::allocator<unsigned long long>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long long* std::__niter_base<unsigned long long*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>>(__gnu_cxx::__normal_iterator<unsigned long long*,
+// std::vector<unsigned long long, std::allocator<unsigned long long>>>)
 
 ulonglong *
 std::
@@ -6500,9 +7245,10 @@ __niter_base_unsigned_long_long__std__vector_unsigned_long_long_std__allocator_u
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long long* std::__copy_move_a1<false, unsigned long long const*, unsigned long
-   long*>(unsigned long long const*, unsigned long long const*, unsigned long long*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long long* std::__copy_move_a1<false, unsigned long long const*, unsigned long
+// long*>(unsigned long long const*, unsigned long long const*, unsigned long long*)
 
 ulonglong *
 std::__copy_move_a1_false_unsigned_long_long_const__unsigned_long_long__
@@ -6517,12 +7263,13 @@ std::__copy_move_a1_false_unsigned_long_long_const__unsigned_long_long__
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>> std::__niter_wrap<__gnu_cxx::__normal_iterator<unsigned long
-   long*, std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long
-   long*>(__gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>, unsigned long long*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>> std::__niter_wrap<__gnu_cxx::__normal_iterator<unsigned long
+// long*, std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long
+// long*>(__gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>>, unsigned long long*)
 
 __normal_iterator
 std::
@@ -6546,11 +7293,12 @@ __niter_wrap___gnu_cxx____normal_iterator_unsigned_long_long__std__vector_unsign
 }
 
 
-/* void std::_Destroy_aux<true>::__destroy<__gnu_cxx::__normal_iterator<unsigned long long*,
-   std::vector<unsigned long long, std::allocator<unsigned long
-   long>>>>(__gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>, __gnu_cxx::__normal_iterator<unsigned long long*,
-   std::vector<unsigned long long, std::allocator<unsigned long long>>>) */
+
+// void std::_Destroy_aux<true>::__destroy<__gnu_cxx::__normal_iterator<unsigned long long*,
+// std::vector<unsigned long long, std::allocator<unsigned long
+// long>>>>(__gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>>, __gnu_cxx::__normal_iterator<unsigned long long*,
+// std::vector<unsigned long long, std::allocator<unsigned long long>>>)
 
 void std::_Destroy_aux<true>::
      __destroy___gnu_cxx____normal_iterator_unsigned_long_long__std__vector_unsigned_long_long_std__allocator_unsigned_long_long____
@@ -6561,8 +7309,9 @@ void std::_Destroy_aux<true>::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long long* std::__niter_base<unsigned long long*>(unsigned long long*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long long* std::__niter_base<unsigned long long*>(unsigned long long*)
 
 ulonglong * std::__niter_base_unsigned_long_long__(ulonglong *param_1)
 
@@ -6571,9 +7320,10 @@ ulonglong * std::__niter_base_unsigned_long_long__(ulonglong *param_1)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long long* std::__copy_move_a1<false, unsigned long long*, unsigned long long*>(unsigned
-   long long*, unsigned long long*, unsigned long long*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long long* std::__copy_move_a1<false, unsigned long long*, unsigned long long*>(unsigned
+// long long*, unsigned long long*, unsigned long long*)
 
 ulonglong *
 std::__copy_move_a1_false_unsigned_long_long__unsigned_long_long__
@@ -6587,9 +7337,10 @@ std::__copy_move_a1_false_unsigned_long_long__unsigned_long_long__
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long long* std::__niter_wrap<unsigned long long*>(unsigned long long* const&, unsigned
-   long long*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long long* std::__niter_wrap<unsigned long long*>(unsigned long long* const&, unsigned
+// long long*)
 
 ulonglong * std::__niter_wrap_unsigned_long_long__(ulonglong **param_1,ulonglong *param_2)
 
@@ -6598,8 +7349,9 @@ ulonglong * std::__niter_wrap_unsigned_long_long__(ulonglong **param_1,ulonglong
 }
 
 
-/* unsigned long long* std::__uninitialized_copy<true>::__uninit_copy<unsigned long long*, unsigned
-   long long*>(unsigned long long*, unsigned long long*, unsigned long long*) */
+
+// unsigned long long* std::__uninitialized_copy<true>::__uninit_copy<unsigned long long*, unsigned
+// long long*>(unsigned long long*, unsigned long long*, unsigned long long*)
 
 ulonglong *
 std::__uninitialized_copy<true>::__uninit_copy_unsigned_long_long__unsigned_long_long__
@@ -6613,8 +7365,9 @@ std::__uninitialized_copy<true>::__uninit_copy_unsigned_long_long__unsigned_long
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<KoState>, KoState>::allocate(std::allocator<KoState>&,
-   unsigned long) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<KoState>, KoState>::allocate(std::allocator<KoState>&,
+// unsigned long)
 
 void __gnu_cxx::__alloc_traits<std::allocator<KoState>,KoState>::allocate
                (allocator *param_1,ulong param_2)
@@ -6625,11 +7378,12 @@ void __gnu_cxx::__alloc_traits<std::allocator<KoState>,KoState>::allocate
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* KoState* std::uninitialized_copy<__gnu_cxx::__normal_iterator<KoState const*,
-   std::vector<KoState, std::allocator<KoState>>>, KoState*>(__gnu_cxx::__normal_iterator<KoState
-   const*, std::vector<KoState, std::allocator<KoState>>>, __gnu_cxx::__normal_iterator<KoState
-   const*, std::vector<KoState, std::allocator<KoState>>>, KoState*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// KoState* std::uninitialized_copy<__gnu_cxx::__normal_iterator<KoState const*,
+// std::vector<KoState, std::allocator<KoState>>>, KoState*>(__gnu_cxx::__normal_iterator<KoState
+// const*, std::vector<KoState, std::allocator<KoState>>>, __gnu_cxx::__normal_iterator<KoState
+// const*, std::vector<KoState, std::allocator<KoState>>>, KoState*)
 
 KoState * std::
           uninitialized_copy___gnu_cxx____normal_iterator_KoState_const__std__vector_KoState_std__allocator_KoState____KoState__
@@ -6645,7 +7399,8 @@ KoState * std::
 }
 
 
-/* __gnu_cxx::new_allocator<KoState>::deallocate(KoState*, unsigned long) */
+
+// __gnu_cxx::new_allocator<KoState>::deallocate(KoState*, unsigned long)
 
 void __gnu_cxx::new_allocator<KoState>::deallocate(KoState *param_1,ulong param_2)
 
@@ -6655,10 +7410,11 @@ void __gnu_cxx::new_allocator<KoState>::deallocate(KoState *param_1,ulong param_
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* KoState const* std::__niter_base<KoState const*, std::vector<KoState,
-   std::allocator<KoState>>>(__gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
-   std::allocator<KoState>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// KoState const* std::__niter_base<KoState const*, std::vector<KoState,
+// std::allocator<KoState>>>(__gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
+// std::allocator<KoState>>>)
 
 KoState * std::__niter_base_KoState_const__std__vector_KoState_std__allocator_KoState___
                     (__normal_iterator param_1)
@@ -6678,10 +7434,11 @@ KoState * std::__niter_base_KoState_const__std__vector_KoState_std__allocator_Ko
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* KoState* std::__niter_base<KoState*, std::vector<KoState,
-   std::allocator<KoState>>>(__gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
-   std::allocator<KoState>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// KoState* std::__niter_base<KoState*, std::vector<KoState,
+// std::allocator<KoState>>>(__gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
+// std::allocator<KoState>>>)
 
 KoState * std::__niter_base_KoState__std__vector_KoState_std__allocator_KoState___
                     (__normal_iterator param_1)
@@ -6700,9 +7457,10 @@ KoState * std::__niter_base_KoState__std__vector_KoState_std__allocator_KoState_
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* KoState* std::__copy_move_a1<false, KoState const*, KoState*>(KoState const*, KoState const*,
-   KoState*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// KoState* std::__copy_move_a1<false, KoState const*, KoState*>(KoState const*, KoState const*,
+// KoState*)
 
 KoState * std::__copy_move_a1_false_KoState_const__KoState__
                     (KoState *param_1,KoState *param_2,KoState *param_3)
@@ -6715,11 +7473,12 @@ KoState * std::__copy_move_a1_false_KoState_const__KoState__
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<KoState*, std::vector<KoState, std::allocator<KoState>>>
-   std::__niter_wrap<__gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
-   std::allocator<KoState>>>, KoState*>(__gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
-   std::allocator<KoState>>>, KoState*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<KoState*, std::vector<KoState, std::allocator<KoState>>>
+// std::__niter_wrap<__gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
+// std::allocator<KoState>>>, KoState*>(__gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
+// std::allocator<KoState>>>, KoState*)
 
 __normal_iterator
 std::
@@ -6741,10 +7500,11 @@ __niter_wrap___gnu_cxx____normal_iterator_KoState__std__vector_KoState_std__allo
 }
 
 
-/* void std::_Destroy_aux<false>::__destroy<__gnu_cxx::__normal_iterator<KoState*,
-   std::vector<KoState, std::allocator<KoState>>>>(__gnu_cxx::__normal_iterator<KoState*,
-   std::vector<KoState, std::allocator<KoState>>>, __gnu_cxx::__normal_iterator<KoState*,
-   std::vector<KoState, std::allocator<KoState>>>) */
+
+// void std::_Destroy_aux<false>::__destroy<__gnu_cxx::__normal_iterator<KoState*,
+// std::vector<KoState, std::allocator<KoState>>>>(__gnu_cxx::__normal_iterator<KoState*,
+// std::vector<KoState, std::allocator<KoState>>>, __gnu_cxx::__normal_iterator<KoState*,
+// std::vector<KoState, std::allocator<KoState>>>)
 
 void std::_Destroy_aux<false>::
      __destroy___gnu_cxx____normal_iterator_KoState__std__vector_KoState_std__allocator_KoState____
@@ -6777,8 +7537,9 @@ void std::_Destroy_aux<false>::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* KoState* std::__niter_base<KoState*>(KoState*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// KoState* std::__niter_base<KoState*>(KoState*)
 
 KoState * std::__niter_base_KoState__(KoState *param_1)
 
@@ -6787,8 +7548,9 @@ KoState * std::__niter_base_KoState__(KoState *param_1)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* KoState* std::__copy_move_a1<false, KoState*, KoState*>(KoState*, KoState*, KoState*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// KoState* std::__copy_move_a1<false, KoState*, KoState*>(KoState*, KoState*, KoState*)
 
 KoState * std::__copy_move_a1_false_KoState__KoState__
                     (KoState *param_1,KoState *param_2,KoState *param_3)
@@ -6801,8 +7563,9 @@ KoState * std::__copy_move_a1_false_KoState__KoState__
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* KoState* std::__niter_wrap<KoState*>(KoState* const&, KoState*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// KoState* std::__niter_wrap<KoState*>(KoState* const&, KoState*)
 
 KoState * std::__niter_wrap_KoState__(KoState **param_1,KoState *param_2)
 
@@ -6811,8 +7574,9 @@ KoState * std::__niter_wrap_KoState__(KoState **param_1,KoState *param_2)
 }
 
 
-/* KoState* std::__uninitialized_copy<false>::__uninit_copy<KoState*, KoState*>(KoState*, KoState*,
-   KoState*) */
+
+// KoState* std::__uninitialized_copy<false>::__uninit_copy<KoState*, KoState*>(KoState*, KoState*,
+// KoState*)
 
 KoState * std::__uninitialized_copy<false>::__uninit_copy_KoState__KoState__
                     (KoState *param_1,KoState *param_2,KoState *param_3)
@@ -6832,8 +7596,9 @@ KoState * std::__uninitialized_copy<false>::__uninit_copy_KoState__KoState__
 }
 
 
-/* __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>::new_allocator() */
+
+// __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>::new_allocator()
 
 void __gnu_cxx::
      new_allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>::
@@ -6844,9 +7609,10 @@ void __gnu_cxx::
 }
 
 
-/* __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>::deallocate(std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, unsigned long) */
+
+// __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>::deallocate(std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, unsigned long)
 
 void __gnu_cxx::
      new_allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>::
@@ -6858,11 +7624,12 @@ void __gnu_cxx::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*
-   std::__addressof<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>(std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*
+// std::__addressof<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>(std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>&)
 
 basic_string *
 std::__addressof_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___
@@ -6873,10 +7640,11 @@ std::__addressof_std____cxx11__basic_string_char_std__char_traits_char__std__all
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::_Destroy<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>(std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::_Destroy<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>(std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*)
 
 void std::_Destroy_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___
                (basic_string *param_1)
@@ -6888,7 +7656,8 @@ void std::_Destroy_std____cxx11__basic_string_char_std__char_traits_char__std__a
 }
 
 
-/* __gnu_cxx::new_allocator<unsigned long>::deallocate(unsigned long*, unsigned long) */
+
+// __gnu_cxx::new_allocator<unsigned long>::deallocate(unsigned long*, unsigned long)
 
 void __gnu_cxx::new_allocator<unsigned_long>::deallocate(ulong *param_1,ulong param_2)
 
@@ -6898,10 +7667,11 @@ void __gnu_cxx::new_allocator<unsigned_long>::deallocate(ulong *param_1,ulong pa
 }
 
 
-/* std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::_S_max_size(std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>> const&) */
+
+// std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>::_S_max_size(std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>> const&)
 
 ulong std::
       vector<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>
@@ -6921,9 +7691,10 @@ ulong std::
 }
 
 
-/* std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::_M_get_Tp_allocator() const */
+
+// std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>::_M_get_Tp_allocator() const
 
 _Vector_base_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std__allocator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____
 * __thiscall
@@ -6938,8 +7709,9 @@ _Vector_base<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocat
 }
 
 
-/* __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>::allocate(unsigned long, void const*) */
+
+// __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>::allocate(unsigned long, void const*)
 
 void __gnu_cxx::
      new_allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>::
@@ -6960,14 +7732,15 @@ void __gnu_cxx::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*
-   std::uninitialized_copy<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*>(std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*
+// std::uninitialized_copy<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*>(std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*)
 
 basic_string *
 std::
@@ -6984,22 +7757,23 @@ uninitialized_copy_std____cxx11__basic_string_char_std__char_traits_char__std__a
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__heap_select<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>, __gnu_cxx::__ops::_Iter_less_iter) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__heap_select<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>, __gnu_cxx::__ops::_Iter_less_iter)
 
 void std::
      __heap_select___gnu_cxx____normal_iterator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____std__vector_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std__allocator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char________gnu_cxx____ops___Iter_less_iter_
@@ -7043,19 +7817,20 @@ void std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__sort_heap<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>, __gnu_cxx::__ops::_Iter_less_iter&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__sort_heap<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>, __gnu_cxx::__ops::_Iter_less_iter&)
 
 void std::
      __sort_heap___gnu_cxx____normal_iterator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____std__vector_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std__allocator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char________gnu_cxx____ops___Iter_less_iter_
@@ -7086,10 +7861,11 @@ void std::
 }
 
 
-/* __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>::TEMPNAMEPLACEHOLDERVALUE(long) const */
+
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>::TEMPNAMEPLACEHOLDERVALUE(long) const
 
 undefined8 __thiscall
 __gnu_cxx::
@@ -7108,26 +7884,27 @@ __normal_iterator<std::__cxx11::basic_string<char,std::char_traits<char>,std::al
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__move_median_to_first<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>, __gnu_cxx::__ops::_Iter_less_iter) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__move_median_to_first<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>, __gnu_cxx::__ops::_Iter_less_iter)
 
 void std::
      __move_median_to_first___gnu_cxx____normal_iterator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____std__vector_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std__allocator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char________gnu_cxx____ops___Iter_less_iter_
@@ -7195,26 +7972,27 @@ void std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>
-   std::__unguarded_partition<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>, __gnu_cxx::__ops::_Iter_less_iter) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>
+// std::__unguarded_partition<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>, __gnu_cxx::__ops::_Iter_less_iter)
 
 __normal_iterator
 std::
@@ -7271,15 +8049,16 @@ __unguarded_partition___gnu_cxx____normal_iterator_std____cxx11__basic_string_ch
 }
 
 
-/* bool 
-   __gnu_cxx::__ops::_Iter_less_iter::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>) const */
+
+// bool 
+// __gnu_cxx::__ops::_Iter_less_iter::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>) const
 
 bool __thiscall
 __gnu_cxx::__ops::_Iter_less_iter::operator__
@@ -7311,29 +8090,30 @@ __gnu_cxx::__ops::_Iter_less_iter::operator__
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>
-   std::copy_backward<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>
+// std::copy_backward<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>)
 
 __normal_iterator
 std::
@@ -7354,15 +8134,16 @@ copy_backward___gnu_cxx____normal_iterator_std____cxx11__basic_string_char_std__
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__ops::_Val_less_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>, __gnu_cxx::__ops::_Val_less_iter) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__ops::_Val_less_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>, __gnu_cxx::__ops::_Val_less_iter)
 
 void std::
      __unguarded_linear_insert___gnu_cxx____normal_iterator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____std__vector_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std__allocator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char________gnu_cxx____ops___Val_less_iter_
@@ -7425,15 +8206,16 @@ void std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*
-   std::__niter_base<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*
+// std::__niter_base<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>)
 
 basic_string *
 std::
@@ -7455,14 +8237,15 @@ __niter_base_std____cxx11__basic_string_char_std__char_traits_char__std__allocat
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*
-   std::__copy_move_a1<false, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*>(std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*
+// std::__copy_move_a1<false, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*>(std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*)
 
 basic_string *
 std::
@@ -7478,21 +8261,22 @@ __copy_move_a1_false_std____cxx11__basic_string_char_std__char_traits_char__std_
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>
-   std::__niter_wrap<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>, std::__cxx11::basic_string<char,
-   std::char_traits<char>,
-   std::allocator<char>>*>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>
+// std::__niter_wrap<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>, std::__cxx11::basic_string<char,
+// std::char_traits<char>,
+// std::allocator<char>>*>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*)
 
 __normal_iterator
 std::
@@ -7516,7 +8300,8 @@ __niter_wrap___gnu_cxx____normal_iterator_std____cxx11__basic_string_char_std__c
 }
 
 
-/* __gnu_cxx::new_allocator<int>::new_allocator(__gnu_cxx::new_allocator<int> const&) */
+
+// __gnu_cxx::new_allocator<int>::new_allocator(__gnu_cxx::new_allocator<int> const&)
 
 void __gnu_cxx::new_allocator<int>::new_allocator(new_allocator *param_1)
 
@@ -7525,10 +8310,11 @@ void __gnu_cxx::new_allocator<int>::new_allocator(new_allocator *param_1)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>,
-   int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>,
-   __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>,
+// int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>,
+// __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>, int*)
 
 int * std::copy___gnu_cxx____normal_iterator_int_const__std__vector_int_std__allocator_int____int__
                 (__normal_iterator param_1,__normal_iterator param_2,int *param_3)
@@ -7548,7 +8334,8 @@ int * std::copy___gnu_cxx____normal_iterator_int_const__std__vector_int_std__all
 }
 
 
-/* __gnu_cxx::new_allocator<SGFTree>::~new_allocator() */
+
+// __gnu_cxx::new_allocator<SGFTree>::~new_allocator()
 
 void __thiscall __gnu_cxx::new_allocator<SGFTree>::_new_allocator(new_allocator_SGFTree_ *this)
 
@@ -7557,8 +8344,9 @@ void __thiscall __gnu_cxx::new_allocator<SGFTree>::_new_allocator(new_allocator_
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<SGFTree>, SGFTree>::deallocate(std::allocator<SGFTree>&,
-   SGFTree*, unsigned long) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<SGFTree>, SGFTree>::deallocate(std::allocator<SGFTree>&,
+// SGFTree*, unsigned long)
 
 void __gnu_cxx::__alloc_traits<std::allocator<SGFTree>,SGFTree>::deallocate
                (allocator *param_1,SGFTree *param_2,ulong param_3)
@@ -7569,7 +8357,8 @@ void __gnu_cxx::__alloc_traits<std::allocator<SGFTree>,SGFTree>::deallocate
 }
 
 
-/* void std::_Destroy_aux<false>::__destroy<SGFTree*>(SGFTree*, SGFTree*) */
+
+// void std::_Destroy_aux<false>::__destroy<SGFTree*>(SGFTree*, SGFTree*)
 
 void std::_Destroy_aux<false>::__destroy_SGFTree__(SGFTree *param_1,SGFTree *param_2)
 
@@ -7585,18 +8374,19 @@ void std::_Destroy_aux<false>::__destroy_SGFTree__(SGFTree *param_1,SGFTree *par
 }
 
 
-/* std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
-   std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>,
-   std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>,
-   std::allocator<char>>>>>::_M_destroy_node(std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>*) */
+
+// std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
+// std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>,
+// std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
+// std::char_traits<char>,
+// std::allocator<char>>>>>::_M_destroy_node(std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>*)
 
 void __thiscall
 std::
@@ -7623,18 +8413,19 @@ _Rb_tree<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<c
 }
 
 
-/* std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
-   std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>,
-   std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>,
-   std::allocator<char>>>>>::_M_put_node(std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>*) */
+
+// std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
+// std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>,
+// std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
+// std::char_traits<char>,
+// std::allocator<char>>>>>::_M_put_node(std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>*)
 
 void __thiscall
 std::
@@ -7653,8 +8444,9 @@ _Rb_tree<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<c
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* KoState* std::__addressof<KoState>(KoState&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// KoState* std::__addressof<KoState>(KoState&)
 
 KoState * std::__addressof_KoState_(KoState *param_1)
 
@@ -7663,8 +8455,9 @@ KoState * std::__addressof_KoState_(KoState *param_1)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::_Destroy<KoState>(KoState*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::_Destroy<KoState>(KoState*)
 
 void std::_Destroy_KoState_(KoState *param_1)
 
@@ -7674,7 +8467,8 @@ void std::_Destroy_KoState_(KoState *param_1)
 }
 
 
-/* __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) */
+
+// __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*)
 
 void __gnu_cxx::new_allocator<int>::allocate(ulong param_1,void *param_2)
 
@@ -7693,7 +8487,8 @@ void __gnu_cxx::new_allocator<int>::allocate(ulong param_1,void *param_2)
 }
 
 
-/* __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>::base() const */
+
+// __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>::base() const
 
 __normal_iterator_int_const__std__vector_int_std__allocator_int___ * __thiscall
 __gnu_cxx::__normal_iterator<int_const*,std::vector<int,std::allocator<int>>>::base
@@ -7704,7 +8499,8 @@ __gnu_cxx::__normal_iterator<int_const*,std::vector<int,std::allocator<int>>>::b
 }
 
 
-/* __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>::base() const */
+
+// __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>::base() const
 
 __normal_iterator_int__std__vector_int_std__allocator_int___ * __thiscall
 __gnu_cxx::__normal_iterator<int*,std::vector<int,std::allocator<int>>>::base
@@ -7715,8 +8511,9 @@ __gnu_cxx::__normal_iterator<int*,std::vector<int,std::allocator<int>>>::base
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__copy_move_a2<false, int const*, int*>(int const*, int const*, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__copy_move_a2<false, int const*, int*>(int const*, int const*, int*)
 
 int * std::__copy_move_a2_false_int_const__int__(int *param_1,int *param_2,int *param_3)
 
@@ -7729,8 +8526,9 @@ int * std::__copy_move_a2_false_int_const__int__(int *param_1,int *param_2,int *
 }
 
 
-/* __gnu_cxx::__normal_iterator<int*, std::vector<int,
-   std::allocator<int>>>::TEMPNAMEPLACEHOLDERVALUE(long) const */
+
+// __gnu_cxx::__normal_iterator<int*, std::vector<int,
+// std::allocator<int>>>::TEMPNAMEPLACEHOLDERVALUE(long) const
 
 undefined8 __thiscall
 __gnu_cxx::__normal_iterator<int*,std::vector<int,std::allocator<int>>>::operator_
@@ -7747,8 +8545,9 @@ __gnu_cxx::__normal_iterator<int*,std::vector<int,std::allocator<int>>>::operato
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__copy_move_a2<false, int*, int*>(int*, int*, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__copy_move_a2<false, int*, int*>(int*, int*, int*)
 
 int * std::__copy_move_a2_false_int__int__(int *param_1,int *param_2,int *param_3)
 
@@ -7761,7 +8560,8 @@ int * std::__copy_move_a2_false_int__int__(int *param_1,int *param_2,int *param_
 }
 
 
-/* __gnu_cxx::new_allocator<unsigned long long>::allocate(unsigned long, void const*) */
+
+// __gnu_cxx::new_allocator<unsigned long long>::allocate(unsigned long, void const*)
 
 void __gnu_cxx::new_allocator<unsigned_long_long>::allocate(ulong param_1,void *param_2)
 
@@ -7780,12 +8580,13 @@ void __gnu_cxx::new_allocator<unsigned_long_long>::allocate(ulong param_1,void *
 }
 
 
-/* unsigned long long*
-   std::__uninitialized_copy<true>::__uninit_copy<__gnu_cxx::__normal_iterator<unsigned long long
-   const*, std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long
-   long*>(__gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>, __gnu_cxx::__normal_iterator<unsigned long long const*,
-   std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long long*) */
+
+// unsigned long long*
+// std::__uninitialized_copy<true>::__uninit_copy<__gnu_cxx::__normal_iterator<unsigned long long
+// const*, std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long
+// long*>(__gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>>, __gnu_cxx::__normal_iterator<unsigned long long const*,
+// std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long long*)
 
 ulonglong *
 std::__uninitialized_copy<true>::
@@ -7801,8 +8602,9 @@ __uninit_copy___gnu_cxx____normal_iterator_unsigned_long_long_const__std__vector
 }
 
 
-/* __gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>::base() const */
+
+// __gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>>::base() const
 
 __normal_iterator_unsigned_long_long_const__std__vector_unsigned_long_long_std__allocator_unsigned_long_long___
 * __thiscall
@@ -7816,8 +8618,9 @@ __normal_iterator<unsigned_long_long_const*,std::vector<unsigned_long_long,std::
 }
 
 
-/* __gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>::base() const */
+
+// __gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>>::base() const
 
 __normal_iterator_unsigned_long_long__std__vector_unsigned_long_long_std__allocator_unsigned_long_long___
 * __thiscall
@@ -7831,9 +8634,10 @@ __normal_iterator<unsigned_long_long*,std::vector<unsigned_long_long,std::alloca
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long long* std::__copy_move_a2<false, unsigned long long const*, unsigned long
-   long*>(unsigned long long const*, unsigned long long const*, unsigned long long*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long long* std::__copy_move_a2<false, unsigned long long const*, unsigned long
+// long*>(unsigned long long const*, unsigned long long const*, unsigned long long*)
 
 ulonglong *
 std::__copy_move_a2_false_unsigned_long_long_const__unsigned_long_long__
@@ -7848,8 +8652,9 @@ std::__copy_move_a2_false_unsigned_long_long_const__unsigned_long_long__
 }
 
 
-/* __gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>::TEMPNAMEPLACEHOLDERVALUE(long) const */
+
+// __gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>>::TEMPNAMEPLACEHOLDERVALUE(long) const
 
 undefined8 __thiscall
 __gnu_cxx::
@@ -7868,9 +8673,10 @@ __normal_iterator<unsigned_long_long*,std::vector<unsigned_long_long,std::alloca
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long long* std::__copy_move_a2<false, unsigned long long*, unsigned long long*>(unsigned
-   long long*, unsigned long long*, unsigned long long*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long long* std::__copy_move_a2<false, unsigned long long*, unsigned long long*>(unsigned
+// long long*, unsigned long long*, unsigned long long*)
 
 ulonglong *
 std::__copy_move_a2_false_unsigned_long_long__unsigned_long_long__
@@ -7885,7 +8691,8 @@ std::__copy_move_a2_false_unsigned_long_long__unsigned_long_long__
 }
 
 
-/* __gnu_cxx::new_allocator<KoState>::allocate(unsigned long, void const*) */
+
+// __gnu_cxx::new_allocator<KoState>::allocate(unsigned long, void const*)
 
 void __gnu_cxx::new_allocator<KoState>::allocate(ulong param_1,void *param_2)
 
@@ -7904,11 +8711,12 @@ void __gnu_cxx::new_allocator<KoState>::allocate(ulong param_1,void *param_2)
 }
 
 
-/* KoState* std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<KoState
-   const*, std::vector<KoState, std::allocator<KoState>>>,
-   KoState*>(__gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
-   std::allocator<KoState>>>, __gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
-   std::allocator<KoState>>>, KoState*) */
+
+// KoState* std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<KoState
+// const*, std::vector<KoState, std::allocator<KoState>>>,
+// KoState*>(__gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
+// std::allocator<KoState>>>, __gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
+// std::allocator<KoState>>>, KoState*)
 
 KoState * std::__uninitialized_copy<false>::
           __uninit_copy___gnu_cxx____normal_iterator_KoState_const__std__vector_KoState_std__allocator_KoState____KoState__
@@ -7946,8 +8754,9 @@ KoState * std::__uninitialized_copy<false>::
 }
 
 
-/* __gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
-   std::allocator<KoState>>>::base() const */
+
+// __gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
+// std::allocator<KoState>>>::base() const
 
 __normal_iterator_KoState_const__std__vector_KoState_std__allocator_KoState___ * __thiscall
 __gnu_cxx::__normal_iterator<KoState_const*,std::vector<KoState,std::allocator<KoState>>>::base
@@ -7958,8 +8767,9 @@ __gnu_cxx::__normal_iterator<KoState_const*,std::vector<KoState,std::allocator<K
 }
 
 
-/* __gnu_cxx::__normal_iterator<KoState*, std::vector<KoState, std::allocator<KoState>>>::base()
-   const */
+
+// __gnu_cxx::__normal_iterator<KoState*, std::vector<KoState, std::allocator<KoState>>>::base()
+// const
 
 __normal_iterator_KoState__std__vector_KoState_std__allocator_KoState___ * __thiscall
 __gnu_cxx::__normal_iterator<KoState*,std::vector<KoState,std::allocator<KoState>>>::base
@@ -7970,9 +8780,10 @@ __gnu_cxx::__normal_iterator<KoState*,std::vector<KoState,std::allocator<KoState
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* KoState* std::__copy_move_a2<false, KoState const*, KoState*>(KoState const*, KoState const*,
-   KoState*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// KoState* std::__copy_move_a2<false, KoState const*, KoState*>(KoState const*, KoState const*,
+// KoState*)
 
 KoState * std::__copy_move_a2_false_KoState_const__KoState__
                     (KoState *param_1,KoState *param_2,KoState *param_3)
@@ -7986,8 +8797,9 @@ KoState * std::__copy_move_a2_false_KoState_const__KoState__
 }
 
 
-/* __gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
-   std::allocator<KoState>>>::TEMPNAMEPLACEHOLDERVALUE(long) const */
+
+// __gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
+// std::allocator<KoState>>>::TEMPNAMEPLACEHOLDERVALUE(long) const
 
 undefined8 __thiscall
 __gnu_cxx::__normal_iterator<KoState*,std::vector<KoState,std::allocator<KoState>>>::operator_
@@ -8005,9 +8817,10 @@ __gnu_cxx::__normal_iterator<KoState*,std::vector<KoState,std::allocator<KoState
 }
 
 
-/* bool __gnu_cxx::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<KoState*,
-   std::vector<KoState, std::allocator<KoState>>> const&, __gnu_cxx::__normal_iterator<KoState*,
-   std::vector<KoState, std::allocator<KoState>>> const&) */
+
+// bool __gnu_cxx::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<KoState*,
+// std::vector<KoState, std::allocator<KoState>>> const&, __gnu_cxx::__normal_iterator<KoState*,
+// std::vector<KoState, std::allocator<KoState>>> const&)
 
 bool __gnu_cxx::operator__(__normal_iterator *param_1,__normal_iterator *param_2)
 
@@ -8026,8 +8839,9 @@ bool __gnu_cxx::operator__(__normal_iterator *param_1,__normal_iterator *param_2
 }
 
 
-/* __gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
-   std::allocator<KoState>>>::TEMPNAMEPLACEHOLDERVALUE() */
+
+// __gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
+// std::allocator<KoState>>>::TEMPNAMEPLACEHOLDERVALUE()
 
 __normal_iterator_KoState__std__vector_KoState_std__allocator_KoState___ * __thiscall
 __gnu_cxx::__normal_iterator<KoState*,std::vector<KoState,std::allocator<KoState>>>::operator__
@@ -8039,8 +8853,9 @@ __gnu_cxx::__normal_iterator<KoState*,std::vector<KoState,std::allocator<KoState
 }
 
 
-/* __gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
-   std::allocator<KoState>>>::TEMPNAMEPLACEHOLDERVALUE() const */
+
+// __gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
+// std::allocator<KoState>>>::TEMPNAMEPLACEHOLDERVALUE() const
 
 undefined8 __thiscall
 __gnu_cxx::__normal_iterator<KoState*,std::vector<KoState,std::allocator<KoState>>>::operator_
@@ -8051,8 +8866,9 @@ __gnu_cxx::__normal_iterator<KoState*,std::vector<KoState,std::allocator<KoState
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* KoState* std::__copy_move_a2<false, KoState*, KoState*>(KoState*, KoState*, KoState*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// KoState* std::__copy_move_a2<false, KoState*, KoState*>(KoState*, KoState*, KoState*)
 
 KoState * std::__copy_move_a2_false_KoState__KoState__
                     (KoState *param_1,KoState *param_2,KoState *param_3)
@@ -8066,7 +8882,8 @@ KoState * std::__copy_move_a2_false_KoState__KoState__
 }
 
 
-/* FastBoard::FastBoard(FastBoard const&) */
+
+// FastBoard::FastBoard(FastBoard const&)
 
 void __thiscall FastBoard::FastBoard(FastBoard *this,FastBoard *param_1)
 
@@ -8170,7 +8987,8 @@ void __thiscall FastBoard::FastBoard(FastBoard *this,FastBoard *param_1)
 }
 
 
-/* FullBoard::FullBoard(FullBoard const&) */
+
+// FullBoard::FullBoard(FullBoard const&)
 
 void __thiscall FullBoard::FullBoard(FullBoard *this,FullBoard *param_1)
 
@@ -8182,7 +9000,8 @@ void __thiscall FullBoard::FullBoard(FullBoard *this,FullBoard *param_1)
 }
 
 
-/* FastState::FastState(FastState const&) */
+
+// FastState::FastState(FastState const&)
 
 void __thiscall FastState::FastState(FastState *this,FastState *param_1)
 
@@ -8255,7 +9074,8 @@ void __thiscall FastState::FastState(FastState *this,FastState *param_1)
 }
 
 
-/* KoState::KoState(KoState const&) */
+
+// KoState::KoState(KoState const&)
 
 void __thiscall KoState::KoState(KoState *this,KoState *param_1)
 
@@ -8271,8 +9091,9 @@ void __thiscall KoState::KoState(KoState *this,KoState *param_1)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::_Construct<KoState, KoState>(KoState*, KoState const&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::_Construct<KoState, KoState>(KoState*, KoState const&)
 
 void std::_Construct_KoState_KoState_(KoState *param_1,KoState *param_2)
 
@@ -8285,10 +9106,11 @@ void std::_Construct_KoState_KoState_(KoState *param_1,KoState *param_2)
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>::max_size(std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>> const&) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>::max_size(std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>> const&)
 
 void __gnu_cxx::
      __alloc_traits<std::allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>
@@ -8301,8 +9123,9 @@ void __gnu_cxx::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&)
 
 ulong * std::min_unsigned_long_(ulong *param_1,ulong *param_2)
 
@@ -8314,8 +9137,9 @@ ulong * std::min_unsigned_long_(ulong *param_1,ulong *param_2)
 }
 
 
-/* __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>::_M_max_size() const */
+
+// __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>::_M_max_size() const
 
 undefined8
 __gnu_cxx::
@@ -8327,13 +9151,14 @@ _M_max_size(void)
 }
 
 
-/* std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*
-   std::__uninitialized_copy<false>::__uninit_copy<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*>(std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*) */
+
+// std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*
+// std::__uninitialized_copy<false>::__uninit_copy<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*>(std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*)
 
 basic_string *
 std::__uninitialized_copy<false>::
@@ -8357,19 +9182,20 @@ __uninit_copy_std____cxx11__basic_string_char_std__char_traits_char__std__alloca
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__make_heap<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>, __gnu_cxx::__ops::_Iter_less_iter&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__make_heap<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>, __gnu_cxx::__ops::_Iter_less_iter&)
 
 void std::
      __make_heap___gnu_cxx____normal_iterator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____std__vector_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std__allocator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char________gnu_cxx____ops___Iter_less_iter_
@@ -8428,15 +9254,16 @@ void std::
 }
 
 
-/* bool 
-   __gnu_cxx::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>> const&,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>> const&) */
+
+// bool 
+// __gnu_cxx::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>> const&,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>> const&)
 
 bool __gnu_cxx::operator_(__normal_iterator *param_1,__normal_iterator *param_2)
 
@@ -8455,22 +9282,23 @@ bool __gnu_cxx::operator_(__normal_iterator *param_1,__normal_iterator *param_2)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__pop_heap<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>, __gnu_cxx::__ops::_Iter_less_iter&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__pop_heap<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>, __gnu_cxx::__ops::_Iter_less_iter&)
 
 void std::
      __pop_heap___gnu_cxx____normal_iterator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____std__vector_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std__allocator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char________gnu_cxx____ops___Iter_less_iter_
@@ -8527,10 +9355,11 @@ void std::
 }
 
 
-/* __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>::TEMPNAMEPLACEHOLDERVALUE() */
+
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>::TEMPNAMEPLACEHOLDERVALUE()
 
 __normal_iterator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____std__vector_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std__allocator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char_____
 * __thiscall
@@ -8545,22 +9374,23 @@ __normal_iterator<std::__cxx11::basic_string<char,std::char_traits<char>,std::al
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::iter_swap<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::iter_swap<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>)
 
 void std::
      iter_swap___gnu_cxx____normal_iterator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____std__vector_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std__allocator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char________gnu_cxx____normal_iterator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____std__vector_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std__allocator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char______
@@ -8574,10 +9404,11 @@ void std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* bool std::TEMPNAMEPLACEHOLDERVALUE(std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const&, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// bool std::TEMPNAMEPLACEHOLDERVALUE(std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const&, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const&)
 
 bool std::operator_(basic_string *param_1,basic_string *param_2)
 
@@ -8589,29 +9420,30 @@ bool std::operator_(basic_string *param_1,basic_string *param_2)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>> std::__copy_move_backward_a<false,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>,
-   std::allocator<char>>>>>>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>> std::__copy_move_backward_a<false,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>,
+// std::allocator<char>>>>>>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>)
 
 __normal_iterator
 std::
@@ -8638,12 +9470,13 @@ __copy_move_backward_a_false___gnu_cxx____normal_iterator_std____cxx11__basic_st
 }
 
 
-/* bool __gnu_cxx::__ops::_Val_less_iter::TEMPNAMEPLACEHOLDERVALUE(std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>&,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>) const */
+
+// bool __gnu_cxx::__ops::_Val_less_iter::TEMPNAMEPLACEHOLDERVALUE(std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>&,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>) const
 
 bool __thiscall
 __gnu_cxx::__ops::_Val_less_iter::operator__
@@ -8669,14 +9502,15 @@ __gnu_cxx::__ops::_Val_less_iter::operator__
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*
-   std::__copy_move_a2<false, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*>(std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*
+// std::__copy_move_a2<false, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*>(std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*)
 
 basic_string *
 std::
@@ -8693,11 +9527,12 @@ __copy_move_a2_false_std____cxx11__basic_string_char_std__char_traits_char__std_
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__copy_move_a<false, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__copy_move_a<false, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, int*)
 
 int * std::
       __copy_move_a_false___gnu_cxx____normal_iterator_int_const__std__vector_int_std__allocator_int____int__
@@ -8727,7 +9562,8 @@ int * std::
 }
 
 
-/* __gnu_cxx::new_allocator<SGFTree>::deallocate(SGFTree*, unsigned long) */
+
+// __gnu_cxx::new_allocator<SGFTree>::deallocate(SGFTree*, unsigned long)
 
 void __gnu_cxx::new_allocator<SGFTree>::deallocate(SGFTree *param_1,ulong param_2)
 
@@ -8737,8 +9573,9 @@ void __gnu_cxx::new_allocator<SGFTree>::deallocate(SGFTree *param_1,ulong param_
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* SGFTree* std::__addressof<SGFTree>(SGFTree&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// SGFTree* std::__addressof<SGFTree>(SGFTree&)
 
 SGFTree * std::__addressof_SGFTree_(SGFTree *param_1)
 
@@ -8747,8 +9584,9 @@ SGFTree * std::__addressof_SGFTree_(SGFTree *param_1)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::_Destroy<SGFTree>(SGFTree*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::_Destroy<SGFTree>(SGFTree*)
 
 void std::_Destroy_SGFTree_(SGFTree *param_1)
 
@@ -8758,15 +9596,16 @@ void std::_Destroy_SGFTree_(SGFTree *param_1)
 }
 
 
-/* std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
-   std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>,
-   std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>::get_allocator() const */
+
+// std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
+// std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>,
+// std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>::get_allocator() const
 
 allocator *
 std::
@@ -8787,9 +9626,10 @@ _Rb_tree<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<c
 }
 
 
-/* std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::~allocator() */
+
+// std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>::~allocator()
 
 void __thiscall
 std::
@@ -8806,9 +9646,10 @@ allocator<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::
 }
 
 
-/* std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::_M_valptr() */
+
+// std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>::_M_valptr()
 
 void __thiscall
 std::
@@ -8823,8 +9664,9 @@ _Rb_tree_node<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,s
 }
 
 
-/* std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
-   std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>::~pair() */
+
+// std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
+// std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>::~pair()
 
 void __thiscall
 std::
@@ -8841,11 +9683,12 @@ pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>
 }
 
 
-/* __gnu_cxx::new_allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::destroy(std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>*) */
+
+// __gnu_cxx::new_allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>::destroy(std::pair<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>*)
 
 void __thiscall
 __gnu_cxx::
@@ -8862,17 +9705,18 @@ new_allocator<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,s
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>::deallocate(std::allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>&,
-   std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>*, unsigned long) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>::deallocate(std::allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>&,
+// std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>*, unsigned long)
 
 void __gnu_cxx::
      __alloc_traits<std::allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>,std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>
@@ -8885,15 +9729,16 @@ void __gnu_cxx::
 }
 
 
-/* std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
-   std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>,
-   std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>::_M_get_Node_allocator() */
+
+// std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
+// std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>,
+// std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>::_M_get_Node_allocator()
 
 _Rb_tree_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std__pair_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char__const_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____std___Select1st_std__pair_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char__const_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char_____std__less_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____std__allocator_std__pair_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char__const_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char_____
 * __thiscall
@@ -8908,7 +9753,8 @@ _Rb_tree<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<c
 }
 
 
-/* __gnu_cxx::new_allocator<int>::_M_max_size() const */
+
+// __gnu_cxx::new_allocator<int>::_M_max_size() const
 
 undefined8 __gnu_cxx::new_allocator<int>::_M_max_size(void)
 
@@ -8917,8 +9763,9 @@ undefined8 __gnu_cxx::new_allocator<int>::_M_max_size(void)
 }
 
 
-/* int* std::__copy_move<false, true, std::random_access_iterator_tag>::__copy_m<int>(int const*,
-   int const*, int*) */
+
+// int* std::__copy_move<false, true, std::random_access_iterator_tag>::__copy_m<int>(int const*,
+// int const*, int*)
 
 int * std::__copy_move<false,true,std::random_access_iterator_tag>::__copy_m_int_
                 (int *param_1,int *param_2,int *param_3)
@@ -8934,7 +9781,8 @@ int * std::__copy_move<false,true,std::random_access_iterator_tag>::__copy_m_int
 }
 
 
-/* __gnu_cxx::new_allocator<unsigned long long>::_M_max_size() const */
+
+// __gnu_cxx::new_allocator<unsigned long long>::_M_max_size() const
 
 undefined8 __gnu_cxx::new_allocator<unsigned_long_long>::_M_max_size(void)
 
@@ -8943,12 +9791,13 @@ undefined8 __gnu_cxx::new_allocator<unsigned_long_long>::_M_max_size(void)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long long* std::copy<__gnu_cxx::__normal_iterator<unsigned long long const*,
-   std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long
-   long*>(__gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>, __gnu_cxx::__normal_iterator<unsigned long long const*,
-   std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long long*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long long* std::copy<__gnu_cxx::__normal_iterator<unsigned long long const*,
+// std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long
+// long*>(__gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>>, __gnu_cxx::__normal_iterator<unsigned long long const*,
+// std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long long*)
 
 ulonglong *
 std::
@@ -8970,9 +9819,10 @@ copy___gnu_cxx____normal_iterator_unsigned_long_long_const__std__vector_unsigned
 }
 
 
-/* unsigned long long* std::__copy_move<false, true,
-   std::random_access_iterator_tag>::__copy_m<unsigned long long>(unsigned long long const*,
-   unsigned long long const*, unsigned long long*) */
+
+// unsigned long long* std::__copy_move<false, true,
+// std::random_access_iterator_tag>::__copy_m<unsigned long long>(unsigned long long const*,
+// unsigned long long const*, unsigned long long*)
 
 ulonglong *
 std::__copy_move<false,true,std::random_access_iterator_tag>::__copy_m_unsigned_long_long_
@@ -8989,7 +9839,8 @@ std::__copy_move<false,true,std::random_access_iterator_tag>::__copy_m_unsigned_
 }
 
 
-/* __gnu_cxx::new_allocator<KoState>::_M_max_size() const */
+
+// __gnu_cxx::new_allocator<KoState>::_M_max_size() const
 
 undefined8 __gnu_cxx::new_allocator<KoState>::_M_max_size(void)
 
@@ -8998,9 +9849,10 @@ undefined8 __gnu_cxx::new_allocator<KoState>::_M_max_size(void)
 }
 
 
-/* bool __gnu_cxx::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<KoState const*,
-   std::vector<KoState, std::allocator<KoState>>> const&, __gnu_cxx::__normal_iterator<KoState
-   const*, std::vector<KoState, std::allocator<KoState>>> const&) */
+
+// bool __gnu_cxx::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<KoState const*,
+// std::vector<KoState, std::allocator<KoState>>> const&, __gnu_cxx::__normal_iterator<KoState
+// const*, std::vector<KoState, std::allocator<KoState>>> const&)
 
 bool __gnu_cxx::operator__(__normal_iterator *param_1,__normal_iterator *param_2)
 
@@ -9019,8 +9871,9 @@ bool __gnu_cxx::operator__(__normal_iterator *param_1,__normal_iterator *param_2
 }
 
 
-/* __gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
-   std::allocator<KoState>>>::TEMPNAMEPLACEHOLDERVALUE() */
+
+// __gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
+// std::allocator<KoState>>>::TEMPNAMEPLACEHOLDERVALUE()
 
 __normal_iterator_KoState_const__std__vector_KoState_std__allocator_KoState___ * __thiscall
 __gnu_cxx::__normal_iterator<KoState_const*,std::vector<KoState,std::allocator<KoState>>>::
@@ -9032,8 +9885,9 @@ operator__(__normal_iterator_KoState_const__std__vector_KoState_std__allocator_K
 }
 
 
-/* __gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
-   std::allocator<KoState>>>::TEMPNAMEPLACEHOLDERVALUE() const */
+
+// __gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
+// std::allocator<KoState>>>::TEMPNAMEPLACEHOLDERVALUE() const
 
 undefined8 __thiscall
 __gnu_cxx::__normal_iterator<KoState_const*,std::vector<KoState,std::allocator<KoState>>>::operator_
@@ -9044,8 +9898,9 @@ __gnu_cxx::__normal_iterator<KoState_const*,std::vector<KoState,std::allocator<K
 }
 
 
-/* KoState* std::__copy_move<false, false, std::random_access_iterator_tag>::__copy_m<KoState
-   const*, KoState*>(KoState const*, KoState const*, KoState*) */
+
+// KoState* std::__copy_move<false, false, std::random_access_iterator_tag>::__copy_m<KoState
+// const*, KoState*>(KoState const*, KoState const*, KoState*)
 
 KoState * std::__copy_move<false,false,std::random_access_iterator_tag>::
           __copy_m_KoState_const__KoState__(KoState *param_1,KoState *param_2,KoState *param_3)
@@ -9067,8 +9922,9 @@ KoState * std::__copy_move<false,false,std::random_access_iterator_tag>::
 }
 
 
-/* KoState* std::__copy_move<false, false, std::random_access_iterator_tag>::__copy_m<KoState*,
-   KoState*>(KoState*, KoState*, KoState*) */
+
+// KoState* std::__copy_move<false, false, std::random_access_iterator_tag>::__copy_m<KoState*,
+// KoState*>(KoState*, KoState*, KoState*)
 
 KoState * std::__copy_move<false,false,std::random_access_iterator_tag>::__copy_m_KoState__KoState__
                     (KoState *param_1,KoState *param_2,KoState *param_3)
@@ -9090,8 +9946,9 @@ KoState * std::__copy_move<false,false,std::random_access_iterator_tag>::__copy_
 }
 
 
-/* std::vector<unsigned long long, std::allocator<unsigned long long>>::vector(std::vector<unsigned
-   long long, std::allocator<unsigned long long>> const&) */
+
+// std::vector<unsigned long long, std::allocator<unsigned long long>>::vector(std::vector<unsigned
+// long long, std::allocator<unsigned long long>> const&)
 
 void __thiscall
 std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::vector
@@ -9119,8 +9976,8 @@ std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::vector
            _Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_M_get_Tp_allocator
                      ((_Vector_base_unsigned_long_long_std__allocator_unsigned_long_long__ *)this);
   puVar5 = *(ulonglong **)this;
-  _Var1 = end((vector_unsigned_long_long_std__allocator_unsigned_long_long__ *)param_1);
-  _Var2 = begin((vector_unsigned_long_long_std__allocator_unsigned_long_long__ *)param_1);
+  _Var1 = end();
+  _Var2 = begin();
   puVar5 = __uninitialized_copy_a___gnu_cxx____normal_iterator_unsigned_long_long_const__std__vector_unsigned_long_long_std__allocator_unsigned_long_long____unsigned_long_long__unsigned_long_long_
                      (_Var2,_Var1,puVar5,paVar3);
   *(ulonglong **)(this + 8) = puVar5;
@@ -9128,8 +9985,9 @@ std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::vector
 }
 
 
-/* __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>::max_size() const */
+
+// __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>::max_size() const
 
 void __gnu_cxx::
      new_allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>::
@@ -9141,12 +9999,13 @@ void __gnu_cxx::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::_Construct<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>(std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::_Construct<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>(std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const&)
 
 void std::
      _Construct_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___
@@ -9162,17 +10021,18 @@ void std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__adjust_heap<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>, long, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>,
-   __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>, long, long, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, __gnu_cxx::__ops::_Iter_less_iter) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__adjust_heap<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>, long, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>,
+// __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>, long, long, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, __gnu_cxx::__ops::_Iter_less_iter)
 
 void std::
      __adjust_heap___gnu_cxx____normal_iterator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____std__vector_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std__allocator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char______long_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char_____gnu_cxx____ops___Iter_less_iter_
@@ -9279,22 +10139,23 @@ void std::
 }
 
 
-/* void 
-   std::__iter_swap<true>::iter_swap<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>,
-   __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>) */
+
+// void 
+// std::__iter_swap<true>::iter_swap<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>,
+// __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>>)
 
 void std::__iter_swap<true>::
      iter_swap___gnu_cxx____normal_iterator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____std__vector_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std__allocator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char________gnu_cxx____normal_iterator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____std__vector_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std__allocator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char______
@@ -9325,14 +10186,15 @@ void std::__iter_swap<true>::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*
-   std::__copy_move_backward_a1<false, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*>(std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*
+// std::__copy_move_backward_a1<false, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*>(std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*)
 
 basic_string *
 std::
@@ -9348,14 +10210,15 @@ __copy_move_backward_a1_false_std____cxx11__basic_string_char_std__char_traits_c
 }
 
 
-/* std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*
-   std::__copy_move<false, false,
-   std::random_access_iterator_tag>::__copy_m<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*>(std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*) */
+
+// std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*
+// std::__copy_move<false, false,
+// std::random_access_iterator_tag>::__copy_m<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*>(std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*)
 
 basic_string *
 std::__copy_move<false,false,std::random_access_iterator_tag>::
@@ -9379,15 +10242,16 @@ __copy_m_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_c
 }
 
 
-/* std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
-   std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>,
-   std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>::_M_get_Node_allocator() const */
+
+// std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
+// std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
+// std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>,
+// std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>::_M_get_Node_allocator() const
 
 _Rb_tree_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std__pair_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char__const_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____std___Select1st_std__pair_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char__const_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char_____std__less_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____std__allocator_std__pair_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char__const_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char_____
 * __thiscall
@@ -9402,14 +10266,15 @@ _Rb_tree<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<c
 }
 
 
-/* std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>,
-   std::allocator<char>>>>>(std::allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>> const&) */
+
+// std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>::allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
+// std::char_traits<char>,
+// std::allocator<char>>>>>(std::allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>> const&)
 
 void std::
      allocator<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>
@@ -9425,9 +10290,10 @@ void std::
 }
 
 
-/* __gnu_cxx::new_allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::~new_allocator() */
+
+// __gnu_cxx::new_allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>::~new_allocator()
 
 void __thiscall
 __gnu_cxx::
@@ -9440,14 +10306,15 @@ new_allocator<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,s
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
-   std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>*
-   std::__addressof<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>(std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
+// std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>*
+// std::__addressof<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>(std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>&)
 
 pair * std::
        __addressof_std__pair_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char__const_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____
@@ -9458,12 +10325,13 @@ pair * std::
 }
 
 
-/* __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>,
-   std::allocator<char>>>>>::deallocate(std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>*, unsigned long) */
+
+// __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
+// std::char_traits<char>,
+// std::allocator<char>>>>>::deallocate(std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>*, unsigned long)
 
 void __gnu_cxx::
      new_allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>
@@ -9475,12 +10343,13 @@ void __gnu_cxx::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long long* std::__copy_move_a<false, __gnu_cxx::__normal_iterator<unsigned long long
-   const*, std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long
-   long*>(__gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>, __gnu_cxx::__normal_iterator<unsigned long long const*,
-   std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long long*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long long* std::__copy_move_a<false, __gnu_cxx::__normal_iterator<unsigned long long
+// const*, std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long
+// long*>(__gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>>, __gnu_cxx::__normal_iterator<unsigned long long const*,
+// std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long long*)
 
 ulonglong *
 std::
@@ -9512,8 +10381,9 @@ __copy_move_a_false___gnu_cxx____normal_iterator_unsigned_long_long_const__std__
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<unsigned long long>, unsigned long
-   long>::_S_select_on_copy(std::allocator<unsigned long long> const&) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<unsigned long long>, unsigned long
+// long>::_S_select_on_copy(std::allocator<unsigned long long> const&)
 
 allocator *
 __gnu_cxx::__alloc_traits<std::allocator<unsigned_long_long>,unsigned_long_long>::_S_select_on_copy
@@ -9524,8 +10394,9 @@ __gnu_cxx::__alloc_traits<std::allocator<unsigned_long_long>,unsigned_long_long>
 }
 
 
-/* std::_Vector_base<unsigned long long, std::allocator<unsigned long long>>::_M_get_Tp_allocator()
-   const */
+
+// std::_Vector_base<unsigned long long, std::allocator<unsigned long long>>::_M_get_Tp_allocator()
+// const
 
 _Vector_base_unsigned_long_long_std__allocator_unsigned_long_long__ * __thiscall
 std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_M_get_Tp_allocator
@@ -9536,8 +10407,9 @@ std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_M_get
 }
 
 
-/* std::_Vector_base<unsigned long long, std::allocator<unsigned long long>>::_Vector_base(unsigned
-   long, std::allocator<unsigned long long> const&) */
+
+// std::_Vector_base<unsigned long long, std::allocator<unsigned long long>>::_Vector_base(unsigned
+// long, std::allocator<unsigned long long> const&)
 
 void __thiscall
 std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_Vector_base
@@ -9551,17 +10423,18 @@ std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_Vecto
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__push_heap<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>, long, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>,
-   __gnu_cxx::__ops::_Iter_less_val>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>, long, long, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, __gnu_cxx::__ops::_Iter_less_val&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__push_heap<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>, long, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>,
+// __gnu_cxx::__ops::_Iter_less_val>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>, long, long, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, __gnu_cxx::__ops::_Iter_less_val&)
 
 void std::
      __push_heap___gnu_cxx____normal_iterator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____std__vector_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std__allocator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char______long_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char_____gnu_cxx____ops___Iter_less_val_
@@ -9641,11 +10514,12 @@ LAB_0010abc4:
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::swap<char, std::char_traits<char>,
-   std::allocator<char>>(std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>&, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::swap<char, std::char_traits<char>,
+// std::allocator<char>>(std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>&, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>&)
 
 void std::swap_char_std__char_traits_char__std__allocator_char__
                (basic_string *param_1,basic_string *param_2)
@@ -9656,14 +10530,15 @@ void std::swap_char_std__char_traits_char__std__allocator_char__
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*
-   std::__copy_move_backward_a2<false, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*>(std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*
+// std::__copy_move_backward_a2<false, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*>(std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>*)
 
 basic_string *
 std::
@@ -9680,9 +10555,10 @@ __copy_move_backward_a2_false_std____cxx11__basic_string_char_std__char_traits_c
 }
 
 
-/* __gnu_cxx::new_allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::new_allocator() */
+
+// __gnu_cxx::new_allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
+// std::allocator<char>>>>::new_allocator()
 
 void __gnu_cxx::
      new_allocator<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>
@@ -9693,8 +10569,9 @@ void __gnu_cxx::
 }
 
 
-/* std::_Vector_base<unsigned long long, std::allocator<unsigned long
-   long>>::_Vector_impl::_Vector_impl(std::allocator<unsigned long long> const&) */
+
+// std::_Vector_base<unsigned long long, std::allocator<unsigned long
+// long>>::_Vector_impl::_Vector_impl(std::allocator<unsigned long long> const&)
 
 void __thiscall
 std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_Vector_impl::_Vector_impl
@@ -9707,8 +10584,9 @@ std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_Vecto
 }
 
 
-/* std::_Vector_base<unsigned long long, std::allocator<unsigned long
-   long>>::_M_create_storage(unsigned long) */
+
+// std::_Vector_base<unsigned long long, std::allocator<unsigned long
+// long>>::_M_create_storage(unsigned long)
 
 void __thiscall
 std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_M_create_storage
@@ -9725,12 +10603,13 @@ std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_M_cre
 }
 
 
-/* bool 
-   __gnu_cxx::__ops::_Iter_less_val::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>&) const */
+
+// bool 
+// __gnu_cxx::__ops::_Iter_less_val::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>>>>, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>&) const
 
 bool __thiscall
 __gnu_cxx::__ops::_Iter_less_val::operator__
@@ -9754,14 +10633,15 @@ __gnu_cxx::__ops::_Iter_less_val::operator__
 }
 
 
-/* std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*
-   std::__copy_move_backward<false, false,
-   std::random_access_iterator_tag>::__copy_move_b<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*>(std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>*) */
+
+// std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*
+// std::__copy_move_backward<false, false,
+// std::random_access_iterator_tag>::__copy_move_b<std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*>(std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*, std::__cxx11::basic_string<char,
+// std::char_traits<char>, std::allocator<char>>*)
 
 basic_string *
 std::__copy_move_backward<false,false,std::random_access_iterator_tag>::
@@ -9785,7 +10665,8 @@ __copy_move_b_std____cxx11__basic_string_char_std__char_traits_char__std__alloca
 }
 
 
-/* std::allocator<unsigned long long>::allocator(std::allocator<unsigned long long> const&) */
+
+// std::allocator<unsigned long long>::allocator(std::allocator<unsigned long long> const&)
 
 void std::allocator<unsigned_long_long>::allocator(allocator *param_1)
 
@@ -9795,8 +10676,9 @@ void std::allocator<unsigned_long_long>::allocator(allocator *param_1)
 }
 
 
-/* std::_Vector_base<unsigned long long, std::allocator<unsigned long
-   long>>::_Vector_impl_data::_Vector_impl_data() */
+
+// std::_Vector_base<unsigned long long, std::allocator<unsigned long
+// long>>::_Vector_impl_data::_Vector_impl_data()
 
 void __thiscall
 std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_Vector_impl_data::
@@ -9810,8 +10692,9 @@ _Vector_impl_data(_Vector_impl_data *this)
 }
 
 
-/* __gnu_cxx::new_allocator<unsigned long long>::new_allocator(__gnu_cxx::new_allocator<unsigned
-   long long> const&) */
+
+// __gnu_cxx::new_allocator<unsigned long long>::new_allocator(__gnu_cxx::new_allocator<unsigned
+// long long> const&)
 
 void __gnu_cxx::new_allocator<unsigned_long_long>::new_allocator(new_allocator *param_1)
 
@@ -9819,2452 +10702,4 @@ void __gnu_cxx::new_allocator<unsigned_long_long>::new_allocator(new_allocator *
   return;
 }
 
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-
-int memcmp(void *__s1,void *__s2,size_t __n)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-
-size_t strlen(char *__s)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string() */
-
-void std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string
-               (void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastState::mark_dead() */
-
-void FastState::mark_dead(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::get_vertex(int, int) */
-
-void FastBoard::get_vertex(int param_1,int param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::get_square(int) */
-
-void FastBoard::get_square(int param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::get_string[abi:cxx11](int) */
-
-void FastBoard::get_string_abi_cxx11_(int param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::~basic_string()
-    */
-
-void __thiscall
-std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::_basic_string
-          (basic_string_char_std__char_traits_char__std__allocator_char__ *this)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::get_boardsize() */
-
-void FastBoard::get_boardsize(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>::TEMPNAMEPLACEHOLDERVALUE(std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const&) */
-
-void __thiscall
-std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator__
-          (basic_string_char_std__char_traits_char__std__allocator_char__ *this,
-          basic_string *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-
-void _Unwind_Resume(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>::operator[](unsigned long) */
-
-void std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator__
-               (ulong param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>::TEMPNAMEPLACEHOLDERVALUE(char const*) */
-
-void __thiscall
-std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator__
-          (basic_string_char_std__char_traits_char__std__allocator_char__ *this,char *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-
-int tolower(int __c)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>::TEMPNAMEPLACEHOLDERVALUE(char) */
-
-void __thiscall
-std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator__
-          (basic_string_char_std__char_traits_char__std__allocator_char__ *this,char param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::size() const */
-
-void std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::size(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-
-int isspace(int param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::resize(unsigned
-   long) */
-
-void std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::resize
-               (ulong param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-
-void exit(int __status)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__cxx11::basic_istringstream<char, std::char_traits<char>,
-   std::allocator<char>>::basic_istringstream(std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const&, std::_Ios_Openmode) */
-
-void std::__cxx11::basic_istringstream<char,std::char_traits<char>,std::allocator<char>>::
-     basic_istringstream(basic_string *param_1,_Ios_Openmode param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::basic_istream<char, std::char_traits<char>>::TEMPNAMEPLACEHOLDERVALUE(int&) */
-
-void __thiscall
-std::basic_istream<char,std::char_traits<char>>::operator__
-          (basic_istream_char_std__char_traits_char__ *this,int *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::basic_istream<char, std::char_traits<char>>::TEMPNAMEPLACEHOLDERVALUE(std::ios_base&
-   (*)(std::ios_base&)) */
-
-void __thiscall
-std::basic_istream<char,std::char_traits<char>>::operator__
-          (basic_istream_char_std__char_traits_char__ *this,FuncDef1 *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::basic_istream<char, std::char_traits<char>>&
-   std::TEMPNAMEPLACEHOLDERVALUE(std::basic_istream<char, std::char_traits<char>>&, char&) */
-
-basic_istream * std::operator__(basic_istream *param_1,char *param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::basic_istream<char, std::char_traits<char>>& std::getline<char, std::char_traits<char>,
-   std::allocator<char>>(std::basic_istream<char, std::char_traits<char>>&,
-   std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>&) */
-
-basic_istream *
-std::getline_char_std__char_traits_char__std__allocator_char__
-          (basic_istream *param_1,basic_string *param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::__cxx11::basic_istringstream<char, std::char_traits<char>,
-   std::allocator<char>>::~basic_istringstream() */
-
-void __thiscall
-std::__cxx11::basic_istringstream<char,std::char_traits<char>,std::allocator<char>>::
-_basic_istringstream(basic_istringstream_char_std__char_traits_char__std__allocator_char__ *this)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>::TEMPNAMEPLACEHOLDERVALUE(std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const&) */
-
-void __thiscall
-std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator_
-          (basic_string_char_std__char_traits_char__std__allocator_char__ *this,
-          basic_string *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* Utils::gtp_printf(int, char const*, ...) */
-
-void Utils::gtp_printf(int param_1,char *param_2,...)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::find(char const*,
-   unsigned long) const */
-
-void std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::find
-               (char *param_1,ulong param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::basic_istream<char, std::char_traits<char>>&
-   std::TEMPNAMEPLACEHOLDERVALUE(std::basic_istream<char, std::char_traits<char>>&,
-   std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>&) */
-
-basic_istream * std::operator__(basic_istream *param_1,basic_string *param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const&) */
-
-void std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string
-               (basic_string *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::c_str() const */
-
-void std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::c_str(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::basic_ios<char, std::char_traits<char>>::fail() const */
-
-void std::basic_ios<char,std::char_traits<char>>::fail(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* Utils::gtp_fail_printf(int, char const*, ...) */
-
-void Utils::gtp_fail_printf(int param_1,char *param_2,...)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* GameState::init_game(int, float) */
-
-void GameState::init_game(int param_1,float param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* GameState::reset_game() */
-
-void GameState::reset_game(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::basic_istream<char, std::char_traits<char>>::TEMPNAMEPLACEHOLDERVALUE(float&) */
-
-void __thiscall
-std::basic_istream<char,std::char_traits<char>>::operator__
-          (basic_istream_char_std__char_traits_char__ *this,float *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastState::set_komi(float) */
-
-void FastState::set_komi(float param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* GameState::play_pass() */
-
-void GameState::play_pass(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* GameState::play_textmove(std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>) */
-
-void GameState::play_textmove(basic_string param_1,basic_string param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* operator new(unsigned long) */
-
-void * operator_new(ulong param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* UCTSearch::UCTSearch(GameState&) */
-
-void __thiscall UCTSearch::UCTSearch(UCTSearch *this,GameState *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* UCTSearch::think(int, int) */
-
-void UCTSearch::think(int param_1,int param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* GameState::play_move(int, int) */
-
-void GameState::play_move(int param_1,int param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastState::move_to_text[abi:cxx11](int) */
-
-void FastState::move_to_text_abi_cxx11_(int param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastState::set_passes(int) */
-
-void FastState::set_passes(int param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* GameState::undo_move() */
-
-void GameState::undo_move(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* GameState::display_state() */
-
-void GameState::display_state(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastState::get_komi() */
-
-void FastState::get_komi(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::final_mc_score(float) */
-
-void FastBoard::final_mc_score(float param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastState::final_score() */
-
-void FastState::final_score(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* GameState::set_timecontrol(int, int, int) */
-
-void GameState::set_timecontrol(int param_1,int param_2,int param_3)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* GameState::adjust_time(int, int, int) */
-
-void GameState::adjust_time(int param_1,int param_2,int param_3)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastState::get_to_move() */
-
-void FastState::get_to_move(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* GameState::play_move(int) */
-
-void GameState::play_move(int param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastState::get_passes() */
-
-void FastState::get_passes(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* Playout::do_playout_benchmark(GameState&) */
-
-void Playout::do_playout_benchmark(GameState *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* Utils::myprintf(char const*, ...) */
-
-void Utils::myprintf(char *param_1,...)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::influence() */
-
-void FastBoard::influence(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::display_map(std::vector<int, std::allocator<int>>) */
-
-void FastBoard::display_map(vector param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* GameState::set_fixed_handicap(int) */
-
-void GameState::set_fixed_handicap(int param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::get_stone_list[abi:cxx11]() */
-
-void FastBoard::get_stone_list_abi_cxx11_(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* GameState::place_free_handicap(int) */
-
-void GameState::place_free_handicap(int param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::allocator<char>::allocator() */
-
-void std::allocator<char>::allocator(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char
-   const*, std::allocator<char> const&) */
-
-void std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string
-               (char *param_1,allocator *param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::allocator<char>::~allocator() */
-
-void __thiscall std::allocator<char>::_allocator(allocator_char_ *this)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastState::get_handicap() */
-
-void FastState::get_handicap(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastState::set_handicap(int) */
-
-void FastState::set_handicap(int param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* SGFTree::SGFTree() */
-
-void __thiscall SGFTree::SGFTree(SGFTree *this)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* SGFTree::load_from_file(std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, int) */
-
-void SGFTree::load_from_file(basic_string param_1,int param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* SGFTree::get_mainline(unsigned int) */
-
-void SGFTree::get_mainline(uint param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* operator delete(void*) */
-
-void operator_delete(void *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::get_allocator()
-   const */
-
-void std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::get_allocator
-               (void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>::basic_string(std::allocator<char> const&) */
-
-void std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string
-               (allocator *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::reserve(unsigned
-   long) */
-
-void std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::reserve
-               (ulong param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::append(char
-   const*, unsigned long) */
-
-void std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::append
-               (char *param_1,ulong param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>::append(std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const&) */
-
-void std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::append
-               (basic_string *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::compare(char
-   const*) const */
-
-void std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::compare
-               (char *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::data() const */
-
-void std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::data(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::append(char
-   const*) */
-
-void std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::append
-               (char *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* UCTNode::~UCTNode() */
-
-void __thiscall UCTNode::_UCTNode(UCTNode *this)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__throw_length_error(char const*) */
-
-void std::__throw_length_error(char *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__throw_bad_array_new_length() */
-
-void std::__throw_bad_array_new_length(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__throw_bad_alloc() */
-
-void std::__throw_bad_alloc(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>::compare(std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const&) const */
-
-void std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::compare
-               (basic_string *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-
-void * memmove(void *__dest,void *__src,size_t __n)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>::swap(std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>&) */
-
-void std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>::swap
-               (basic_string *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::ios_base::Init::Init() */
-
-void __thiscall std::ios_base::Init::Init(Init *this)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::ios_base::Init::~Init() */
-
-void __thiscall std::ios_base::Init::_Init(Init *this)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-
-void __cxa_atexit(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::new_allocator<unsigned long long>::new_allocator(__gnu_cxx::new_allocator<unsigned
-   long long> const&) */
-
-void __gnu_cxx::new_allocator<unsigned_long_long>::new_allocator(new_allocator *param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>::new_allocator() */
-
-void __gnu_cxx::
-     new_allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>::
-     new_allocator(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<unsigned long long, std::allocator<unsigned long long>>::_Vector_base(unsigned
-   long, std::allocator<unsigned long long> const&) */
-
-void std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_Vector_base
-               (ulong param_1,allocator *param_2)
-
-{
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::new_allocator<KoState>::~new_allocator() */
-
-void __thiscall __gnu_cxx::new_allocator<KoState>::_new_allocator(new_allocator_KoState_ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::new_allocator<unsigned long long>::~new_allocator() */
-
-void __thiscall
-__gnu_cxx::new_allocator<unsigned_long_long>::_new_allocator
-          (new_allocator_unsigned_long_long_ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>::~new_allocator() */
-
-void __thiscall
-__gnu_cxx::
-new_allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>
-::_new_allocator(new_allocator_std___Rb_tree_node_std__pair_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char__const_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char_____
-                 *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::allocator<SGFTree>::~allocator() */
-
-void __thiscall std::allocator<SGFTree>::_allocator(allocator_SGFTree_ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_impl_data::_Vector_impl_data() */
-
-void __thiscall
-std::_Vector_base<int,std::allocator<int>>::_Vector_impl_data::_Vector_impl_data
-          (_Vector_impl_data *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::allocator<int>::allocator(std::allocator<int> const&) */
-
-void std::allocator<int>::allocator(allocator *param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::new_allocator<int>::~new_allocator() */
-
-void __thiscall __gnu_cxx::new_allocator<int>::_new_allocator(new_allocator_int_ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::new_allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::~new_allocator() */
-
-void __thiscall
-__gnu_cxx::
-new_allocator<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>
-::_new_allocator(new_allocator_std__pair_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char__const_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____
-                 *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Bvector_base<std::allocator<bool>>::_Bvector_impl_data::_Bvector_impl_data() */
-
-void __thiscall
-std::_Bvector_base<std::allocator<bool>>::_Bvector_impl_data::_Bvector_impl_data
-          (_Bvector_impl_data *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::new_allocator<unsigned long>::~new_allocator() */
-
-void __thiscall
-__gnu_cxx::new_allocator<unsigned_long>::_new_allocator(new_allocator_unsigned_long_ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>,
-   std::allocator<char>>>>>(std::allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>> const&) */
-
-void std::
-     allocator<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>
-     ::
-     allocator_std___Rb_tree_node_std__pair_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char__const_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char_____
-               (allocator *param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>::~new_allocator() */
-
-void __thiscall
-__gnu_cxx::
-new_allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>::
-_new_allocator(new_allocator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___
-               *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::_Vector_impl_data::_Vector_impl_data() */
-
-void __thiscall
-std::
-_Vector_base<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>
-::_Vector_impl_data::_Vector_impl_data(_Vector_impl_data *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>::allocator() */
-
-void std::allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>::
-     allocator(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<unsigned long long, std::allocator<unsigned long
-   long>>::_Vector_impl_data::_Vector_impl_data() */
-
-void __thiscall
-std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_Vector_impl_data::
-_Vector_impl_data(_Vector_impl_data *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::__normal_iterator<KoState*, std::vector<KoState,
-   std::allocator<KoState>>>::__normal_iterator(KoState* const&) */
-
-void __gnu_cxx::__normal_iterator<KoState*,std::vector<KoState,std::allocator<KoState>>>::
-     __normal_iterator(KoState **param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::__normal_iterator<KoState const*, std::vector<KoState,
-   std::allocator<KoState>>>::__normal_iterator(KoState const* const&) */
-
-void __gnu_cxx::__normal_iterator<KoState_const*,std::vector<KoState,std::allocator<KoState>>>::
-     __normal_iterator(KoState **param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::__normal_iterator<unsigned long long*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>::__normal_iterator(unsigned long long* const&) */
-
-void __gnu_cxx::
-     __normal_iterator<unsigned_long_long*,std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>>
-     ::__normal_iterator(ulonglong **param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>::__normal_iterator(unsigned long long const* const&) */
-
-void __gnu_cxx::
-     __normal_iterator<unsigned_long_long_const*,std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>>
-     ::__normal_iterator(ulonglong **param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>::__normal_iterator(int*
-   const&) */
-
-void __gnu_cxx::__normal_iterator<int*,std::vector<int,std::allocator<int>>>::__normal_iterator
-               (int **param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::allocator<KoState>::~allocator() */
-
-void __thiscall std::allocator<KoState>::_allocator(allocator_KoState_ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::allocator<unsigned long long>::~allocator() */
-
-void __thiscall std::allocator<unsigned_long_long>::_allocator(allocator_unsigned_long_long_ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>::~allocator() */
-
-void __thiscall
-std::
-allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>
-::_allocator(allocator_std___Rb_tree_node_std__pair_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char__const_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char_____
-             *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<SGFTree, std::allocator<SGFTree>>::~_Vector_base() */
-
-void __thiscall
-std::_Vector_base<SGFTree,std::allocator<SGFTree>>::__Vector_base
-          (_Vector_base_SGFTree_std__allocator_SGFTree__ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<SGFTree, std::allocator<SGFTree>>::_Vector_impl::~_Vector_impl() */
-
-void __thiscall
-std::_Vector_base<SGFTree,std::allocator<SGFTree>>::_Vector_impl::__Vector_impl(_Vector_impl *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>::__normal_iterator(int const* const&) */
-
-void __gnu_cxx::__normal_iterator<int_const*,std::vector<int,std::allocator<int>>>::
-     __normal_iterator(int **param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_impl::_Vector_impl(std::allocator<int>
-   const&) */
-
-void __thiscall
-std::_Vector_base<int,std::allocator<int>>::_Vector_impl::_Vector_impl
-          (_Vector_impl *this,allocator *param_1)
-
-{
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::allocator<int>::~allocator() */
-
-void __thiscall std::allocator<int>::_allocator(allocator_int_ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::allocator<unsigned long>::~allocator() */
-
-void __thiscall std::allocator<unsigned_long>::_allocator(allocator_unsigned_long_ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>::~allocator() */
-
-void __thiscall
-std::allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>::
-_allocator(allocator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___
-           *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::_Vector_impl::_Vector_impl() */
-
-void __thiscall
-std::
-_Vector_base<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>
-::_Vector_impl::_Vector_impl(_Vector_impl *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::vector<unsigned long long, std::allocator<unsigned long long>>::vector(std::vector<unsigned
-   long long, std::allocator<unsigned long long>> const&) */
-
-void std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::vector(vector *param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::allocator<unsigned long long>::allocator(std::allocator<unsigned long long> const&) */
-
-void std::allocator<unsigned_long_long>::allocator(allocator *param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<KoState, std::allocator<KoState>>::~_Vector_base() */
-
-void __thiscall
-std::_Vector_base<KoState,std::allocator<KoState>>::__Vector_base
-          (_Vector_base_KoState_std__allocator_KoState__ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<KoState, std::allocator<KoState>>::_Vector_impl::~_Vector_impl() */
-
-void __thiscall
-std::_Vector_base<KoState,std::allocator<KoState>>::_Vector_impl::__Vector_impl(_Vector_impl *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<unsigned long long, std::allocator<unsigned long long>>::~_Vector_base() */
-
-void __thiscall
-std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::__Vector_base
-          (_Vector_base_unsigned_long_long_std__allocator_unsigned_long_long__ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<unsigned long long, std::allocator<unsigned long
-   long>>::_Vector_impl::~_Vector_impl() */
-
-void __thiscall
-std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_Vector_impl::
-__Vector_impl(_Vector_impl *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
-   std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>,
-   std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>>>::~_Rb_tree() */
-
-void __thiscall
-std::
-_Rb_tree<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>,std::_Select1st<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>,std::less<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>,std::allocator<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>
-::__Rb_tree(_Rb_tree_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std__pair_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char__const_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____std___Select1st_std__pair_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char__const_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char_____std__less_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____std__allocator_std__pair_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char__const_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char_____
-            *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
-   std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>,
-   std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char,
-   std::char_traits<char>,
-   std::allocator<char>>>>>::_Rb_tree_impl<std::less<std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>>, false>::~_Rb_tree_impl() */
-
-void __thiscall
-std::
-_Rb_tree<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>,std::_Select1st<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>,std::less<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>,std::allocator<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>
-::
-_Rb_tree_impl<std::less<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>,false>
-::__Rb_tree_impl(_Rb_tree_impl_std__less_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____false_
-                 *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::vector<SGFTree, std::allocator<SGFTree>>::~vector() */
-
-void __thiscall
-std::vector<SGFTree,std::allocator<SGFTree>>::_vector(vector_SGFTree_std__allocator_SGFTree__ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_base(unsigned long, std::allocator<int>
-   const&) */
-
-void std::_Vector_base<int,std::allocator<int>>::_Vector_base(ulong param_1,allocator *param_2)
-
-{
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<int, std::allocator<int>>::~_Vector_base() */
-
-void __thiscall
-std::_Vector_base<int,std::allocator<int>>::__Vector_base
-          (_Vector_base_int_std__allocator_int__ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_impl::~_Vector_impl() */
-
-void __thiscall
-std::_Vector_base<int,std::allocator<int>>::_Vector_impl::__Vector_impl(_Vector_impl *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>::__normal_iterator(std::__cxx11::basic_string<char,
-   std::char_traits<char>, std::allocator<char>>* const&) */
-
-void __gnu_cxx::
-     __normal_iterator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>*,std::vector<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>
-     ::__normal_iterator(basic_string **param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Bvector_base<std::allocator<bool>>::~_Bvector_base() */
-
-void __thiscall
-std::_Bvector_base<std::allocator<bool>>::__Bvector_base(_Bvector_base_std__allocator_bool__ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Bvector_base<std::allocator<bool>>::_Bvector_impl::~_Bvector_impl() */
-
-void __thiscall
-std::_Bvector_base<std::allocator<bool>>::_Bvector_impl::__Bvector_impl(_Bvector_impl *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::~_Vector_base() */
-
-void __thiscall
-std::
-_Vector_base<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>
-::__Vector_base(_Vector_base_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std__allocator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____
-                *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::_Vector_base() */
-
-void std::
-     _Vector_base<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>
-     ::_Vector_base(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::_Vector_impl::~_Vector_impl() */
-
-void __thiscall
-std::
-_Vector_base<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>
-::_Vector_impl::__Vector_impl(_Vector_impl *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::vector<KoState, std::allocator<KoState>>::~vector() */
-
-void __thiscall
-std::vector<KoState,std::allocator<KoState>>::_vector(vector_KoState_std__allocator_KoState__ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::vector<unsigned long long, std::allocator<unsigned long long>>::~vector() */
-
-void __thiscall
-std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::_vector
-          (vector_unsigned_long_long_std__allocator_unsigned_long_long__ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::auto_ptr<SGFTree>::~auto_ptr() */
-
-void __thiscall std::auto_ptr<SGFTree>::_auto_ptr(auto_ptr_SGFTree_ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* SGFTree::~SGFTree() */
-
-void __thiscall SGFTree::_SGFTree(SGFTree *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::multimap<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>,
-   std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>>::~multimap() */
-
-void __thiscall
-std::
-multimap<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::less<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>,std::allocator<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>
-::_multimap(multimap_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std__less_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____std__allocator_std__pair_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char__const_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char_____
-            *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::auto_ptr<SGFTree>::auto_ptr(SGFTree*) */
-
-void std::auto_ptr<SGFTree>::auto_ptr(SGFTree *param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::vector<int, std::allocator<int>>::vector(std::vector<int, std::allocator<int>> const&) */
-
-void std::vector<int,std::allocator<int>>::vector(vector *param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::vector<int, std::allocator<int>>::~vector() */
-
-void __thiscall std::vector<int,std::allocator<int>>::_vector(vector_int_std__allocator_int__ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::auto_ptr<UCTSearch>::~auto_ptr() */
-
-void __thiscall std::auto_ptr<UCTSearch>::_auto_ptr(auto_ptr_UCTSearch_ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* UCTSearch::~UCTSearch() */
-
-void __thiscall UCTSearch::_UCTSearch(UCTSearch *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::auto_ptr<UCTSearch>::auto_ptr(UCTSearch*) */
-
-void std::auto_ptr<UCTSearch>::auto_ptr(UCTSearch *param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::vector<bool, std::allocator<bool>>::~vector() */
-
-void __thiscall
-std::vector<bool,std::allocator<bool>>::_vector(vector_bool_std__allocator_bool__ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::~vector() */
-
-void __thiscall
-std::
-vector<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>
-::_vector(vector_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___std__allocator_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____
-          *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>,
-   std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::vector() */
-
-void std::
-     vector<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::allocator<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>
-     ::vector(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* GameState::~GameState() */
-
-void __thiscall GameState::_GameState(GameState *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* KoState::~KoState() */
-
-void __thiscall KoState::_KoState(KoState *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* FastState::~FastState() */
-
-void __thiscall FastState::_FastState(FastState *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* FullBoard::~FullBoard() */
-
-void __thiscall FullBoard::_FullBoard(FullBoard *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* FastBoard::~FastBoard() */
-
-void __thiscall FastBoard::_FastBoard(FastBoard *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Bit_iterator::_Bit_iterator(unsigned long*, unsigned int) */
-
-void __thiscall std::_Bit_iterator::_Bit_iterator(_Bit_iterator *this,ulong *param_1,uint param_2)
-
-{
-  undefined4 in_EDX;
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Bit_iterator::_Bit_iterator() */
-
-void __thiscall std::_Bit_iterator::_Bit_iterator(_Bit_iterator *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Bit_iterator_base::_Bit_iterator_base(unsigned long*, unsigned int) */
-
-void __thiscall
-std::_Bit_iterator_base::_Bit_iterator_base(_Bit_iterator_base *this,ulong *param_1,uint param_2)
-
-{
-  undefined4 in_EDX;
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Bit_reference::_Bit_reference(unsigned long*, unsigned long) */
-
-void __thiscall
-std::_Bit_reference::_Bit_reference(_Bit_reference *this,ulong *param_1,ulong param_2)
-
-{
-  undefined8 in_RDX;
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::__ops::_Val_less_iter::_Val_less_iter() */
-
-void __thiscall __gnu_cxx::__ops::_Val_less_iter::_Val_less_iter(_Val_less_iter *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::__ops::_Iter_less_val::_Iter_less_val(__gnu_cxx::__ops::_Iter_less_iter) */
-
-void __thiscall
-__gnu_cxx::__ops::_Iter_less_val::_Iter_less_val(_Iter_less_val *this,_Iter_less_iter param_1)
-
-{
-  undefined4 in_ESI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const,
-   std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>::~pair() */
-
-void __thiscall
-std::
-pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>
-::_pair(pair_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char__const_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char___
-        *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::~allocator() */
-
-void __thiscall
-std::
-allocator<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>
-::_allocator(allocator_std__pair_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char__const_std____cxx11__basic_string_char_std__char_traits_char__std__allocator_char____
-             *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* KoState::KoState(KoState const&) */
-
-void __thiscall KoState::KoState(KoState *this,KoState *param_1)
-
-{
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* FastState::FastState(FastState const&) */
-
-void __thiscall FastState::FastState(FastState *this,FastState *param_1)
-
-{
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* FullBoard::FullBoard(FullBoard const&) */
-
-void __thiscall FullBoard::FullBoard(FullBoard *this,FullBoard *param_1)
-
-{
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* FastBoard::FastBoard(FastBoard const&) */
-
-void __thiscall FastBoard::FastBoard(FastBoard *this,FastBoard *param_1)
-
-{
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<unsigned long long, std::allocator<unsigned long
-   long>>::_Vector_impl::_Vector_impl(std::allocator<unsigned long long> const&) */
-
-void __thiscall
-std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_Vector_impl::_Vector_impl
-          (_Vector_impl *this,allocator *param_1)
-
-{
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::new_allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>,
-   std::allocator<char>>>>::new_allocator() */
-
-void __gnu_cxx::
-     new_allocator<std::pair<std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>const,std::__cxx11::basic_string<char,std::char_traits<char>,std::allocator<char>>>>
-     ::new_allocator(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::new_allocator<SGFTree>::~new_allocator() */
-
-void __thiscall __gnu_cxx::new_allocator<SGFTree>::_new_allocator(new_allocator_SGFTree_ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::new_allocator<int>::new_allocator(__gnu_cxx::new_allocator<int> const&) */
-
-void __gnu_cxx::new_allocator<int>::new_allocator(new_allocator *param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
 

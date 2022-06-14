@@ -1,5 +1,361 @@
+typedef unsigned char   undefined;
 
-/* UCTNode::UCTNode(int, int) */
+typedef unsigned char    bool;
+typedef unsigned char    byte;
+typedef unsigned char    dwfenc;
+typedef unsigned int    dword;
+typedef unsigned long    qword;
+typedef unsigned long    ulong;
+typedef unsigned long long    ulonglong;
+typedef unsigned char    undefined1;
+typedef unsigned int    undefined4;
+typedef unsigned long    undefined8;
+typedef unsigned short    word;
+typedef struct pair<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>*,long> pair<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>*,long>, *Ppair<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>*,long>;
+
+struct pair<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>*,long> { // PlaceHolder Class Structure
+};
+
+typedef ulong size_t;
+
+typedef struct tuples tuples, *Ptuples;
+
+struct tuples { // PlaceHolder Class Structure
+};
+
+typedef struct array<unsigned_short,441ul> array<unsigned_short,441ul>, *Parray<unsigned_short,441ul>;
+
+struct array<unsigned_short,441ul> { // PlaceHolder Class Structure
+};
+
+typedef struct FastBoard FastBoard, *PFastBoard;
+
+struct FastBoard { // PlaceHolder Structure
+};
+
+typedef struct UCTNode UCTNode, *PUCTNode;
+
+struct UCTNode { // PlaceHolder Structure
+};
+
+typedef struct KoState KoState, *PKoState;
+
+struct KoState { // PlaceHolder Structure
+};
+
+typedef struct FullBoard FullBoard, *PFullBoard;
+
+struct FullBoard { // PlaceHolder Structure
+};
+
+typedef struct Playout Playout, *PPlayout;
+
+struct Playout { // PlaceHolder Structure
+};
+
+typedef struct NodeComp NodeComp, *PNodeComp;
+
+struct NodeComp { // PlaceHolder Structure
+};
+
+typedef struct FastState FastState, *PFastState;
+
+struct FastState { // PlaceHolder Structure
+};
+
+typedef struct tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type> tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>, *Ptuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>;
+
+struct tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type> { // PlaceHolder Structure
+};
+
+typedef dword tuple;
+
+typedef struct cons cons, *Pcons;
+
+struct cons { // PlaceHolder Structure
+};
+
+typedef struct cons<UCTNode*,boost::tuples::null_type> cons<UCTNode*,boost::tuples::null_type>, *Pcons<UCTNode*,boost::tuples::null_type>;
+
+struct cons<UCTNode*,boost::tuples::null_type> { // PlaceHolder Structure
+};
+
+typedef struct cons<int,boost::tuples::cons<int,boost::tuples::cons<UCTNode*,boost::tuples::null_type>>> cons<int,boost::tuples::cons<int,boost::tuples::cons<UCTNode*,boost::tuples::null_type>>>, *Pcons<int,boost::tuples::cons<int,boost::tuples::cons<UCTNode*,boost::tuples::null_type>>>;
+
+struct cons<int,boost::tuples::cons<int,boost::tuples::cons<UCTNode*,boost::tuples::null_type>>> { // PlaceHolder Structure
+};
+
+typedef struct null_type null_type, *Pnull_type;
+
+struct null_type { // PlaceHolder Structure
+};
+
+typedef struct cons<int,boost::tuples::cons<UCTNode*,boost::tuples::null_type>> cons<int,boost::tuples::cons<UCTNode*,boost::tuples::null_type>>, *Pcons<int,boost::tuples::cons<UCTNode*,boost::tuples::null_type>>;
+
+struct cons<int,boost::tuples::cons<UCTNode*,boost::tuples::null_type>> { // PlaceHolder Structure
+};
+
+typedef dword non_const_type;
+
+typedef dword type;
+
+typedef dword const_type;
+
+typedef struct allocator<int> allocator<int>, *Pallocator<int>;
+
+struct allocator<int> { // PlaceHolder Structure
+};
+
+typedef struct _Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>> _Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>, *P_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>;
+
+struct _Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>> { // PlaceHolder Structure
+};
+
+typedef struct _Temporary_buffer<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>*,std::vector<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>,std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>>>,boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>> _Temporary_buffer<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>*,std::vector<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>,std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>>>,boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>, *P_Temporary_buffer<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>*,std::vector<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>,std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>>>,boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>;
+
+struct _Temporary_buffer<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>*,std::vector<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>,std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>>>,boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>> { // PlaceHolder Structure
+};
+
+typedef struct nothrow_t nothrow_t, *Pnothrow_t;
+
+struct nothrow_t { // PlaceHolder Structure
+};
+
+typedef struct _Vector_base<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>,std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>> _Vector_base<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>,std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>>, *P_Vector_base<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>,std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>>;
+
+struct _Vector_base<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>,std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>> { // PlaceHolder Structure
+};
+
+typedef struct vector<int,std::allocator<int>> vector<int,std::allocator<int>>, *Pvector<int,std::allocator<int>>;
+
+struct vector<int,std::allocator<int>> { // PlaceHolder Structure
+};
+
+typedef struct vector vector, *Pvector;
+
+struct vector { // PlaceHolder Structure
+};
+
+typedef dword random_access_iterator_tag;
+
+typedef struct allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>> allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>, *Pallocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>;
+
+struct allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>> { // PlaceHolder Structure
+};
+
+typedef dword pair;
+
+typedef struct vector<unsigned_long_long,std::allocator<unsigned_long_long>> vector<unsigned_long_long,std::allocator<unsigned_long_long>>, *Pvector<unsigned_long_long,std::allocator<unsigned_long_long>>;
+
+struct vector<unsigned_long_long,std::allocator<unsigned_long_long>> { // PlaceHolder Structure
+};
+
+typedef struct allocator allocator, *Pallocator;
+
+struct allocator { // PlaceHolder Structure
+};
+
+typedef struct vector<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>,std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>> vector<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>,std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>>, *Pvector<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>,std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>>;
+
+struct vector<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>,std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>> { // PlaceHolder Structure
+};
+
+typedef struct _Vector_base<int,std::allocator<int>> _Vector_base<int,std::allocator<int>>, *P_Vector_base<int,std::allocator<int>>;
+
+struct _Vector_base<int,std::allocator<int>> { // PlaceHolder Structure
+};
+
+typedef struct allocator<unsigned_long_long> allocator<unsigned_long_long>, *Pallocator<unsigned_long_long>;
+
+struct allocator<unsigned_long_long> { // PlaceHolder Structure
+};
+
+typedef struct _Vector_impl _Vector_impl, *P_Vector_impl;
+
+struct _Vector_impl { // PlaceHolder Structure
+};
+
+typedef struct _Vector_impl_data _Vector_impl_data, *P_Vector_impl_data;
+
+struct _Vector_impl_data { // PlaceHolder Structure
+};
+
+typedef dword iterator_category;
+
+typedef dword difference_type;
+
+typedef struct new_allocator new_allocator, *Pnew_allocator;
+
+struct new_allocator { // PlaceHolder Structure
+};
+
+typedef struct __normal_iterator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>*,std::vector<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>,std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>>> __normal_iterator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>*,std::vector<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>,std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>>>, *P__normal_iterator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>*,std::vector<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>,std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>>>;
+
+struct __normal_iterator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>*,std::vector<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>,std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>>> { // PlaceHolder Structure
+};
+
+typedef struct __normal_iterator<int_const*,std::vector<int,std::allocator<int>>> __normal_iterator<int_const*,std::vector<int,std::allocator<int>>>, *P__normal_iterator<int_const*,std::vector<int,std::allocator<int>>>;
+
+struct __normal_iterator<int_const*,std::vector<int,std::allocator<int>>> { // PlaceHolder Structure
+};
+
+typedef struct __normal_iterator __normal_iterator, *P__normal_iterator;
+
+struct __normal_iterator { // PlaceHolder Structure
+};
+
+typedef struct new_allocator<unsigned_long_long> new_allocator<unsigned_long_long>, *Pnew_allocator<unsigned_long_long>;
+
+struct new_allocator<unsigned_long_long> { // PlaceHolder Structure
+};
+
+typedef struct new_allocator<int> new_allocator<int>, *Pnew_allocator<int>;
+
+struct new_allocator<int> { // PlaceHolder Structure
+};
+
+typedef struct new_allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>> new_allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>, *Pnew_allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>;
+
+struct new_allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>> { // PlaceHolder Structure
+};
+
+typedef dword _Iter_comp_iter;
+
+typedef dword _Val_comp_iter;
+
+typedef dword _Iter_comp_val;
+
+typedef struct Mutex Mutex, *PMutex;
+
+struct Mutex { // PlaceHolder Structure
+};
+
+typedef struct Lock Lock, *PLock;
+
+struct Lock { // PlaceHolder Structure
+};
+
+typedef struct __normal_iterator<int*,std::vector<int,std::allocator<int>>> __normal_iterator<int*,std::vector<int,std::allocator<int>>>, *P__normal_iterator<int*,std::vector<int,std::allocator<int>>>;
+
+struct __normal_iterator<int*,std::vector<int,std::allocator<int>>> { // PlaceHolder Class Structure
+};
+
+typedef struct __normal_iterator<unsigned_long_long_const*,std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>> __normal_iterator<unsigned_long_long_const*,std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>>, *P__normal_iterator<unsigned_long_long_const*,std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>>;
+
+struct __normal_iterator<unsigned_long_long_const*,std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>> { // PlaceHolder Class Structure
+};
+
+typedef struct _Iter_comp_iter<NodeComp> _Iter_comp_iter<NodeComp>, *P_Iter_comp_iter<NodeComp>;
+
+struct _Iter_comp_iter<NodeComp> { // PlaceHolder Class Structure
+};
+
+typedef struct _Val_comp_iter<NodeComp> _Val_comp_iter<NodeComp>, *P_Val_comp_iter<NodeComp>;
+
+struct _Val_comp_iter<NodeComp> { // PlaceHolder Class Structure
+};
+
+typedef struct _Iter_comp_val<NodeComp> _Iter_comp_val<NodeComp>, *P_Iter_comp_val<NodeComp>;
+
+struct _Iter_comp_val<NodeComp> { // PlaceHolder Class Structure
+};
+
+typedef struct Elf64_Rela Elf64_Rela, *PElf64_Rela;
+
+struct Elf64_Rela {
+    qword r_offset; // location to apply the relocation action
+    qword r_info; // the symbol table index and the type of relocation
+    qword r_addend; // a constant addend used to compute the relocatable field value
+};
+
+typedef struct Elf64_Ehdr Elf64_Ehdr, *PElf64_Ehdr;
+
+struct Elf64_Ehdr {
+    byte e_ident_magic_num;
+    char e_ident_magic_str[3];
+    byte e_ident_class;
+    byte e_ident_data;
+    byte e_ident_version;
+    byte e_ident_osabi;
+    byte e_ident_abiversion;
+    byte e_ident_pad[7];
+    word e_type;
+    word e_machine;
+    dword e_version;
+    qword e_entry;
+    qword e_phoff;
+    qword e_shoff;
+    dword e_flags;
+    word e_ehsize;
+    word e_phentsize;
+    word e_phnum;
+    word e_shentsize;
+    word e_shnum;
+    word e_shstrndx;
+};
+
+typedef struct Elf64_Sym Elf64_Sym, *PElf64_Sym;
+
+struct Elf64_Sym {
+    dword st_name;
+    byte st_info;
+    byte st_other;
+    word st_shndx;
+    qword st_value;
+    qword st_size;
+};
+
+typedef struct Elf64_Shdr Elf64_Shdr, *PElf64_Shdr;
+
+typedef enum Elf_SectionHeaderType {
+    SHT_NULL=0,
+    SHT_PROGBITS=1,
+    SHT_SYMTAB=2,
+    SHT_STRTAB=3,
+    SHT_RELA=4,
+    SHT_HASH=5,
+    SHT_DYNAMIC=6,
+    SHT_NOTE=7,
+    SHT_NOBITS=8,
+    SHT_REL=9,
+    SHT_SHLIB=10,
+    SHT_DYNSYM=11,
+    SHT_INIT_ARRAY=14,
+    SHT_FINI_ARRAY=15,
+    SHT_PREINIT_ARRAY=16,
+    SHT_GROUP=17,
+    SHT_SYMTAB_SHNDX=18,
+    SHT_ANDROID_REL=1610612737,
+    SHT_ANDROID_RELA=1610612738,
+    SHT_GNU_ATTRIBUTES=1879048181,
+    SHT_GNU_HASH=1879048182,
+    SHT_GNU_LIBLIST=1879048183,
+    SHT_CHECKSUM=1879048184,
+    SHT_SUNW_move=1879048186,
+    SHT_SUNW_COMDAT=1879048187,
+    SHT_SUNW_syminfo=1879048188,
+    SHT_GNU_verdef=1879048189,
+    SHT_GNU_verneed=1879048190,
+    SHT_GNU_versym=1879048191
+} Elf_SectionHeaderType;
+
+struct Elf64_Shdr {
+    dword sh_name;
+    enum Elf_SectionHeaderType sh_type;
+    qword sh_flags;
+    qword sh_addr;
+    qword sh_offset;
+    qword sh_size;
+    dword sh_link;
+    dword sh_info;
+    qword sh_addralign;
+    qword sh_entsize;
+};
+
+
+
+
+// UCTNode::UCTNode(int, int)
 
 void __thiscall UCTNode::UCTNode(UCTNode *this,int param_1,int param_2)
 
@@ -17,7 +373,8 @@ void __thiscall UCTNode::UCTNode(UCTNode *this,int param_1,int param_2)
 }
 
 
-/* UCTNode::~UCTNode() */
+
+// UCTNode::~UCTNode()
 
 void __thiscall UCTNode::_UCTNode(UCTNode *this)
 
@@ -44,7 +401,8 @@ void __thiscall UCTNode::_UCTNode(UCTNode *this)
 }
 
 
-/* UCTNode::first_visit() const */
+
+// UCTNode::first_visit() const
 
 uint __thiscall UCTNode::first_visit(UCTNode *this)
 
@@ -53,7 +411,8 @@ uint __thiscall UCTNode::first_visit(UCTNode *this)
 }
 
 
-/* UCTNode::link_child(UCTNode*) */
+
+// UCTNode::link_child(UCTNode*)
 
 void __thiscall UCTNode::link_child(UCTNode *this,UCTNode *param_1)
 
@@ -64,7 +423,8 @@ void __thiscall UCTNode::link_child(UCTNode *this,UCTNode *param_1)
 }
 
 
-/* UCTNode::get_mutex() */
+
+// UCTNode::get_mutex()
 
 UCTNode * __thiscall UCTNode::get_mutex(UCTNode *this)
 
@@ -73,7 +433,8 @@ UCTNode * __thiscall UCTNode::get_mutex(UCTNode *this)
 }
 
 
-/* UCTNode::create_children(FastState&, bool) */
+
+// UCTNode::create_children(FastState&, bool)
 
 int UCTNode::create_children(FastState *param_1,bool param_2)
 
@@ -186,7 +547,8 @@ LAB_00100271:
 }
 
 
-/* UCTNode::kill_superkos(KoState&) */
+
+// UCTNode::kill_superkos(KoState&)
 
 void __thiscall UCTNode::kill_superkos(UCTNode *this,KoState *param_1)
 
@@ -223,7 +585,8 @@ LAB_001005b8:
 }
 
 
-/* UCTNode::get_move() const */
+
+// UCTNode::get_move() const
 
 undefined4 __thiscall UCTNode::get_move(UCTNode *this)
 
@@ -232,7 +595,8 @@ undefined4 __thiscall UCTNode::get_move(UCTNode *this)
 }
 
 
-/* UCTNode::set_move(int) */
+
+// UCTNode::set_move(int)
 
 void __thiscall UCTNode::set_move(UCTNode *this,int param_1)
 
@@ -242,7 +606,8 @@ void __thiscall UCTNode::set_move(UCTNode *this,int param_1)
 }
 
 
-/* UCTNode::set_extend(int) */
+
+// UCTNode::set_extend(int)
 
 void __thiscall UCTNode::set_extend(UCTNode *this,int param_1)
 
@@ -252,7 +617,8 @@ void __thiscall UCTNode::set_extend(UCTNode *this,int param_1)
 }
 
 
-/* UCTNode::update(Playout&, int) */
+
+// UCTNode::update(Playout&, int)
 
 void __thiscall UCTNode::update(UCTNode *this,Playout *param_1,int param_2)
 
@@ -282,7 +648,8 @@ void __thiscall UCTNode::update(UCTNode *this,Playout *param_1,int param_2)
 }
 
 
-/* UCTNode::has_children() const */
+
+// UCTNode::has_children() const
 
 ulong __thiscall UCTNode::has_children(UCTNode *this)
 
@@ -291,7 +658,8 @@ ulong __thiscall UCTNode::has_children(UCTNode *this)
 }
 
 
-/* UCTNode::get_blackwins() const */
+
+// UCTNode::get_blackwins() const
 
 undefined4 __thiscall UCTNode::get_blackwins(UCTNode *this)
 
@@ -300,7 +668,8 @@ undefined4 __thiscall UCTNode::get_blackwins(UCTNode *this)
 }
 
 
-/* UCTNode::set_visits(int) */
+
+// UCTNode::set_visits(int)
 
 void __thiscall UCTNode::set_visits(UCTNode *this,int param_1)
 
@@ -316,7 +685,8 @@ void __thiscall UCTNode::set_visits(UCTNode *this,int param_1)
 }
 
 
-/* UCTNode::set_blackwins(int) */
+
+// UCTNode::set_blackwins(int)
 
 void __thiscall UCTNode::set_blackwins(UCTNode *this,int param_1)
 
@@ -332,7 +702,8 @@ void __thiscall UCTNode::set_blackwins(UCTNode *this,int param_1)
 }
 
 
-/* UCTNode::get_winrate(int) const */
+
+// UCTNode::get_winrate(int) const
 
 int __thiscall UCTNode::get_winrate(UCTNode *this,int param_1)
 
@@ -350,7 +721,8 @@ int __thiscall UCTNode::get_winrate(UCTNode *this,int param_1)
 }
 
 
-/* UCTNode::get_raverate() const */
+
+// UCTNode::get_raverate() const
 
 int __thiscall UCTNode::get_raverate(UCTNode *this)
 
@@ -359,7 +731,8 @@ int __thiscall UCTNode::get_raverate(UCTNode *this)
 }
 
 
-/* UCTNode::get_visits() const */
+
+// UCTNode::get_visits() const
 
 undefined4 __thiscall UCTNode::get_visits(UCTNode *this)
 
@@ -368,7 +741,8 @@ undefined4 __thiscall UCTNode::get_visits(UCTNode *this)
 }
 
 
-/* UCTNode::get_ravevisits() const */
+
+// UCTNode::get_ravevisits() const
 
 undefined4 __thiscall UCTNode::get_ravevisits(UCTNode *this)
 
@@ -377,7 +751,8 @@ undefined4 __thiscall UCTNode::get_ravevisits(UCTNode *this)
 }
 
 
-/* UCTNode::do_extend() const */
+
+// UCTNode::do_extend() const
 
 undefined4 __thiscall UCTNode::do_extend(UCTNode *this)
 
@@ -386,7 +761,8 @@ undefined4 __thiscall UCTNode::do_extend(UCTNode *this)
 }
 
 
-/* UCTNode::uct_select_child(int) */
+
+// UCTNode::uct_select_child(int)
 
 UCTNode * __thiscall UCTNode::uct_select_child(UCTNode *this,int param_1)
 
@@ -452,8 +828,9 @@ UCTNode * __thiscall UCTNode::uct_select_child(UCTNode *this,int param_1)
 }
 
 
-/* WARNING: Could not reconcile some variable overlaps */
-/* UCTNode::sort_children(int) */
+
+// WARNING: Could not reconcile some variable overlaps
+// UCTNode::sort_children(int)
 
 void __thiscall UCTNode::sort_children(UCTNode *this,int param_1)
 
@@ -568,7 +945,8 @@ void __thiscall UCTNode::sort_children(UCTNode *this,int param_1)
 }
 
 
-/* UCTNode::get_first_child() */
+
+// UCTNode::get_first_child()
 
 undefined8 __thiscall UCTNode::get_first_child(UCTNode *this)
 
@@ -577,7 +955,8 @@ undefined8 __thiscall UCTNode::get_first_child(UCTNode *this)
 }
 
 
-/* UCTNode::get_sibling() */
+
+// UCTNode::get_sibling()
 
 undefined8 __thiscall UCTNode::get_sibling(UCTNode *this)
 
@@ -586,7 +965,8 @@ undefined8 __thiscall UCTNode::get_sibling(UCTNode *this)
 }
 
 
-/* UCTNode::get_pass_child() */
+
+// UCTNode::get_pass_child()
 
 long __thiscall UCTNode::get_pass_child(UCTNode *this)
 
@@ -605,7 +985,8 @@ long __thiscall UCTNode::get_pass_child(UCTNode *this)
 }
 
 
-/* UCTNode::get_nopass_child() */
+
+// UCTNode::get_nopass_child()
 
 long __thiscall UCTNode::get_nopass_child(UCTNode *this)
 
@@ -624,7 +1005,8 @@ long __thiscall UCTNode::get_nopass_child(UCTNode *this)
 }
 
 
-/* UCTNode::invalidate() */
+
+// UCTNode::invalidate()
 
 void __thiscall UCTNode::invalidate(UCTNode *this)
 
@@ -640,7 +1022,8 @@ void __thiscall UCTNode::invalidate(UCTNode *this)
 }
 
 
-/* UCTNode::valid() */
+
+// UCTNode::valid()
 
 UCTNode __thiscall UCTNode::valid(UCTNode *this)
 
@@ -649,7 +1032,8 @@ UCTNode __thiscall UCTNode::valid(UCTNode *this)
 }
 
 
-/* UCTNode::delete_child(UCTNode*) */
+
+// UCTNode::delete_child(UCTNode*)
 
 void __thiscall UCTNode::delete_child(UCTNode *this,UCTNode *param_1)
 
@@ -691,7 +1075,8 @@ void __thiscall UCTNode::delete_child(UCTNode *this,UCTNode *param_1)
 }
 
 
-/* UCTNode::updateRAVE(Playout&, int) */
+
+// UCTNode::updateRAVE(Playout&, int)
 
 void __thiscall UCTNode::updateRAVE(UCTNode *this,Playout *param_1,int param_2)
 
@@ -740,7 +1125,8 @@ void __thiscall UCTNode::updateRAVE(UCTNode *this,Playout *param_1,int param_2)
 }
 
 
-/* operator new(unsigned long, void*) */
+
+// operator new(unsigned long, void*)
 
 void * operator_new(ulong param_1,void *param_2)
 
@@ -749,7 +1135,8 @@ void * operator_new(ulong param_1,void *param_2)
 }
 
 
-/* boost::tuples::detail::cnull() */
+
+// boost::tuples::detail::cnull()
 
 void boost::tuples::detail::cnull(void)
 
@@ -758,7 +1145,8 @@ void boost::tuples::detail::cnull(void)
 }
 
 
-/* FastBoard::FastBoard(FastBoard const&) */
+
+// FastBoard::FastBoard(FastBoard const&)
 
 void __thiscall FastBoard::FastBoard(FastBoard *this,FastBoard *param_1)
 
@@ -862,7 +1250,8 @@ void __thiscall FastBoard::FastBoard(FastBoard *this,FastBoard *param_1)
 }
 
 
-/* FastBoard::~FastBoard() */
+
+// FastBoard::~FastBoard()
 
 void __thiscall FastBoard::_FastBoard(FastBoard *this)
 
@@ -872,7 +1261,8 @@ void __thiscall FastBoard::_FastBoard(FastBoard *this)
 }
 
 
-/* FullBoard::FullBoard(FullBoard const&) */
+
+// FullBoard::FullBoard(FullBoard const&)
 
 void __thiscall FullBoard::FullBoard(FullBoard *this,FullBoard *param_1)
 
@@ -884,7 +1274,8 @@ void __thiscall FullBoard::FullBoard(FullBoard *this,FullBoard *param_1)
 }
 
 
-/* FullBoard::~FullBoard() */
+
+// FullBoard::~FullBoard()
 
 void __thiscall FullBoard::_FullBoard(FullBoard *this)
 
@@ -894,7 +1285,8 @@ void __thiscall FullBoard::_FullBoard(FullBoard *this)
 }
 
 
-/* FastState::FastState(FastState const&) */
+
+// FastState::FastState(FastState const&)
 
 void __thiscall FastState::FastState(FastState *this,FastState *param_1)
 
@@ -967,7 +1359,8 @@ void __thiscall FastState::FastState(FastState *this,FastState *param_1)
 }
 
 
-/* FastState::~FastState() */
+
+// FastState::~FastState()
 
 void __thiscall FastState::_FastState(FastState *this)
 
@@ -977,7 +1370,8 @@ void __thiscall FastState::_FastState(FastState *this)
 }
 
 
-/* KoState::KoState(KoState const&) */
+
+// KoState::KoState(KoState const&)
 
 void __thiscall KoState::KoState(KoState *this,KoState *param_1)
 
@@ -993,7 +1387,8 @@ void __thiscall KoState::KoState(KoState *this,KoState *param_1)
 }
 
 
-/* KoState::~KoState() */
+
+// KoState::~KoState()
 
 void __thiscall KoState::_KoState(KoState *this)
 
@@ -1007,7 +1402,8 @@ void __thiscall KoState::_KoState(KoState *this)
 }
 
 
-/* NodeComp::NodeComp(int) */
+
+// NodeComp::NodeComp(int)
 
 void __thiscall NodeComp::NodeComp(NodeComp *this,int param_1)
 
@@ -1017,12 +1413,13 @@ void __thiscall NodeComp::NodeComp(NodeComp *this,int param_1)
 }
 
 
-/* NodeComp::TEMPNAMEPLACEHOLDERVALUE(boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>) */
+
+// NodeComp::TEMPNAMEPLACEHOLDERVALUE(boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>)
 
 undefined8 NodeComp::operator__(tuple param_1,tuple param_2)
 
@@ -1195,7 +1592,8 @@ undefined8 NodeComp::operator__(tuple param_1,tuple param_2)
 }
 
 
-/* std::vector<int, std::allocator<int>>::vector() */
+
+// std::vector<int, std::allocator<int>>::vector()
 
 void __thiscall std::vector<int,std::allocator<int>>::vector(vector_int_std__allocator_int__ *this)
 
@@ -1206,7 +1604,8 @@ void __thiscall std::vector<int,std::allocator<int>>::vector(vector_int_std__all
 }
 
 
-/* std::vector<int, std::allocator<int>>::~vector() */
+
+// std::vector<int, std::allocator<int>>::~vector()
 
 void __thiscall std::vector<int,std::allocator<int>>::_vector(vector_int_std__allocator_int__ *this)
 
@@ -1223,7 +1622,8 @@ void __thiscall std::vector<int,std::allocator<int>>::_vector(vector_int_std__al
 }
 
 
-/* boost::array<unsigned short, 441ul>::operator[](unsigned long) */
+
+// boost::array<unsigned short, 441ul>::operator[](unsigned long)
 
 array_unsigned_short_441ul_ * __thiscall
 boost::array<unsigned_short,441ul>::operator__(array_unsigned_short_441ul_ *this,ulong param_1)
@@ -1233,7 +1633,8 @@ boost::array<unsigned_short,441ul>::operator__(array_unsigned_short_441ul_ *this
 }
 
 
-/* std::vector<int, std::allocator<int>>::push_back(int const&) */
+
+// std::vector<int, std::allocator<int>>::push_back(int const&)
 
 void __thiscall
 std::vector<int,std::allocator<int>>::push_back(vector_int_std__allocator_int__ *this,int *param_1)
@@ -1254,8 +1655,9 @@ std::vector<int,std::allocator<int>>::push_back(vector_int_std__allocator_int__ 
 }
 
 
-/* __gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>::__normal_iterator() */
+
+// __gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>::__normal_iterator()
 
 void __thiscall
 __gnu_cxx::__normal_iterator<int_const*,std::vector<int,std::allocator<int>>>::__normal_iterator
@@ -1267,7 +1669,8 @@ __gnu_cxx::__normal_iterator<int_const*,std::vector<int,std::allocator<int>>>::_
 }
 
 
-/* std::vector<int, std::allocator<int>>::begin() */
+
+// std::vector<int, std::allocator<int>>::begin()
 
 undefined8 __thiscall
 std::vector<int,std::allocator<int>>::begin(vector_int_std__allocator_int__ *this)
@@ -1282,10 +1685,11 @@ std::vector<int,std::allocator<int>>::begin(vector_int_std__allocator_int__ *thi
 }
 
 
-/* __gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>::__normal_iterator<int*>(__gnu_cxx::__normal_iterator<int*,
-   __gnu_cxx::__enable_if<std::__are_same<int*, int*>::__value, std::vector<int,
-   std::allocator<int>>>::__type> const&) */
+
+// __gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>::__normal_iterator<int*>(__gnu_cxx::__normal_iterator<int*,
+// __gnu_cxx::__enable_if<std::__are_same<int*, int*>::__value, std::vector<int,
+// std::allocator<int>>>::__type> const&)
 
 void __thiscall
 __gnu_cxx::__normal_iterator<int_const*,std::vector<int,std::allocator<int>>>::
@@ -1304,7 +1708,8 @@ __normal_iterator_int__
 }
 
 
-/* std::vector<int, std::allocator<int>>::end() */
+
+// std::vector<int, std::allocator<int>>::end()
 
 undefined8 __thiscall
 std::vector<int,std::allocator<int>>::end(vector_int_std__allocator_int__ *this)
@@ -1319,9 +1724,10 @@ std::vector<int,std::allocator<int>>::end(vector_int_std__allocator_int__ *this)
 }
 
 
-/* bool __gnu_cxx::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<int const*,
-   std::vector<int, std::allocator<int>>> const&, __gnu_cxx::__normal_iterator<int*,
-   std::vector<int, std::allocator<int>>> const&) */
+
+// bool __gnu_cxx::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<int const*,
+// std::vector<int, std::allocator<int>>> const&, __gnu_cxx::__normal_iterator<int*,
+// std::vector<int, std::allocator<int>>> const&)
 
 bool __gnu_cxx::operator__(__normal_iterator *param_1,__normal_iterator *param_2)
 
@@ -1340,8 +1746,9 @@ bool __gnu_cxx::operator__(__normal_iterator *param_1,__normal_iterator *param_2
 }
 
 
-/* __gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>::TEMPNAMEPLACEHOLDERVALUE() */
+
+// __gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>::TEMPNAMEPLACEHOLDERVALUE()
 
 __normal_iterator_int_const__std__vector_int_std__allocator_int___ * __thiscall
 __gnu_cxx::__normal_iterator<int_const*,std::vector<int,std::allocator<int>>>::operator__
@@ -1353,8 +1760,9 @@ __gnu_cxx::__normal_iterator<int_const*,std::vector<int,std::allocator<int>>>::o
 }
 
 
-/* __gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>::TEMPNAMEPLACEHOLDERVALUE() const */
+
+// __gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>::TEMPNAMEPLACEHOLDERVALUE() const
 
 undefined8 __thiscall
 __gnu_cxx::__normal_iterator<int_const*,std::vector<int,std::allocator<int>>>::operator_
@@ -1365,7 +1773,8 @@ __gnu_cxx::__normal_iterator<int_const*,std::vector<int,std::allocator<int>>>::o
 }
 
 
-/* std::vector<int, std::allocator<int>>::vector(std::vector<int, std::allocator<int>> const&) */
+
+// std::vector<int, std::allocator<int>>::vector(std::vector<int, std::allocator<int>> const&)
 
 void __thiscall
 std::vector<int,std::allocator<int>>::vector(vector_int_std__allocator_int__ *this,vector *param_1)
@@ -1398,8 +1807,9 @@ std::vector<int,std::allocator<int>>::vector(vector_int_std__allocator_int__ *th
 }
 
 
-/* std::vector<unsigned long long, std::allocator<unsigned long long>>::vector(std::vector<unsigned
-   long long, std::allocator<unsigned long long>> const&) */
+
+// std::vector<unsigned long long, std::allocator<unsigned long long>>::vector(std::vector<unsigned
+// long long, std::allocator<unsigned long long>> const&)
 
 void __thiscall
 std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::vector
@@ -1438,7 +1848,8 @@ std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::vector
 }
 
 
-/* std::vector<unsigned long long, std::allocator<unsigned long long>>::~vector() */
+
+// std::vector<unsigned long long, std::allocator<unsigned long long>>::~vector()
 
 void __thiscall
 std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::_vector
@@ -1458,10 +1869,11 @@ std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::_vector
 }
 
 
-/* boost::tuples::access_traits<boost::tuples::element<1, boost::tuples::cons<int,
-   boost::tuples::cons<int, boost::tuples::cons<UCTNode*,
-   boost::tuples::null_type>>>>::type>::const_type boost::tuples::cons<int, boost::tuples::cons<int,
-   boost::tuples::cons<UCTNode*, boost::tuples::null_type>>>::get<1>() const */
+
+// boost::tuples::access_traits<boost::tuples::element<1, boost::tuples::cons<int,
+// boost::tuples::cons<int, boost::tuples::cons<UCTNode*,
+// boost::tuples::null_type>>>>::type>::const_type boost::tuples::cons<int, boost::tuples::cons<int,
+// boost::tuples::cons<UCTNode*, boost::tuples::null_type>>>::get<1>() const
 
 const_type __thiscall
 boost::tuples::
@@ -1478,10 +1890,11 @@ cons<int,boost::tuples::cons<int,boost::tuples::cons<UCTNode*,boost::tuples::nul
 }
 
 
-/* boost::tuples::access_traits<boost::tuples::element<0, boost::tuples::cons<int,
-   boost::tuples::cons<int, boost::tuples::cons<UCTNode*,
-   boost::tuples::null_type>>>>::type>::const_type boost::tuples::cons<int, boost::tuples::cons<int,
-   boost::tuples::cons<UCTNode*, boost::tuples::null_type>>>::get<0>() const */
+
+// boost::tuples::access_traits<boost::tuples::element<0, boost::tuples::cons<int,
+// boost::tuples::cons<int, boost::tuples::cons<UCTNode*,
+// boost::tuples::null_type>>>>::type>::const_type boost::tuples::cons<int, boost::tuples::cons<int,
+// boost::tuples::cons<UCTNode*, boost::tuples::null_type>>>::get<0>() const
 
 const_type __thiscall
 boost::tuples::
@@ -1498,12 +1911,13 @@ cons<int,boost::tuples::cons<int,boost::tuples::cons<UCTNode*,boost::tuples::nul
 }
 
 
-/* std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>::vector() */
+
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>::vector()
 
 void __thiscall
 std::
@@ -1519,12 +1933,13 @@ vector<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tup
 }
 
 
-/* std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>::~vector() */
+
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>::~vector()
 
 void __thiscall
 std::
@@ -1549,10 +1964,11 @@ vector<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tup
 }
 
 
-/* boost::tuples::detail::make_tuple_mapper<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>::type
-   boost::tuples::make_tuple<int, int, UCTNode*>(int const&, int const&, UCTNode* const&) */
+
+// boost::tuples::detail::make_tuple_mapper<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>::type
+// boost::tuples::make_tuple<int, int, UCTNode*>(int const&, int const&, UCTNode* const&)
 
 type __thiscall
 boost::tuples::make_tuple_int_int_UCTNode__
@@ -1566,16 +1982,17 @@ boost::tuples::make_tuple_int_int_UCTNode__
 }
 
 
-/* std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>::push_back(boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type> const&) */
+
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>::push_back(boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type> const&)
 
 void __thiscall
 std::
@@ -1602,8 +2019,9 @@ vector<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tup
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int const& std::max<int>(int const&, int const&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int const& std::max<int>(int const&, int const&)
 
 int * std::max_int_(int *param_1,int *param_2)
 
@@ -1615,12 +2033,13 @@ int * std::max_int_(int *param_1,int *param_2)
 }
 
 
-/* std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>::begin() */
+
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>::begin()
 
 undefined8 __thiscall
 std::
@@ -1639,12 +2058,13 @@ vector<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tup
 }
 
 
-/* std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>::end() */
+
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>::end()
 
 undefined8 __thiscall
 std::
@@ -1663,35 +2083,36 @@ vector<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tup
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::stable_sort<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, NodeComp>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, NodeComp) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::stable_sort<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, NodeComp>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, NodeComp)
 
 void std::
      stable_sort___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_____NodeComp_
@@ -1707,35 +2128,36 @@ void std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::reverse<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::reverse<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>)
 
 void std::
      reverse___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_____
@@ -1756,16 +2178,17 @@ void std::
 }
 
 
-/* __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>::__normal_iterator() */
+
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>::__normal_iterator()
 
 void __thiscall
 __gnu_cxx::
@@ -1779,25 +2202,26 @@ __normal_iterator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type
 }
 
 
-/* bool __gnu_cxx::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>> const&, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>> const&) */
+
+// bool __gnu_cxx::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>> const&, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>> const&)
 
 bool __gnu_cxx::operator__(__normal_iterator *param_1,__normal_iterator *param_2)
 
@@ -1816,16 +2240,17 @@ bool __gnu_cxx::operator__(__normal_iterator *param_1,__normal_iterator *param_2
 }
 
 
-/* __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>::TEMPNAMEPLACEHOLDERVALUE() */
+
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>::TEMPNAMEPLACEHOLDERVALUE()
 
 __normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type____
 * __thiscall
@@ -1840,16 +2265,17 @@ __normal_iterator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type
 }
 
 
-/* __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>::TEMPNAMEPLACEHOLDERVALUE() const */
+
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>::TEMPNAMEPLACEHOLDERVALUE() const
 
 undefined8 __thiscall
 __gnu_cxx::
@@ -1862,10 +2288,11 @@ __normal_iterator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type
 }
 
 
-/* boost::tuples::access_traits<boost::tuples::element<2, boost::tuples::cons<int,
-   boost::tuples::cons<int, boost::tuples::cons<UCTNode*,
-   boost::tuples::null_type>>>>::type>::non_const_type boost::tuples::cons<int,
-   boost::tuples::cons<int, boost::tuples::cons<UCTNode*, boost::tuples::null_type>>>::get<2>() */
+
+// boost::tuples::access_traits<boost::tuples::element<2, boost::tuples::cons<int,
+// boost::tuples::cons<int, boost::tuples::cons<UCTNode*,
+// boost::tuples::null_type>>>>::type>::non_const_type boost::tuples::cons<int,
+// boost::tuples::cons<int, boost::tuples::cons<UCTNode*, boost::tuples::null_type>>>::get<2>()
 
 non_const_type __thiscall
 boost::tuples::
@@ -1882,7 +2309,8 @@ cons<int,boost::tuples::cons<int,boost::tuples::cons<UCTNode*,boost::tuples::nul
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_impl::~_Vector_impl() */
+
+// std::_Vector_base<int, std::allocator<int>>::_Vector_impl::~_Vector_impl()
 
 void __thiscall
 std::_Vector_base<int,std::allocator<int>>::_Vector_impl::__Vector_impl(_Vector_impl *this)
@@ -1893,7 +2321,8 @@ std::_Vector_base<int,std::allocator<int>>::_Vector_impl::__Vector_impl(_Vector_
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_base() */
+
+// std::_Vector_base<int, std::allocator<int>>::_Vector_base()
 
 void __thiscall
 std::_Vector_base<int,std::allocator<int>>::_Vector_base
@@ -1905,7 +2334,8 @@ std::_Vector_base<int,std::allocator<int>>::_Vector_base
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::~_Vector_base() */
+
+// std::_Vector_base<int, std::allocator<int>>::~_Vector_base()
 
 void __thiscall
 std::_Vector_base<int,std::allocator<int>>::__Vector_base
@@ -1918,7 +2348,8 @@ std::_Vector_base<int,std::allocator<int>>::__Vector_base
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::_M_get_Tp_allocator() */
+
+// std::_Vector_base<int, std::allocator<int>>::_M_get_Tp_allocator()
 
 _Vector_base_int_std__allocator_int__ * __thiscall
 std::_Vector_base<int,std::allocator<int>>::_M_get_Tp_allocator
@@ -1929,8 +2360,9 @@ std::_Vector_base<int,std::allocator<int>>::_M_get_Tp_allocator
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::_Destroy<int*, int>(int*, int*, std::allocator<int>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::_Destroy<int*, int>(int*, int*, std::allocator<int>&)
 
 void std::_Destroy_int__int_(int *param_1,int *param_2,allocator *param_3)
 
@@ -1940,8 +2372,9 @@ void std::_Destroy_int__int_(int *param_1,int *param_2,allocator *param_3)
 }
 
 
-/* void __gnu_cxx::__alloc_traits<std::allocator<int>, int>::construct<int>(std::allocator<int>&,
-   int*, int const&) */
+
+// void __gnu_cxx::__alloc_traits<std::allocator<int>, int>::construct<int>(std::allocator<int>&,
+// int*, int const&)
 
 void __gnu_cxx::__alloc_traits<std::allocator<int>,int>::construct_int_
                (allocator *param_1,int *param_2,int *param_3)
@@ -1952,8 +2385,9 @@ void __gnu_cxx::__alloc_traits<std::allocator<int>,int>::construct_int_
 }
 
 
-/* std::vector<int, std::allocator<int>>::_M_realloc_insert(__gnu_cxx::__normal_iterator<int*,
-   std::vector<int, std::allocator<int>>>, int const&) */
+
+// std::vector<int, std::allocator<int>>::_M_realloc_insert(__gnu_cxx::__normal_iterator<int*,
+// std::vector<int, std::allocator<int>>>, int const&)
 
 void __thiscall
 std::vector<int,std::allocator<int>>::_M_realloc_insert
@@ -2020,8 +2454,9 @@ std::vector<int,std::allocator<int>>::_M_realloc_insert
 }
 
 
-/* __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>::__normal_iterator(int*
-   const&) */
+
+// __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>::__normal_iterator(int*
+// const&)
 
 void __thiscall
 __gnu_cxx::__normal_iterator<int*,std::vector<int,std::allocator<int>>>::__normal_iterator
@@ -2033,7 +2468,8 @@ __gnu_cxx::__normal_iterator<int*,std::vector<int,std::allocator<int>>>::__norma
 }
 
 
-/* __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>::base() const */
+
+// __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>::base() const
 
 __normal_iterator_int__std__vector_int_std__allocator_int___ * __thiscall
 __gnu_cxx::__normal_iterator<int*,std::vector<int,std::allocator<int>>>::base
@@ -2044,7 +2480,8 @@ __gnu_cxx::__normal_iterator<int*,std::vector<int,std::allocator<int>>>::base
 }
 
 
-/* __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>::base() const */
+
+// __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>::base() const
 
 __normal_iterator_int_const__std__vector_int_std__allocator_int___ * __thiscall
 __gnu_cxx::__normal_iterator<int_const*,std::vector<int,std::allocator<int>>>::base
@@ -2055,7 +2492,8 @@ __gnu_cxx::__normal_iterator<int_const*,std::vector<int,std::allocator<int>>>::b
 }
 
 
-/* std::vector<int, std::allocator<int>>::size() const */
+
+// std::vector<int, std::allocator<int>>::size() const
 
 long __thiscall std::vector<int,std::allocator<int>>::size(vector_int_std__allocator_int__ *this)
 
@@ -2064,8 +2502,9 @@ long __thiscall std::vector<int,std::allocator<int>>::size(vector_int_std__alloc
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<int>, int>::_S_select_on_copy(std::allocator<int>
-   const&) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<int>, int>::_S_select_on_copy(std::allocator<int>
+// const&)
 
 allocator *
 __gnu_cxx::__alloc_traits<std::allocator<int>,int>::_S_select_on_copy(allocator *param_1)
@@ -2075,7 +2514,8 @@ __gnu_cxx::__alloc_traits<std::allocator<int>,int>::_S_select_on_copy(allocator 
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::_M_get_Tp_allocator() const */
+
+// std::_Vector_base<int, std::allocator<int>>::_M_get_Tp_allocator() const
 
 _Vector_base_int_std__allocator_int__ * __thiscall
 std::_Vector_base<int,std::allocator<int>>::_M_get_Tp_allocator
@@ -2086,8 +2526,9 @@ std::_Vector_base<int,std::allocator<int>>::_M_get_Tp_allocator
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_base(unsigned long, std::allocator<int>
-   const&) */
+
+// std::_Vector_base<int, std::allocator<int>>::_Vector_base(unsigned long, std::allocator<int>
+// const&)
 
 void __thiscall
 std::_Vector_base<int,std::allocator<int>>::_Vector_base
@@ -2100,7 +2541,8 @@ std::_Vector_base<int,std::allocator<int>>::_Vector_base
 }
 
 
-/* std::vector<int, std::allocator<int>>::begin() const */
+
+// std::vector<int, std::allocator<int>>::begin() const
 
 undefined8 __thiscall
 std::vector<int,std::allocator<int>>::begin(vector_int_std__allocator_int__ *this)
@@ -2115,7 +2557,8 @@ std::vector<int,std::allocator<int>>::begin(vector_int_std__allocator_int__ *thi
 }
 
 
-/* std::vector<int, std::allocator<int>>::end() const */
+
+// std::vector<int, std::allocator<int>>::end() const
 
 undefined8 __thiscall
 std::vector<int,std::allocator<int>>::end(vector_int_std__allocator_int__ *this)
@@ -2130,11 +2573,12 @@ std::vector<int,std::allocator<int>>::end(vector_int_std__allocator_int__ *this)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, int*, int>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, int*, std::allocator<int>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, int*, int>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, int*, std::allocator<int>&)
 
 int * std::
       __uninitialized_copy_a___gnu_cxx____normal_iterator_int_const__std__vector_int_std__allocator_int____int__int_
@@ -2150,7 +2594,8 @@ int * std::
 }
 
 
-/* std::vector<unsigned long long, std::allocator<unsigned long long>>::size() const */
+
+// std::vector<unsigned long long, std::allocator<unsigned long long>>::size() const
 
 long __thiscall
 std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::size
@@ -2161,8 +2606,9 @@ std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::size
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<unsigned long long>, unsigned long
-   long>::_S_select_on_copy(std::allocator<unsigned long long> const&) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<unsigned long long>, unsigned long
+// long>::_S_select_on_copy(std::allocator<unsigned long long> const&)
 
 allocator *
 __gnu_cxx::__alloc_traits<std::allocator<unsigned_long_long>,unsigned_long_long>::_S_select_on_copy
@@ -2173,8 +2619,9 @@ __gnu_cxx::__alloc_traits<std::allocator<unsigned_long_long>,unsigned_long_long>
 }
 
 
-/* std::_Vector_base<unsigned long long, std::allocator<unsigned long long>>::_M_get_Tp_allocator()
-   const */
+
+// std::_Vector_base<unsigned long long, std::allocator<unsigned long long>>::_M_get_Tp_allocator()
+// const
 
 _Vector_base_unsigned_long_long_std__allocator_unsigned_long_long__ * __thiscall
 std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_M_get_Tp_allocator
@@ -2185,8 +2632,9 @@ std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_M_get
 }
 
 
-/* std::_Vector_base<unsigned long long, std::allocator<unsigned long
-   long>>::_Vector_impl::~_Vector_impl() */
+
+// std::_Vector_base<unsigned long long, std::allocator<unsigned long
+// long>>::_Vector_impl::~_Vector_impl()
 
 void __thiscall
 std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_Vector_impl::
@@ -2198,8 +2646,9 @@ __Vector_impl(_Vector_impl *this)
 }
 
 
-/* std::_Vector_base<unsigned long long, std::allocator<unsigned long long>>::_Vector_base(unsigned
-   long, std::allocator<unsigned long long> const&) */
+
+// std::_Vector_base<unsigned long long, std::allocator<unsigned long long>>::_Vector_base(unsigned
+// long, std::allocator<unsigned long long> const&)
 
 void __thiscall
 std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_Vector_base
@@ -2213,7 +2662,8 @@ std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_Vecto
 }
 
 
-/* std::_Vector_base<unsigned long long, std::allocator<unsigned long long>>::~_Vector_base() */
+
+// std::_Vector_base<unsigned long long, std::allocator<unsigned long long>>::~_Vector_base()
 
 void __thiscall
 std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::__Vector_base
@@ -2226,7 +2676,8 @@ std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::__Vect
 }
 
 
-/* std::vector<unsigned long long, std::allocator<unsigned long long>>::begin() const */
+
+// std::vector<unsigned long long, std::allocator<unsigned long long>>::begin() const
 
 undefined8 __thiscall
 std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::begin
@@ -2243,7 +2694,8 @@ std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::begin
 }
 
 
-/* std::vector<unsigned long long, std::allocator<unsigned long long>>::end() const */
+
+// std::vector<unsigned long long, std::allocator<unsigned long long>>::end() const
 
 undefined8 __thiscall
 std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::end
@@ -2260,8 +2712,8 @@ std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::end
 }
 
 
-/* std::_Vector_base<unsigned long long, std::allocator<unsigned long long>>::_M_get_Tp_allocator()
-    */
+
+// std::_Vector_base<unsigned long long, std::allocator<unsigned long long>>::_M_get_Tp_allocator()
 
 _Vector_base_unsigned_long_long_std__allocator_unsigned_long_long__ * __thiscall
 std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_M_get_Tp_allocator
@@ -2272,14 +2724,14 @@ std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_M_get
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long long* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<unsigned long long
-   const*, std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long
-   long*, unsigned long long>(__gnu_cxx::__normal_iterator<unsigned long long const*,
-   std::vector<unsigned long long, std::allocator<unsigned long long>>>,
-   __gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>, unsigned long long*, std::allocator<unsigned long long>&)
-    */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long long* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<unsigned long long
+// const*, std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long
+// long*, unsigned long long>(__gnu_cxx::__normal_iterator<unsigned long long const*,
+// std::vector<unsigned long long, std::allocator<unsigned long long>>>,
+// __gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>>, unsigned long long*, std::allocator<unsigned long long>&)
 
 ulonglong *
 std::
@@ -2296,9 +2748,10 @@ __uninitialized_copy_a___gnu_cxx____normal_iterator_unsigned_long_long_const__st
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::_Destroy<unsigned long long*, unsigned long long>(unsigned long long*, unsigned long
-   long*, std::allocator<unsigned long long>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::_Destroy<unsigned long long*, unsigned long long>(unsigned long long*, unsigned long
+// long*, std::allocator<unsigned long long>&)
 
 void std::_Destroy_unsigned_long_long__unsigned_long_long_
                (ulonglong *param_1,ulonglong *param_2,allocator *param_3)
@@ -2309,12 +2762,13 @@ void std::_Destroy_unsigned_long_long__unsigned_long_long_
 }
 
 
-/* boost::tuples::access_traits<boost::tuples::element<1, boost::tuples::cons<int,
-   boost::tuples::cons<int, boost::tuples::cons<UCTNode*,
-   boost::tuples::null_type>>>>::type>::const_type boost::tuples::get<1, int,
-   boost::tuples::cons<int, boost::tuples::cons<UCTNode*,
-   boost::tuples::null_type>>>(boost::tuples::cons<int, boost::tuples::cons<int,
-   boost::tuples::cons<UCTNode*, boost::tuples::null_type>>> const&) */
+
+// boost::tuples::access_traits<boost::tuples::element<1, boost::tuples::cons<int,
+// boost::tuples::cons<int, boost::tuples::cons<UCTNode*,
+// boost::tuples::null_type>>>>::type>::const_type boost::tuples::get<1, int,
+// boost::tuples::cons<int, boost::tuples::cons<UCTNode*,
+// boost::tuples::null_type>>>(boost::tuples::cons<int, boost::tuples::cons<int,
+// boost::tuples::cons<UCTNode*, boost::tuples::null_type>>> const&)
 
 const_type
 boost::tuples::
@@ -2331,12 +2785,13 @@ get_1_int_boost__tuples__cons_int_boost__tuples__cons_UCTNode__boost__tuples__nu
 }
 
 
-/* boost::tuples::access_traits<boost::tuples::element<0, boost::tuples::cons<int,
-   boost::tuples::cons<int, boost::tuples::cons<UCTNode*,
-   boost::tuples::null_type>>>>::type>::const_type boost::tuples::get<0, int,
-   boost::tuples::cons<int, boost::tuples::cons<UCTNode*,
-   boost::tuples::null_type>>>(boost::tuples::cons<int, boost::tuples::cons<int,
-   boost::tuples::cons<UCTNode*, boost::tuples::null_type>>> const&) */
+
+// boost::tuples::access_traits<boost::tuples::element<0, boost::tuples::cons<int,
+// boost::tuples::cons<int, boost::tuples::cons<UCTNode*,
+// boost::tuples::null_type>>>>::type>::const_type boost::tuples::get<0, int,
+// boost::tuples::cons<int, boost::tuples::cons<UCTNode*,
+// boost::tuples::null_type>>>(boost::tuples::cons<int, boost::tuples::cons<int,
+// boost::tuples::cons<UCTNode*, boost::tuples::null_type>>> const&)
 
 const_type
 boost::tuples::
@@ -2353,13 +2808,14 @@ get_0_int_boost__tuples__cons_int_boost__tuples__cons_UCTNode__boost__tuples__nu
 }
 
 
-/* std::_Vector_base<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>::_Vector_impl::~_Vector_impl() */
+
+// std::_Vector_base<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>::_Vector_impl::~_Vector_impl()
 
 void __thiscall
 std::
@@ -2374,13 +2830,13 @@ _Vector_base<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boos
 }
 
 
-/* std::_Vector_base<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>::_Vector_base()
-    */
+
+// std::_Vector_base<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>::_Vector_base()
 
 void __thiscall
 std::
@@ -2394,13 +2850,13 @@ _Vector_base<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boos
 }
 
 
-/* std::_Vector_base<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>::~_Vector_base()
-    */
+
+// std::_Vector_base<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>::~_Vector_base()
 
 void __thiscall
 std::
@@ -2416,13 +2872,14 @@ _Vector_base<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boos
 }
 
 
-/* std::_Vector_base<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>::_M_get_Tp_allocator() */
+
+// std::_Vector_base<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>::_M_get_Tp_allocator()
 
 _Vector_base_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___
 * __thiscall
@@ -2437,21 +2894,22 @@ _Vector_base<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boos
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::_Destroy<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>>(boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::_Destroy<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>>(boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>&)
 
 void std::
      _Destroy_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__
@@ -2464,10 +2922,11 @@ void std::
 }
 
 
-/* boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>::tuple(int const&, int const&, UCTNode*
-   const&) */
+
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>::tuple(int const&, int const&, UCTNode*
+// const&)
 
 void __thiscall
 boost::tuples::
@@ -2500,24 +2959,25 @@ tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::
 }
 
 
-/* void __gnu_cxx::__alloc_traits<std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>::construct<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>(std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>&, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type> const&) */
+
+// void __gnu_cxx::__alloc_traits<std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>::construct<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>(std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>&, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type> const&)
 
 void __gnu_cxx::
      __alloc_traits<std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>,boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>
@@ -2533,24 +2993,25 @@ void __gnu_cxx::
 }
 
 
-/* std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>::_M_realloc_insert(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type> const&) */
+
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>::_M_realloc_insert(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type> const&)
 
 void __thiscall
 std::
@@ -2636,19 +3097,20 @@ vector<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tup
 }
 
 
-/* __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>::__normal_iterator(boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>* const&) */
+
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>::__normal_iterator(boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>* const&)
 
 void __thiscall
 __gnu_cxx::
@@ -2662,8 +3124,9 @@ __normal_iterator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type
 }
 
 
-/* __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>
-   __gnu_cxx::__ops::__iter_comp_iter<NodeComp>(NodeComp) */
+
+// __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>
+// __gnu_cxx::__ops::__iter_comp_iter<NodeComp>(NodeComp)
 
 _Iter_comp_iter __gnu_cxx::__ops::__iter_comp_iter_NodeComp_(NodeComp param_1)
 
@@ -2675,36 +3138,37 @@ _Iter_comp_iter __gnu_cxx::__ops::__iter_comp_iter_NodeComp_(NodeComp param_1)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__stable_sort<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>,
-   __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__stable_sort<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>,
+// __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>)
 
 void std::
      __stable_sort___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_______gnu_cxx____ops___Iter_comp_iter_NodeComp__
@@ -2751,36 +3215,37 @@ void std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::iterator_traits<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>>::iterator_category
-   std::__iterator_category<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>> const&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// std::iterator_traits<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>>::iterator_category
+// std::__iterator_category<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>> const&)
 
 iterator_category
 std::
@@ -2794,35 +3259,36 @@ __iterator_category___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UC
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__reverse<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, std::random_access_iterator_tag) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__reverse<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, std::random_access_iterator_tag)
 
 void std::
      __reverse___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_____
@@ -2863,15 +3329,16 @@ void std::
 }
 
 
-/* __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>::base() const */
+
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>::base() const
 
 __normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type____
 * __thiscall
@@ -2885,12 +3352,13 @@ __normal_iterator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type
 }
 
 
-/* boost::tuples::access_traits<boost::tuples::element<2, boost::tuples::cons<int,
-   boost::tuples::cons<int, boost::tuples::cons<UCTNode*,
-   boost::tuples::null_type>>>>::type>::non_const_type boost::tuples::get<2, int,
-   boost::tuples::cons<int, boost::tuples::cons<UCTNode*,
-   boost::tuples::null_type>>>(boost::tuples::cons<int, boost::tuples::cons<int,
-   boost::tuples::cons<UCTNode*, boost::tuples::null_type>>>&) */
+
+// boost::tuples::access_traits<boost::tuples::element<2, boost::tuples::cons<int,
+// boost::tuples::cons<int, boost::tuples::cons<UCTNode*,
+// boost::tuples::null_type>>>>::type>::non_const_type boost::tuples::get<2, int,
+// boost::tuples::cons<int, boost::tuples::cons<UCTNode*,
+// boost::tuples::null_type>>>(boost::tuples::cons<int, boost::tuples::cons<int,
+// boost::tuples::cons<UCTNode*, boost::tuples::null_type>>>&)
 
 non_const_type
 boost::tuples::
@@ -2907,7 +3375,8 @@ get_2_int_boost__tuples__cons_int_boost__tuples__cons_UCTNode__boost__tuples__nu
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_impl::_Vector_impl() */
+
+// std::_Vector_base<int, std::allocator<int>>::_Vector_impl::_Vector_impl()
 
 void __thiscall
 std::_Vector_base<int,std::allocator<int>>::_Vector_impl::_Vector_impl(_Vector_impl *this)
@@ -2919,7 +3388,8 @@ std::_Vector_base<int,std::allocator<int>>::_Vector_impl::_Vector_impl(_Vector_i
 }
 
 
-/* std::allocator<int>::~allocator() */
+
+// std::allocator<int>::~allocator()
 
 void __thiscall std::allocator<int>::_allocator(allocator_int_ *this)
 
@@ -2929,7 +3399,8 @@ void __thiscall std::allocator<int>::_allocator(allocator_int_ *this)
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::_M_deallocate(int*, unsigned long) */
+
+// std::_Vector_base<int, std::allocator<int>>::_M_deallocate(int*, unsigned long)
 
 void __thiscall
 std::_Vector_base<int,std::allocator<int>>::_M_deallocate
@@ -2944,8 +3415,9 @@ std::_Vector_base<int,std::allocator<int>>::_M_deallocate
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::_Destroy<int*>(int*, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::_Destroy<int*>(int*, int*)
 
 void std::_Destroy_int__(int *param_1,int *param_2)
 
@@ -2955,7 +3427,8 @@ void std::_Destroy_int__(int *param_1,int *param_2)
 }
 
 
-/* __gnu_cxx::new_allocator<int>::construct(int*, int const&) */
+
+// __gnu_cxx::new_allocator<int>::construct(int*, int const&)
 
 void __thiscall
 __gnu_cxx::new_allocator<int>::construct(new_allocator_int_ *this,int *param_1,int *param_2)
@@ -2969,7 +3442,8 @@ __gnu_cxx::new_allocator<int>::construct(new_allocator_int_ *this,int *param_1,i
 }
 
 
-/* std::vector<int, std::allocator<int>>::_M_check_len(unsigned long, char const*) const */
+
+// std::vector<int, std::allocator<int>>::_M_check_len(unsigned long, char const*) const
 
 ulong __thiscall
 std::vector<int,std::allocator<int>>::_M_check_len
@@ -3004,10 +3478,11 @@ std::vector<int,std::allocator<int>>::_M_check_len
 }
 
 
-/* __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>::difference_type
-   __gnu_cxx::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<int*, std::vector<int,
-   std::allocator<int>>> const&, __gnu_cxx::__normal_iterator<int*, std::vector<int,
-   std::allocator<int>>> const&) */
+
+// __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>::difference_type
+// __gnu_cxx::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<int*, std::vector<int,
+// std::allocator<int>>> const&, __gnu_cxx::__normal_iterator<int*, std::vector<int,
+// std::allocator<int>>> const&)
 
 difference_type __gnu_cxx::operator_(__normal_iterator *param_1,__normal_iterator *param_2)
 
@@ -3026,7 +3501,8 @@ difference_type __gnu_cxx::operator_(__normal_iterator *param_1,__normal_iterato
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::_M_allocate(unsigned long) */
+
+// std::_Vector_base<int, std::allocator<int>>::_M_allocate(unsigned long)
 
 undefined8 __thiscall
 std::_Vector_base<int,std::allocator<int>>::_M_allocate
@@ -3045,9 +3521,10 @@ std::_Vector_base<int,std::allocator<int>>::_M_allocate
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__uninitialized_move_if_noexcept_a<int*, int*, std::allocator<int>>(int*, int*, int*,
-   std::allocator<int>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__uninitialized_move_if_noexcept_a<int*, int*, std::allocator<int>>(int*, int*, int*,
+// std::allocator<int>&)
 
 int * std::__uninitialized_move_if_noexcept_a_int__int__std__allocator_int__
                 (int *param_1,int *param_2,int *param_3,allocator *param_4)
@@ -3060,7 +3537,8 @@ int * std::__uninitialized_move_if_noexcept_a_int__int__std__allocator_int__
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<int>, int>::destroy(std::allocator<int>&, int*) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<int>, int>::destroy(std::allocator<int>&, int*)
 
 void __gnu_cxx::__alloc_traits<std::allocator<int>,int>::destroy(allocator *param_1,int *param_2)
 
@@ -3070,8 +3548,9 @@ void __gnu_cxx::__alloc_traits<std::allocator<int>,int>::destroy(allocator *para
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_impl::_Vector_impl(std::allocator<int>
-   const&) */
+
+// std::_Vector_base<int, std::allocator<int>>::_Vector_impl::_Vector_impl(std::allocator<int>
+// const&)
 
 void __thiscall
 std::_Vector_base<int,std::allocator<int>>::_Vector_impl::_Vector_impl
@@ -3084,7 +3563,8 @@ std::_Vector_base<int,std::allocator<int>>::_Vector_impl::_Vector_impl
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::_M_create_storage(unsigned long) */
+
+// std::_Vector_base<int, std::allocator<int>>::_M_create_storage(unsigned long)
 
 void __thiscall
 std::_Vector_base<int,std::allocator<int>>::_M_create_storage
@@ -3101,8 +3581,9 @@ std::_Vector_base<int,std::allocator<int>>::_M_create_storage
 }
 
 
-/* __gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>::__normal_iterator(int const* const&) */
+
+// __gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>::__normal_iterator(int const* const&)
 
 void __thiscall
 __gnu_cxx::__normal_iterator<int_const*,std::vector<int,std::allocator<int>>>::__normal_iterator
@@ -3114,11 +3595,12 @@ __gnu_cxx::__normal_iterator<int_const*,std::vector<int,std::allocator<int>>>::_
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::uninitialized_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::uninitialized_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, int*)
 
 int * std::
       uninitialized_copy___gnu_cxx____normal_iterator_int_const__std__vector_int_std__allocator_int____int__
@@ -3134,8 +3616,9 @@ int * std::
 }
 
 
-/* std::_Vector_base<unsigned long long, std::allocator<unsigned long
-   long>>::_Vector_impl::_Vector_impl(std::allocator<unsigned long long> const&) */
+
+// std::_Vector_base<unsigned long long, std::allocator<unsigned long
+// long>>::_Vector_impl::_Vector_impl(std::allocator<unsigned long long> const&)
 
 void __thiscall
 std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_Vector_impl::_Vector_impl
@@ -3148,7 +3631,8 @@ std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_Vecto
 }
 
 
-/* std::allocator<unsigned long long>::~allocator() */
+
+// std::allocator<unsigned long long>::~allocator()
 
 void __thiscall std::allocator<unsigned_long_long>::_allocator(allocator_unsigned_long_long_ *this)
 
@@ -3159,8 +3643,9 @@ void __thiscall std::allocator<unsigned_long_long>::_allocator(allocator_unsigne
 }
 
 
-/* std::_Vector_base<unsigned long long, std::allocator<unsigned long
-   long>>::_M_create_storage(unsigned long) */
+
+// std::_Vector_base<unsigned long long, std::allocator<unsigned long
+// long>>::_M_create_storage(unsigned long)
 
 void __thiscall
 std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_M_create_storage
@@ -3177,8 +3662,9 @@ std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_M_cre
 }
 
 
-/* std::_Vector_base<unsigned long long, std::allocator<unsigned long long>>::_M_deallocate(unsigned
-   long long*, unsigned long) */
+
+// std::_Vector_base<unsigned long long, std::allocator<unsigned long long>>::_M_deallocate(unsigned
+// long long*, unsigned long)
 
 void __thiscall
 std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_M_deallocate
@@ -3194,8 +3680,9 @@ std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_M_dea
 }
 
 
-/* __gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>::__normal_iterator(unsigned long long const* const&) */
+
+// __gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>>::__normal_iterator(unsigned long long const* const&)
 
 void __thiscall
 __gnu_cxx::
@@ -3209,12 +3696,13 @@ __normal_iterator<unsigned_long_long_const*,std::vector<unsigned_long_long,std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long long* std::uninitialized_copy<__gnu_cxx::__normal_iterator<unsigned long long
-   const*, std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long
-   long*>(__gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>, __gnu_cxx::__normal_iterator<unsigned long long const*,
-   std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long long*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long long* std::uninitialized_copy<__gnu_cxx::__normal_iterator<unsigned long long
+// const*, std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long
+// long*>(__gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>>, __gnu_cxx::__normal_iterator<unsigned long long const*,
+// std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long long*)
 
 ulonglong *
 std::
@@ -3231,8 +3719,9 @@ uninitialized_copy___gnu_cxx____normal_iterator_unsigned_long_long_const__std__v
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::_Destroy<unsigned long long*>(unsigned long long*, unsigned long long*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::_Destroy<unsigned long long*>(unsigned long long*, unsigned long long*)
 
 void std::_Destroy_unsigned_long_long__(ulonglong *param_1,ulonglong *param_2)
 
@@ -3242,9 +3731,10 @@ void std::_Destroy_unsigned_long_long__(ulonglong *param_1,ulonglong *param_2)
 }
 
 
-/* int const& boost::tuples::detail::get_class<1>::get<int const&, int, boost::tuples::cons<int,
-   boost::tuples::cons<UCTNode*, boost::tuples::null_type>>>(boost::tuples::cons<int,
-   boost::tuples::cons<int, boost::tuples::cons<UCTNode*, boost::tuples::null_type>>> const&) */
+
+// int const& boost::tuples::detail::get_class<1>::get<int const&, int, boost::tuples::cons<int,
+// boost::tuples::cons<UCTNode*, boost::tuples::null_type>>>(boost::tuples::cons<int,
+// boost::tuples::cons<int, boost::tuples::cons<UCTNode*, boost::tuples::null_type>>> const&)
 
 int * boost::tuples::detail::get_class<1>::
       get_int_const__int_boost__tuples__cons_int_boost__tuples__cons_UCTNode__boost__tuples__null_type___
@@ -3259,9 +3749,10 @@ int * boost::tuples::detail::get_class<1>::
 }
 
 
-/* int const& boost::tuples::detail::get_class<0>::get<int const&, int, boost::tuples::cons<int,
-   boost::tuples::cons<UCTNode*, boost::tuples::null_type>>>(boost::tuples::cons<int,
-   boost::tuples::cons<int, boost::tuples::cons<UCTNode*, boost::tuples::null_type>>> const&) */
+
+// int const& boost::tuples::detail::get_class<0>::get<int const&, int, boost::tuples::cons<int,
+// boost::tuples::cons<UCTNode*, boost::tuples::null_type>>>(boost::tuples::cons<int,
+// boost::tuples::cons<int, boost::tuples::cons<UCTNode*, boost::tuples::null_type>>> const&)
 
 int * boost::tuples::detail::get_class<0>::
       get_int_const__int_boost__tuples__cons_int_boost__tuples__cons_UCTNode__boost__tuples__null_type___
@@ -3272,13 +3763,14 @@ int * boost::tuples::detail::get_class<0>::
 }
 
 
-/* std::_Vector_base<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>::_Vector_impl::_Vector_impl() */
+
+// std::_Vector_base<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>::_Vector_impl::_Vector_impl()
 
 void __thiscall
 std::
@@ -3293,9 +3785,10 @@ _Vector_base<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boos
 }
 
 
-/* std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>::~allocator() */
+
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>::~allocator()
 
 void __thiscall
 std::
@@ -3312,16 +3805,17 @@ allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::
 }
 
 
-/* std::_Vector_base<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>::_M_deallocate(boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, unsigned long) */
+
+// std::_Vector_base<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>::_M_deallocate(boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, unsigned long)
 
 void __thiscall
 std::
@@ -3339,16 +3833,17 @@ _Vector_base<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boos
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::_Destroy<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::_Destroy<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*)
 
 void std::
      _Destroy_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___
@@ -3362,14 +3857,15 @@ void std::
 }
 
 
-/* boost::tuples::cons<int, boost::tuples::cons<int, boost::tuples::cons<UCTNode*,
-   boost::tuples::null_type>>>::cons<int const, int const, UCTNode* const, boost::tuples::null_type
-   const, boost::tuples::null_type const, boost::tuples::null_type const, boost::tuples::null_type
-   const, boost::tuples::null_type const, boost::tuples::null_type const, boost::tuples::null_type
-   const>(int const&, int const&, UCTNode* const&, boost::tuples::null_type const&,
-   boost::tuples::null_type const&, boost::tuples::null_type const&, boost::tuples::null_type
-   const&, boost::tuples::null_type const&, boost::tuples::null_type const&,
-   boost::tuples::null_type const&) */
+
+// boost::tuples::cons<int, boost::tuples::cons<int, boost::tuples::cons<UCTNode*,
+// boost::tuples::null_type>>>::cons<int const, int const, UCTNode* const, boost::tuples::null_type
+// const, boost::tuples::null_type const, boost::tuples::null_type const, boost::tuples::null_type
+// const, boost::tuples::null_type const, boost::tuples::null_type const, boost::tuples::null_type
+// const>(int const&, int const&, UCTNode* const&, boost::tuples::null_type const&,
+// boost::tuples::null_type const&, boost::tuples::null_type const&, boost::tuples::null_type
+// const&, boost::tuples::null_type const&, boost::tuples::null_type const&,
+// boost::tuples::null_type const&)
 
 void __thiscall
 boost::tuples::
@@ -3393,15 +3889,16 @@ cons_int_const_int_const_UCTNode_const_boost__tuples__null_type_const_boost__tup
 }
 
 
-/* __gnu_cxx::new_allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>::construct(boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type> const&) */
+
+// __gnu_cxx::new_allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>::construct(boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type> const&)
 
 void __thiscall
 __gnu_cxx::
@@ -3422,13 +3919,14 @@ new_allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boo
 }
 
 
-/* std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>::_M_check_len(unsigned long, char const*) const */
+
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>::_M_check_len(unsigned long, char const*) const
 
 ulong __thiscall
 std::
@@ -3466,34 +3964,35 @@ vector<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tup
 }
 
 
-/* __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>::difference_type
-   __gnu_cxx::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>> const&, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>> const&) */
+
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>::difference_type
+// __gnu_cxx::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>> const&, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>> const&)
 
 difference_type __gnu_cxx::operator_(__normal_iterator *param_1,__normal_iterator *param_2)
 
@@ -3512,13 +4011,14 @@ difference_type __gnu_cxx::operator_(__normal_iterator *param_1,__normal_iterato
 }
 
 
-/* std::_Vector_base<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>::_M_allocate(unsigned long) */
+
+// std::_Vector_base<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>::_M_allocate(unsigned long)
 
 undefined8 __thiscall
 std::
@@ -3541,31 +4041,32 @@ _Vector_base<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boos
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*
-   std::__uninitialized_move_if_noexcept_a<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*
+// std::__uninitialized_move_if_noexcept_a<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>&)
 
 tuple * std::
         __uninitialized_move_if_noexcept_a_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___
@@ -3580,18 +4081,19 @@ tuple * std::
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>::destroy(std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>&, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>::destroy(std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>&, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*)
 
 void __gnu_cxx::
      __alloc_traits<std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>,boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>
@@ -3604,7 +4106,8 @@ void __gnu_cxx::
 }
 
 
-/* __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>::_Iter_comp_iter(NodeComp) */
+
+// __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>::_Iter_comp_iter(NodeComp)
 
 void __thiscall
 __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>::_Iter_comp_iter
@@ -3618,25 +4121,26 @@ __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>::_Iter_comp_iter
 }
 
 
-/* bool __gnu_cxx::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>> const&, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>> const&) */
+
+// bool __gnu_cxx::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>> const&, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>> const&)
 
 bool __gnu_cxx::operator__(__normal_iterator *param_1,__normal_iterator *param_2)
 
@@ -3655,28 +4159,29 @@ bool __gnu_cxx::operator__(__normal_iterator *param_1,__normal_iterator *param_2
 }
 
 
-/* std::_Temporary_buffer<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>::_Temporary_buffer(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, long) */
+
+// std::_Temporary_buffer<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>::_Temporary_buffer(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, long)
 
 void __thiscall
 std::
@@ -3706,19 +4211,20 @@ _Temporary_buffer<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,int,UCTN
 }
 
 
-/* std::_Temporary_buffer<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>::~_Temporary_buffer() */
+
+// std::_Temporary_buffer<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>::~_Temporary_buffer()
 
 void __thiscall
 std::
@@ -3738,18 +4244,19 @@ _Temporary_buffer<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,int,UCTN
 }
 
 
-/* std::_Temporary_buffer<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>::begin() */
+
+// std::_Temporary_buffer<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>::begin()
 
 undefined8 __thiscall
 std::
@@ -3762,36 +4269,37 @@ _Temporary_buffer<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,int,UCTN
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__inplace_stable_sort<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>,
-   __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__inplace_stable_sort<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>,
+// __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>)
 
 void std::
      __inplace_stable_sort___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_______gnu_cxx____ops___Iter_comp_iter_NodeComp__
@@ -3839,18 +4347,19 @@ void std::
 }
 
 
-/* std::_Temporary_buffer<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>::size() const */
+
+// std::_Temporary_buffer<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>::size() const
 
 undefined8 __thiscall
 std::
@@ -3863,41 +4372,42 @@ _Temporary_buffer<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,int,UCTN
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__stable_sort_adaptive<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*, long,
-   __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*, long,
-   __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__stable_sort_adaptive<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*, long,
+// __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*, long,
+// __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>)
 
 void std::
      __stable_sort_adaptive___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_____boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___long___gnu_cxx____ops___Iter_comp_iter_NodeComp__
@@ -3946,16 +4456,17 @@ void std::
 }
 
 
-/* __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>::TEMPNAMEPLACEHOLDERVALUE() */
+
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>::TEMPNAMEPLACEHOLDERVALUE()
 
 __normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type____
 * __thiscall
@@ -3970,25 +4481,26 @@ __normal_iterator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type
 }
 
 
-/* bool __gnu_cxx::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>> const&, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>> const&) */
+
+// bool __gnu_cxx::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>> const&, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>> const&)
 
 bool __gnu_cxx::operator_(__normal_iterator *param_1,__normal_iterator *param_2)
 
@@ -4007,44 +4519,45 @@ bool __gnu_cxx::operator_(__normal_iterator *param_1,__normal_iterator *param_2)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::iter_swap<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::iter_swap<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>)
 
 void std::
      iter_swap___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_______gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_____
@@ -4058,9 +4571,10 @@ void std::
 }
 
 
-/* UCTNode*& boost::tuples::detail::get_class<2>::get<UCTNode*&, int, boost::tuples::cons<int,
-   boost::tuples::cons<UCTNode*, boost::tuples::null_type>>>(boost::tuples::cons<int,
-   boost::tuples::cons<int, boost::tuples::cons<UCTNode*, boost::tuples::null_type>>>&) */
+
+// UCTNode*& boost::tuples::detail::get_class<2>::get<UCTNode*&, int, boost::tuples::cons<int,
+// boost::tuples::cons<UCTNode*, boost::tuples::null_type>>>(boost::tuples::cons<int,
+// boost::tuples::cons<int, boost::tuples::cons<UCTNode*, boost::tuples::null_type>>>&)
 
 UCTNode **
 boost::tuples::detail::get_class<2>::
@@ -4076,7 +4590,8 @@ get_UCTNode___int_boost__tuples__cons_int_boost__tuples__cons_UCTNode__boost__tu
 }
 
 
-/* std::allocator<int>::allocator() */
+
+// std::allocator<int>::allocator()
 
 void std::allocator<int>::allocator(void)
 
@@ -4086,7 +4601,8 @@ void std::allocator<int>::allocator(void)
 }
 
 
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_impl_data::_Vector_impl_data() */
+
+// std::_Vector_base<int, std::allocator<int>>::_Vector_impl_data::_Vector_impl_data()
 
 void __thiscall
 std::_Vector_base<int,std::allocator<int>>::_Vector_impl_data::_Vector_impl_data
@@ -4100,7 +4616,8 @@ std::_Vector_base<int,std::allocator<int>>::_Vector_impl_data::_Vector_impl_data
 }
 
 
-/* __gnu_cxx::new_allocator<int>::~new_allocator() */
+
+// __gnu_cxx::new_allocator<int>::~new_allocator()
 
 void __thiscall __gnu_cxx::new_allocator<int>::_new_allocator(new_allocator_int_ *this)
 
@@ -4109,8 +4626,9 @@ void __thiscall __gnu_cxx::new_allocator<int>::_new_allocator(new_allocator_int_
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<int>, int>::deallocate(std::allocator<int>&, int*,
-   unsigned long) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<int>, int>::deallocate(std::allocator<int>&, int*,
+// unsigned long)
 
 void __gnu_cxx::__alloc_traits<std::allocator<int>,int>::deallocate
                (allocator *param_1,int *param_2,ulong param_3)
@@ -4121,7 +4639,8 @@ void __gnu_cxx::__alloc_traits<std::allocator<int>,int>::deallocate
 }
 
 
-/* void std::_Destroy_aux<true>::__destroy<int*>(int*, int*) */
+
+// void std::_Destroy_aux<true>::__destroy<int*>(int*, int*)
 
 void std::_Destroy_aux<true>::__destroy_int__(int *param_1,int *param_2)
 
@@ -4130,7 +4649,8 @@ void std::_Destroy_aux<true>::__destroy_int__(int *param_1,int *param_2)
 }
 
 
-/* std::vector<int, std::allocator<int>>::max_size() const */
+
+// std::vector<int, std::allocator<int>>::max_size() const
 
 void __thiscall
 std::vector<int,std::allocator<int>>::max_size(vector_int_std__allocator_int__ *this)
@@ -4146,8 +4666,9 @@ std::vector<int,std::allocator<int>>::max_size(vector_int_std__allocator_int__ *
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&)
 
 ulong * std::max_unsigned_long_(ulong *param_1,ulong *param_2)
 
@@ -4159,8 +4680,9 @@ ulong * std::max_unsigned_long_(ulong *param_1,ulong *param_2)
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<int>, int>::allocate(std::allocator<int>&, unsigned
-   long) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<int>, int>::allocate(std::allocator<int>&, unsigned
+// long)
 
 void __gnu_cxx::__alloc_traits<std::allocator<int>,int>::allocate(allocator *param_1,ulong param_2)
 
@@ -4170,8 +4692,9 @@ void __gnu_cxx::__alloc_traits<std::allocator<int>,int>::allocate(allocator *par
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__uninitialized_copy_a<int*, int*, int>(int*, int*, int*, std::allocator<int>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__uninitialized_copy_a<int*, int*, int>(int*, int*, int*, std::allocator<int>&)
 
 int * std::__uninitialized_copy_a_int__int__int_
                 (int *param_1,int *param_2,int *param_3,allocator *param_4)
@@ -4184,7 +4707,8 @@ int * std::__uninitialized_copy_a_int__int__int_
 }
 
 
-/* __gnu_cxx::new_allocator<int>::destroy(int*) */
+
+// __gnu_cxx::new_allocator<int>::destroy(int*)
 
 void __gnu_cxx::new_allocator<int>::destroy(int *param_1)
 
@@ -4193,7 +4717,8 @@ void __gnu_cxx::new_allocator<int>::destroy(int *param_1)
 }
 
 
-/* std::allocator<int>::allocator(std::allocator<int> const&) */
+
+// std::allocator<int>::allocator(std::allocator<int> const&)
 
 void std::allocator<int>::allocator(allocator *param_1)
 
@@ -4203,10 +4728,11 @@ void std::allocator<int>::allocator(allocator *param_1)
 }
 
 
-/* int* std::__uninitialized_copy<true>::__uninit_copy<__gnu_cxx::__normal_iterator<int const*,
-   std::vector<int, std::allocator<int>>>, int*>(__gnu_cxx::__normal_iterator<int const*,
-   std::vector<int, std::allocator<int>>>, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, int*) */
+
+// int* std::__uninitialized_copy<true>::__uninit_copy<__gnu_cxx::__normal_iterator<int const*,
+// std::vector<int, std::allocator<int>>>, int*>(__gnu_cxx::__normal_iterator<int const*,
+// std::vector<int, std::allocator<int>>>, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, int*)
 
 int * std::__uninitialized_copy<true>::
       __uninit_copy___gnu_cxx____normal_iterator_int_const__std__vector_int_std__allocator_int____int__
@@ -4221,7 +4747,8 @@ int * std::__uninitialized_copy<true>::
 }
 
 
-/* std::allocator<unsigned long long>::allocator(std::allocator<unsigned long long> const&) */
+
+// std::allocator<unsigned long long>::allocator(std::allocator<unsigned long long> const&)
 
 void std::allocator<unsigned_long_long>::allocator(allocator *param_1)
 
@@ -4231,8 +4758,9 @@ void std::allocator<unsigned_long_long>::allocator(allocator *param_1)
 }
 
 
-/* std::_Vector_base<unsigned long long, std::allocator<unsigned long
-   long>>::_Vector_impl_data::_Vector_impl_data() */
+
+// std::_Vector_base<unsigned long long, std::allocator<unsigned long
+// long>>::_Vector_impl_data::_Vector_impl_data()
 
 void __thiscall
 std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_Vector_impl_data::
@@ -4246,7 +4774,8 @@ _Vector_impl_data(_Vector_impl_data *this)
 }
 
 
-/* __gnu_cxx::new_allocator<unsigned long long>::~new_allocator() */
+
+// __gnu_cxx::new_allocator<unsigned long long>::~new_allocator()
 
 void __thiscall
 __gnu_cxx::new_allocator<unsigned_long_long>::_new_allocator
@@ -4257,8 +4786,9 @@ __gnu_cxx::new_allocator<unsigned_long_long>::_new_allocator
 }
 
 
-/* std::_Vector_base<unsigned long long, std::allocator<unsigned long long>>::_M_allocate(unsigned
-   long) */
+
+// std::_Vector_base<unsigned long long, std::allocator<unsigned long long>>::_M_allocate(unsigned
+// long)
 
 undefined8 __thiscall
 std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_M_allocate
@@ -4278,8 +4808,9 @@ std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_M_all
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<unsigned long long>, unsigned long
-   long>::deallocate(std::allocator<unsigned long long>&, unsigned long long*, unsigned long) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<unsigned long long>, unsigned long
+// long>::deallocate(std::allocator<unsigned long long>&, unsigned long long*, unsigned long)
 
 void __gnu_cxx::__alloc_traits<std::allocator<unsigned_long_long>,unsigned_long_long>::deallocate
                (allocator *param_1,ulonglong *param_2,ulong param_3)
@@ -4290,12 +4821,13 @@ void __gnu_cxx::__alloc_traits<std::allocator<unsigned_long_long>,unsigned_long_
 }
 
 
-/* unsigned long long*
-   std::__uninitialized_copy<true>::__uninit_copy<__gnu_cxx::__normal_iterator<unsigned long long
-   const*, std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long
-   long*>(__gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>, __gnu_cxx::__normal_iterator<unsigned long long const*,
-   std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long long*) */
+
+// unsigned long long*
+// std::__uninitialized_copy<true>::__uninit_copy<__gnu_cxx::__normal_iterator<unsigned long long
+// const*, std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long
+// long*>(__gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>>, __gnu_cxx::__normal_iterator<unsigned long long const*,
+// std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long long*)
 
 ulonglong *
 std::__uninitialized_copy<true>::
@@ -4311,8 +4843,9 @@ __uninit_copy___gnu_cxx____normal_iterator_unsigned_long_long_const__std__vector
 }
 
 
-/* void std::_Destroy_aux<true>::__destroy<unsigned long long*>(unsigned long long*, unsigned long
-   long*) */
+
+// void std::_Destroy_aux<true>::__destroy<unsigned long long*>(unsigned long long*, unsigned long
+// long*)
 
 void std::_Destroy_aux<true>::__destroy_unsigned_long_long__(ulonglong *param_1,ulonglong *param_2)
 
@@ -4321,9 +4854,10 @@ void std::_Destroy_aux<true>::__destroy_unsigned_long_long__(ulonglong *param_1,
 }
 
 
-/* int const& boost::tuples::detail::get_class<0>::get<int const&, int,
-   boost::tuples::cons<UCTNode*, boost::tuples::null_type>>(boost::tuples::cons<int,
-   boost::tuples::cons<UCTNode*, boost::tuples::null_type>> const&) */
+
+// int const& boost::tuples::detail::get_class<0>::get<int const&, int,
+// boost::tuples::cons<UCTNode*, boost::tuples::null_type>>(boost::tuples::cons<int,
+// boost::tuples::cons<UCTNode*, boost::tuples::null_type>> const&)
 
 int * boost::tuples::detail::get_class<0>::
       get_int_const__int_boost__tuples__cons_UCTNode__boost__tuples__null_type__(cons *param_1)
@@ -4333,9 +4867,10 @@ int * boost::tuples::detail::get_class<0>::
 }
 
 
-/* std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>::allocator() */
+
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>::allocator()
 
 void std::
      allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>
@@ -4349,13 +4884,14 @@ void std::
 }
 
 
-/* std::_Vector_base<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>::_Vector_impl_data::_Vector_impl_data() */
+
+// std::_Vector_base<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>::_Vector_impl_data::_Vector_impl_data()
 
 void __thiscall
 std::
@@ -4370,10 +4906,10 @@ _Vector_base<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boos
 }
 
 
-/* __gnu_cxx::new_allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>::~new_allocator()
-    */
+
+// __gnu_cxx::new_allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>::~new_allocator()
 
 void __thiscall
 __gnu_cxx::
@@ -4386,18 +4922,19 @@ new_allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boo
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>::deallocate(std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>&, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*, unsigned long) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>::deallocate(std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>&, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*, unsigned long)
 
 void __gnu_cxx::
      __alloc_traits<std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>,boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>
@@ -4410,15 +4947,16 @@ void __gnu_cxx::
 }
 
 
-/* void std::_Destroy_aux<true>::__destroy<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*) */
+
+// void std::_Destroy_aux<true>::__destroy<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*)
 
 void std::_Destroy_aux<true>::
      __destroy_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___
@@ -4429,14 +4967,15 @@ void std::_Destroy_aux<true>::
 }
 
 
-/* boost::tuples::cons<int, boost::tuples::cons<UCTNode*, boost::tuples::null_type>>::cons<int
-   const, UCTNode* const, boost::tuples::null_type const, boost::tuples::null_type const,
-   boost::tuples::null_type const, boost::tuples::null_type const, boost::tuples::null_type const,
-   boost::tuples::null_type const, boost::tuples::null_type const, boost::tuples::null_type
-   const>(int const&, UCTNode* const&, boost::tuples::null_type const&, boost::tuples::null_type
-   const&, boost::tuples::null_type const&, boost::tuples::null_type const&,
-   boost::tuples::null_type const&, boost::tuples::null_type const&, boost::tuples::null_type
-   const&, boost::tuples::null_type const&) */
+
+// boost::tuples::cons<int, boost::tuples::cons<UCTNode*, boost::tuples::null_type>>::cons<int
+// const, UCTNode* const, boost::tuples::null_type const, boost::tuples::null_type const,
+// boost::tuples::null_type const, boost::tuples::null_type const, boost::tuples::null_type const,
+// boost::tuples::null_type const, boost::tuples::null_type const, boost::tuples::null_type
+// const>(int const&, UCTNode* const&, boost::tuples::null_type const&, boost::tuples::null_type
+// const&, boost::tuples::null_type const&, boost::tuples::null_type const&,
+// boost::tuples::null_type const&, boost::tuples::null_type const&, boost::tuples::null_type
+// const&, boost::tuples::null_type const&)
 
 void __thiscall
 boost::tuples::cons<int,boost::tuples::cons<UCTNode*,boost::tuples::null_type>>::
@@ -4456,13 +4995,13 @@ cons_int_const_UCTNode_const_boost__tuples__null_type_const_boost__tuples__null_
 }
 
 
-/* std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>::max_size() const
-    */
+
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>::max_size() const
 
 void __thiscall
 std::
@@ -4483,12 +5022,13 @@ vector<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tup
 }
 
 
-/* std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>::size() const */
+
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>::size() const
 
 long __thiscall
 std::
@@ -4501,16 +5041,17 @@ vector<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tup
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>::allocate(std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>&, unsigned long) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>::allocate(std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>&, unsigned long)
 
 void __gnu_cxx::
      __alloc_traits<std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>,boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>
@@ -4523,30 +5064,31 @@ void __gnu_cxx::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*
-   std::__uninitialized_copy_a<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*
+// std::__uninitialized_copy_a<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>&)
 
 tuple * std::
         __uninitialized_copy_a_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__
@@ -4561,13 +5103,14 @@ tuple * std::
 }
 
 
-/* __gnu_cxx::new_allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>::destroy(boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*) */
+
+// __gnu_cxx::new_allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>::destroy(boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*)
 
 void __gnu_cxx::
      new_allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>
@@ -4578,14 +5121,15 @@ void __gnu_cxx::
 }
 
 
-/* WARNING: Could not reconcile some variable overlaps */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::pair<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*, long>
-   std::get_temporary_buffer<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>(long) */
+
+// WARNING: Could not reconcile some variable overlaps
+// WARNING: Unknown calling convention yet parameter storage is locked
+// std::pair<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*, long>
+// std::get_temporary_buffer<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>(long)
 
 pair std::
      get_temporary_buffer_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__
@@ -4630,34 +5174,35 @@ pair std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__uninitialized_construct_buf<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*,
-   __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__uninitialized_construct_buf<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*,
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>)
 
 void std::
      __uninitialized_construct_buf_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_____gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_____
@@ -4671,12 +5216,13 @@ void std::
 }
 
 
-/* void std::__detail::__return_temporary_buffer<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*, unsigned long) */
+
+// void std::__detail::__return_temporary_buffer<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*, unsigned long)
 
 void std::__detail::
      __return_temporary_buffer_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__
@@ -4688,13 +5234,14 @@ void std::__detail::
 }
 
 
-/* boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type,
-   boost::tuples::null_type>::TEMPNAMEPLACEHOLDERVALUE(boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type> const&) */
+
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type,
+// boost::tuples::null_type>::TEMPNAMEPLACEHOLDERVALUE(boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type> const&)
 
 tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_
 * __thiscall
@@ -4711,36 +5258,37 @@ tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__insertion_sort<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>,
-   __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__insertion_sort<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>,
+// __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>)
 
 void std::
      __insertion_sort___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_______gnu_cxx____ops___Iter_comp_iter_NodeComp__
@@ -4818,16 +5366,17 @@ void std::
 }
 
 
-/* __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>::TEMPNAMEPLACEHOLDERVALUE(long) const */
+
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>::TEMPNAMEPLACEHOLDERVALUE(long) const
 
 undefined8 __thiscall
 __gnu_cxx::
@@ -4846,45 +5395,46 @@ __normal_iterator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__merge_without_buffer<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, long,
-   __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, long, long, __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__merge_without_buffer<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, long,
+// __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, long, long, __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>)
 
 void std::
      __merge_without_buffer___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_____long___gnu_cxx____ops___Iter_comp_iter_NodeComp__
@@ -4985,41 +5535,42 @@ void std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__merge_sort_with_buffer<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__merge_sort_with_buffer<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>)
 
 void std::
      __merge_sort_with_buffer___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_____boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_____gnu_cxx____ops___Iter_comp_iter_NodeComp__
@@ -5056,51 +5607,52 @@ void std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__merge_adaptive<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, long, boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*,
-   __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, long, long, boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, long, __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__merge_adaptive<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, long, boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*,
+// __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, long, long, boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, long, __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>)
 
 void std::
      __merge_adaptive___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_____long_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_____gnu_cxx____ops___Iter_comp_iter_NodeComp__
@@ -5190,43 +5742,44 @@ void std::
 }
 
 
-/* void std::__iter_swap<true>::iter_swap<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>) */
+
+// void std::__iter_swap<true>::iter_swap<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>)
 
 void std::__iter_swap<true>::
      iter_swap___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_______gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_____
@@ -5256,9 +5809,10 @@ void std::__iter_swap<true>::
 }
 
 
-/* UCTNode*& boost::tuples::detail::get_class<1>::get<UCTNode*&, int, boost::tuples::cons<UCTNode*,
-   boost::tuples::null_type>>(boost::tuples::cons<int, boost::tuples::cons<UCTNode*,
-   boost::tuples::null_type>>&) */
+
+// UCTNode*& boost::tuples::detail::get_class<1>::get<UCTNode*&, int, boost::tuples::cons<UCTNode*,
+// boost::tuples::null_type>>(boost::tuples::cons<int, boost::tuples::cons<UCTNode*,
+// boost::tuples::null_type>>&)
 
 UCTNode **
 boost::tuples::detail::get_class<1>::
@@ -5272,7 +5826,8 @@ get_UCTNode___int_boost__tuples__cons_UCTNode__boost__tuples__null_type__(cons *
 }
 
 
-/* __gnu_cxx::new_allocator<int>::new_allocator() */
+
+// __gnu_cxx::new_allocator<int>::new_allocator()
 
 void __gnu_cxx::new_allocator<int>::new_allocator(void)
 
@@ -5281,7 +5836,8 @@ void __gnu_cxx::new_allocator<int>::new_allocator(void)
 }
 
 
-/* __gnu_cxx::new_allocator<int>::deallocate(int*, unsigned long) */
+
+// __gnu_cxx::new_allocator<int>::deallocate(int*, unsigned long)
 
 void __gnu_cxx::new_allocator<int>::deallocate(int *param_1,ulong param_2)
 
@@ -5291,7 +5847,8 @@ void __gnu_cxx::new_allocator<int>::deallocate(int *param_1,ulong param_2)
 }
 
 
-/* std::vector<int, std::allocator<int>>::_S_max_size(std::allocator<int> const&) */
+
+// std::vector<int, std::allocator<int>>::_S_max_size(std::allocator<int> const&)
 
 ulong std::vector<int,std::allocator<int>>::_S_max_size(allocator *param_1)
 
@@ -5307,7 +5864,8 @@ ulong std::vector<int,std::allocator<int>>::_S_max_size(allocator *param_1)
 }
 
 
-/* __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) */
+
+// __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*)
 
 void __gnu_cxx::new_allocator<int>::allocate(ulong param_1,void *param_2)
 
@@ -5326,8 +5884,9 @@ void __gnu_cxx::new_allocator<int>::allocate(ulong param_1,void *param_2)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::uninitialized_copy<int*, int*>(int*, int*, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::uninitialized_copy<int*, int*>(int*, int*, int*)
 
 int * std::uninitialized_copy_int__int__(int *param_1,int *param_2,int *param_3)
 
@@ -5339,7 +5898,8 @@ int * std::uninitialized_copy_int__int__(int *param_1,int *param_2,int *param_3)
 }
 
 
-/* __gnu_cxx::new_allocator<int>::new_allocator(__gnu_cxx::new_allocator<int> const&) */
+
+// __gnu_cxx::new_allocator<int>::new_allocator(__gnu_cxx::new_allocator<int> const&)
 
 void __gnu_cxx::new_allocator<int>::new_allocator(new_allocator *param_1)
 
@@ -5348,10 +5908,11 @@ void __gnu_cxx::new_allocator<int>::new_allocator(new_allocator *param_1)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>,
-   int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>,
-   __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>,
+// int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>,
+// __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>, int*)
 
 int * std::copy___gnu_cxx____normal_iterator_int_const__std__vector_int_std__allocator_int____int__
                 (__normal_iterator param_1,__normal_iterator param_2,int *param_3)
@@ -5371,8 +5932,9 @@ int * std::copy___gnu_cxx____normal_iterator_int_const__std__vector_int_std__all
 }
 
 
-/* __gnu_cxx::new_allocator<unsigned long long>::new_allocator(__gnu_cxx::new_allocator<unsigned
-   long long> const&) */
+
+// __gnu_cxx::new_allocator<unsigned long long>::new_allocator(__gnu_cxx::new_allocator<unsigned
+// long long> const&)
 
 void __gnu_cxx::new_allocator<unsigned_long_long>::new_allocator(new_allocator *param_1)
 
@@ -5381,8 +5943,9 @@ void __gnu_cxx::new_allocator<unsigned_long_long>::new_allocator(new_allocator *
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<unsigned long long>, unsigned long
-   long>::allocate(std::allocator<unsigned long long>&, unsigned long) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<unsigned long long>, unsigned long
+// long>::allocate(std::allocator<unsigned long long>&, unsigned long)
 
 void __gnu_cxx::__alloc_traits<std::allocator<unsigned_long_long>,unsigned_long_long>::allocate
                (allocator *param_1,ulong param_2)
@@ -5393,7 +5956,8 @@ void __gnu_cxx::__alloc_traits<std::allocator<unsigned_long_long>,unsigned_long_
 }
 
 
-/* __gnu_cxx::new_allocator<unsigned long long>::deallocate(unsigned long long*, unsigned long) */
+
+// __gnu_cxx::new_allocator<unsigned long long>::deallocate(unsigned long long*, unsigned long)
 
 void __gnu_cxx::new_allocator<unsigned_long_long>::deallocate(ulonglong *param_1,ulong param_2)
 
@@ -5403,12 +5967,13 @@ void __gnu_cxx::new_allocator<unsigned_long_long>::deallocate(ulonglong *param_1
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long long* std::copy<__gnu_cxx::__normal_iterator<unsigned long long const*,
-   std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long
-   long*>(__gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>, __gnu_cxx::__normal_iterator<unsigned long long const*,
-   std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long long*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long long* std::copy<__gnu_cxx::__normal_iterator<unsigned long long const*,
+// std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long
+// long*>(__gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>>, __gnu_cxx::__normal_iterator<unsigned long long const*,
+// std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long long*)
 
 ulonglong *
 std::
@@ -5430,10 +5995,10 @@ copy___gnu_cxx____normal_iterator_unsigned_long_long_const__std__vector_unsigned
 }
 
 
-/* __gnu_cxx::new_allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>::new_allocator()
-    */
+
+// __gnu_cxx::new_allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>::new_allocator()
 
 void __gnu_cxx::
      new_allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>
@@ -5444,13 +6009,14 @@ void __gnu_cxx::
 }
 
 
-/* __gnu_cxx::new_allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>::deallocate(boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, unsigned long) */
+
+// __gnu_cxx::new_allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>::deallocate(boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, unsigned long)
 
 void __gnu_cxx::
      new_allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>
@@ -5462,11 +6028,12 @@ void __gnu_cxx::
 }
 
 
-/* boost::tuples::cons<UCTNode*, boost::tuples::null_type>::cons<UCTNode* const>(UCTNode* const&,
-   boost::tuples::null_type const&, boost::tuples::null_type const&, boost::tuples::null_type
-   const&, boost::tuples::null_type const&, boost::tuples::null_type const&,
-   boost::tuples::null_type const&, boost::tuples::null_type const&, boost::tuples::null_type
-   const&, boost::tuples::null_type const&) */
+
+// boost::tuples::cons<UCTNode*, boost::tuples::null_type>::cons<UCTNode* const>(UCTNode* const&,
+// boost::tuples::null_type const&, boost::tuples::null_type const&, boost::tuples::null_type
+// const&, boost::tuples::null_type const&, boost::tuples::null_type const&,
+// boost::tuples::null_type const&, boost::tuples::null_type const&, boost::tuples::null_type
+// const&, boost::tuples::null_type const&)
 
 void boost::tuples::cons<UCTNode*,boost::tuples::null_type>::cons_UCTNode_const_
                (UCTNode **param_1,null_type *param_2,null_type *param_3,null_type *param_4,
@@ -5479,16 +6046,17 @@ void boost::tuples::cons<UCTNode*,boost::tuples::null_type>::cons_UCTNode_const_
 }
 
 
-/* std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>::_S_max_size(std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>> const&) */
+
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>::_S_max_size(std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>> const&)
 
 ulong std::
       vector<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>,std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>>
@@ -5508,13 +6076,14 @@ ulong std::
 }
 
 
-/* std::_Vector_base<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>::_M_get_Tp_allocator() const */
+
+// std::_Vector_base<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>::_M_get_Tp_allocator() const
 
 _Vector_base_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___
 * __thiscall
@@ -5529,10 +6098,11 @@ _Vector_base<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boos
 }
 
 
-/* __gnu_cxx::new_allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>::allocate(unsigned
-   long, void const*) */
+
+// __gnu_cxx::new_allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>::allocate(unsigned
+// long, void const*)
 
 void __gnu_cxx::
      new_allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>
@@ -5553,24 +6123,25 @@ void __gnu_cxx::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*
-   std::uninitialized_copy<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*>(boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*
+// std::uninitialized_copy<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*>(boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*)
 
 tuple * std::
         uninitialized_copy_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___
@@ -5586,13 +6157,14 @@ tuple * std::
 }
 
 
-/* std::pair<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   long>::pair(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>* const&, long
-   const&) */
+
+// std::pair<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// long>::pair(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>* const&, long
+// const&)
 
 void __thiscall
 std::
@@ -5607,33 +6179,34 @@ pair<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuple
 }
 
 
-/* void std::__uninitialized_construct_buf_dispatch<false>::__ucr<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*,
-   __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>) */
+
+// void std::__uninitialized_construct_buf_dispatch<false>::__ucr<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*,
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>)
 
 void std::__uninitialized_construct_buf_dispatch<false>::
      __ucr_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_____gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_____
@@ -5685,26 +6258,27 @@ void std::__uninitialized_construct_buf_dispatch<false>::
 }
 
 
-/* bool 
-   __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>) */
+
+// bool 
+// __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>)
 
 bool __thiscall
 __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>::operator__
@@ -5735,16 +6309,17 @@ __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>::operator__
 }
 
 
-/* __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>::TEMPNAMEPLACEHOLDERVALUE() const */
+
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>::TEMPNAMEPLACEHOLDERVALUE() const
 
 undefined8 __thiscall
 __gnu_cxx::
@@ -5757,62 +6332,63 @@ __normal_iterator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
-   std::copy_backward<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
+// std::copy_backward<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>)
 
 __normal_iterator
 std::
@@ -5833,9 +6409,10 @@ copy_backward___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode_
 }
 
 
-/* boost::tuples::cons<int, boost::tuples::cons<int, boost::tuples::cons<UCTNode*,
-   boost::tuples::null_type>>>::TEMPNAMEPLACEHOLDERVALUE(boost::tuples::cons<int,
-   boost::tuples::cons<int, boost::tuples::cons<UCTNode*, boost::tuples::null_type>>> const&) */
+
+// boost::tuples::cons<int, boost::tuples::cons<int, boost::tuples::cons<UCTNode*,
+// boost::tuples::null_type>>>::TEMPNAMEPLACEHOLDERVALUE(boost::tuples::cons<int,
+// boost::tuples::cons<int, boost::tuples::cons<UCTNode*, boost::tuples::null_type>>> const&)
 
 cons_int_boost__tuples__cons_int_boost__tuples__cons_UCTNode__boost__tuples__null_type___ *
 __thiscall
@@ -5853,8 +6430,9 @@ cons<int,boost::tuples::cons<int,boost::tuples::cons<UCTNode*,boost::tuples::nul
 }
 
 
-/* __gnu_cxx::__ops::_Val_comp_iter<NodeComp>
-   __gnu_cxx::__ops::__val_comp_iter<NodeComp>(__gnu_cxx::__ops::_Iter_comp_iter<NodeComp>) */
+
+// __gnu_cxx::__ops::_Val_comp_iter<NodeComp>
+// __gnu_cxx::__ops::__val_comp_iter<NodeComp>(__gnu_cxx::__ops::_Iter_comp_iter<NodeComp>)
 
 _Val_comp_iter __gnu_cxx::__ops::__val_comp_iter_NodeComp_(_Iter_comp_iter param_1)
 
@@ -5868,27 +6446,28 @@ _Val_comp_iter __gnu_cxx::__ops::__val_comp_iter_NodeComp_(_Iter_comp_iter param
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>,
-   __gnu_cxx::__ops::_Val_comp_iter<NodeComp>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__ops::_Val_comp_iter<NodeComp>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>,
+// __gnu_cxx::__ops::_Val_comp_iter<NodeComp>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__ops::_Val_comp_iter<NodeComp>)
 
 void std::
      __unguarded_linear_insert___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_______gnu_cxx____ops___Val_comp_iter_NodeComp__
@@ -5957,26 +6536,27 @@ void std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::advance<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, long>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>&, long) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::advance<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, long>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>&, long)
 
 void std::
      advance___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_____long_
@@ -5991,8 +6571,9 @@ void std::
 }
 
 
-/* __gnu_cxx::__ops::_Iter_comp_val<NodeComp>
-   __gnu_cxx::__ops::__iter_comp_val<NodeComp>(__gnu_cxx::__ops::_Iter_comp_iter<NodeComp>) */
+
+// __gnu_cxx::__ops::_Iter_comp_val<NodeComp>
+// __gnu_cxx::__ops::__iter_comp_val<NodeComp>(__gnu_cxx::__ops::_Iter_comp_iter<NodeComp>)
 
 _Iter_comp_val __gnu_cxx::__ops::__iter_comp_val_NodeComp_(_Iter_comp_iter param_1)
 
@@ -6006,50 +6587,51 @@ _Iter_comp_val __gnu_cxx::__ops::__iter_comp_val_NodeComp_(_Iter_comp_iter param
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
-   std::__lower_bound<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   __gnu_cxx::__ops::_Iter_comp_val<NodeComp>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type> const&,
-   __gnu_cxx::__ops::_Iter_comp_val<NodeComp>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
+// std::__lower_bound<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// __gnu_cxx::__ops::_Iter_comp_val<NodeComp>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type> const&,
+// __gnu_cxx::__ops::_Iter_comp_val<NodeComp>)
 
 __normal_iterator
 std::
@@ -6094,45 +6676,46 @@ __lower_bound___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode_
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::iterator_traits<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>>::difference_type
-   std::distance<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// std::iterator_traits<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>>::difference_type
+// std::distance<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>)
 
 difference_type
 std::
@@ -6155,50 +6738,51 @@ distance___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boos
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
-   std::__upper_bound<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   __gnu_cxx::__ops::_Val_comp_iter<NodeComp>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type> const&,
-   __gnu_cxx::__ops::_Val_comp_iter<NodeComp>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
+// std::__upper_bound<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// __gnu_cxx::__ops::_Val_comp_iter<NodeComp>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type> const&,
+// __gnu_cxx::__ops::_Val_comp_iter<NodeComp>)
 
 __normal_iterator
 std::
@@ -6250,52 +6834,53 @@ __upper_bound___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode_
 }
 
 
-/* __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
-   std::_V2::rotate<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>) */
+
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
+// std::_V2::rotate<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>)
 
 __normal_iterator
 std::_V2::
@@ -6318,36 +6903,37 @@ rotate___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost_
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__chunk_insertion_sort<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, long,
-   __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, long, __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__chunk_insertion_sort<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, long,
+// __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, long, __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>)
 
 void std::
      __chunk_insertion_sort___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_____long___gnu_cxx____ops___Iter_comp_iter_NodeComp__
@@ -6386,41 +6972,42 @@ void std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__merge_sort_loop<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*, long,
-   __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*, long,
-   __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__merge_sort_loop<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*, long,
+// __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*, long,
+// __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>)
 
 void std::
      __merge_sort_loop___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_____boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___long___gnu_cxx____ops___Iter_comp_iter_NodeComp__
@@ -6494,35 +7081,36 @@ void std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__merge_sort_loop<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>, long,
-   __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>>(boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>, long,
-   __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__merge_sort_loop<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>, long,
+// __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>>(boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>, long,
+// __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>)
 
 void std::
      __merge_sort_loop_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_____gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_____long___gnu_cxx____ops___Iter_comp_iter_NodeComp__
@@ -6562,43 +7150,44 @@ void std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*
-   std::copy<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*
+// std::copy<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*)
 
 tuple * std::
         copy___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_____boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___
@@ -6619,63 +7208,64 @@ tuple * std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__move_merge_adaptive<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>,
-   __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>>(boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>,
-   __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>,
-   __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>,
-   __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__move_merge_adaptive<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>,
+// __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>>(boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>,
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>,
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>,
+// __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>)
 
 void std::
      __move_merge_adaptive_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_____gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_______gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_______gnu_cxx____ops___Iter_comp_iter_NodeComp__
@@ -6757,62 +7347,63 @@ LAB_001055ba:
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__move_merge_adaptive_backward<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>,
-   __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*,
-   __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>,
-   __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__move_merge_adaptive_backward<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>,
+// __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*,
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>,
+// __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>)
 
 void std::
      __move_merge_adaptive_backward___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_____boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_____gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_______gnu_cxx____ops___Iter_comp_iter_NodeComp__
@@ -6907,59 +7498,60 @@ void std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
-   std::__rotate_adaptive<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   long>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, long, long, boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, long) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
+// std::__rotate_adaptive<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// long>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, long, long, boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, long)
 
 __normal_iterator
 std::
@@ -7002,16 +7594,17 @@ __rotate_adaptive___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTN
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::swap<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>&,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::swap<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>&,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>&)
 
 void std::
      swap_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__
@@ -7037,8 +7630,9 @@ void std::
 }
 
 
-/* UCTNode*& boost::tuples::detail::get_class<0>::get<UCTNode*&, UCTNode*,
-   boost::tuples::null_type>(boost::tuples::cons<UCTNode*, boost::tuples::null_type>&) */
+
+// UCTNode*& boost::tuples::detail::get_class<0>::get<UCTNode*&, UCTNode*,
+// boost::tuples::null_type>(boost::tuples::cons<UCTNode*, boost::tuples::null_type>&)
 
 UCTNode **
 boost::tuples::detail::get_class<0>::get_UCTNode___UCTNode__boost__tuples__null_type_(cons *param_1)
@@ -7048,7 +7642,8 @@ boost::tuples::detail::get_class<0>::get_UCTNode___UCTNode__boost__tuples__null_
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<int>, int>::max_size(std::allocator<int> const&) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<int>, int>::max_size(std::allocator<int> const&)
 
 void __gnu_cxx::__alloc_traits<std::allocator<int>,int>::max_size(allocator *param_1)
 
@@ -7058,8 +7653,9 @@ void __gnu_cxx::__alloc_traits<std::allocator<int>,int>::max_size(allocator *par
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&)
 
 ulong * std::min_unsigned_long_(ulong *param_1,ulong *param_2)
 
@@ -7071,7 +7667,8 @@ ulong * std::min_unsigned_long_(ulong *param_1,ulong *param_2)
 }
 
 
-/* __gnu_cxx::new_allocator<int>::_M_max_size() const */
+
+// __gnu_cxx::new_allocator<int>::_M_max_size() const
 
 undefined8 __gnu_cxx::new_allocator<int>::_M_max_size(void)
 
@@ -7080,7 +7677,8 @@ undefined8 __gnu_cxx::new_allocator<int>::_M_max_size(void)
 }
 
 
-/* int* std::__uninitialized_copy<true>::__uninit_copy<int*, int*>(int*, int*, int*) */
+
+// int* std::__uninitialized_copy<true>::__uninit_copy<int*, int*>(int*, int*, int*)
 
 int * std::__uninitialized_copy<true>::__uninit_copy_int__int__
                 (int *param_1,int *param_2,int *param_3)
@@ -7093,11 +7691,12 @@ int * std::__uninitialized_copy<true>::__uninit_copy_int__int__
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>
-   std::__miter_base<__gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int>>>
+// std::__miter_base<__gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>)
 
 __normal_iterator
 std::__miter_base___gnu_cxx____normal_iterator_int_const__std__vector_int_std__allocator_int____
@@ -7108,11 +7707,12 @@ std::__miter_base___gnu_cxx____normal_iterator_int_const__std__vector_int_std__a
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__copy_move_a<false, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__copy_move_a<false, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, __gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>, int*)
 
 int * std::
       __copy_move_a_false___gnu_cxx____normal_iterator_int_const__std__vector_int_std__allocator_int____int__
@@ -7140,7 +7740,8 @@ int * std::
 }
 
 
-/* __gnu_cxx::new_allocator<unsigned long long>::allocate(unsigned long, void const*) */
+
+// __gnu_cxx::new_allocator<unsigned long long>::allocate(unsigned long, void const*)
 
 void __gnu_cxx::new_allocator<unsigned_long_long>::allocate(ulong param_1,void *param_2)
 
@@ -7159,12 +7760,13 @@ void __gnu_cxx::new_allocator<unsigned_long_long>::allocate(ulong param_1,void *
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>> std::__miter_base<__gnu_cxx::__normal_iterator<unsigned long
-   long const*, std::vector<unsigned long long, std::allocator<unsigned long
-   long>>>>(__gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>> std::__miter_base<__gnu_cxx::__normal_iterator<unsigned long
+// long const*, std::vector<unsigned long long, std::allocator<unsigned long
+// long>>>>(__gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>>)
 
 __normal_iterator
 std::
@@ -7176,12 +7778,13 @@ __miter_base___gnu_cxx____normal_iterator_unsigned_long_long_const__std__vector_
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long long* std::__copy_move_a<false, __gnu_cxx::__normal_iterator<unsigned long long
-   const*, std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long
-   long*>(__gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>, __gnu_cxx::__normal_iterator<unsigned long long const*,
-   std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long long*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long long* std::__copy_move_a<false, __gnu_cxx::__normal_iterator<unsigned long long
+// const*, std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long
+// long*>(__gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>>, __gnu_cxx::__normal_iterator<unsigned long long const*,
+// std::vector<unsigned long long, std::allocator<unsigned long long>>>, unsigned long long*)
 
 ulonglong *
 std::
@@ -7213,16 +7816,17 @@ __copy_move_a_false___gnu_cxx____normal_iterator_unsigned_long_long_const__std__
 }
 
 
-/* __gnu_cxx::__alloc_traits<std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>::max_size(std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>> const&) */
+
+// __gnu_cxx::__alloc_traits<std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>::max_size(std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>> const&)
 
 void __gnu_cxx::
      __alloc_traits<std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>,boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>
@@ -7235,10 +7839,11 @@ void __gnu_cxx::
 }
 
 
-/* __gnu_cxx::new_allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>::_M_max_size()
-   const */
+
+// __gnu_cxx::new_allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>::_M_max_size()
+// const
 
 undefined8
 __gnu_cxx::
@@ -7250,24 +7855,25 @@ new_allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boo
 }
 
 
-/* boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*
-   std::__uninitialized_copy<false>::__uninit_copy<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*) */
+
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*
+// std::__uninitialized_copy<false>::__uninit_copy<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*)
 
 tuple * std::__uninitialized_copy<false>::
         __uninit_copy_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___
@@ -7290,15 +7896,16 @@ tuple * std::__uninitialized_copy<false>::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>* std::__addressof<boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>* std::__addressof<boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>&)
 
 tuple * std::
         __addressof_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__
@@ -7309,18 +7916,19 @@ tuple * std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::_Construct<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>>(boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type> const&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::_Construct<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>>(boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type> const&)
 
 void std::
      _Construct_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__
@@ -7339,35 +7947,36 @@ void std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
-   std::__miter_base<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
+// std::__miter_base<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>)
 
 __normal_iterator
 std::
@@ -7379,62 +7988,63 @@ __miter_base___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
-   std::__copy_move_backward_a<false, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
+// std::__copy_move_backward_a<false, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>)
 
 __normal_iterator
 std::
@@ -7461,9 +8071,10 @@ __copy_move_backward_a_false___gnu_cxx____normal_iterator_boost__tuples__tuple_i
 }
 
 
-/* boost::tuples::cons<int, boost::tuples::cons<UCTNode*,
-   boost::tuples::null_type>>::TEMPNAMEPLACEHOLDERVALUE(boost::tuples::cons<int,
-   boost::tuples::cons<UCTNode*, boost::tuples::null_type>> const&) */
+
+// boost::tuples::cons<int, boost::tuples::cons<UCTNode*,
+// boost::tuples::null_type>>::TEMPNAMEPLACEHOLDERVALUE(boost::tuples::cons<int,
+// boost::tuples::cons<UCTNode*, boost::tuples::null_type>> const&)
 
 cons_int_boost__tuples__cons_UCTNode__boost__tuples__null_type__ * __thiscall
 boost::tuples::cons<int,boost::tuples::cons<UCTNode*,boost::tuples::null_type>>::operator_
@@ -7477,8 +8088,9 @@ boost::tuples::cons<int,boost::tuples::cons<UCTNode*,boost::tuples::null_type>>:
 }
 
 
-/* __gnu_cxx::__ops::_Val_comp_iter<NodeComp>::_Val_comp_iter(__gnu_cxx::__ops::_Iter_comp_iter<NodeComp>
-   const&) */
+
+// __gnu_cxx::__ops::_Val_comp_iter<NodeComp>::_Val_comp_iter(__gnu_cxx::__ops::_Iter_comp_iter<NodeComp>
+// const&)
 
 void __thiscall
 __gnu_cxx::__ops::_Val_comp_iter<NodeComp>::_Val_comp_iter
@@ -7490,20 +8102,21 @@ __gnu_cxx::__ops::_Val_comp_iter<NodeComp>::_Val_comp_iter
 }
 
 
-/* bool 
-   __gnu_cxx::__ops::_Val_comp_iter<NodeComp>::TEMPNAMEPLACEHOLDERVALUE(boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>&, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>) */
+
+// bool 
+// __gnu_cxx::__ops::_Val_comp_iter<NodeComp>::TEMPNAMEPLACEHOLDERVALUE(boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>&, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>)
 
 bool __thiscall
 __gnu_cxx::__ops::_Val_comp_iter<NodeComp>::operator__
@@ -7529,26 +8142,27 @@ __gnu_cxx::__ops::_Val_comp_iter<NodeComp>::operator__
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::__advance<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, long>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>&, long, std::random_access_iterator_tag) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::__advance<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, long>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>&, long, std::random_access_iterator_tag)
 
 void std::
      __advance___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_____long_
@@ -7563,8 +8177,9 @@ void std::
 }
 
 
-/* __gnu_cxx::__ops::_Iter_comp_val<NodeComp>::_Iter_comp_val(__gnu_cxx::__ops::_Iter_comp_iter<NodeComp>
-   const&) */
+
+// __gnu_cxx::__ops::_Iter_comp_val<NodeComp>::_Iter_comp_val(__gnu_cxx::__ops::_Iter_comp_iter<NodeComp>
+// const&)
 
 void __thiscall
 __gnu_cxx::__ops::_Iter_comp_val<NodeComp>::_Iter_comp_val
@@ -7576,19 +8191,20 @@ __gnu_cxx::__ops::_Iter_comp_val<NodeComp>::_Iter_comp_val
 }
 
 
-/* bool 
-   __gnu_cxx::__ops::_Iter_comp_val<NodeComp>::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type> const&) */
+
+// bool 
+// __gnu_cxx::__ops::_Iter_comp_val<NodeComp>::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type> const&)
 
 bool __gnu_cxx::__ops::_Iter_comp_val<NodeComp>::operator__
                (__normal_iterator param_1,tuple *param_2)
@@ -7611,45 +8227,46 @@ bool __gnu_cxx::__ops::_Iter_comp_val<NodeComp>::operator__
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::iterator_traits<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>>::difference_type
-   std::__distance<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, std::random_access_iterator_tag) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// std::iterator_traits<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>>::difference_type
+// std::__distance<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, std::random_access_iterator_tag)
 
 difference_type
 std::
@@ -7670,20 +8287,21 @@ __distance___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__bo
 }
 
 
-/* bool 
-   __gnu_cxx::__ops::_Val_comp_iter<NodeComp>::TEMPNAMEPLACEHOLDERVALUE(boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type> const&, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>) */
+
+// bool 
+// __gnu_cxx::__ops::_Val_comp_iter<NodeComp>::TEMPNAMEPLACEHOLDERVALUE(boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type> const&, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>)
 
 bool __thiscall
 __gnu_cxx::__ops::_Val_comp_iter<NodeComp>::operator__
@@ -7709,52 +8327,53 @@ __gnu_cxx::__ops::_Val_comp_iter<NodeComp>::operator__
 }
 
 
-/* __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
-   std::_V2::__rotate<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, std::random_access_iterator_tag) */
+
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
+// std::_V2::__rotate<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, std::random_access_iterator_tag)
 
 __normal_iterator
 std::_V2::
@@ -7870,16 +8489,17 @@ __rotate___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boos
 }
 
 
-/* __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>::TEMPNAMEPLACEHOLDERVALUE(long) */
+
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>::TEMPNAMEPLACEHOLDERVALUE(long)
 
 __normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type____
 * __thiscall
@@ -7894,62 +8514,63 @@ __normal_iterator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*
-   std::__move_merge<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*
+// std::__move_merge<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>)
 
 tuple * std::
         __move_merge___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_____boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_____gnu_cxx____ops___Iter_comp_iter_NodeComp__
@@ -8029,8 +8650,9 @@ LAB_00106132:
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* long const& std::min<long>(long const&, long const&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// long const& std::min<long>(long const&, long const&)
 
 long * std::min_long_(long *param_1,long *param_2)
 
@@ -8042,49 +8664,50 @@ long * std::min_long_(long *param_1,long *param_2)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
-   std::__move_merge<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>,
-   __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>>(boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
+// std::__move_merge<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>,
+// __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>>(boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>)
 
 __normal_iterator
 std::
@@ -8148,43 +8771,44 @@ __move_merge_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boos
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>* std::__copy_move_a<false,
-   __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type,
-   boost::tuples::null_type>*>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>* std::__copy_move_a<false,
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type,
+// boost::tuples::null_type>*>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*)
 
 tuple * std::
         __copy_move_a_false___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_____boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___
@@ -8217,19 +8841,20 @@ tuple * std::
 }
 
 
-/* bool 
-   __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*) */
+
+// bool 
+// __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>::TEMPNAMEPLACEHOLDERVALUE(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*)
 
 bool __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>::operator__
                (__normal_iterator param_1,tuple *param_2)
@@ -8252,43 +8877,44 @@ bool __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>::operator__
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
-   std::copy<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*,
-   __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
+// std::copy<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*,
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>)
 
 __normal_iterator
 std::
@@ -8310,43 +8936,44 @@ copy_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuple
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
-   std::copy_backward<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*,
-   __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
+// std::copy_backward<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*,
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>)
 
 __normal_iterator
 std::
@@ -8368,20 +8995,21 @@ copy_backward_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boo
 }
 
 
-/* bool 
-   __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>::TEMPNAMEPLACEHOLDERVALUE(boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>) */
+
+// bool 
+// __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>::TEMPNAMEPLACEHOLDERVALUE(boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>)
 
 bool __thiscall
 __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>::operator__
@@ -8407,62 +9035,63 @@ __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>::operator__
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
-   std::copy<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
+// std::copy<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>)
 
 __normal_iterator
 std::
@@ -8483,7 +9112,8 @@ copy___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__t
 }
 
 
-/* __gnu_cxx::new_allocator<int>::max_size() const */
+
+// __gnu_cxx::new_allocator<int>::max_size() const
 
 void __gnu_cxx::new_allocator<int>::max_size(void)
 
@@ -8493,8 +9123,9 @@ void __gnu_cxx::new_allocator<int>::max_size(void)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::copy<int*, int*>(int*, int*, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::copy<int*, int*>(int*, int*, int*)
 
 int * std::copy_int__int__(int *param_1,int *param_2,int *param_3)
 
@@ -8509,10 +9140,11 @@ int * std::copy_int__int__(int *param_1,int *param_2,int *param_3)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int const* std::__niter_base<int const*, std::vector<int,
-   std::allocator<int>>>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int const* std::__niter_base<int const*, std::vector<int,
+// std::allocator<int>>>(__gnu_cxx::__normal_iterator<int const*, std::vector<int,
+// std::allocator<int>>>)
 
 int * std::__niter_base_int_const__std__vector_int_std__allocator_int___(__normal_iterator param_1)
 
@@ -8529,8 +9161,9 @@ int * std::__niter_base_int_const__std__vector_int_std__allocator_int___(__norma
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__niter_base<int*>(int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__niter_base<int*>(int*)
 
 int * std::__niter_base_int__(int *param_1)
 
@@ -8539,8 +9172,9 @@ int * std::__niter_base_int__(int *param_1)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__copy_move_a1<false, int const*, int*>(int const*, int const*, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__copy_move_a1<false, int const*, int*>(int const*, int const*, int*)
 
 int * std::__copy_move_a1_false_int_const__int__(int *param_1,int *param_2,int *param_3)
 
@@ -8552,8 +9186,9 @@ int * std::__copy_move_a1_false_int_const__int__(int *param_1,int *param_2,int *
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__niter_wrap<int*>(int* const&, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__niter_wrap<int*>(int* const&, int*)
 
 int * std::__niter_wrap_int__(int **param_1,int *param_2)
 
@@ -8562,7 +9197,8 @@ int * std::__niter_wrap_int__(int **param_1,int *param_2)
 }
 
 
-/* __gnu_cxx::new_allocator<unsigned long long>::_M_max_size() const */
+
+// __gnu_cxx::new_allocator<unsigned long long>::_M_max_size() const
 
 undefined8 __gnu_cxx::new_allocator<unsigned_long_long>::_M_max_size(void)
 
@@ -8571,10 +9207,11 @@ undefined8 __gnu_cxx::new_allocator<unsigned_long_long>::_M_max_size(void)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long long const* std::__niter_base<unsigned long long const*, std::vector<unsigned long
-   long, std::allocator<unsigned long long>>>(__gnu_cxx::__normal_iterator<unsigned long long
-   const*, std::vector<unsigned long long, std::allocator<unsigned long long>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long long const* std::__niter_base<unsigned long long const*, std::vector<unsigned long
+// long, std::allocator<unsigned long long>>>(__gnu_cxx::__normal_iterator<unsigned long long
+// const*, std::vector<unsigned long long, std::allocator<unsigned long long>>>)
 
 ulonglong *
 std::
@@ -8596,8 +9233,9 @@ __niter_base_unsigned_long_long_const__std__vector_unsigned_long_long_std__alloc
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long long* std::__niter_base<unsigned long long*>(unsigned long long*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long long* std::__niter_base<unsigned long long*>(unsigned long long*)
 
 ulonglong * std::__niter_base_unsigned_long_long__(ulonglong *param_1)
 
@@ -8606,9 +9244,10 @@ ulonglong * std::__niter_base_unsigned_long_long__(ulonglong *param_1)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long long* std::__copy_move_a1<false, unsigned long long const*, unsigned long
-   long*>(unsigned long long const*, unsigned long long const*, unsigned long long*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long long* std::__copy_move_a1<false, unsigned long long const*, unsigned long
+// long*>(unsigned long long const*, unsigned long long const*, unsigned long long*)
 
 ulonglong *
 std::__copy_move_a1_false_unsigned_long_long_const__unsigned_long_long__
@@ -8623,9 +9262,10 @@ std::__copy_move_a1_false_unsigned_long_long_const__unsigned_long_long__
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long long* std::__niter_wrap<unsigned long long*>(unsigned long long* const&, unsigned
-   long long*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long long* std::__niter_wrap<unsigned long long*>(unsigned long long* const&, unsigned
+// long long*)
 
 ulonglong * std::__niter_wrap_unsigned_long_long__(ulonglong **param_1,ulonglong *param_2)
 
@@ -8634,10 +9274,10 @@ ulonglong * std::__niter_wrap_unsigned_long_long__(ulonglong **param_1,ulonglong
 }
 
 
-/* __gnu_cxx::new_allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>::max_size() const
-    */
+
+// __gnu_cxx::new_allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>::max_size() const
 
 void __gnu_cxx::
      new_allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>
@@ -8649,28 +9289,29 @@ void __gnu_cxx::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>* std::__niter_base<boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>* std::__niter_base<boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>)
 
 tuple * std::
         __niter_base_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type____
@@ -8691,24 +9332,25 @@ tuple * std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>* std::__copy_move_backward_a1<false,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>* std::__copy_move_backward_a1<false,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*)
 
 tuple * std::
         __copy_move_backward_a1_false_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___
@@ -8723,40 +9365,41 @@ tuple * std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
-   std::__niter_wrap<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
+// std::__niter_wrap<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*)
 
 __normal_iterator
 std::
@@ -8781,9 +9424,10 @@ __niter_wrap___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__
 }
 
 
-/* boost::tuples::cons<UCTNode*,
-   boost::tuples::null_type>::TEMPNAMEPLACEHOLDERVALUE(boost::tuples::cons<UCTNode*,
-   boost::tuples::null_type> const&) */
+
+// boost::tuples::cons<UCTNode*,
+// boost::tuples::null_type>::TEMPNAMEPLACEHOLDERVALUE(boost::tuples::cons<UCTNode*,
+// boost::tuples::null_type> const&)
 
 cons_UCTNode__boost__tuples__null_type_ * __thiscall
 boost::tuples::cons<UCTNode*,boost::tuples::null_type>::operator_
@@ -8795,62 +9439,63 @@ boost::tuples::cons<UCTNode*,boost::tuples::null_type>::operator_
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
-   std::swap_ranges<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
+// std::swap_ranges<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>)
 
 __normal_iterator
 std::
@@ -8887,16 +9532,17 @@ swap_ranges___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__b
 }
 
 
-/* __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>::TEMPNAMEPLACEHOLDERVALUE(long) const */
+
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>::TEMPNAMEPLACEHOLDERVALUE(long) const
 
 undefined8 __thiscall
 __gnu_cxx::
@@ -8915,8 +9561,9 @@ __normal_iterator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* void std::swap<long>(long&, long&) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// void std::swap<long>(long&, long&)
 
 void std::swap_long_(long *param_1,long *param_2)
 
@@ -8930,13 +9577,14 @@ void std::swap_long_(long *param_1,long *param_2)
 }
 
 
-/* bool 
-   __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>::TEMPNAMEPLACEHOLDERVALUE(boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*) */
+
+// bool 
+// __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>::TEMPNAMEPLACEHOLDERVALUE(boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*)
 
 bool __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>::operator__(tuple *param_1,tuple *param_2)
 
@@ -8948,15 +9596,16 @@ bool __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>::operator__(tuple *param_1,tupl
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>* std::__niter_base<boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>* std::__niter_base<boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*)
 
 tuple * std::
         __niter_base_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___
@@ -8967,24 +9616,25 @@ tuple * std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>* std::__copy_move_a1<false,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>* std::__copy_move_a1<false,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*)
 
 tuple * std::
         __copy_move_a1_false_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___
@@ -8999,18 +9649,19 @@ tuple * std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>* std::__niter_wrap<boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>* const&,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>* std::__niter_wrap<boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>* const&,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*)
 
 tuple * std::
         __niter_wrap_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___
@@ -9021,15 +9672,16 @@ tuple * std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>* std::__miter_base<boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>* std::__miter_base<boost::tuples::tuple<int,
+// int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*)
 
 tuple * std::
         __miter_base_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___
@@ -9040,43 +9692,44 @@ tuple * std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
-   std::__copy_move_a<false, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*,
-   __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
+// std::__copy_move_a<false, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*,
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>)
 
 __normal_iterator
 std::
@@ -9103,43 +9756,44 @@ __copy_move_a_false_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_ty
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
-   std::__copy_move_backward_a<false, boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*,
-   __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
+// std::__copy_move_backward_a<false, boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*,
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>)
 
 __normal_iterator
 std::
@@ -9166,62 +9820,63 @@ __copy_move_backward_a_false_boost__tuples__tuple_int_int_UCTNode__boost__tuples
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
-   std::__copy_move_a<false, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
-   UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
+// std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>>
+// std::__copy_move_a<false, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>>(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>, __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int,
+// UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>>>>)
 
 __normal_iterator
 std::
@@ -9248,8 +9903,9 @@ __copy_move_a_false___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UC
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__miter_base<int*>(int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__miter_base<int*>(int*)
 
 int * std::__miter_base_int__(int *param_1)
 
@@ -9258,8 +9914,9 @@ int * std::__miter_base_int__(int *param_1)
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__copy_move_a<false, int*, int*>(int*, int*, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__copy_move_a<false, int*, int*>(int*, int*, int*)
 
 int * std::__copy_move_a_false_int__int__(int *param_1,int *param_2,int *param_3)
 
@@ -9283,8 +9940,9 @@ int * std::__copy_move_a_false_int__int__(int *param_1,int *param_2,int *param_3
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__copy_move_a2<false, int const*, int*>(int const*, int const*, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__copy_move_a2<false, int const*, int*>(int const*, int const*, int*)
 
 int * std::__copy_move_a2_false_int_const__int__(int *param_1,int *param_2,int *param_3)
 
@@ -9297,8 +9955,9 @@ int * std::__copy_move_a2_false_int_const__int__(int *param_1,int *param_2,int *
 }
 
 
-/* __gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>::base() const */
+
+// __gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
+// std::allocator<unsigned long long>>>::base() const
 
 __normal_iterator_unsigned_long_long_const__std__vector_unsigned_long_long_std__allocator_unsigned_long_long___
 * __thiscall
@@ -9312,9 +9971,10 @@ __normal_iterator<unsigned_long_long_const*,std::vector<unsigned_long_long,std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* unsigned long long* std::__copy_move_a2<false, unsigned long long const*, unsigned long
-   long*>(unsigned long long const*, unsigned long long const*, unsigned long long*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// unsigned long long* std::__copy_move_a2<false, unsigned long long const*, unsigned long
+// long*>(unsigned long long const*, unsigned long long const*, unsigned long long*)
 
 ulonglong *
 std::__copy_move_a2_false_unsigned_long_long_const__unsigned_long_long__
@@ -9329,24 +9989,25 @@ std::__copy_move_a2_false_unsigned_long_long_const__unsigned_long_long__
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>* std::__copy_move_backward_a2<false,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>* std::__copy_move_backward_a2<false,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*)
 
 tuple * std::
         __copy_move_backward_a2_false_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___
@@ -9362,24 +10023,25 @@ tuple * std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>* std::__copy_move_a2<false,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>* std::__copy_move_a2<false,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*)
 
 tuple * std::
         __copy_move_a2_false_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___
@@ -9395,8 +10057,9 @@ tuple * std::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__copy_move_a1<false, int*, int*>(int*, int*, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__copy_move_a1<false, int*, int*>(int*, int*, int*)
 
 int * std::__copy_move_a1_false_int__int__(int *param_1,int *param_2,int *param_3)
 
@@ -9408,8 +10071,9 @@ int * std::__copy_move_a1_false_int__int__(int *param_1,int *param_2,int *param_
 }
 
 
-/* int* std::__copy_move<false, true, std::random_access_iterator_tag>::__copy_m<int>(int const*,
-   int const*, int*) */
+
+// int* std::__copy_move<false, true, std::random_access_iterator_tag>::__copy_m<int>(int const*,
+// int const*, int*)
 
 int * std::__copy_move<false,true,std::random_access_iterator_tag>::__copy_m_int_
                 (int *param_1,int *param_2,int *param_3)
@@ -9425,9 +10089,10 @@ int * std::__copy_move<false,true,std::random_access_iterator_tag>::__copy_m_int
 }
 
 
-/* unsigned long long* std::__copy_move<false, true,
-   std::random_access_iterator_tag>::__copy_m<unsigned long long>(unsigned long long const*,
-   unsigned long long const*, unsigned long long*) */
+
+// unsigned long long* std::__copy_move<false, true,
+// std::random_access_iterator_tag>::__copy_m<unsigned long long>(unsigned long long const*,
+// unsigned long long const*, unsigned long long*)
 
 ulonglong *
 std::__copy_move<false,true,std::random_access_iterator_tag>::__copy_m_unsigned_long_long_
@@ -9444,24 +10109,25 @@ std::__copy_move<false,true,std::random_access_iterator_tag>::__copy_m_unsigned_
 }
 
 
-/* boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>* std::__copy_move_backward<false, false,
-   std::random_access_iterator_tag>::__copy_move_b<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*) */
+
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>* std::__copy_move_backward<false, false,
+// std::random_access_iterator_tag>::__copy_move_b<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*)
 
 tuple * std::__copy_move_backward<false,false,std::random_access_iterator_tag>::
         __copy_move_b_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___
@@ -9487,24 +10153,25 @@ tuple * std::__copy_move_backward<false,false,std::random_access_iterator_tag>::
 }
 
 
-/* boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>* std::__copy_move<false, false,
-   std::random_access_iterator_tag>::__copy_m<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*) */
+
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>* std::__copy_move<false, false,
+// std::random_access_iterator_tag>::__copy_m<boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*>(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
+// boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type>*, boost::tuples::tuple<int, int, UCTNode*,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
+// boost::tuples::null_type>*)
 
 tuple * std::__copy_move<false,false,std::random_access_iterator_tag>::
         __copy_m_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___
@@ -9530,8 +10197,9 @@ tuple * std::__copy_move<false,false,std::random_access_iterator_tag>::
 }
 
 
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* int* std::__copy_move_a2<false, int*, int*>(int*, int*, int*) */
+
+// WARNING: Unknown calling convention yet parameter storage is locked
+// int* std::__copy_move_a2<false, int*, int*>(int*, int*, int*)
 
 int * std::__copy_move_a2_false_int__int__(int *param_1,int *param_2,int *param_3)
 
@@ -9543,1312 +10211,4 @@ int * std::__copy_move_a2_false_int__int__(int *param_1,int *param_2,int *param_
   return piVar1;
 }
 
-
-/* WARNING: Control flow encountered bad instruction data */
-/* SMP::Mutex::Mutex() */
-
-void __thiscall SMP::Mutex::Mutex(Mutex *this)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* SMP::Lock::Lock(SMP::Mutex&) */
-
-void __thiscall SMP::Lock::Lock(Lock *this,Mutex *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* operator delete(void*) */
-
-void operator_delete(void *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* SMP::Lock::~Lock() */
-
-void __thiscall SMP::Lock::_Lock(Lock *this)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-
-void _Unwind_Resume(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastState::get_passes() */
-
-void FastState::get_passes(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::no_eye_fill(int) */
-
-void FastBoard::no_eye_fill(int param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::is_suicide(int, int) */
-
-void FastBoard::is_suicide(int param_1,int param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastState::get_to_move() */
-
-void FastState::get_to_move(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* operator new(unsigned long) */
-
-void * operator_new(ulong param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* FastBoard::minimum_elib_count(int, int) */
-
-void FastBoard::minimum_elib_count(int param_1,int param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* KoState::play_move(int) */
-
-void KoState::play_move(int param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* KoState::superko() */
-
-void KoState::superko(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* Playout::get_score() */
-
-void Playout::get_score(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* Playout::passthrough(int, int) */
-
-void Playout::passthrough(int param_1,int param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__throw_length_error(char const*) */
-
-void std::__throw_length_error(char *param_1)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* operator new(unsigned long, std::nothrow_t const&) */
-
-void * operator_new(ulong param_1,nothrow_t *param_2)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__throw_bad_array_new_length() */
-
-void std::__throw_bad_array_new_length(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-/* std::__throw_bad_alloc() */
-
-void std::__throw_bad_alloc(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* WARNING: Unknown calling convention yet parameter storage is locked */
-
-void * memmove(void *__dest,void *__src,size_t __n)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* boost::tuples::cons<UCTNode*, boost::tuples::null_type>::cons<UCTNode* const>(UCTNode* const&,
-   boost::tuples::null_type const&, boost::tuples::null_type const&, boost::tuples::null_type
-   const&, boost::tuples::null_type const&, boost::tuples::null_type const&,
-   boost::tuples::null_type const&, boost::tuples::null_type const&, boost::tuples::null_type
-   const&, boost::tuples::null_type const&) */
-
-void boost::tuples::cons<UCTNode*,boost::tuples::null_type>::cons_UCTNode_const_
-               (UCTNode **param_1,null_type *param_2,null_type *param_3,null_type *param_4,
-               null_type *param_5,null_type *param_6,null_type *param_7,null_type *param_8,
-               null_type *param_9,null_type *param_10)
-
-{
-  undefined8 in_RCX;
-  undefined8 in_RDX;
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  undefined8 in_R8;
-  undefined8 in_R9;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::new_allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>::new_allocator()
-    */
-
-void __gnu_cxx::
-     new_allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>
-     ::new_allocator(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::new_allocator<unsigned long long>::new_allocator(__gnu_cxx::new_allocator<unsigned
-   long long> const&) */
-
-void __gnu_cxx::new_allocator<unsigned_long_long>::new_allocator(new_allocator *param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::new_allocator<int>::new_allocator(__gnu_cxx::new_allocator<int> const&) */
-
-void __gnu_cxx::new_allocator<int>::new_allocator(new_allocator *param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::new_allocator<int>::new_allocator() */
-
-void __gnu_cxx::new_allocator<int>::new_allocator(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* boost::tuples::cons<int, boost::tuples::cons<UCTNode*, boost::tuples::null_type>>::cons<int
-   const, UCTNode* const, boost::tuples::null_type const, boost::tuples::null_type const,
-   boost::tuples::null_type const, boost::tuples::null_type const, boost::tuples::null_type const,
-   boost::tuples::null_type const, boost::tuples::null_type const, boost::tuples::null_type
-   const>(int const&, UCTNode* const&, boost::tuples::null_type const&, boost::tuples::null_type
-   const&, boost::tuples::null_type const&, boost::tuples::null_type const&,
-   boost::tuples::null_type const&, boost::tuples::null_type const&, boost::tuples::null_type
-   const&, boost::tuples::null_type const&) */
-
-void boost::tuples::cons<int,boost::tuples::cons<UCTNode*,boost::tuples::null_type>>::
-     cons_int_const_UCTNode_const_boost__tuples__null_type_const_boost__tuples__null_type_const_boost__tuples__null_type_const_boost__tuples__null_type_const_boost__tuples__null_type_const_boost__tuples__null_type_const_boost__tuples__null_type_const_boost__tuples__null_type_const_
-               (int *param_1,UCTNode **param_2,null_type *param_3,null_type *param_4,
-               null_type *param_5,null_type *param_6,null_type *param_7,null_type *param_8,
-               null_type *param_9,null_type *param_10)
-
-{
-  undefined8 in_RCX;
-  undefined8 in_RDX;
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  undefined8 in_R8;
-  undefined8 in_R9;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::new_allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>::~new_allocator()
-    */
-
-void __thiscall
-__gnu_cxx::
-new_allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>
-::_new_allocator(new_allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__
-                 *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>::_Vector_impl_data::_Vector_impl_data() */
-
-void __thiscall
-std::
-_Vector_base<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>,std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>>
-::_Vector_impl_data::_Vector_impl_data(_Vector_impl_data *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>::allocator() */
-
-void std::
-     allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>
-     ::allocator(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::new_allocator<unsigned long long>::~new_allocator() */
-
-void __thiscall
-__gnu_cxx::new_allocator<unsigned_long_long>::_new_allocator
-          (new_allocator_unsigned_long_long_ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<unsigned long long, std::allocator<unsigned long
-   long>>::_Vector_impl_data::_Vector_impl_data() */
-
-void __thiscall
-std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_Vector_impl_data::
-_Vector_impl_data(_Vector_impl_data *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::allocator<unsigned long long>::allocator(std::allocator<unsigned long long> const&) */
-
-void std::allocator<unsigned_long_long>::allocator(allocator *param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::allocator<int>::allocator(std::allocator<int> const&) */
-
-void std::allocator<int>::allocator(allocator *param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::new_allocator<int>::~new_allocator() */
-
-void __thiscall __gnu_cxx::new_allocator<int>::_new_allocator(new_allocator_int_ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_impl_data::_Vector_impl_data() */
-
-void __thiscall
-std::_Vector_base<int,std::allocator<int>>::_Vector_impl_data::_Vector_impl_data
-          (_Vector_impl_data *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::allocator<int>::allocator() */
-
-void std::allocator<int>::allocator(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Temporary_buffer<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>::~_Temporary_buffer() */
-
-void __thiscall
-std::
-_Temporary_buffer<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>*,std::vector<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>,std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>>>,boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>
-::__Temporary_buffer
-          (_Temporary_buffer___gnu_cxx____normal_iterator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___std__vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_____boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__
-           *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Temporary_buffer<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>::_Temporary_buffer(__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,
-   int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>*, std::vector<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>, std::allocator<boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>, long) */
-
-void std::
-     _Temporary_buffer<__gnu_cxx::__normal_iterator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>*,std::vector<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>,std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>>>,boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>
-     ::_Temporary_buffer(__normal_iterator param_1,long param_2)
-
-{
-  undefined8 in_RSI;
-  undefined in_DIL;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>::_Iter_comp_iter(NodeComp) */
-
-void __gnu_cxx::__ops::_Iter_comp_iter<NodeComp>::_Iter_comp_iter(NodeComp param_1)
-
-{
-  undefined in_DIL;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* boost::tuples::cons<int, boost::tuples::cons<int, boost::tuples::cons<UCTNode*,
-   boost::tuples::null_type>>>::cons<int const, int const, UCTNode* const, boost::tuples::null_type
-   const, boost::tuples::null_type const, boost::tuples::null_type const, boost::tuples::null_type
-   const, boost::tuples::null_type const, boost::tuples::null_type const, boost::tuples::null_type
-   const>(int const&, int const&, UCTNode* const&, boost::tuples::null_type const&,
-   boost::tuples::null_type const&, boost::tuples::null_type const&, boost::tuples::null_type
-   const&, boost::tuples::null_type const&, boost::tuples::null_type const&,
-   boost::tuples::null_type const&) */
-
-void boost::tuples::
-     cons<int,boost::tuples::cons<int,boost::tuples::cons<UCTNode*,boost::tuples::null_type>>>::
-     cons_int_const_int_const_UCTNode_const_boost__tuples__null_type_const_boost__tuples__null_type_const_boost__tuples__null_type_const_boost__tuples__null_type_const_boost__tuples__null_type_const_boost__tuples__null_type_const_boost__tuples__null_type_const_
-               (int *param_1,int *param_2,UCTNode **param_3,null_type *param_4,null_type *param_5,
-               null_type *param_6,null_type *param_7,null_type *param_8,null_type *param_9,
-               null_type *param_10)
-
-{
-  undefined8 in_RCX;
-  undefined8 in_RDX;
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  undefined8 in_R8;
-  undefined8 in_R9;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>::~allocator() */
-
-void __thiscall
-std::
-allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>
-::_allocator(allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__
-             *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>::_Vector_impl::_Vector_impl() */
-
-void __thiscall
-std::
-_Vector_base<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>,std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>>
-::_Vector_impl::_Vector_impl(_Vector_impl *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::__normal_iterator<unsigned long long const*, std::vector<unsigned long long,
-   std::allocator<unsigned long long>>>::__normal_iterator(unsigned long long const* const&) */
-
-void __gnu_cxx::
-     __normal_iterator<unsigned_long_long_const*,std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>>
-     ::__normal_iterator(ulonglong **param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::allocator<unsigned long long>::~allocator() */
-
-void __thiscall std::allocator<unsigned_long_long>::_allocator(allocator_unsigned_long_long_ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<unsigned long long, std::allocator<unsigned long
-   long>>::_Vector_impl::_Vector_impl(std::allocator<unsigned long long> const&) */
-
-void __thiscall
-std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_Vector_impl::_Vector_impl
-          (_Vector_impl *this,allocator *param_1)
-
-{
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>::__normal_iterator(int const* const&) */
-
-void __gnu_cxx::__normal_iterator<int_const*,std::vector<int,std::allocator<int>>>::
-     __normal_iterator(int **param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_impl::_Vector_impl(std::allocator<int>
-   const&) */
-
-void __thiscall
-std::_Vector_base<int,std::allocator<int>>::_Vector_impl::_Vector_impl
-          (_Vector_impl *this,allocator *param_1)
-
-{
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::allocator<int>::~allocator() */
-
-void __thiscall std::allocator<int>::_allocator(allocator_int_ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_impl::_Vector_impl() */
-
-void __thiscall
-std::_Vector_base<int,std::allocator<int>>::_Vector_impl::_Vector_impl(_Vector_impl *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>::__normal_iterator(boost::tuples::tuple<int, int, UCTNode*,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>* const&) */
-
-void __gnu_cxx::
-     __normal_iterator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>*,std::vector<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>,std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>>>
-     ::__normal_iterator(tuple **param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type>::tuple(int const&, int const&, UCTNode*
-   const&) */
-
-void boost::tuples::
-     tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>
-     ::tuple(int *param_1,int *param_2,UCTNode **param_3)
-
-{
-  undefined8 in_RDX;
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>::~_Vector_base()
-    */
-
-void __thiscall
-std::
-_Vector_base<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>,std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>>
-::__Vector_base(_Vector_base_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___
-                *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>::_Vector_base()
-    */
-
-void std::
-     _Vector_base<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>,std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>>
-     ::_Vector_base(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>::_Vector_impl::~_Vector_impl() */
-
-void __thiscall
-std::
-_Vector_base<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>,std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>>
-::_Vector_impl::__Vector_impl(_Vector_impl *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<unsigned long long, std::allocator<unsigned long long>>::~_Vector_base() */
-
-void __thiscall
-std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::__Vector_base
-          (_Vector_base_unsigned_long_long_std__allocator_unsigned_long_long__ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<unsigned long long, std::allocator<unsigned long long>>::_Vector_base(unsigned
-   long, std::allocator<unsigned long long> const&) */
-
-void std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_Vector_base
-               (ulong param_1,allocator *param_2)
-
-{
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<unsigned long long, std::allocator<unsigned long
-   long>>::_Vector_impl::~_Vector_impl() */
-
-void __thiscall
-std::_Vector_base<unsigned_long_long,std::allocator<unsigned_long_long>>::_Vector_impl::
-__Vector_impl(_Vector_impl *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_base(unsigned long, std::allocator<int>
-   const&) */
-
-void std::_Vector_base<int,std::allocator<int>>::_Vector_base(ulong param_1,allocator *param_2)
-
-{
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>::__normal_iterator(int*
-   const&) */
-
-void __gnu_cxx::__normal_iterator<int*,std::vector<int,std::allocator<int>>>::__normal_iterator
-               (int **param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<int, std::allocator<int>>::~_Vector_base() */
-
-void __thiscall
-std::_Vector_base<int,std::allocator<int>>::__Vector_base
-          (_Vector_base_int_std__allocator_int__ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_base() */
-
-void std::_Vector_base<int,std::allocator<int>>::_Vector_base(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::_Vector_base<int, std::allocator<int>>::_Vector_impl::~_Vector_impl() */
-
-void __thiscall
-std::_Vector_base<int,std::allocator<int>>::_Vector_impl::__Vector_impl(_Vector_impl *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::__normal_iterator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type>>>>::__normal_iterator() */
-
-void __gnu_cxx::
-     __normal_iterator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>*,std::vector<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>,std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>>>
-     ::__normal_iterator(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>::~vector() */
-
-void __thiscall
-std::
-vector<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>,std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>>
-::_vector(vector_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type__std__allocator_boost__tuples__tuple_int_int_UCTNode__boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type_boost__tuples__null_type___
-          *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::vector<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>,
-   std::allocator<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>>>::vector() */
-
-void std::
-     vector<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>,std::allocator<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>>>
-     ::vector(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::vector<unsigned long long, std::allocator<unsigned long long>>::~vector() */
-
-void __thiscall
-std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::_vector
-          (vector_unsigned_long_long_std__allocator_unsigned_long_long__ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::vector<unsigned long long, std::allocator<unsigned long long>>::vector(std::vector<unsigned
-   long long, std::allocator<unsigned long long>> const&) */
-
-void std::vector<unsigned_long_long,std::allocator<unsigned_long_long>>::vector(vector *param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::vector<int, std::allocator<int>>::vector(std::vector<int, std::allocator<int>> const&) */
-
-void std::vector<int,std::allocator<int>>::vector(vector *param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>::__normal_iterator<int*>(__gnu_cxx::__normal_iterator<int*,
-   __gnu_cxx::__enable_if<std::__are_same<int*, int*>::__value, std::vector<int,
-   std::allocator<int>>>::__type> const&) */
-
-void __gnu_cxx::__normal_iterator<int_const*,std::vector<int,std::allocator<int>>>::
-     __normal_iterator_int__(__normal_iterator *param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::__normal_iterator<int const*, std::vector<int,
-   std::allocator<int>>>::__normal_iterator() */
-
-void __gnu_cxx::__normal_iterator<int_const*,std::vector<int,std::allocator<int>>>::
-     __normal_iterator(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::vector<int, std::allocator<int>>::~vector() */
-
-void __thiscall std::vector<int,std::allocator<int>>::_vector(vector_int_std__allocator_int__ *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::vector<int, std::allocator<int>>::vector() */
-
-void std::vector<int,std::allocator<int>>::vector(void)
-
-{
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* NodeComp::NodeComp(int) */
-
-void __thiscall NodeComp::NodeComp(NodeComp *this,int param_1)
-
-{
-  undefined4 in_ESI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* KoState::~KoState() */
-
-void __thiscall KoState::_KoState(KoState *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* KoState::KoState(KoState const&) */
-
-void __thiscall KoState::KoState(KoState *this,KoState *param_1)
-
-{
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* FastState::~FastState() */
-
-void __thiscall FastState::_FastState(FastState *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* FastState::FastState(FastState const&) */
-
-void __thiscall FastState::FastState(FastState *this,FastState *param_1)
-
-{
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* FullBoard::~FullBoard() */
-
-void __thiscall FullBoard::_FullBoard(FullBoard *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* FullBoard::FullBoard(FullBoard const&) */
-
-void __thiscall FullBoard::FullBoard(FullBoard *this,FullBoard *param_1)
-
-{
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* FastBoard::~FastBoard() */
-
-void __thiscall FastBoard::_FastBoard(FastBoard *this)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* FastBoard::FastBoard(FastBoard const&) */
-
-void __thiscall FastBoard::FastBoard(FastBoard *this,FastBoard *param_1)
-
-{
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::__ops::_Iter_comp_val<NodeComp>::_Iter_comp_val(__gnu_cxx::__ops::_Iter_comp_iter<NodeComp>
-   const&) */
-
-void __gnu_cxx::__ops::_Iter_comp_val<NodeComp>::_Iter_comp_val(_Iter_comp_iter *param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* __gnu_cxx::__ops::_Val_comp_iter<NodeComp>::_Val_comp_iter(__gnu_cxx::__ops::_Iter_comp_iter<NodeComp>
-   const&) */
-
-void __gnu_cxx::__ops::_Val_comp_iter<NodeComp>::_Val_comp_iter(_Iter_comp_iter *param_1)
-
-{
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
-
-
-/* WARNING: Control flow encountered bad instruction data */
-/* std::pair<boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>*,
-   long>::pair(boost::tuples::tuple<int, int, UCTNode*, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type,
-   boost::tuples::null_type, boost::tuples::null_type, boost::tuples::null_type>* const&, long
-   const&) */
-
-void std::
-     pair<boost::tuples::tuple<int,int,UCTNode*,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type,boost::tuples::null_type>*,long>
-     ::pair(tuple **param_1,long *param_2)
-
-{
-  undefined8 in_RSI;
-  undefined8 in_RDI;
-  
-                    /* WARNING: Bad instruction - Truncating control flow here */
-  halt_baddata();
-}
 
